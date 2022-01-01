@@ -39,7 +39,7 @@ const Header = () => {
   return (
     <Container>
       <Wrapper>
-        <Logo src="static/images/logo.svg" />
+        <Logo src="images/logo.svg" />
         <Link>O nás</Link>
         <Link>Projekty</Link>
         <Link>Kontakt</Link>

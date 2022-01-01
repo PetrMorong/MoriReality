@@ -5,7 +5,7 @@ import Button from "../Button";
 const Container = styled.div`
   width: 100%;
   height: 750px;
-  background: url("./static/images/homePageHero.png");
+  background: url("images/homePageHero.png");
   background-size: cover;
   display: flex;
   justify-content: center;
