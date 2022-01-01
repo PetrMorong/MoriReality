@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "https://www.mori-reality.cz",
     title: "MoriReality",
   },
   plugins: [
@@ -8,7 +8,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
-        trackingId: "",
+        trackingId: "G-YSN8FJKHGX",
       },
     },
     "gatsby-plugin-image",
