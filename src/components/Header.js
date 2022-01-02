@@ -4,7 +4,7 @@ import Button from "./Button";
 
 const Container = styled.div`
   width: 100%;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   display: flex;

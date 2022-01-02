@@ -1,0 +1,161 @@
+import * as React from "react";
+import styled from "styled-components";
+import Button from "../Button";
+
+const Container = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 130px;
+`;
+
+const Wrapper = styled.div`
+  width: 1180px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+`;
+
+const HeadlineRow = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 130px;
+`;
+
+const Line = styled.div`
+  flex: 1;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  height: 1px;
+`;
+
+const Headline = styled.h4`
+  font-family: Georama;
+  font-size: 42px;
+  line-height: 51px;
+  color: #000000;
+  margin: 0 56px;
+`;
+
+const Col = styled.div`
+  margin-bottom: 16px;
+`;
+
+const Row = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+`;
+
+const Image = styled.img`
+  width: 380px;
+  height: 250px;
+  object-fit: cover;
+`;
+
+const Name = styled.p`
+  font-family: Georama;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #b29a84;
+  font-weight: 600;
+  margin-top: 4px;
+`;
+
+const Location = styled.p`
+  font-family: Georama;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0.01em;
+  color: rgba(0, 0, 0, 0.6);
+`;
+
+const Price = styled.p`
+  font-family: Georama;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: rgb(0, 0, 0);
+`;
+
+const data = [
+  {
+    name: "Apartmán 128 m²",
+    location: "Osvobození, Velké Losiny",
+    price: "8 900 000 kč",
+    image: "images/vlAp7.jpg",
+  },
+
+  {
+    name: "Apartmán 58 m²",
+    location: "Osvobození, Velké Losiny",
+    price: "5 990 000 kč",
+    image: "images/vlAp6.png",
+  },
+  {
+    name: "Apartmán 38 m²",
+    location: "Osvobození, Velké Losiny",
+    price: "3 990 000 kč",
+    image: "images/vlAp2.png",
+  },
+  {
+    name: "Apartmán 52 m²",
+    location: "Osvobození, Velké Losiny",
+    price: "5 490 000 kč",
+    image: "images/vlApOne.jpg",
+  },
+
+  {
+    name: "Apartmán 58 m²",
+    location: "Vlaské, Malá Morava",
+    price: "5 990 000 kč",
+    image: "images/A_3-min.jpg",
+  },
+  {
+    name: "Apartmán 58 m²",
+    location: "Vlaské, Malá Morava",
+    price: "5 990 000 kč",
+    image: "images/D_2-min.jpg",
+  },
+  {
+    name: "Apartmán 58 m²",
+    location: "Vlaské, Malá Morava",
+    price: "5 990 000 kč",
+    image: "images/B_4-min.jpg",
+  },
+  {
+    name: "Apartmán 58 m²",
+    location: "Vlaské, Malá Morava",
+    price: "5 990 000 kč",
+    image: "images/C_1-min.jpg",
+  },
+];
+
+const HomeSectionSix = () => {
+  return (
+    <Container>
+      <Wrapper>
+        <HeadlineRow>
+          <Line></Line>
+          <Headline>Nemovisti na prodej</Headline>
+          <Line></Line>
+        </HeadlineRow>
+
+        <Row>
+          {data.map((item) => (
+            <Col>
+              <Image src={item.image} />
+              <Name>{item.name}</Name>
+              <Location>{item.location}</Location>
+              <Price>{item.price}</Price>
+            </Col>
+          ))}
+        </Row>
+      </Wrapper>
+    </Container>
+  );
+};
+
+export default HomeSectionSix;

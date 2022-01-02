@@ -4,7 +4,7 @@ import Button from "../Button";
 
 const Container = styled.div`
   width: 100%;
-  height: 750px;
+  height: 790px;
   background: url("images/homePageHero.png");
   background-size: cover;
   display: flex;
@@ -87,7 +87,9 @@ const HomeSectionOne = () => {
           Jeseníkách a rezidenčních nemovitostí na Šumpersku.
         </DescText>
         <ButtonWrap>
-          <Button height={56}>Zobrazit Projekty</Button>
+          <Button height={56} leftBorder={true}>
+            Zobrazit Projekty
+          </Button>
         </ButtonWrap>
       </Wrapper>
     </Container>
