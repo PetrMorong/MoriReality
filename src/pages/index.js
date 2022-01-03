@@ -1,7 +1,7 @@
 import * as React from "react";
-import styled from "styled-components";
 import Layout from "../components/layout";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 import HomeSectionOne from "../components/HomePage/HomeSectionOne";
 import HomeSectionTwo from "../components/HomePage/HomeSectionTwo";
 import HomeSectionThree from "../components/HomePage/HomeSectionThree";
@@ -19,6 +19,7 @@ const HomePage = () => {
       <HomeSectionFour />
       <HomeSectionFive />
       <HomeSectionSix />
+      <Footer />
     </Layout>
   );
 };

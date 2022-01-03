@@ -58,7 +58,7 @@ const HomeSectionFive = () => {
           </MainText>
           <SubText>
             Nemovisti které stavíme jsou navrženy v moderním a nadčasovém
-            designu, ale pokud bude mít požadavky na změny jsme připraveni
+            designu, pokud ale budete mít požadavky na změny jsme připraveni
             vyhovět vaším představám do nejvyšší možné míry.
           </SubText>
         </Col>
@@ -71,8 +71,8 @@ const HomeSectionFive = () => {
           </MainText>
           <SubText>
             Pokud od nás koupíte apartmán, tak vám nabízíme kompletní správu při
-            jeho krátkodobém pronájmu, tak aby jste dosáhli co nejvyššího výnosu
-            a pasivní investice bez starostí.
+            jeho krátkodobém pronájmu, aby jste dosáhli co nejvyššího výnosu a
+            pasivní investice bez starostí.
           </SubText>
         </Col>
         <Col>
