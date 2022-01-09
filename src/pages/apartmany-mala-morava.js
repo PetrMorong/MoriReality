@@ -133,9 +133,9 @@ const data = {
       desc: "Chytrý zámek na kód",
     },
   ],
-  sectionImageOne: "images/malaMorava/B_6-min.jpg",
-  sectionImageTwo: "images/malaMorava/C_5-min.jpg",
-  sectionCover: "images/malaMorava/A_3-min.jpg",
+  sectionImageOne: "/images/malaMorava/B_6-min.jpg",
+  sectionImageTwo: "/images/malaMorava/C_5-min.jpg",
+  sectionCover: "/images/malaMorava/A_3-min.jpg",
   ticksSection: [
     {
       highlighted: "Obchod i služby",
@@ -236,18 +236,18 @@ const data = {
   ],
   otherProjects: [
     {
-      image: "images/vilaRepublika/mp01-min.jpg",
+      image: "/images/vilaRepublika/mp01-min.jpg",
       name: "Vila republika",
       location: "Velké Losiny",
       link: "/vila-republika",
     },
     {
-      image: "images/projektVlDva.jpg",
+      image: "/images/projektVlDva.jpg",
       name: "Wellness ApartHotel",
       location: "Velké Losiny",
     },
     {
-      image: "images/Hrabenov1.png",
+      image: "/images/Hrabenov1.png",
       name: "Rezidence Hrabenov",
       location: "Hrabenov, Ruda Nad Moravou",
     },
