@@ -40,6 +40,12 @@ const Headline = styled.h4`
 
 const Col = styled.div`
   margin-bottom: 16px;
+  cursor: pointer;
+  transition: 200ms;
+
+  &:hover {
+    opacity: 0.8;
+  }
 `;
 
 const Row = styled.div`

@@ -9,6 +9,7 @@ const Container = styled.div`
   left: 0;
   display: flex;
   justify-content: center;
+  z-index: 1;
 `;
 
 const Wrapper = styled.div`
@@ -23,6 +24,7 @@ const Logo = styled.img`
   width: 170px;
   height: 37px;
   margin-right: 42px;
+  cursor: pointer;
 `;
 
 const Link = styled.span`
@@ -33,16 +35,30 @@ const Link = styled.span`
   color: #ffffff;
   margin-right: 42px;
   cursor: pointer;
+  transition: 200ms;
+
+  &:hover {
+    opacity: 0.8;
+  }
 `;
 
 const Header = () => {
   return (
     <Container>
       <Wrapper>
-        <Logo src="images/logo.svg" />
-        <Link>O nás</Link>
-        <Link>Projekty</Link>
-        <Link>Kontakt</Link>
+        <a href="/">
+          <Logo src="images/logo.svg" />
+        </a>
+        <a href="/">
+          <Link>O nás</Link>
+        </a>
+        <a href="/">
+          <Link>Projekty</Link>
+        </a>
+
+        <a href="/">
+          <Link>Kontakt</Link>
+        </a>
         <div style={{ flex: 1 }} />
         <Link>+420 737 211 314</Link>
         <Button>Kontaktovat</Button>

@@ -6,6 +6,7 @@ const Container = styled.div`
   display: flex;
   justify-content: center;
   margin-bottom: 130px;
+  margin-top: 150px;
 `;
 
 const Wrapper = styled.div`
@@ -44,51 +45,39 @@ const SubText = styled.div`
   color: #000000;
 `;
 
-const HomeSectionFive = () => {
+const ProjectSectionFive = ({ data }) => {
   return (
     <Container>
       <Wrapper>
         <Col>
           <img src="images/tickIcon.svg" />
           <MainText>
-            <span>Vstřícnost a důraz na</span>
+            <span>{data.ticksSection[0].highlighted}</span>
             <br />
-            vaše představy
+            {data.ticksSection[0].normal}
           </MainText>
-          <SubText>
-            Nemovisti které stavíme jsou navrženy v moderním a nadčasovém
-            designu, pokud ale budete mít požadavky na změny jsme připraveni
-            vyhovět vaším představám do nejvyšší možné míry.
-          </SubText>
+          <SubText>{data.ticksSection[0].desc}</SubText>
         </Col>
         <Col>
           <img src="images/tickIcon.svg" />
           <MainText>
-            Kompletní
+            {data.ticksSection[1].normal}
             <br />
-            <span>Správa Apartmánů</span>
+            <span>{data.ticksSection[1].highlighted}</span>
           </MainText>
-          <SubText>
-            Pokud od nás koupíte apartmán, tak vám nabízíme kompletní správu při
-            jeho krátkodobém pronájmu, aby jste dosáhli co nejvyššího výnosu a
-            pasivní investice bez starostí.
-          </SubText>
+          <SubText>{data.ticksSection[1].desc}</SubText>
         </Col>
         <Col>
           <img src="images/tickIcon.svg" />
           <MainText>
-            Poctivost a <br />
-            <span>kvalita</span>
+            {data.ticksSection[2].normal} <br />
+            <span>{data.ticksSection[2].highlighted}</span>
           </MainText>
-          <SubText>
-            V každém projektu si jeden až dva apartmány necháváme, přistupujeme
-            tedy k realizaci s láskou, jelikož chceme aby i nám nemovitost
-            přinášela radost po desítky let.
-          </SubText>
+          <SubText>{data.ticksSection[2].desc}</SubText>
         </Col>
       </Wrapper>
     </Container>
   );
 };
 
-export default HomeSectionFive;
+export default ProjectSectionFive;
