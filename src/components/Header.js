@@ -47,7 +47,7 @@ const Header = () => {
     <Container>
       <Wrapper>
         <a href="/">
-          <Logo src="images/logo.svg" />
+          <Logo src="/images/logo.svg" />
         </a>
         <a href="/">
           <Link>O nás</Link>
