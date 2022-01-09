@@ -91,76 +91,76 @@ const data = [
     name: "Apartmán 128 m²",
     location: "Osvobození, Velké Losiny",
     price: "8 890 000 kč",
-    image: "images/vlAp7.jpg",
+    image: "/images/vlAp7.jpg",
   },
 
   {
     name: "Apartmán 58 m²",
     location: "Osvobození, Velké Losiny",
     price: "5 990 000 kč",
-    image: "images/vlAp6.png",
+    image: "/images/vlAp6.png",
   },
   {
     name: "Apartmán 38 m²",
     location: "Osvobození, Velké Losiny",
     price: "3 990 000 kč",
-    image: "images/vlAp2.png",
+    image: "/images/vlAp2.png",
   },
   {
     name: "Apartmán 42 m²",
     location: "Osvobození, Velké Losiny",
     price: "4 990 000 kč",
-    image: "images/vlAp5.png",
+    image: "/images/vlAp5.png",
   },
   {
     name: "Apartmán 52 m²",
     location: "Osvobození, Velké Losiny",
     price: "5 490 000 kč",
-    image: "images/velká ložnice 3.jpg",
+    image: "/images/velká ložnice 3.jpg",
   },
 
   {
     name: "Apartmán 72 m²",
     location: "Vlaské, Malá Morava",
     price: "3 990 000 kč",
-    image: "images/A_3-min.jpg",
+    image: "/images/A_3-min.jpg",
   },
   {
     name: "Apartmán 86 m²",
     location: "Vlaské, Malá Morava",
     price: "5 990 000 kč",
-    image: "images/D_2-min.jpg",
+    image: "/images/D_2-min.jpg",
   },
   {
     name: "Apartmán 100 m²",
     location: "Vlaské, Malá Morava",
     price: "4 990 000 kč",
-    image: "images/B_4-min.jpg",
+    image: "/images/B_4-min.jpg",
   },
   {
     name: "Apartmán 73 m²",
     location: "Vlaské, Malá Morava",
     price: "3 990 000 kč",
-    image: "images/C_1-min.jpg",
+    image: "/images/C_1-min.jpg",
   },
 
   {
     name: "Byt 56 m²",
     location: "Hrabenov, Ruda Nad Moravou",
     price: "1 790 000 kč",
-    image: "images/Hrabenov3.jpeg",
+    image: "/images/Hrabenov3.jpeg",
   },
   {
     name: "Byt 70 m²",
     location: "Hrabenov, Ruda Nad Moravou",
     price: "1 990 000 kč",
-    image: "images/Hrabenov2.jpeg",
+    image: "/images/Hrabenov2.jpeg",
   },
   {
     name: "Byt 96 m²",
     location: "Hrabenov, Ruda Nad Moravou",
     price: "2 390 000 kč",
-    image: "images/Hrabenov1.png",
+    image: "/images/Hrabenov1.png",
   },
 ];
 

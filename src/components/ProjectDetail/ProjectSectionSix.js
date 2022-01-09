@@ -67,7 +67,7 @@ const ProjectSectionSix = ({ data }) => {
       <Container>
         <Wrapper>
           <Headline>Časová osa projektu</Headline>
-          <ImageOsa src="images/osa.png" />
+          <ImageOsa src="/images/osa.png" />
         </Wrapper>
       </Container>
       <Container style={{ background: "white" }}>

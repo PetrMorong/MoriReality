@@ -121,25 +121,25 @@ const ButtonWrap = styled.div`
 
 const data = [
   {
-    imageUrl: "images/projektVilaRepublika.png",
+    imageUrl: "/images/projektVilaRepublika.png",
     title: "Vila republika",
     desc: "Apartmánový dům ve Velkých Losinách",
     detailLink: "/vila-republika",
   },
   {
-    imageUrl: "images/projektMalaMorava.jpg",
+    imageUrl: "/images/projektMalaMorava.jpg",
     title: "Chalupa Malá Morava",
     desc: "4 horské apartmány",
     detailLink: "/apartmany-mala-morava",
   },
   {
-    imageUrl: "images/projektVlDva.jpg",
+    imageUrl: "/images/projektVlDva.jpg",
     title: "Aparthotel Velké Losiny",
     desc: "6 apartmánů, Wellness, Bistro",
     detailLink: "TODO",
   },
   {
-    imageUrl: "images/projektHrabenov.png",
+    imageUrl: "/images/projektHrabenov.png",
     title: "Rezidence Hrabenov",
     desc: "3 byty 10min od Šumperka",
     detailLink: "TODO",
@@ -187,17 +187,17 @@ const HomeSectionFour = () => {
                 <ProjectName>{slide.title}</ProjectName>
                 <ProjectDesc>{slide.desc}</ProjectDesc>
               </ProjectInfo>
-              <Logo src="images/logoSimple.svg" />
+              <Logo src="/images/logoSimple.svg" />
               <LeftArrowCol>
                 <ArrowWrap onClick={handlePrevious}>
-                  <img src="images/LeftArrow.svg"></img>
+                  <img src="/images/LeftArrow.svg"></img>
                 </ArrowWrap>
               </LeftArrowCol>
               <RightArrowCol>
                 <ArrowWrap onClick={handleNext}>
                   <img
                     style={{ transform: "rotate(180deg)" }}
-                    src="images/LeftArrow.svg"
+                    src="/images/LeftArrow.svg"
                   ></img>
                 </ArrowWrap>
               </RightArrowCol>

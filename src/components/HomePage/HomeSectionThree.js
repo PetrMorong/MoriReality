@@ -56,23 +56,23 @@ const HomeSectionThree = () => {
         <Box
           style={{
             marginLeft: 0,
-            backgroundImage: `url("images/homeThreeImageOne.jpg")`,
+            backgroundImage: `url("/images/homeThreeImageOne.jpg")`,
             backgroundPosition: "-104px",
           }}
         >
           <BoxOverlay>
-            <Arrow src="images/ArrowUp.svg" />
+            <Arrow src="/images/ArrowUp.svg" />
             <Text>Trvalost a kvalita</Text>
           </BoxOverlay>
         </Box>
 
         <Box
           style={{
-            backgroundImage: `url("images/homeThreeImage2.png")`,
+            backgroundImage: `url("/images/homeThreeImage2.png")`,
           }}
         >
           <BoxOverlay>
-            <Arrow src="images/ArrowUp.svg" />
+            <Arrow src="/images/ArrowUp.svg" />
             <Text>Nejvyšší standard</Text>
           </BoxOverlay>
         </Box>
@@ -80,12 +80,12 @@ const HomeSectionThree = () => {
         <Box
           style={{
             marginRight: 0,
-            backgroundImage: `url("images/homeThreeImageThree.jpg")`,
+            backgroundImage: `url("/images/homeThreeImageThree.jpg")`,
             backgroundPosition: "-234px",
           }}
         >
           <BoxOverlay>
-            <Arrow src="images/ArrowUp.svg" />
+            <Arrow src="/images/ArrowUp.svg" />
             <Text>Poctivé řemeslo</Text>
           </BoxOverlay>
         </Box>

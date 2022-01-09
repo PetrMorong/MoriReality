@@ -32,28 +32,28 @@ const data = {
   ),
   sliderImages: [
     {
-      imageUrl: "images/vilaRepublika/mp01-min.jpg",
+      imageUrl: "/images/vilaRepublika/mp01-min.jpg",
     },
     {
-      imageUrl: "images/vilaRepublika/img2.png",
+      imageUrl: "/images/vilaRepublika/img2.png",
     },
     {
-      imageUrl: "images/vilaRepublika/mp02-min.jpg",
+      imageUrl: "/images/vilaRepublika/mp02-min.jpg",
     },
     {
-      imageUrl: "images/vilaRepublika/1.1-min.jpg",
+      imageUrl: "/images/vilaRepublika/1.1-min.jpg",
     },
     {
-      imageUrl: "images/vilaRepublika/1.3.3-min.jpg",
+      imageUrl: "/images/vilaRepublika/1.3.3-min.jpg",
     },
     {
-      imageUrl: "images/vilaRepublika/F3-min.jpg",
+      imageUrl: "/images/vilaRepublika/F3-min.jpg",
     },
     {
-      imageUrl: "images/vilaRepublika/SAUNA1-min.jpg",
+      imageUrl: "/images/vilaRepublika/SAUNA1-min.jpg",
     },
     {
-      imageUrl: "images/vilaRepublika/SAUNA2-min.jpg",
+      imageUrl: "/images/vilaRepublika/SAUNA2-min.jpg",
     },
   ],
   stats: [
@@ -112,9 +112,9 @@ const data = {
       desc: "Chytrý zámek na kód",
     },
   ],
-  sectionImageOne: "images/vilaRepublikaSectionImage1.jpeg",
-  sectionImageTwo: "images/vilaRepublikaSectionImage2.jpeg",
-  sectionCover: "images/vilaRepublikaSectionCover.jpeg",
+  sectionImageOne: "/images/vilaRepublikaSectionImage1.jpeg",
+  sectionImageTwo: "/images/vilaRepublikaSectionImage2.jpeg",
+  sectionCover: "/images/vilaRepublikaSectionCover.jpeg",
   ticksSection: [
     {
       highlighted: "Obchod i služby",
@@ -213,18 +213,18 @@ const data = {
   ],
   otherProjects: [
     {
-      image: "images/projektMalaMorava.jpg",
+      image: "/images/projektMalaMorava.jpg",
       name: "Horské Apartmány",
       location: "Vlaské, Malá Morava",
       link: "/apartmany-mala-morava",
     },
     {
-      image: "images/Hrabenov1.png",
+      image: "/images/Hrabenov1.png",
       name: "Rezidence Hrabenov",
       location: "Hrabenov, Ruda Nad Moravou",
     },
     {
-      image: "images/projektVlDva.jpg",
+      image: "/images/projektVlDva.jpg",
       name: "Wellness ApartHotel",
       location: "Velké Losiny",
     },

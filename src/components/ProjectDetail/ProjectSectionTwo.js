@@ -101,17 +101,17 @@ const ProjectSectionTwo = ({ data }) => {
             }}
           >
             <CarouoselItemOverlay>
-              <Logo src="images/logoSimple.svg" />
+              <Logo src="/images/logoSimple.svg" />
               <LeftArrowCol>
                 <ArrowWrap onClick={handlePrevious}>
-                  <img src="images/LeftArrow.svg"></img>
+                  <img src="/images/LeftArrow.svg"></img>
                 </ArrowWrap>
               </LeftArrowCol>
               <RightArrowCol>
                 <ArrowWrap onClick={handleNext}>
                   <img
                     style={{ transform: "rotate(180deg)" }}
-                    src="images/LeftArrow.svg"
+                    src="/images/LeftArrow.svg"
                   ></img>
                 </ArrowWrap>
               </RightArrowCol>

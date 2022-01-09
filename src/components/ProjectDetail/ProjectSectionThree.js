@@ -147,19 +147,19 @@ const ProjectSectionThree = ({ data }) => {
 
         <CardRow>
           <Card>
-            <Icon src={`images/${data.features[0].icon}.svg`} />
+            <Icon src={`/images/${data.features[0].icon}.svg`} />
             <IcontText>{data.features[0].desc}</IcontText>
           </Card>
           <Card>
-            <Icon src={`images/${data.features[1].icon}.svg`} />
+            <Icon src={`/images/${data.features[1].icon}.svg`} />
             <IcontText>{data.features[1].desc}</IcontText>
           </Card>
           <Card>
-            <Icon src={`images/${data.features[2].icon}.svg`} />
+            <Icon src={`/images/${data.features[2].icon}.svg`} />
             <IcontText>{data.features[2].desc}</IcontText>
           </Card>
           <Card>
-            <Icon src={`images/${data.features[3].icon}.svg`} />
+            <Icon src={`/images/${data.features[3].icon}.svg`} />
             <IcontText>{data.features[3].desc}</IcontText>
           </Card>
         </CardRow>

@@ -5,7 +5,7 @@ import Button from "../Button";
 const Container = styled.div`
   width: 100%;
   height: 670px;
-  background: ${(p) => `url("images/${p.cover}.png")`};
+  background: ${(p) => `url("/images/${p.cover}.png")`};
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -89,7 +89,7 @@ const ProjectSectionOne = ({ data }) => {
           </ButtonWrap>
           <MainText>{data.title}</MainText>
           <LocationRow>
-            <Location src="images/locationIcon.svg" />
+            <Location src="/images/locationIcon.svg" />
             <LocationCol>
               <LocationTextOne>{data.locationOne}</LocationTextOne>
               <LocationTextTwo>{data.locationTwo}</LocationTextTwo>

@@ -4,7 +4,7 @@ import styled from "styled-components";
 const Container = styled.div`
   width: 100%;
   height: 474px;
-  background: url("images/footerBg.png");
+  background: url("/images/footerBg.png");
   background-size: cover;
   margin-top: 130px;
   display: flex;
@@ -69,7 +69,7 @@ const Footer = () => {
     <Container>
       <Wrapper>
         <Col style={{ width: 250 }}>
-          <Logo src="images/logo.svg" />
+          <Logo src="/images/logo.svg" />
           <LogoText>
             S důrazem na poctivé řemeslo, kvalitu, a trvalost pro vás stavíme
             bydlení, které budete moci rádi a hrdě nazývat svým domovem.

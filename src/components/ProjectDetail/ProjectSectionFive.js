@@ -50,7 +50,7 @@ const ProjectSectionFive = ({ data }) => {
     <Container>
       <Wrapper>
         <Col>
-          <img src="images/tickIcon.svg" />
+          <img src="/images/tickIcon.svg" />
           <MainText>
             <span>{data.ticksSection[0].highlighted}</span>
             <br />
@@ -59,7 +59,7 @@ const ProjectSectionFive = ({ data }) => {
           <SubText>{data.ticksSection[0].desc}</SubText>
         </Col>
         <Col>
-          <img src="images/tickIcon.svg" />
+          <img src="/images/tickIcon.svg" />
           <MainText>
             {data.ticksSection[1].normal}
             <br />
@@ -68,7 +68,7 @@ const ProjectSectionFive = ({ data }) => {
           <SubText>{data.ticksSection[1].desc}</SubText>
         </Col>
         <Col>
-          <img src="images/tickIcon.svg" />
+          <img src="/images/tickIcon.svg" />
           <MainText>
             {data.ticksSection[2].normal} <br />
             <span>{data.ticksSection[2].highlighted}</span>

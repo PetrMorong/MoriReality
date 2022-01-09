@@ -49,7 +49,7 @@ const HomeSectionFive = () => {
     <Container>
       <Wrapper>
         <Col>
-          <img src="images/tickIcon.svg" />
+          <img src="/images/tickIcon.svg" />
           <MainText>
             <span>Vstřícnost a důraz na</span>
             <br />
@@ -62,7 +62,7 @@ const HomeSectionFive = () => {
           </SubText>
         </Col>
         <Col>
-          <img src="images/tickIcon.svg" />
+          <img src="/images/tickIcon.svg" />
           <MainText>
             Kompletní
             <br />
@@ -75,7 +75,7 @@ const HomeSectionFive = () => {
           </SubText>
         </Col>
         <Col>
-          <img src="images/tickIcon.svg" />
+          <img src="/images/tickIcon.svg" />
           <MainText>
             Poctivost a <br />
             <span>kvalita</span>

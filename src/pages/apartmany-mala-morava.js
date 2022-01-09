@@ -32,49 +32,49 @@ const data = {
   ),
   sliderImages: [
     {
-      imageUrl: "images/malaMorava/POHLAD1-min.jpg",
+      imageUrl: "/images/malaMorava/POHLAD1-min.jpg",
     },
     {
-      imageUrl: "images/malaMorava/POHLAD2-min.jpg",
+      imageUrl: "/images/malaMorava/POHLAD2-min.jpg",
     },
     {
-      imageUrl: "images/malaMorava/CHODBA3-2-min.jpg",
+      imageUrl: "/images/malaMorava/CHODBA3-2-min.jpg",
     },
     {
-      imageUrl: "images/malaMorava/CHODBA3-1-min.jpg",
+      imageUrl: "/images/malaMorava/CHODBA3-1-min.jpg",
     },
     {
-      imageUrl: "images/malaMorava/SKLEP-min.jpg",
+      imageUrl: "/images/malaMorava/SKLEP-min.jpg",
     },
     {
-      imageUrl: "images/malaMorava/SKLEP-WELLNESS-min.jpg",
+      imageUrl: "/images/malaMorava/SKLEP-WELLNESS-min.jpg",
     },
     {
-      imageUrl: "images/malaMorava/D_2-min.jpg",
+      imageUrl: "/images/malaMorava/D_2-min.jpg",
     },
     {
-      imageUrl: "images/malaMorava/D_3-min.jpg",
+      imageUrl: "/images/malaMorava/D_3-min.jpg",
     },
     {
-      imageUrl: "images/malaMorava/D_4-min.jpg",
+      imageUrl: "/images/malaMorava/D_4-min.jpg",
     },
     {
-      imageUrl: "images/malaMorava/D_5-min.jpg",
+      imageUrl: "/images/malaMorava/D_5-min.jpg",
     },
     {
-      imageUrl: "images/malaMorava/1NPpůdorys-min.png",
+      imageUrl: "/images/malaMorava/1NPpůdorys-min.png",
     },
     {
-      imageUrl: "images/malaMorava/2NPpůdorys-min.png",
+      imageUrl: "/images/malaMorava/2NPpůdorys-min.png",
     },
     {
-      imageUrl: "images/malaMorava/1PP-min.png",
+      imageUrl: "/images/malaMorava/1PP-min.png",
     },
     {
-      imageUrl: "images/malaMorava/malaMoravaRez.png",
+      imageUrl: "/images/malaMorava/malaMoravaRez.png",
     },
     {
-      imageUrl: "images/malaMorava/situace.png",
+      imageUrl: "/images/malaMorava/situace.png",
     },
   ],
   stats: [

@@ -9,7 +9,7 @@ export default function Layout({ children }) {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Mori Reality</title>
-        <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
       </Helmet>
       {children}
     </div>
