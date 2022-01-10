@@ -252,6 +252,9 @@ const data = {
       location: "Hrabenov, Ruda Nad Moravou",
     },
   ],
+  architectName: "Pavol Vojtek",
+  architectWord:
+    "“Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.“",
 };
 
 const VilaRepublika = () => {

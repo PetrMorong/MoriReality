@@ -229,6 +229,9 @@ const data = {
       location: "Velké Losiny",
     },
   ],
+  architectName: "Nikol Cojocaru",
+  architectWord:
+    "“Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.“",
 };
 
 const VilaRepublika = () => {

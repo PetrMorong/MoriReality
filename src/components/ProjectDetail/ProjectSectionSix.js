@@ -72,11 +72,8 @@ const ProjectSectionSix = ({ data }) => {
       </Container>
       <Container style={{ background: "white" }}>
         <WrapperArchitect>
-          <Text>
-            “Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium.“
-          </Text>
-          <Name>- David Domanický, Architekt</Name>
+          <Text>{data.architectWord}</Text>
+          <Name>- {data.architectName}, Architekt</Name>
         </WrapperArchitect>
       </Container>
     </>
