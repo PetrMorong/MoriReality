@@ -166,19 +166,19 @@ const ProjectSectionThree = ({ data }) => {
         <div style={{ height: 16 }} />
         <CardRow>
           <Card>
-            <Icon src={`images/${data.features[4].icon}.svg`} />
+            <Icon src={`/images/${data.features[4].icon}.svg`} />
             <IcontText>{data.features[4].desc}</IcontText>
           </Card>
           <Card>
-            <Icon src={`images/${data.features[5].icon}.svg`} />
+            <Icon src={`/images/${data.features[5].icon}.svg`} />
             <IcontText>{data.features[5].desc}</IcontText>
           </Card>
           <Card>
-            <Icon src={`images/${data.features[6].icon}.svg`} />
+            <Icon src={`/images/${data.features[6].icon}.svg`} />
             <IcontText>{data.features[6].desc}</IcontText>
           </Card>
           <Card>
-            <Icon src={`images/${data.features[7].icon}.svg`} />
+            <Icon src={`/images/${data.features[7].icon}.svg`} />
             <IcontText>{data.features[7].desc}</IcontText>
           </Card>
         </CardRow>

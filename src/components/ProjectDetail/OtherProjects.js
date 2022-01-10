@@ -48,6 +48,7 @@ const Col = styled.a`
   width: 390px;
   cursor: pointer;
   transition: 200ms;
+  text-decoration: none;
 
   &:hover {
     opacity: 0.8;
