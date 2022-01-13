@@ -133,7 +133,7 @@ const data = [
     detailLink: "/apartmany-mala-morava",
   },
   {
-    imageUrl: "/images/projektVlDva.jpg",
+    imageUrl: "/images/projektVlDva.png",
     title: "Aparthotel Velké Losiny",
     desc: "6 apartmánů, Wellness, Bistro",
     detailLink: "TODO",

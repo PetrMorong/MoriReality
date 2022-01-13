@@ -224,7 +224,7 @@ const data = {
       location: "Hrabenov, Ruda Nad Moravou",
     },
     {
-      image: "/images/projektVlDva.jpg",
+      image: "/images/projektVlDva.png",
       name: "Wellness ApartHotel",
       location: "Velké Losiny",
     },

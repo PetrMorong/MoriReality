@@ -242,7 +242,7 @@ const data = {
       link: "/vila-republika",
     },
     {
-      image: "/images/projektVlDva.jpg",
+      image: "/images/projektVlDva.png",
       name: "Wellness ApartHotel",
       location: "Velké Losiny",
     },
