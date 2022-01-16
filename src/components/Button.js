@@ -20,15 +20,21 @@ const Container = styled.button`
   color: #ffffff;
   cursor: pointer;
   text-decoration: none;
+  width: ${(p) => `${p.width}px` || "auto"};
 
   &:hover {
     opacity: 0.8;
   }
 `;
 
-const Button = ({ children, onClick, height, leftBorder }) => {
+const Button = ({ children, onClick, height, leftBorder, width }) => {
   return (
-    <Container height={height} onClick={onClick} leftBorder={leftBorder}>
+    <Container
+      height={height}
+      onClick={onClick}
+      leftBorder={leftBorder}
+      width={width}
+    >
       {children}
     </Container>
   );

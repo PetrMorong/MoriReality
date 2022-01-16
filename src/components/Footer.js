@@ -9,6 +9,13 @@ const Container = styled.div`
   margin-top: 130px;
   display: flex;
   justify-content: center;
+
+  @media (max-width: 800px) {
+    margin-top: 0px;
+    height: auto;
+    padding-top: 70px;
+    padding-bottom: 30px;
+  }
 `;
 
 const Wrapper = styled.div`
@@ -16,11 +23,26 @@ const Wrapper = styled.div`
   display: flex;
   padding-top: 122px;
   justify-content: space-between;
+
+  @media (max-width: 1180px) {
+    width: 100%;
+  }
+
+  @media (max-width: 800px) {
+    flex-direction: column;
+    height: auto;
+    padding: 0 40px;
+  }
 `;
 
 const Col = styled.div`
   display: flex;
   flex-direction: column;
+  margin-bottom: 30px;
+
+  @media (max-width: 800px) {
+    align-items: flex-start !important;
+  }
 `;
 
 const Logo = styled.img`
@@ -35,6 +57,10 @@ const LogoText = styled.p`
   line-height: 30px;
   letter-spacing: 0.01em;
   color: #ffffff;
+
+  @media (max-width: 800px) {
+    text-align: left !important;
+  }
 `;
 
 const GoldText = styled.span`
@@ -53,6 +79,10 @@ const Title = styled.p`
   letter-spacing: 0.01em;
   color: #b29a84;
   margin-bottom: 38px;
+
+  @media (max-width: 800px) {
+    margin-bottom: 20px;
+  }
 `;
 
 const Link = styled.p`

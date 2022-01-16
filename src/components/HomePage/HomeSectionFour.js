@@ -11,6 +11,7 @@ const Container = styled.div`
 
 const Wrapper = styled.div`
   background: white;
+  width: 100%;
 `;
 
 const HeadlineRow = styled.div`
@@ -19,6 +20,10 @@ const HeadlineRow = styled.div`
   align-items: center;
   width: 100%;
   margin-bottom: 130px;
+
+  @media (max-width: 800px) {
+    margin-bottom: 40px;
+  }
 `;
 
 const Line = styled.div`
@@ -33,14 +38,33 @@ const Headline = styled.div`
   line-height: 51px;
   color: #000000;
   margin: 0 56px;
+
+  @media (max-width: 800px) {
+    font-size: 32px;
+    line-height: 41px;
+  }
 `;
 
-const CarouoselContainer = styled.div``;
+const CarouoselContainer = styled.div`
+  @media (max-width: 800px) {
+    display: flex;
+    justify-content: center;
+  }
+`;
 
 const CarouoselItem = styled.div`
   width: 1180px;
   height: 670px;
   background-size: cover;
+
+  @media (max-width: 1180px) {
+    width: 100%;
+  }
+
+  @media (max-width: 800px) {
+    width: 100%;
+    height: 260px;
+  }
 `;
 
 const ProjectInfo = styled.div`
@@ -48,6 +72,11 @@ const ProjectInfo = styled.div`
   left: 48px;
   bottom: 32px;
   z-index: 1;
+
+  @media (max-width: 800px) {
+    left: 20px;
+    bottom: 20px;
+  }
 `;
 
 const CarouoselItemOverlay = styled.div`
@@ -67,6 +96,11 @@ const ProjectName = styled.div`
   line-height: 32px;
   letter-spacing: 0.01em;
   color: #ffffff;
+
+  @media (max-width: 800px) {
+    font-size: 18px;
+    line-height: 25px;
+  }
 `;
 
 const ProjectDesc = styled.div`
@@ -75,6 +109,11 @@ const ProjectDesc = styled.div`
   line-height: 32px;
   letter-spacing: 0.01em;
   color: #b29a84;
+
+  @media (max-width: 800px) {
+    font-size: 15px;
+    line-height: 25px;
+  }
 `;
 
 const Logo = styled.img`
@@ -83,6 +122,10 @@ const Logo = styled.img`
   position: absolute;
   right: 48px;
   bottom: 32px;
+
+  @media (max-width: 800px) {
+    display: none;
+  }
 `;
 
 const RightArrowCol = styled.div`
@@ -111,12 +154,21 @@ const ArrowWrap = styled.div`
   align-items: center;
   justify-content: center;
   cursor: pointer;
+
+  @media (max-width: 800px) {
+    width: 44px;
+    height: 44px;
+  }
 `;
 
 const ButtonWrap = styled.div`
   position: absolute;
   right: 48px;
   top: 32px;
+
+  @media (max-width: 800px) {
+    display: none;
+  }
 `;
 
 const data = [

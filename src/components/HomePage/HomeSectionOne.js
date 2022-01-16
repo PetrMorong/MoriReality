@@ -10,12 +10,23 @@ const Container = styled.div`
   display: flex;
   justify-content: center;
   padding-top: 90px;
+
+  @media (max-width: 800px) {
+    background-position: -210px;
+    height: auto;
+    padding-bottom: 50px;
+  }
 `;
 
 const Wrapper = styled.div`
   width: 1180px;
   display: flex;
   flex-direction: column;
+
+  @media (max-width: 1180px) {
+    width: 100%;
+    padding: 0 40px;
+  }
 `;
 
 const HeaderText = styled.h1`
@@ -26,6 +37,11 @@ const HeaderText = styled.h1`
   letter-spacing: 0.01em;
   color: #ffffff;
   margin-top: 25px;
+
+  @media (max-width: 565px) {
+    font-size: 34px;
+    line-height: 40px;
+  }
 `;
 
 const SubTextTop = styled.p`
@@ -46,12 +62,22 @@ const DescText = styled.h3`
   font-size: 19px;
   line-height: 32px;
   letter-spacing: 0.01em;
+
+  @media (max-width: 565px) {
+    width: 100%;
+    font-size: 18px;
+    line-height: 29px;
+  }
 `;
 
 const DotsWrap = styled.div`
   display: flex;
   margin-top: 82px;
   align-items: center;
+
+  @media (max-width: 565px) {
+    display: none;
+  }
 `;
 
 const Dot = styled.div`
@@ -87,7 +113,7 @@ const HomeSectionOne = () => {
           Jeseníkách a rezidenčních nemovitostí na Šumpersku.
         </DescText>
         <ButtonWrap>
-          <Button height={56} leftBorder={true}>
+          <Button height={50} leftBorder={true}>
             Zobrazit Projekty
           </Button>
         </ButtonWrap>

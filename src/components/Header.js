@@ -18,6 +18,11 @@ const Wrapper = styled.div`
   display: flex;
   align-items: center;
   border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+
+  @media (max-width: 1180px) {
+    width: 100%;
+    padding: 0 20px;
+  }
 `;
 
 const Logo = styled.img`
@@ -25,6 +30,12 @@ const Logo = styled.img`
   height: 37px;
   margin-right: 42px;
   cursor: pointer;
+`;
+
+const Desktop = styled.div`
+  @media (max-width: 800px) {
+    display: none;
+  }
 `;
 
 const Link = styled.span`
@@ -43,12 +54,9 @@ const Link = styled.span`
 `;
 
 const Header = () => {
-  return (
-    <Container>
-      <Wrapper>
-        <a href="/">
-          <Logo src="/images/logo.svg" />
-        </a>
+  const renderLinks = () => {
+    return (
+      <>
         <a href="/">
           <Link>O nás</Link>
         </a>
@@ -62,6 +70,16 @@ const Header = () => {
         <div style={{ flex: 1 }} />
         <Link>+420 737 211 314</Link>
         <Button>Kontaktovat</Button>
+      </>
+    );
+  };
+  return (
+    <Container>
+      <Wrapper>
+        <a href="/">
+          <Logo src="/images/logo.svg" />
+        </a>
+        <Desktop>{renderLinks()}</Desktop>
       </Wrapper>
     </Container>
   );
