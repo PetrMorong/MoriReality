@@ -33,6 +33,9 @@ const Logo = styled.img`
 `;
 
 const Desktop = styled.div`
+  display: flex;
+  align-items: center;
+
   @media (max-width: 800px) {
     display: none;
   }
