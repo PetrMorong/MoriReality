@@ -254,7 +254,7 @@ const data = {
   ],
   architectName: "Pavol Vojtek",
   architectWord:
-    "“Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.“",
+    "“Historický objekt zo začiatku minulého storočia tu bol pred každým z nás a vďaka citlivej a poctivej rekonštrukcií bude ešte dlho slúžiť aj budúcim generáciám. Ukrýva v sebe niekoľko odkazov na dobu svojho vzniku, ktoré sme prečítali a nechali odprezentované Vám - budúcim užívateľom.“",
 };
 
 const VilaRepublika = () => {

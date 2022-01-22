@@ -9,6 +9,10 @@ const Container = styled.div`
   background-size: cover;
   display: flex;
   justify-content: center;
+
+  @media (max-width: 1180px) {
+    height: auto;
+  }
 `;
 
 const Wrapper = styled.div`
@@ -16,21 +20,39 @@ const Wrapper = styled.div`
   display: flex;
   padding-top: 180px;
   height: 100%;
+
+  @media (max-width: 1180px) {
+    width: 100%;
+    flex-direction: column;
+    padding: 0 20px;
+    padding-top: 100px;
+    padding-bottom: 80px;
+  }
 `;
 
 const LeftCol = styled.div`
   display: flex;
   flex-direction: column;
   margin-right: 112px;
+
+  @media (max-width: 1180px) {
+    width: 100%;
+  }
 `;
 
-const RightCol = styled.div`
+const RightColText = styled.div`
   width: 500px;
   font-family: Georama;
   font-size: 19px;
   line-height: 32px;
   letter-spacing: 0.01em;
   color: #ffffff;
+
+  @media (max-width: 1180px) {
+    margin-top: 30px;
+    width: 100%;
+    font-size: 17px;
+  }
 `;
 
 const MainText = styled.h1`
@@ -43,6 +65,14 @@ const MainText = styled.h1`
   margin-top: 20px;
   margin-bottom: 20px;
   width: 478px;
+
+  @media (max-width: 1180px) {
+    font-size: 36px;
+    line-height: 44px;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
 `;
 
 const Location = styled.img`
@@ -73,6 +103,7 @@ const LocationTextTwo = styled.p`
   letter-spacing: 0.01em;
   color: #b29a84;
 `;
+
 const ButtonWrap = styled.div`
   width: 150px;
 `;
@@ -96,7 +127,7 @@ const ProjectSectionOne = ({ data }) => {
             </LocationCol>
           </LocationRow>
         </LeftCol>
-        <RightCol>{data.desc}</RightCol>
+        <RightColText>{data.desc}</RightColText>
       </Wrapper>
     </Container>
   );

@@ -6,19 +6,35 @@ const Container = styled.div`
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: -80px;
+
+  @media (max-width: 1180px) {
+    margin-top: 0px;
+  }
 `;
 
 const Wrapper = styled.div`
   background: white;
+  width: 100%;
 `;
 
-const CarouoselContainer = styled.div``;
+const CarouoselContainer = styled.div`
+  display: flex;
+  justify-content: center;
+`;
 
 const CarouoselItem = styled.div`
   width: 1180px;
   height: 650px;
   background-size: cover;
+
+  @media (max-width: 1180px) {
+    width: 100%;
+  }
+
+  @media (max-width: 800px) {
+    width: 100%;
+    height: 260px;
+  }
 `;
 
 const CarouoselItemOverlay = styled.div`
@@ -38,6 +54,10 @@ const Logo = styled.img`
   position: absolute;
   right: 48px;
   bottom: 32px;
+
+  @media (max-width: 1180px) {
+    display: none;
+  }
 `;
 
 const RightArrowCol = styled.div`
@@ -66,6 +86,11 @@ const ArrowWrap = styled.div`
   align-items: center;
   justify-content: center;
   cursor: pointer;
+
+  @media (max-width: 800px) {
+    width: 44px;
+    height: 44px;
+  }
 `;
 
 const ProjectSectionTwo = ({ data }) => {

@@ -9,15 +9,36 @@ const Container = styled.div`
   justify-content: center;
   align-items: center;
   margin-top: 194px;
+
+  @media (max-width: 1180px) {
+    margin-top: 70px;
+  }
 `;
 
 const Wrapper = styled.div`
   width: 1180px;
+
+  @media (max-width: 1180px) {
+    width: 100%;
+    padding: 0 25px;
+  }
 `;
 
 const Row = styled.div`
   display: flex;
   justify-content: space-between;
+
+  @media (max-width: 1180px) {
+    flex-direction: column;
+  }
+`;
+
+const RowReverse = styled(Row)`
+  flex-direction: row-reverse;
+
+  @media (max-width: 1180px) {
+    flex-direction: column;
+  }
 `;
 
 const Col = styled.div`
@@ -25,6 +46,10 @@ const Col = styled.div`
   flex-direction: column;
   justify-content: center;
   width: 468px;
+
+  @media (max-width: 800px) {
+    width: 100%;
+  }
 `;
 
 const Headline = styled.h3`
@@ -33,6 +58,11 @@ const Headline = styled.h3`
   line-height: 51px;
   color: #000000;
   margin-bottom: 30px;
+
+  @media (max-width: 800px) {
+    margin-bottom: 10px;
+    font-size: 37px;
+  }
 `;
 
 const HeadlineGold = styled.h3`
@@ -41,6 +71,11 @@ const HeadlineGold = styled.h3`
   line-height: 51px;
   color: #b29a84;
   margin-bottom: 30px;
+
+  @media (max-width: 800px) {
+    margin-bottom: 10px;
+    font-size: 37px;
+  }
 `;
 
 const Desc = styled.p`
@@ -56,6 +91,12 @@ const Image = styled.img`
   height: 559px;
   object-fit: cover;
   object-position: bottom;
+
+  @media (max-width: 1180px) {
+    width: 100%;
+    height: 350px;
+    margin-top: 50px;
+  }
 `;
 
 const Cover = styled.img`
@@ -63,10 +104,18 @@ const Cover = styled.img`
   height: 700px;
   object-fit: cover;
   margin-top: 190px;
+
+  @media (max-width: 1180px) {
+    height: 100vw;
+  }
 `;
 
 const CoverWrap = styled.div`
   position: relative;
+
+  @media (max-width: 1180px) {
+    display: none;
+  }
 `;
 
 const CoverOverlay = styled.div`
@@ -80,6 +129,10 @@ const CoverOverlay = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 1180px) {
+    height: 50px;
+  }
 `;
 
 const CoverText = styled.p`
@@ -90,6 +143,10 @@ const CoverText = styled.p`
   color: #ffffff;
   width: 1180px;
   text-align: right;
+
+  @media (max-width: 1180px) {
+    text-align: center;
+  }
 `;
 
 const ProjectSectionFour = ({ data }) => {
@@ -112,7 +169,7 @@ const ProjectSectionFour = ({ data }) => {
             <Image src={data.sectionImageOne} />
           </Row>
           <div style={{ height: 100 }} />
-          <Row style={{ flexDirection: "row-reverse" }}>
+          <RowReverse>
             <Col>
               <Headline>
                 Podrobnější slovní{" "}
@@ -125,7 +182,7 @@ const ProjectSectionFour = ({ data }) => {
               </Desc>
             </Col>
             <Image src={data.sectionImageTwo} />
-          </Row>
+          </RowReverse>
         </Wrapper>
       </Container>
       <CoverWrap>

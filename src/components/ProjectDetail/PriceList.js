@@ -7,12 +7,24 @@ const Container = styled.div`
   align-items: center;
   flex-direction: column;
   margin-top: 100px;
+
+  @media (max-width: 800px) {
+    overflow: scroll;
+    display: block;
+    position: relative;
+    margin-top: 20px;
+  }
 `;
 
 const Wrapper = styled.div`
   width: 1180px;
   display: flex;
   flex-direction: column;
+
+  @media (max-width: 800px) {
+    width: 1020px;
+    padding-top: 80px;
+  }
 `;
 
 const Headline = styled.h4`
@@ -22,6 +34,15 @@ const Headline = styled.h4`
   color: #000000;
   text-align: center;
   margin-bottom: 95px;
+
+  @media (max-width: 800px) {
+    position: absolute;
+    top: 0px;
+    text-align: center;
+    width: 100vw;
+    z-index: 99;
+    font-size: 37px;
+  }
 `;
 
 const Table = styled.div`

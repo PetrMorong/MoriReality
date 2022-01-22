@@ -22,6 +22,8 @@ const Wrapper = styled.div`
   @media (max-width: 1180px) {
     width: 100%;
     padding: 0 20px;
+    height: 80px;
+    border-bottom: none;
   }
 `;
 
@@ -30,11 +32,17 @@ const Logo = styled.img`
   height: 37px;
   margin-right: 42px;
   cursor: pointer;
+
+  @media (max-width: 800px) {
+    width: 145px;
+    height: 32px;
+  }
 `;
 
 const Desktop = styled.div`
   display: flex;
   align-items: center;
+  width: 100%;
 
   @media (max-width: 800px) {
     display: none;
@@ -60,14 +68,14 @@ const Header = () => {
   const renderLinks = () => {
     return (
       <>
-        <a href="/">
+        <a href="/" style={{ textDecoration: "none" }}>
           <Link>O nás</Link>
         </a>
-        <a href="/">
+        <a href="/" style={{ textDecoration: "none" }}>
           <Link>Projekty</Link>
         </a>
 
-        <a href="/">
+        <a href="/" style={{ textDecoration: "none" }}>
           <Link>Kontakt</Link>
         </a>
         <div style={{ flex: 1 }} />

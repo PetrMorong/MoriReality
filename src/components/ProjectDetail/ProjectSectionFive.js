@@ -7,6 +7,11 @@ const Container = styled.div`
   justify-content: center;
   margin-bottom: 130px;
   margin-top: 150px;
+
+  @media (max-width: 1180px) {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
 `;
 
 const Wrapper = styled.div`
@@ -14,10 +19,24 @@ const Wrapper = styled.div`
   background: white;
   display: flex;
   justify-content: space-between;
+
+  @media (max-width: 1180px) {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  @media (max-width: 800px) {
+    flex-direction: column;
+  }
 `;
 
 const Col = styled.div`
   width: 324px;
+
+  @media (max-width: 800px) {
+    width: 100%;
+    padding: 30px 25px;
+  }
 `;
 
 const MainText = styled.div`
@@ -28,12 +47,23 @@ const MainText = styled.div`
   letter-spacing: 0.01em;
   color: #000000;
 
+  @media (max-width: 800px) {
+    margin: 10px 0;
+    font-size: 22px;
+    line-height: 30px;
+  }
+
   span {
     font-family: Georama;
     font-size: 27px;
     line-height: 36px;
     letter-spacing: 0.01em;
     color: #b29a84;
+
+    @media (max-width: 800px) {
+      font-size: 22px;
+      line-height: 30px;
+    }
   }
 `;
 
@@ -43,6 +73,11 @@ const SubText = styled.div`
   line-height: 30px;
   letter-spacing: 0.01em;
   color: #000000;
+
+  @media (max-width: 800px) {
+    font-size: 16px;
+    line-height: 28px;
+  }
 `;
 
 const ProjectSectionFive = ({ data }) => {

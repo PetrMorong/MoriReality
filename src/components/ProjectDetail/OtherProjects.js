@@ -8,6 +8,11 @@ const Container = styled.div`
   justify-content: center;
   margin-bottom: 130px;
   margin-top: 200px;
+
+  @media (max-width: 1180px) {
+    margin-top: 120px;
+    margin-bottom: 40px;
+  }
 `;
 
 const Wrapper = styled.div`
@@ -15,6 +20,10 @@ const Wrapper = styled.div`
   background: white;
   display: flex;
   flex-direction: column;
+
+  @media (max-width: 1180px) {
+    width: 100%;
+  }
 `;
 
 const HeadlineRow = styled.div`
@@ -23,6 +32,10 @@ const HeadlineRow = styled.div`
   align-items: center;
   width: 100%;
   margin-bottom: 130px;
+
+  @media (max-width: 800px) {
+    margin-bottom: 40px;
+  }
 `;
 
 const Line = styled.div`
@@ -37,18 +50,34 @@ const Headline = styled.h4`
   line-height: 51px;
   color: #000000;
   margin: 0 56px;
+
+  @media (max-width: 800px) {
+    font-size: 32px;
+    line-height: 41px;
+  }
 `;
 
 const Row = styled.div`
   display: flex;
   gap: 8px;
+
+  @media (max-width: 1180px) {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+    gap: 0;
+  }
 `;
 
 const Col = styled.a`
-  width: 390px;
+  width: 100%;
   cursor: pointer;
   transition: 200ms;
   text-decoration: none;
+
+  @media (max-width: 1180px) {
+    margin-bottom: 40px;
+  }
 
   &:hover {
     opacity: 0.8;
@@ -59,6 +88,11 @@ const Image = styled.img`
   width: 390px;
   height: 250px;
   object-fit: cover;
+
+  @media (max-width: 1180px) {
+    width: 100%;
+    height: 220px;
+  }
 `;
 
 const Title = styled.p`
@@ -67,8 +101,8 @@ const Title = styled.p`
   line-height: 36px;
   letter-spacing: 0.01em;
   color: #000000;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   width: 80%;
 `;
 

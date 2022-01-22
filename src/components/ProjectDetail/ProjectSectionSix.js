@@ -13,6 +13,10 @@ const Wrapper = styled.div`
   width: 1180px;
   display: flex;
   flex-direction: column;
+
+  @media (max-width: 1180px) {
+    width: 100%;
+  }
 `;
 
 const WrapperArchitect = styled.div`
@@ -24,6 +28,10 @@ const WrapperArchitect = styled.div`
   flex-direction: column;
   align-items: center;
   background: white;
+
+  @media (max-width: 1180px) {
+    width: calc(100% - 50px);
+  }
 `;
 
 const Headline = styled.h4`
@@ -33,6 +41,11 @@ const Headline = styled.h4`
   color: #000000;
   padding-top: 140px;
   text-align: center;
+
+  @media (max-width: 800px) {
+    padding-top: 80px;
+    font-size: 37px;
+  }
 `;
 
 const Text = styled.p`
@@ -44,6 +57,13 @@ const Text = styled.p`
   text-align: center;
   margin-bottom: 32px;
   width: 800px;
+
+  @media (max-width: 800px) {
+    width: 100%;
+    padding-top: 50px;
+    font-size: 20px;
+    line-height: 45px;
+  }
 `;
 
 const Name = styled.p`
@@ -52,6 +72,9 @@ const Name = styled.p`
   line-height: 32px;
   letter-spacing: 0.01em;
   color: #0f0f16;
+
+  @media (max-width: 800px) {
+    font-weight: 600;
 `;
 
 const ImageOsa = styled.img`
@@ -59,6 +82,10 @@ const ImageOsa = styled.img`
   height: 280px;
   margin-top: 50px;
   margin-bottom: 180px;
+
+  @media (max-width: 1180px) {
+    height: 100px;
+  }
 `;
 
 const ProjectSectionSix = ({ data }) => {

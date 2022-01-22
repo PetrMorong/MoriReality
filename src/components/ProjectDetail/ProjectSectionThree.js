@@ -12,6 +12,10 @@ const Container = styled.div`
 
 const Wrapper = styled.div`
   width: 1180px;
+
+  @media (max-width: 1180px) {
+    width: 100%;
+  }
 `;
 
 const Row = styled.div`
@@ -19,9 +23,19 @@ const Row = styled.div`
   justify-content: space-between;
   align-items: center;
   height: 280px;
+
+  @media (max-width: 1180px) {
+    height: auto;
+    flex-direction: column;
+    padding-top: 40px;
+  }
 `;
 
-const Col = styled.div``;
+const Col = styled.div`
+  @media (max-width: 1180px) {
+    padding: 25px 0;
+  }
+`;
 
 const TextMain = styled.p`
   font-family: Georama;
@@ -30,6 +44,11 @@ const TextMain = styled.p`
   line-height: 48px;
   letter-spacing: 0.01em;
   color: #000000;
+
+  @media (max-width: 1180px) {
+    text-align: center;
+    font-size: 35px;
+  }
 `;
 
 const TextMainHighlited = styled.span`
@@ -39,6 +58,11 @@ const TextMainHighlited = styled.span`
   line-height: 48px;
   letter-spacing: 0.01em;
   color: #b29a84;
+
+  @media (max-width: 1180px) {
+    text-align: center;
+    font-size: 35px;
+  }
 `;
 
 const Desc = styled.p`
@@ -47,6 +71,10 @@ const Desc = styled.p`
   line-height: 24px;
   letter-spacing: 0.01em;
   color: #4d4d56;
+
+  @media (max-width: 1180px) {
+    text-align: center;
+  }
 `;
 
 const HeadlineRow = styled.div`
@@ -56,6 +84,11 @@ const HeadlineRow = styled.div`
   width: 100%;
   height: 130px;
   margin-bottom: 115px;
+
+  @media (max-width: 800px) {
+    margin-bottom: 40px;
+    margin-top: 50px;
+  }
 `;
 
 const Line = styled.div`
@@ -70,6 +103,11 @@ const Headline = styled.div`
   line-height: 51px;
   color: #000000;
   margin: 0 56px;
+
+  @media (max-width: 800px) {
+    font-size: 32px;
+    line-height: 41px;
+  }
 `;
 
 const CardRow = styled.div`
@@ -77,6 +115,10 @@ const CardRow = styled.div`
   justify-content: center;
   gap: 16px;
   filter: drop-shadow(0px 0px 196px rgba(128, 128, 148, 0.1));
+
+  @media (max-width: 1180px) {
+    flex-wrap: wrap;
+  }
 `;
 
 const Card = styled.div`
@@ -90,12 +132,22 @@ const Card = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 1180px) {
+    width: 45%;
+    height: 170px;
+  }
 `;
 
 const Icon = styled.img`
   width: 95px;
   height: 95px;
   margin-bottom: 16px;
+
+  @media (max-width: 1180px) {
+    width: 55px;
+    height: 55px;
+  }
 `;
 
 const IcontText = styled.p`
@@ -105,6 +157,11 @@ const IcontText = styled.p`
   text-align: center;
   letter-spacing: 0.01em;
   color: #000000;
+
+  @media (max-width: 1180px) {
+    font-size: 16px;
+    line-height: 25px;
+  }
 `;
 
 const ProjectSectionThree = ({ data }) => {

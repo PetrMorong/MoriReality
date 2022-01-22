@@ -46,10 +46,8 @@ const Headline = styled.div`
 `;
 
 const CarouoselContainer = styled.div`
-  @media (max-width: 800px) {
-    display: flex;
-    justify-content: center;
-  }
+  display: flex;
+  justify-content: center;
 `;
 
 const CarouoselItem = styled.div`
