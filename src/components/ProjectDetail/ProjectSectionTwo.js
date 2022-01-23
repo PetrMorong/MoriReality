@@ -20,6 +20,11 @@ const Wrapper = styled.div`
 const CarouoselContainer = styled.div`
   display: flex;
   justify-content: center;
+  margin-top: -100px;
+
+  @media (max-width: 1180px) {
+    margin-top: 0px;
+  }
 `;
 
 const CarouoselItem = styled.div`

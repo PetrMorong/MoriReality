@@ -50,7 +50,7 @@ const Headline = styled.h4`
 
 const Text = styled.p`
   font-family: Georama;
-  font-size: 42px;
+  font-size: 25px;
   line-height: 51px;
   color: #000000;
   padding-top: 100px;
@@ -72,6 +72,7 @@ const Name = styled.p`
   line-height: 32px;
   letter-spacing: 0.01em;
   color: #0f0f16;
+  font-weight: 600;
 
   @media (max-width: 800px) {
     font-weight: 600;
