@@ -1,40 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-const data = {
-  sectionOneBg: "/images/A_3-min.jpg",
-  apName: "Apartmán 39/1",
-  sectionOneDetails: [
-    {
-      text: "2+",
-      goldText: "kk",
-      desc: "Dispozice",
-    },
-    {
-      text: "38 ",
-      goldText: "m2",
-      desc: "Podlahová Plocha",
-    },
-    {
-      text: "1 ",
-      goldText: "NP",
-      desc: "Podlaží",
-    },
-    {
-      text: "Východ",
-      goldText: "",
-      desc: "Orientace",
-    },
-
-    {
-      text: "Malá ",
-      goldText: "Morava",
-      desc: "Lokatita",
-    },
-  ],
-};
-
-const ApSectionOne = () => {
+const ApSectionOne = ({ data }) => {
   return (
     <Container bgImage={data.sectionOneBg}>
       <Overlay>
