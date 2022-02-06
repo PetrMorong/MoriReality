@@ -82,6 +82,12 @@ const Row = styled.div`
   display: flex;
   justify-content: space-between;
   margin-top: 90px;
+
+  @media (max-width: 800px) {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+  }
 `;
 
 const Container = styled.div`
@@ -89,6 +95,10 @@ const Container = styled.div`
   display: flex;
   justify-content: center;
   margin-top: 120px;
+
+  @media (max-width: 800px) {
+    margin-top: 70px;
+  }
 `;
 
 const Wrapper = styled.div`
@@ -105,6 +115,11 @@ const Desc = styled.p`
   line-height: 30px;
   letter-spacing: 0.01em;
   color: #4d4d56;
+
+  @media (max-width: 800px) {
+    text-align: center;
+    margin-bottom: 50px;
+  }
 `;
 
 const GoldText = styled.span`
@@ -123,6 +138,10 @@ const BoldText = styled.p`
   line-height: 44px;
   letter-spacing: 0.01em;
   color: #4d4d56;
+
+  @media (max-width: 800px) {
+    text-align: center;
+  }
 `;
 
 const LeftArrowCol = styled.div`
@@ -166,7 +185,11 @@ const CarouoselContainer = styled.div`
 const CarouoselItem = styled.div`
   width: 1180px;
   height: 670px;
-  background-size: cover;
+  background-size: contain;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.05);
   position: relative;
 
   @media (max-width: 1180px) {
@@ -186,6 +209,12 @@ const SubText = styled.p`
   width: 700px;
   margin-bottom: 150px;
 
+  @media (max-width: 800px) {
+    width: 100%;
+    padding: 0 30px;
+    margin-bottom: 70px;
+  }
+
   span  {
     color: #b29a84;
     font-family: Georama;
@@ -203,11 +232,12 @@ const MainText = styled.p`
   width: 480px;
   margin-bottom: 40px;
 
-  /* @media (max-width: 800px) {
-    margin: 10px 0;
-    font-size: 22px;
+  @media (max-width: 800px) {
+    width: 100%;
+    font-size: 32px;
     line-height: 30px;
-  } */
+    padding: 0 30px;
+  }
 
   span {
     font-family: Georama;
@@ -216,10 +246,10 @@ const MainText = styled.p`
     letter-spacing: 0.01em;
     color: #b29a84;
 
-    /* @media (max-width: 800px) {
-      font-size: 22px;
+    @media (max-width: 800px) {
+      font-size: 32px;
       line-height: 30px;
-    } */
+    }
   }
 `;
 

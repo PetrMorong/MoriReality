@@ -150,25 +150,25 @@ const data = [
     name: "Apartmán 72 m²",
     location: "Vlaské, Malá Morava",
     price: "3 990 000 kč",
-    image: "/images/A_3-min.jpg",
+    image: "/images/malaMorava/ap1/A_3-min.jpg",
   },
   {
     name: "Apartmán 86 m²",
     location: "Vlaské, Malá Morava",
     price: "5 990 000 kč",
-    image: "/images/D_2-min.jpg",
+    image: "/images/malaMorava/ap5/D_2-min.jpg",
   },
   {
     name: "Apartmán 100 m²",
     location: "Vlaské, Malá Morava",
     price: "4 990 000 kč",
-    image: "/images/B_4-min.jpg",
+    image: "/images/malalMorava/apDva/B_4-min.jpg",
   },
   {
     name: "Apartmán 73 m²",
     location: "Vlaské, Malá Morava",
     price: "3 990 000 kč",
-    image: "/images/C_1-min.jpg",
+    image: "/images/malaMorava/ap4/C_1-min.jpg",
   },
 
   {

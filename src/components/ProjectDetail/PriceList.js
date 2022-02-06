@@ -77,17 +77,18 @@ const TableCell = styled.div`
   text-align: center;
   letter-spacing: 0.01em;
   color: #000000;
-  width: 144px;
+  width: 134px;
 `;
 
-const TablePriceButton = styled.p`
+const TablePriceButton = styled.a`
   font-weight: bold;
   color: #a18973;
   cursor: pointer;
+  text-decoration: none;
 `;
 
 const TableCellPrice = styled(TableCell)`
-  min-width: 320px;
+  min-width: 300px;
   font-weight: bold;
 `;
 
@@ -110,6 +111,7 @@ const PriceList = ({ data }) => {
               <TableCell>Terasa</TableCell>
               <TableCell>Parkování</TableCell>
               <TableCellPrice>Cena</TableCellPrice>
+              <TableCell></TableCell>
             </TableHead>
             {data.apartments.map((item, index) => {
               return (
@@ -126,12 +128,13 @@ const PriceList = ({ data }) => {
                   <TableCell>{item.terasa}</TableCell>
                   <TableCell>{item.parking}</TableCell>
                   <TableCellPrice>
-                    {mouseOverRow === index ? (
-                      <TablePriceButton>Zobrazit detail</TablePriceButton>
-                    ) : (
-                      <>{item.reserved ? "Rezervováno" : item.price}</>
-                    )}
+                    {item.reserved ? "Rezervováno" : item.price}
                   </TableCellPrice>
+                  <TableCell>
+                    <TablePriceButton href={item.link}>
+                      Více info
+                    </TablePriceButton>
+                  </TableCell>
                 </TableRow>
               );
             })}

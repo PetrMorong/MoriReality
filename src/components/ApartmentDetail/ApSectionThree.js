@@ -30,17 +30,14 @@ const ApSectionThree = ({ data }) => {
 
             <PriceRow>
               <div>
-                <PriceLabel>Cena včetně DPH</PriceLabel>
-                <PriceValue>6 099 600 Kč</PriceValue>
+                <PriceLabel>Cena</PriceLabel>
+                <PriceValue>{data.price} Kč</PriceValue>
               </div>
               <Button leftBorder={true}>Mám zájem</Button>
             </PriceRow>
           </Col1>
           <Col2>
-            <img
-              src="/images/malaMorava/A_9-min.jpg"
-              style={{ height: "100%" }}
-            />
+            <img src={data.layoutImage} style={{ height: "100%" }} />
           </Col2>
         </Row>
       </Wrapper>
@@ -55,6 +52,11 @@ const PriceValue = styled.p`
   line-height: 36px;
   letter-spacing: 0.01em;
   color: #b29a84;
+
+  @media (max-width: 800px) {
+    text-align: center;
+    margin-bottom: 30px;
+  }
 `;
 
 const PriceLabel = styled.p`
@@ -62,6 +64,10 @@ const PriceLabel = styled.p`
   font-size: 17px;
   line-height: 30px;
   letter-spacing: 0.01em;
+
+  @media (max-width: 800px) {
+    text-align: center;
+  }
 `;
 
 const PriceRow = styled.div`
@@ -69,6 +75,10 @@ const PriceRow = styled.div`
   justify-content: space-between;
   align-items: center;
   margin-top: 42px;
+
+  @media (max-width: 800px) {
+    flex-direction: column;
+  }
 `;
 
 const ApName = styled.p`
@@ -78,6 +88,10 @@ const ApName = styled.p`
   letter-spacing: 0.01em;
   color: #000000;
   margin-bottom: 60px;
+
+  @media (max-width: 800px) {
+    text-align: center;
+  }
 `;
 
 const TableText = styled.p`
@@ -103,6 +117,10 @@ const NameProject = styled.p`
   line-height: 30px;
   letter-spacing: 0.01em;
   color: #b29a84;
+
+  @media (max-width: 800px) {
+    text-align: center;
+  }
 `;
 
 const HeadlineRow = styled.div`
@@ -114,7 +132,8 @@ const HeadlineRow = styled.div`
   margin-bottom: 130px;
 
   @media (max-width: 800px) {
-    margin-bottom: 40px;
+    margin-bottom: 90px;
+    margin-top: -70px;
   }
 `;
 
@@ -134,15 +153,34 @@ const Wrapper = styled.div`
 const Row = styled.div`
   display: flex;
   justify-content: center;
+
+  @media (max-width: 800px) {
+    flex-direction: column-reverse;
+    padding: 0 20px;
+    margin-bottom: 80px;
+  }
 `;
 
 const Col1 = styled.div`
   width: 435px;
   margin-right: 150px;
+
+  @media (max-width: 800px) {
+    width: 100%;
+    margin-right: 0px;
+  }
 `;
 
 const Col2 = styled.div`
   height: 660px;
+
+  @media (max-width: 800px) {
+    width: 100%;
+    height: 87vw;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+  }
 `;
 
 const Line = styled.div`

@@ -50,16 +50,16 @@ const data = {
       imageUrl: "/images/malaMorava/SKLEP-WELLNESS-min.jpg",
     },
     {
-      imageUrl: "/images/malaMorava/D_2-min.jpg",
+      imageUrl: "/images/malaMorava/ap5/D_2-min.jpg",
     },
     {
-      imageUrl: "/images/malaMorava/D_3-min.jpg",
+      imageUrl: "/images/malaMorava/ap5/D_3-min.jpg",
     },
     {
-      imageUrl: "/images/malaMorava/D_4-min.jpg",
+      imageUrl: "/images/malaMorava/ap5/D_4-min.jpg",
     },
     {
-      imageUrl: "/images/malaMorava/D_5-min.jpg",
+      imageUrl: "/images/malaMorava/ap5/D_5-min.jpg",
     },
     {
       imageUrl: "/images/malaMorava/1NPpůdorys-min.png",
@@ -133,9 +133,9 @@ const data = {
       desc: "Chytrý zámek na kód",
     },
   ],
-  sectionImageOne: "/images/malaMorava/B_6-min.jpg",
-  sectionImageTwo: "/images/malaMorava/C_5-min.jpg",
-  sectionCover: "/images/malaMorava/A_3-min.jpg",
+  sectionImageOne: "/images/malaMorava/apDva/B_6-min.jpg",
+  sectionImageTwo: "/images/malaMorava/ap4/C_5-min.jpg",
+  sectionCover: "/images/malaMorava/ap1/A_3-min.jpg",
   ticksSection: [
     {
       highlighted: "Obchod i služby",
@@ -155,7 +155,7 @@ const data = {
   ],
   apartments: [
     {
-      price: "6 480 000 Kč",
+      price: "5 790 000 Kč",
       number: "39/1",
       floor: "1NP",
       layout: "2kk",
@@ -164,24 +164,25 @@ const data = {
       parking: "1",
       link: "",
       reserved: false,
+      link: "/apartmany-mala-morava/ap-1",
     },
     {
-      price: "6 600 000 Kč",
+      price: "5 290 000 Kč",
       number: "39/2",
       floor: "1NP",
-      layout: "1 + 1",
+      layout: "2kk",
       size: "51 m2",
       terasa: "19,25 m2",
       parking: "1",
       link: "",
       reserved: false,
+      link: "/apartmany-mala-morava/ap-2",
     },
-
     {
-      price: "5 390 000 Kč",
+      price: "4 490 000 Kč",
       number: "39/3",
       floor: "1NP",
-      layout: "1 + 1",
+      layout: "2kk",
       size: "49 m2",
       terasa: "-",
       parking: "1",
@@ -190,7 +191,7 @@ const data = {
     },
 
     {
-      price: "4 368 000Kč",
+      price: "3 990 000Kč",
       number: "39/4",
       floor: "2NP",
       layout: "1kk",
@@ -199,9 +200,10 @@ const data = {
       parking: "1",
       link: "",
       reserved: false,
+      link: "/apartmany-mala-morava/ap-4",
     },
     {
-      price: "5 471 400 Kč",
+      price: "4 490 000 Kč",
       number: "39/5",
       floor: "2NP",
       layout: "2kk",
@@ -210,9 +212,10 @@ const data = {
       parking: "1",
       link: "",
       reserved: false,
+      link: "/apartmany-mala-morava/ap-5",
     },
     {
-      price: "2 956 800 Kč",
+      price: "2 990 000 Kč",
       number: "39/6",
       floor: "2NP",
       layout: "1kk",
@@ -221,9 +224,10 @@ const data = {
       parking: "1",
       link: "",
       reserved: false,
+      link: "/apartmany-mala-morava/ap-6",
     },
     {
-      price: "5 381 200 Kč",
+      price: "4 390 000 Kč",
       number: "39/7",
       floor: "2NP",
       layout: "2kk",
@@ -232,6 +236,7 @@ const data = {
       parking: "1",
       link: "",
       reserved: false,
+      link: "/apartmany-mala-morava/ap-7",
     },
   ],
   otherProjects: [

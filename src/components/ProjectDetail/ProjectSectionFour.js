@@ -188,7 +188,7 @@ const ProjectSectionFour = ({ data }) => {
       <CoverWrap>
         <Cover src={data.sectionCover} />
         <CoverOverlay>
-          <CoverText>Apartmán 4, interiér</CoverText>
+          <CoverText>Apartmán 1, interiér</CoverText>
         </CoverOverlay>
       </CoverWrap>
     </>

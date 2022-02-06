@@ -5,6 +5,12 @@ const ApSectionOne = ({ data }) => {
   return (
     <Container bgImage={data.sectionOneBg}>
       <Overlay>
+        <GoBackWrap href={data.backLink}>
+          <img src="/images/LeftArrow.svg" />
+          <p>
+            Zpět na <span> {data.projectName}</span>
+          </p>
+        </GoBackWrap>
         <Headline>{data.apName}</Headline>
         <BottomStrip>
           <StripWrap>
@@ -24,12 +30,45 @@ const ApSectionOne = ({ data }) => {
   );
 };
 
+const GoBackWrap = styled.a`
+  width: 1180px;
+  padding-top: 120px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  img {
+    margin-right: 15px;
+    width: 8px;
+  }
+
+  p {
+    font-family: Georama;
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+  }
+
+  span {
+    color: #b7a492;
+    font-family: Georama;
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+  }
+`;
+
 const BottomCol = styled.div``;
 
 const StripWrap = styled.div`
   width: 1180px;
   display: flex;
   justify-content: space-between;
+
+  @media (max-width: 1180px) {
+    width: 100%;
+  }
 `;
 
 const Desc = styled.p`
@@ -68,6 +107,17 @@ const Headline = styled.h1`
   width: 1180px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   margin-bottom: 60px;
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+
+  @media (max-width: 1180px) {
+    width: 100%;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    font-size: 44px;
+    line-height: 46px;
+  }
 `;
 
 const Overlay = styled.div`
@@ -76,12 +126,12 @@ const Overlay = styled.div`
   height: 100%;
   background: linear-gradient(
     0deg,
-    rgba(15, 15, 22, 0) 70.83%,
+    rgba(15, 15, 22, 0) 68.83%,
     rgba(15, 15, 22, 0.9) 100%
   );
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
 `;
 
@@ -93,6 +143,10 @@ const BottomStrip = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 800px) {
+    display: none;
+  }
 `;
 
 const Container = styled.div`
@@ -103,6 +157,12 @@ const Container = styled.div`
   padding-bottom: 140px;
   background-position: 0 -79px;
   background-size: cover;
+
+  @media (max-width: 800px) {
+    height: 630px;
+    background-position: -296px 0;
+    overflow: hidden;
+  }
 `;
 
 export default ApSectionOne;

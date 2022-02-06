@@ -7,11 +7,11 @@ import ApSectionTwo from "../../components/ApartmentDetail/ApSectionTwo";
 import ApSectionThree from "../../components/ApartmentDetail/ApSectionThree";
 
 const data = {
-  sectionOneBg: "/images/malaMorava/ap1/A_3-min.jpg",
-  layoutImage: "/images/malaMorava/A_9-min.jpg",
-  apName: "Apartmán 39/1",
+  sectionOneBg: "/images/malaMorava/ap5/D_5-min.jpg",
+  layoutImage: "/images/malaMorava/ap7/layout.png",
+  apName: "Apartmán 39/7",
   projectName: "Malá Morava",
-  price: "5 790 000",
+  price: "4 390 000",
   backLink: "/apartmany-mala-morava",
   sectionOneDetails: [
     {
@@ -20,12 +20,12 @@ const data = {
       desc: "Dispozice",
     },
     {
-      text: "72 ",
+      text: "48.9 ",
       goldText: "m2",
       desc: "Podlahová Plocha",
     },
     {
-      text: "1 ",
+      text: "2 ",
       goldText: "NP",
       desc: "Umístění",
     },
@@ -42,13 +42,12 @@ const data = {
     },
   ],
   gallery: [
-    "/images/malaMorava/ap1/A_3-min.jpg",
-    "/images/malaMorava/ap1/A_2-min.jpg",
-    "/images/malaMorava/ap1/A_1-min.jpg",
-    // "/images/malaMorava/ap1/A_4-min.jpg",
-    "/images/malaMorava/ap1/A_8-min.jpg",
-    "/images/malaMorava/ap1/A_6-min.jpg",
-    "/images/malaMorava/ap1/A_7-min.jpg",
+    "/images/malaMorava/ap5/D_4-min.jpg",
+    "/images/malaMorava/ap5/D_2-min.jpg",
+    "/images/malaMorava/ap5/D_5-min.jpg",
+    "/images/malaMorava/ap5/D_3-min.jpg",
+    "/images/malaMorava/ap5/D_7-min.jpg",
+    "/images/malaMorava/ap5/D_6-min.jpg",
   ],
   moreDetails: [
     {
@@ -74,17 +73,17 @@ const data = {
   ],
   table: [
     { label: "Stav", value: "Dostupný k rezervaci" },
-    { label: "Číslo bytu", value: "39/1 " },
+    { label: "Číslo bytu", value: "39/7" },
     { label: "Dispozice", value: "2+kk" },
-    { label: "Podlaží", value: "1" },
-    { label: "Podlahová plocha", value: "72m2" },
+    { label: "Podlaží", value: "2" },
+    { label: "Podlahová plocha", value: "48.9 m2" },
     { label: "Orientace", value: "Východ" },
     { label: "Terasa", value: "-" },
     { label: "Dokončení", value: "2023" },
   ],
 };
 
-const MalaMoravaAp1Page = () => {
+const MalaMoravaAp7Page = () => {
   return (
     <Layout>
       <Header />
@@ -96,4 +95,4 @@ const MalaMoravaAp1Page = () => {
   );
 };
 
-export default MalaMoravaAp1Page;
+export default MalaMoravaAp7Page;
