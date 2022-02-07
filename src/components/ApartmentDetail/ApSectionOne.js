@@ -36,6 +36,7 @@ const GoBackWrap = styled.a`
   display: flex;
   align-items: center;
   cursor: pointer;
+  text-decoration: none;
 
   img {
     margin-right: 15px;

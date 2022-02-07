@@ -63,13 +63,14 @@ const LogoText = styled.p`
   }
 `;
 
-const GoldText = styled.span`
+const GoldText = styled.a`
   font-family: Georama;
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.01em;
   color: #b29a84;
   cursor: pointer;
+  text-decoration: none;
 `;
 
 const Title = styled.p`
@@ -85,13 +86,15 @@ const Title = styled.p`
   }
 `;
 
-const Link = styled.p`
+const Link = styled.a`
   font-family: Georama;
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.01em;
   color: #ffffff;
   margin-bottom: 12px;
+  text-decoration: none;
+  cursor: pointer;
 `;
 
 const Footer = () => {
@@ -108,16 +111,15 @@ const Footer = () => {
 
         <Col>
           <Title>Společnost</Title>
-          <Link>Úvod</Link>
-          <Link>O společnosti</Link>
-          <Link>Naše projekty</Link>
-          <Link>Kontakt</Link>
+          <Link href="/#o-nas">O společnosti</Link>
+          <Link href="/#projekty">Naše projekty</Link>
+          <Link href="mailto:info@mori-reality.cz">Kontakt</Link>
         </Col>
 
         <Col style={{ width: 140 }}>
           <Title>Kontakt</Title>
-          <Link>+420 737 211 314</Link>
-          <Link>info@mori-reality.cz</Link>
+          <Link href="tel:+420 737 211 314">+420 737 211 314</Link>
+          <Link href="mailto:info@mori-reality.cz">info@mori-reality.cz</Link>
         </Col>
 
         <Col style={{ width: 250, alignItems: "flex-end" }}>
@@ -129,7 +131,10 @@ const Footer = () => {
             <br />
             <br />
             Společnost zapsáná v OR Krajského soudu v Ostravě pod značkou
-            <GoldText> C85923/KSOS.</GoldText>
+            <GoldText href="https://or.justice.cz/ias/ui/rejstrik-firma.vysledky?subjektId=1092365">
+              {" "}
+              C85923/KSOS.
+            </GoldText>
           </LogoText>
         </Col>
       </Wrapper>

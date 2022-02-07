@@ -33,7 +33,12 @@ const ApSectionThree = ({ data }) => {
                 <PriceLabel>Cena</PriceLabel>
                 <PriceValue>{data.price} Kč</PriceValue>
               </div>
-              <Button leftBorder={true}>Mám zájem</Button>
+              <a
+                href="mailto:info@mori-reality.cz"
+                style={{ textDecoration: "none" }}
+              >
+                <Button leftBorder={true}>Mám zájem</Button>
+              </a>
             </PriceRow>
           </Col1>
           <Col2>

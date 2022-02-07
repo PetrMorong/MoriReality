@@ -135,6 +135,16 @@ const RightArrowCol = styled.div`
   align-items: center;
 `;
 
+const MobileClickable = styled.a`
+  height: 100%;
+  width: calc(100% - 100px);
+  position: absolute;
+  left: 50px;
+  top: 0;
+  display: flex;
+  align-items: center;
+`;
+
 const LeftArrowCol = styled.div`
   height: 100%;
   position: absolute;
@@ -222,7 +232,7 @@ const HomeSectionFour = () => {
       <Wrapper>
         <HeadlineRow>
           <Line></Line>
-          <Headline>Naše projekty</Headline>
+          <Headline id="projekty">Naše projekty</Headline>
           <Line></Line>
         </HeadlineRow>
 
@@ -237,12 +247,17 @@ const HomeSectionFour = () => {
                 <ProjectName>{slide.title}</ProjectName>
                 <ProjectDesc>{slide.desc}</ProjectDesc>
               </ProjectInfo>
+
               <Logo src="/images/logoSimple.svg" />
+
+              <MobileClickable href={slide.detailLink} />
+
               <LeftArrowCol>
                 <ArrowWrap onClick={handlePrevious}>
                   <img src="/images/LeftArrow.svg"></img>
                 </ArrowWrap>
               </LeftArrowCol>
+
               <RightArrowCol>
                 <ArrowWrap onClick={handleNext}>
                   <img
@@ -251,6 +266,7 @@ const HomeSectionFour = () => {
                   ></img>
                 </ArrowWrap>
               </RightArrowCol>
+
               <ButtonWrap>
                 <a style={{ textDecoration: "none" }} href={slide.detailLink}>
                   <Button>Zobrazit projekt</Button>

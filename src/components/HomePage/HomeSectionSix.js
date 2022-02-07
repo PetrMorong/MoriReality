@@ -2,6 +2,130 @@ import * as React from "react";
 import styled from "styled-components";
 import Button from "../Button";
 
+const data = [
+  // velké losiny
+  {
+    name: "Apartmán 354/7 - 128 m²",
+    location: "Osvobození, Velké Losiny",
+    price: "8 890 000 kč",
+    image: "/images/vlAp7.jpg",
+  },
+  {
+    name: "Apartmán 354/6 - 58 m²",
+    location: "Osvobození, Velké Losiny",
+    price: "5 990 000 kč",
+    image: "/images/vlAp6.png",
+  },
+  {
+    name: "Apartmán 354/2 - 38 m²",
+    location: "Osvobození, Velké Losiny",
+    price: "3 990 000 kč",
+    image: "/images/vlAp2.png",
+    link: "/vila-republika/ap-2",
+  },
+  {
+    name: "Apartmán 354/5 - 42 m²",
+    location: "Osvobození, Velké Losiny",
+    price: "4 990 000 kč",
+    image: "/images/vlAp5.png",
+    link: "/vila-republika/ap-5",
+  },
+  {
+    name: "Apartmán 354/1 -  52 m²",
+    location: "Osvobození, Velké Losiny",
+    price: "5 490 000 kč",
+    image: "/images/velká ložnice 3.jpg",
+    link: "/vila-republika/ap-1",
+  },
+  // Malá Morava
+  {
+    name: "Apartmán 39/1 - 72 m²",
+    location: "Vlaské, Malá Morava",
+    price: "5 790 000 kč",
+    image: "/images/malaMorava/ap1/A_3-min.jpg",
+    link: "/apartmany-mala-morava/ap-1",
+  },
+  {
+    name: "Apartmán 39/2 - 61 m²",
+    location: "Vlaské, Malá Morava",
+    price: "5 290 000 kč",
+    image: "/images/malaMorava/apDva/B_4-min.jpg",
+    link: "/apartmany-mala-morava/ap-2",
+  },
+  {
+    name: "Apartmán 39/4 - 36 m²",
+    location: "Vlaské, Malá Morava",
+    price: "3 990 000 kč",
+    image: "/images/malaMorava/ap4/C_1-min.jpg",
+    link: "/apartmany-mala-morava/ap-4",
+  },
+  {
+    name: "Apartmán 39/5 - 50 m²",
+    location: "Vlaské, Malá Morava",
+    price: "4 490 000 kč",
+    image: "/images/malaMorava/ap5/D_2-min.jpg",
+    link: "/apartmany-mala-morava/ap-5",
+  },
+  {
+    name: "Apartmán 39/6 - 25 m²",
+    location: "Vlaské, Malá Morava",
+    price: "2 990 000 kč",
+    image: "/images/malaMorava/ap4/C_4-min.jpg",
+    link: "/apartmany-mala-morava/ap-6",
+  },
+  {
+    name: "Apartmán 39/7 - 49 m²",
+    location: "Vlaské, Malá Morava",
+    price: "4 390 000 kč",
+    image: "/images/malaMorava/ap5/D_5-min.jpg",
+    link: "/apartmany-mala-morava/ap-7",
+  },
+  // Hrabenov
+  {
+    name: "Byt 56 m²",
+    location: "Hrabenov, Ruda Nad Moravou",
+    price: "1 790 000 kč",
+    image: "/images/Hrabenov3.jpeg",
+  },
+  {
+    name: "Byt 70 m²",
+    location: "Hrabenov, Ruda Nad Moravou",
+    price: "1 990 000 kč",
+    image: "/images/Hrabenov2.jpeg",
+  },
+  {
+    name: "Byt 96 m²",
+    location: "Hrabenov, Ruda Nad Moravou",
+    price: "2 390 000 kč",
+    image: "/images/Hrabenov1.png",
+  },
+];
+
+const HomeSectionSix = () => {
+  return (
+    <Container>
+      <Wrapper>
+        <HeadlineRow>
+          <Line></Line>
+          <Headline>Nemovisti na prodej</Headline>
+          <Line></Line>
+        </HeadlineRow>
+
+        <Row>
+          {data.map((item) => (
+            <Col href={item.link}>
+              <Image src={item.image} />
+              <Name>{item.name}</Name>
+              <Location>{item.location}</Location>
+              <Price>{item.price}</Price>
+            </Col>
+          ))}
+        </Row>
+      </Wrapper>
+    </Container>
+  );
+};
+
 const Container = styled.div`
   width: 100%;
   display: flex;
@@ -56,10 +180,11 @@ const Headline = styled.h4`
   }
 `;
 
-const Col = styled.div`
+const Col = styled.a`
   margin-bottom: 16px;
   cursor: pointer;
   transition: 200ms;
+  text-decoration: none;
 
   &:hover {
     opacity: 0.8;
@@ -112,108 +237,5 @@ const Price = styled.p`
   letter-spacing: 0.01em;
   color: rgb(0, 0, 0);
 `;
-
-const data = [
-  {
-    name: "Apartmán 128 m²",
-    location: "Osvobození, Velké Losiny",
-    price: "8 890 000 kč",
-    image: "/images/vlAp7.jpg",
-  },
-
-  {
-    name: "Apartmán 58 m²",
-    location: "Osvobození, Velké Losiny",
-    price: "5 990 000 kč",
-    image: "/images/vlAp6.png",
-  },
-  {
-    name: "Apartmán 38 m²",
-    location: "Osvobození, Velké Losiny",
-    price: "3 990 000 kč",
-    image: "/images/vlAp2.png",
-  },
-  {
-    name: "Apartmán 42 m²",
-    location: "Osvobození, Velké Losiny",
-    price: "4 990 000 kč",
-    image: "/images/vlAp5.png",
-  },
-  {
-    name: "Apartmán 52 m²",
-    location: "Osvobození, Velké Losiny",
-    price: "5 490 000 kč",
-    image: "/images/velká ložnice 3.jpg",
-  },
-
-  {
-    name: "Apartmán 72 m²",
-    location: "Vlaské, Malá Morava",
-    price: "3 990 000 kč",
-    image: "/images/malaMorava/ap1/A_3-min.jpg",
-  },
-  {
-    name: "Apartmán 86 m²",
-    location: "Vlaské, Malá Morava",
-    price: "5 990 000 kč",
-    image: "/images/malaMorava/ap5/D_2-min.jpg",
-  },
-  {
-    name: "Apartmán 100 m²",
-    location: "Vlaské, Malá Morava",
-    price: "4 990 000 kč",
-    image: "/images/malalMorava/apDva/B_4-min.jpg",
-  },
-  {
-    name: "Apartmán 73 m²",
-    location: "Vlaské, Malá Morava",
-    price: "3 990 000 kč",
-    image: "/images/malaMorava/ap4/C_1-min.jpg",
-  },
-
-  {
-    name: "Byt 56 m²",
-    location: "Hrabenov, Ruda Nad Moravou",
-    price: "1 790 000 kč",
-    image: "/images/Hrabenov3.jpeg",
-  },
-  {
-    name: "Byt 70 m²",
-    location: "Hrabenov, Ruda Nad Moravou",
-    price: "1 990 000 kč",
-    image: "/images/Hrabenov2.jpeg",
-  },
-  {
-    name: "Byt 96 m²",
-    location: "Hrabenov, Ruda Nad Moravou",
-    price: "2 390 000 kč",
-    image: "/images/Hrabenov1.png",
-  },
-];
-
-const HomeSectionSix = () => {
-  return (
-    <Container>
-      <Wrapper>
-        <HeadlineRow>
-          <Line></Line>
-          <Headline>Nemovisti na prodej</Headline>
-          <Line></Line>
-        </HeadlineRow>
-
-        <Row>
-          {data.map((item) => (
-            <Col>
-              <Image src={item.image} />
-              <Name>{item.name}</Name>
-              <Location>{item.location}</Location>
-              <Price>{item.price}</Price>
-            </Col>
-          ))}
-        </Row>
-      </Wrapper>
-    </Container>
-  );
-};
 
 export default HomeSectionSix;

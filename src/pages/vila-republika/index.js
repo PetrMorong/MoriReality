@@ -134,25 +134,25 @@ const data = {
   ],
   apartments: [
     {
-      price: "5 000 000 Kč",
+      price: "5 490 000 Kč",
       number: "354/1",
       floor: "1NP",
       layout: "2 + 1",
       size: "48,2 m2",
       terasa: "7,8 m2",
       parking: "1",
-      link: "",
+      link: "/vila-republika/ap-1",
       reserved: false,
     },
     {
-      price: "5 000 000 Kč",
+      price: "3 990 000 Kč",
       number: "354/2",
       floor: "1NP",
       layout: "1 + 1",
       size: "36,9 m2",
       terasa: "-",
       parking: "1",
-      link: "",
+      link: "/vila-republika/ap-2",
       reserved: false,
     },
     {
@@ -185,7 +185,7 @@ const data = {
       size: "40,6 m2",
       terasa: "3,6 m2",
       parking: "1",
-      link: "",
+      link: "/vila-republika/ap-5",
       reserved: false,
     },
     {

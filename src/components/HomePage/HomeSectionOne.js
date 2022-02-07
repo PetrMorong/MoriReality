@@ -102,7 +102,7 @@ const HomeSectionOne = () => {
           <Dot />
           <SubTextTop>Mori Reality</SubTextTop>
         </DotsWrap>
-        <HeaderText>
+        <HeaderText id="o-nas">
           Prémiové
           <br />
           nemovitosti na klíč
@@ -113,9 +113,11 @@ const HomeSectionOne = () => {
           Jeseníkách a rezidenčních nemovitostí na Šumpersku.
         </DescText>
         <ButtonWrap>
-          <Button height={50} leftBorder={true}>
-            Zobrazit Projekty
-          </Button>
+          <a style={{ textDecoration: "none" }} href="/#projekty">
+            <Button height={50} leftBorder={true}>
+              Zobrazit Projekty
+            </Button>
+          </a>
         </ButtonWrap>
       </Wrapper>
     </Container>

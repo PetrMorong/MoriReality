@@ -49,7 +49,7 @@ const Desktop = styled.div`
   }
 `;
 
-const Link = styled.span`
+const Link = styled.a`
   font-family: Georama;
   font-size: 16px;
   line-height: 19px;
@@ -58,6 +58,7 @@ const Link = styled.span`
   margin-right: 42px;
   cursor: pointer;
   transition: 200ms;
+  text-decoration: none;
 
   &:hover {
     opacity: 0.8;
@@ -69,18 +70,26 @@ const Header = () => {
     return (
       <>
         <a href="/" style={{ textDecoration: "none" }}>
-          <Link>O nás</Link>
+          <Link href="/#o-nas">O nás</Link>
         </a>
-        <a href="/" style={{ textDecoration: "none" }}>
+        <a href="/#projekty" style={{ textDecoration: "none" }}>
           <Link>Projekty</Link>
         </a>
 
-        <a href="/" style={{ textDecoration: "none" }}>
+        <a
+          href="mailto:info@mori-reality.cz"
+          style={{ textDecoration: "none" }}
+        >
           <Link>Kontakt</Link>
         </a>
         <div style={{ flex: 1 }} />
-        <Link>+420 737 211 314</Link>
-        <Button>Kontaktovat</Button>
+        <Link href="tel:+420 737 211 314">+420 737 211 314</Link>
+        <a
+          href="mailto:info@mori-reality.cz"
+          style={{ textDecoration: "none" }}
+        >
+          <Button>Kontaktovat</Button>
+        </a>
       </>
     );
   };
