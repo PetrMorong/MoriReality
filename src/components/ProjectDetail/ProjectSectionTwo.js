@@ -28,9 +28,14 @@ const CarouoselContainer = styled.div`
 `;
 
 const CarouoselItem = styled.div`
-  width: 1180px;
+  width: 1155px;
   height: 650px;
-  background-size: cover;
+  background-size: contain;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #e5e5e5;
+  position: relative;
 
   @media (max-width: 1180px) {
     width: 100%;
@@ -46,11 +51,6 @@ const CarouoselItemOverlay = styled.div`
   width: 100%;
   height: 100%;
   position: relative;
-  background: linear-gradient(
-    180deg,
-    rgba(15, 15, 22, 0) 70.83%,
-    rgba(15, 15, 22, 0.9) 100%
-  );
 `;
 
 const Logo = styled.img`

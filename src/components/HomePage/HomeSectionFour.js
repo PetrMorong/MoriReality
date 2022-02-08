@@ -199,7 +199,7 @@ const data = [
     detailLink: "TODO",
   },
   {
-    imageUrl: "/images/projektHrabenov.png",
+    imageUrl: "/images/hrabenov/DOM_2_1-min.jpg",
     title: "Rezidence Hrabenov",
     desc: "3 byty 10min od Šumperka",
     detailLink: "TODO",

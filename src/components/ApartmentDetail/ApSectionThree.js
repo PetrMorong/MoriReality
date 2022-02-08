@@ -42,7 +42,10 @@ const ApSectionThree = ({ data }) => {
             </PriceRow>
           </Col1>
           <Col2>
-            <img src={data.layoutImage} style={{ height: "100%" }} />
+            <img
+              src={data.layoutImage}
+              style={{ height: "100%", objectFit: "contain", maxWidth: 600 }}
+            />
           </Col2>
         </Row>
       </Wrapper>

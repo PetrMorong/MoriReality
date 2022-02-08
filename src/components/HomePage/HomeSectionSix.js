@@ -3,19 +3,39 @@ import styled from "styled-components";
 import Button from "../Button";
 
 const data = [
+  // Hrabenov
+  {
+    name: "Byt 245/1 - 75 m²",
+    location: "Hrabenov, Ruda Nad Moravou",
+    price: "3 450 000 kč",
+    image: "/images/hrabenov/B_3-min.jpg",
+  },
+  {
+    name: "Byt 245/2 - 75 m²",
+    location: "Hrabenov, Ruda Nad Moravou",
+    price: "3 450 000 kč",
+    image: "/images/hrabenov/B_1_BIELA-min.jpg",
+  },
+  {
+    name: "Byt 245/3 - 96 m²",
+    location: "Hrabenov, Ruda Nad Moravou",
+    price: "3 990 000 kč",
+    image: "/images/hrabenov/B_6-min.jpg",
+  },
+
   // velké losiny
-  {
-    name: "Apartmán 354/7 - 128 m²",
-    location: "Osvobození, Velké Losiny",
-    price: "8 890 000 kč",
-    image: "/images/vlAp7.jpg",
-  },
-  {
-    name: "Apartmán 354/6 - 58 m²",
-    location: "Osvobození, Velké Losiny",
-    price: "5 990 000 kč",
-    image: "/images/vlAp6.png",
-  },
+  // {
+  //   name: "Apartmán 354/7 - 128 m²",
+  //   location: "Osvobození, Velké Losiny",
+  //   price: "8 890 000 kč",
+  //   image: "/images/vlAp7.jpg",
+  // },
+  // {
+  //   name: "Apartmán 354/6 - 58 m²",
+  //   location: "Osvobození, Velké Losiny",
+  //   price: "5 990 000 kč",
+  //   image: "/images/vlAp6.png",
+  // },
   {
     name: "Apartmán 354/2 - 38 m²",
     location: "Osvobození, Velké Losiny",
@@ -79,25 +99,6 @@ const data = [
     price: "4 390 000 kč",
     image: "/images/malaMorava/ap5/D_5-min.jpg",
     link: "/apartmany-mala-morava/ap-7",
-  },
-  // Hrabenov
-  {
-    name: "Byt 56 m²",
-    location: "Hrabenov, Ruda Nad Moravou",
-    price: "1 790 000 kč",
-    image: "/images/Hrabenov3.jpeg",
-  },
-  {
-    name: "Byt 70 m²",
-    location: "Hrabenov, Ruda Nad Moravou",
-    price: "1 990 000 kč",
-    image: "/images/Hrabenov2.jpeg",
-  },
-  {
-    name: "Byt 96 m²",
-    location: "Hrabenov, Ruda Nad Moravou",
-    price: "2 390 000 kč",
-    image: "/images/Hrabenov1.png",
   },
 ];
 
