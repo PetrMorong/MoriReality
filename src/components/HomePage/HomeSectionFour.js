@@ -189,20 +189,20 @@ const data = [
   {
     imageUrl: "/images/projektMalaMorava.jpg",
     title: "Chalupa Malá Morava",
-    desc: "4 horské apartmány",
+    desc: "7 horských apartmány",
     detailLink: "/apartmany-mala-morava",
   },
   {
     imageUrl: "/images/projektVlDva.png",
     title: "Aparthotel Velké Losiny",
-    desc: "6 apartmánů, Wellness, Bistro",
+    desc: "9 apartmánů, Wellness",
     detailLink: "TODO",
   },
   {
     imageUrl: "/images/hrabenov/DOM_2_1-min.jpg",
     title: "Rezidence Hrabenov",
-    desc: "3 byty 10min od Šumperka",
-    detailLink: "TODO",
+    desc: "3 apartmány",
+    detailLink: "/rezidence-hrabenov",
   },
 ];
 
