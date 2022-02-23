@@ -36,27 +36,27 @@ const data = [
   //   price: "5 990 000 kč",
   //   image: "/images/vlAp6.png",
   // },
-  {
-    name: "Apartmán 354/2 - 38 m²",
-    location: "Osvobození, Velké Losiny",
-    price: "3 990 000 kč",
-    image: "/images/vlAp2.png",
-    link: "/vila-republika/ap-2",
-  },
-  {
-    name: "Apartmán 354/5 - 42 m²",
-    location: "Osvobození, Velké Losiny",
-    price: "4 990 000 kč",
-    image: "/images/vlAp5.png",
-    link: "/vila-republika/ap-5",
-  },
-  {
-    name: "Apartmán 354/1 -  52 m²",
-    location: "Osvobození, Velké Losiny",
-    price: "5 490 000 kč",
-    image: "/images/velká ložnice 3.jpg",
-    link: "/vila-republika/ap-1",
-  },
+  // {
+  //   name: "Apartmán 354/2 - 38 m²",
+  //   location: "Osvobození, Velké Losiny",
+  //   price: "3 990 000 kč",
+  //   image: "/images/vlAp2.png",
+  //   link: "/vila-republika/ap-2",
+  // },
+  // {
+  //   name: "Apartmán 354/5 - 42 m²",
+  //   location: "Osvobození, Velké Losiny",
+  //   price: "4 990 000 kč",
+  //   image: "/images/vlAp5.png",
+  //   link: "/vila-republika/ap-5",
+  // },
+  // {
+  //   name: "Apartmán 354/1 -  52 m²",
+  //   location: "Osvobození, Velké Losiny",
+  //   price: "5 490 000 kč",
+  //   image: "/images/velká ložnice 3.jpg",
+  //   link: "/vila-republika/ap-1",
+  // },
   // Malá Morava
   {
     name: "Apartmán 39/1 - 72 m²",
