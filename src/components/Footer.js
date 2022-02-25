@@ -104,8 +104,8 @@ const Footer = () => {
         <Col style={{ width: 250 }}>
           <Logo src="/images/logo.svg" />
           <LogoText>
-            S důrazem na poctivé řemeslo, kvalitu, a trvalost pro vás stavíme
-            bydlení, které budete moci rádi a hrdě nazývat svým domovem.
+            S důrazem na poctivé řemeslo, kvalitu a trvalé hodnoty stavíme
+            bydlení, které budete rádi a s hrdostí nazývat domovem.
           </LogoText>
         </Col>
 

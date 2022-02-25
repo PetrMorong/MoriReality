@@ -100,15 +100,18 @@ const HomeSectionTwo = () => {
         </MainText>
 
         <SubText>
-          Našim cílem je poskytovat kvalitní a spolehlivé stavební služby. Při
-          realizaci vašich představ, myšlenek, a snů klademe důraz na
-          vstřícnost, důslednost, a jednání vedoucí k jistote, že dostanete
-          <span> domov, se kterým budete doopravdy spokojeni.</span>
-          <br /> <br />S důkladnými zkušenostami ve výstavbě domů spolupracujeme
-          se špičkovými{" "}
-          <span>se špičkovými architekty a interirovými designéry.</span> aby
-          jsme vám poskytli nadstandardní bydlení, do kterého se budete každý
-          den s radostí vracet.
+          Navrhujeme, stavíme a rekonstruujeme tak, aby každý z našich projektů
+          vyjadřoval silný emociální náboj. Naší vizí je vytvářet trvalé hodnoty
+          nepodléhající módním trendům, které přetrvají generace. Jen tak vám
+          můžeme poskytnout{" "}
+          <span>domov, se kterým budete opravdu spokojeni.</span>
+          <br />
+          <br />
+          Spolupracujeme{" "}
+          <span>se špičkovými architekty a interiérovými designéry</span>.
+          Bohaté zkušenosti z výstavby domů úročíme ve váš prospěch. Ať už
+          vytváříme bydlení vhodné pro mladé kupce či pro nejnáročnější
+          klientelu, máme na mysli jediné. Aby se vám zde dobře žilo.
         </SubText>
       </Wrapper>
     </Container>

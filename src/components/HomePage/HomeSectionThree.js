@@ -114,14 +114,14 @@ const HomeSectionThree = () => {
         >
           <BoxOverlay>
             <Arrow src="/images/ArrowUp.svg" />
-            <Text>Trvalost a kvalita</Text>
+            <Text>Trvalost a udržitelnost</Text>
           </BoxOverlay>
           <SlideUp>
-            <Text>Trvalost a kvalita</Text>
+            <Text>Trvalost a udržitelnost</Text>
             <Desc>
-              Dávame si záleže na tom, aby jsme svou práci odvedli důkladně,
-              spolehlivě, a poctivě. Jednáme férově — aby jse vy mohli bydlet s
-              pohodlím a jistotou.
+              Uvažujeme v dlouhodobém horizontu. Zaměřujeme se na detaily a
+              čistotu práce. Používáme pouze nejkvalitnější materiály, které
+              mají dlouhou životnost.
             </Desc>
             <Button height={50} leftBorder={true} width={160}>
               Kontaktovat
@@ -141,9 +141,9 @@ const HomeSectionThree = () => {
           <SlideUp>
             <Text>Nejvyšší standard</Text>
             <Desc>
-              Dávame si záleže na tom, aby jsme svou práci odvedli důkladně,
-              spolehlivě, a poctivě. Jednáme férově — aby jse vy mohli bydlet s
-              pohodlím a jistotou.
+              Vytříbený design, nadstandardní vybavení a
+              nejmodernější technologie. Nadčasově pojaté interiéry plní
+              požadavky na komfortní, pohodlné, a přitom funkční bydlení.
             </Desc>
             <Button height={50} leftBorder={true} width={160}>
               Kontaktovat
@@ -165,9 +165,9 @@ const HomeSectionThree = () => {
           <SlideUp>
             <Text>Poctivé řemeslo</Text>
             <Desc>
-              Dávame si záleže na tom, aby jsme svou práci odvedli důkladně,
-              spolehlivě, a poctivě. Jednáme férově — aby jse vy mohli bydlet s
-              pohodlím a jistotou.
+              Dáváme si záležet, abychom odváděli svou práci důkladně,
+              spolehlivě a poctivě. To vše dělá z našich nemovitostí domovy, kam
+              se budete každý den rádi vracet.
             </Desc>
             <Button height={50} leftBorder={true} width={160}>
               Kontaktovat

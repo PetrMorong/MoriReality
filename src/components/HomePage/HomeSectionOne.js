@@ -103,14 +103,15 @@ const HomeSectionOne = () => {
           <SubTextTop>Mori Reality</SubTextTop>
         </DotsWrap>
         <HeaderText id="o-nas">
-          Prémiové
+          Stavíme
           <br />
-          nemovitosti na klíč
+          nadčasové nemovitosti
         </HeaderText>
         <DescText>
-          Jsme rodinná firma, která s důrazem na poctivé řemeslo, kvalitu a
-          nadčasový design se soutředí na výstavbu horských apartmánů v
-          Jeseníkách a rezidenčních nemovitostí na Šumpersku.
+          Jsme rodinná společnost. Specializujeme se na výstavbu horských
+          apartmánů a rezidenčních nemovitostí v Jeseníkách a na Šumpersku.
+          Respektujeme přitom okolní prostředí i místní architekturu. Klademe
+          důraz na poctivé řemeslo, nadčasový design a kvalitu.
         </DescText>
         <ButtonWrap>
           <a style={{ textDecoration: "none" }} href="/#projekty">

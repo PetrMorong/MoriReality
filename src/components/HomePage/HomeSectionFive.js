@@ -91,9 +91,9 @@ const HomeSectionFive = () => {
             vaše představy
           </MainText>
           <SubText>
-            Nemovisti které stavíme jsou navrženy v moderním a nadčasovém
-            designu, pokud ale budete mít požadavky na změny jsme připraveni
-            vyhovět vaším představám do nejvyšší možné míry.
+            Nemovitosti stavíme v moderním designu. Rádi ale vyhovíme i vašim
+            konkrétním představám v nejvyšší možné míře. Vaše nové bydlení bude
+            mít vaši osobnost a unikátní vyznění.
           </SubText>
         </Col>
         <Col>
@@ -104,9 +104,9 @@ const HomeSectionFive = () => {
             <span>Správa Apartmánů</span>
           </MainText>
           <SubText>
-            Pokud od nás koupíte apartmán, tak vám nabízíme kompletní správu při
-            jeho krátkodobém pronájmu, aby jste dosáhli co nejvyššího výnosu a
-            pasivní investice bez starostí.
+            Kupujete si od nás horský apartmán zároveň jako investici? Nabízíme
+            vám kompletní správu krátkodobých pronájmů, abyste dosáhli co
+            nejvyššího výnosu a pasivního příjmu bez starostí.
           </SubText>
         </Col>
         <Col>
@@ -116,9 +116,9 @@ const HomeSectionFive = () => {
             <span>kvalita</span>
           </MainText>
           <SubText>
-            V každém projektu si jeden až dva apartmány necháváme, přistupujeme
-            tedy k realizaci s láskou, jelikož chceme aby i nám nemovitost
-            přinášela radost po desítky let.
+            V každém projektu si jeden až dva apartmány ponecháváme. Ke každé
+            realizaci máme osobní vztah, vše musí být perfektní. Chceme, aby
+            nemovitost přinášela radost po desítky let vám i nám.
           </SubText>
         </Col>
       </Wrapper>
