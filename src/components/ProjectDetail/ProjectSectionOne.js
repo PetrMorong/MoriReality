@@ -1,11 +1,15 @@
 import * as React from "react";
 import styled from "styled-components";
 import Button from "../Button";
+import { buildImageUrl } from "cloudinary-build-url";
 
 const Container = styled.div`
   width: 100%;
   height: 670px;
-  background: ${(p) => `url("/images/${p.cover}.png")`};
+  background: ${`url(${buildImageUrl(
+    "v1645823021/vilaRepublikaCover_hykftv.png",
+    {}
+  )})`};
   background-size: cover;
   display: flex;
   justify-content: center;

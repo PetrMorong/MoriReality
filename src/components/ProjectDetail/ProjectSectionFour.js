@@ -1,6 +1,7 @@
 import * as React from "react";
 import styled from "styled-components";
 import Button from "../Button";
+import { buildImageUrl } from "cloudinary-build-url";
 
 const Container = styled.div`
   width: 100%;
@@ -150,6 +151,10 @@ const CoverText = styled.p`
 `;
 
 const ProjectSectionFour = ({ data }) => {
+  const imageUrlOne = buildImageUrl(data.sectionImageOne, {});
+  const imageUrlTwo = buildImageUrl(data.sectionImageTwo, {});
+  const imageUrlThree = buildImageUrl(data.sectionCover, {});
+
   return (
     <>
       <Container>
@@ -166,7 +171,7 @@ const ProjectSectionFour = ({ data }) => {
                 vstřícnost, důslednost, a jednání vedoucí k jistote.
               </Desc>
             </Col>
-            <Image src={data.sectionImageOne} />
+            <Image src={imageUrlOne} />
           </Row>
           <div style={{ height: 100 }} />
           <RowReverse>
@@ -181,12 +186,12 @@ const ProjectSectionFour = ({ data }) => {
                 vstřícnost, důslednost, a jednání vedoucí k jistote.
               </Desc>
             </Col>
-            <Image src={data.sectionImageTwo} />
+            <Image src={imageUrlTwo} />
           </RowReverse>
         </Wrapper>
       </Container>
       <CoverWrap>
-        <Cover src={data.sectionCover} />
+        <Cover src={imageUrlThree} />
         <CoverOverlay>
           <CoverText>Apartmán 1, interiér</CoverText>
         </CoverOverlay>

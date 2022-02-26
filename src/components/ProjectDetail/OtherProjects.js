@@ -1,6 +1,7 @@
 import * as React from "react";
 import styled from "styled-components";
 import Button from "../Button";
+import { buildImageUrl } from "cloudinary-build-url";
 
 const Container = styled.div`
   width: 100%;
@@ -126,7 +127,16 @@ const OtherProjects = ({ data }) => {
         <Row>
           {data.otherProjects.map((item) => (
             <Col href={item.link}>
-              <Image src={item.image}></Image>
+              <Image
+                src={buildImageUrl(item.image, {
+                  transformations: {
+                    resize: {
+                      width: 800,
+                      height: 500,
+                    },
+                  },
+                })}
+              ></Image>
               <Title>{item.name}</Title>
               <Location>{item.location}</Location>
             </Col>

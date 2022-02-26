@@ -1,6 +1,7 @@
 import * as React from "react";
 import styled from "styled-components";
 import Button from "../Button";
+import { buildImageUrl } from "cloudinary-build-url";
 
 const Container = styled.div`
   width: 100%;
@@ -121,13 +122,15 @@ const ProjectSectionTwo = ({ data }) => {
     }
   };
 
+  const imageUrl = buildImageUrl(slide.imageUrl, {});
+
   return (
     <Container>
       <Wrapper>
         <CarouoselContainer>
           <CarouoselItem
             style={{
-              backgroundImage: `url(${slide.imageUrl})`,
+              backgroundImage: `url("${imageUrl}")`,
             }}
           >
             <CarouoselItemOverlay>

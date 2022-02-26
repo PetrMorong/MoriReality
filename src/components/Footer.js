@@ -1,10 +1,11 @@
 import * as React from "react";
 import styled from "styled-components";
+import { buildImageUrl } from "cloudinary-build-url";
 
 const Container = styled.div`
   width: 100%;
   height: 474px;
-  background: url("/images/footerBg.png");
+  background: ${`url(${buildImageUrl("v1645822938/footerBg_kh5r7e.png", {})})`};
   background-size: cover;
   margin-top: 130px;
   display: flex;

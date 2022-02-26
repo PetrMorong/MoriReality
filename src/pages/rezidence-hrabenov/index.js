@@ -16,7 +16,8 @@ const data = {
   title: "Rezidence Hrabenov",
   locationOne: "Hrabenov 245",
   locationTwo: "Ruda nad Moravou, Olomoucký kraj",
-  cover: "vilaRepublikaCover",
+  cover:
+    "https://res.cloudinary.com/morireality/image/upload/v1645823021/vilaRepublikaCover_hykftv.png ",
   desc: (
     <>
       Zde je místo pri krátky slovní popis prezentovaného projektu. Jsme rodinná
@@ -32,40 +33,31 @@ const data = {
   ),
   sliderImages: [
     {
-      imageUrl: "/images/hrabenov/DOM_2_1-min.jpg",
+      imageUrl: "v1645823344/hrabenov/1_frp1mw.jpg",
     },
     {
-      imageUrl: "/images/hrabenov/DOM_2_2-min.jpg",
+      imageUrl: "v1645823341/hrabenov/2_g1tut1.jpg",
     },
     {
-      imageUrl: "/images/hrabenov/B_1-min.jpg",
+      imageUrl: "v1645823341/hrabenov/4_isndkx.jpg",
     },
     {
-      imageUrl: "/images/hrabenov/B_2-min.jpg",
+      imageUrl: "v1645823305/hrabenov/A_1.1_ah7zah.jpg",
     },
     {
-      imageUrl: "/images/hrabenov/B_3-min.jpg",
+      imageUrl: "v1645865784/hrabenov/A_2.1.1_qm3upq.jpg",
     },
     {
-      imageUrl: "/images/hrabenov/B_4-min.jpg",
+      imageUrl: "v1645865838/hrabenov/A_3.1_e7dbga.jpg",
     },
     {
-      imageUrl: "/images/hrabenov/B_5-min.jpg",
+      imageUrl: "v1645822960/hrabenov/B_6-min_uqvhkn.jpg",
     },
     {
-      imageUrl: "/images/hrabenov/B_7-min.jpg",
+      imageUrl: "v1645822947/hrabenov/B_8B-min_zoy8mu",
     },
     {
-      imageUrl: "/images/hrabenov/B_8-min.jpg",
-    },
-    {
-      imageUrl: "/images/hrabenov/B_9-min.jpg",
-    },
-    {
-      imageUrl: "/images/hrabenov/B_10-min.jpg",
-    },
-    {
-      imageUrl: "/images/hrabenov/situace.png",
+      imageUrl: "v1645822946/hrabenov/B_9B-min_yjq6vr.jpg",
     },
   ],
   stats: [
@@ -124,9 +116,9 @@ const data = {
       desc: "Chytrý zámek na kód",
     },
   ],
-  sectionImageOne: "/images/hrabenov/B_2-min.jpg",
-  sectionImageTwo: "/images/hrabenov/B_7-min.jpg",
-  sectionCover: "/images/hrabenov/B_1-min.jpg",
+  sectionImageOne: "v1645865784/hrabenov/A_2.1.1_qm3upq.jpg",
+  sectionImageTwo: "v1645822960/hrabenov/B_7-min_d5ngyj.jpg",
+  sectionCover: "v1645865838/hrabenov/A_3.1_e7dbga.jpg",
   ticksSection: [
     {
       highlighted: "Obchod i služby",
@@ -181,19 +173,19 @@ const data = {
   ],
   otherProjects: [
     {
-      image: "/images/projektMalaMorava.jpg",
+      image: "v1645823018/projektMalaMorava_nzkcnk.jpg",
       name: "Horské Apartmány",
       location: "Vlaské, Malá Morava",
       link: "/apartmany-mala-morava",
     },
     {
-      image: "/images/vilaRepublika/mp01-min.jpg",
+      image: "v1645822941/vilaRepublika/mp01-min_pilgkw.jpg",
       name: "Vila republika",
       location: "Velké Losiny",
       link: "/vila-republika",
     },
     {
-      image: "/images/projektVlDva.png",
+      image: "v1645823025/projektVlDva_p4fsrb.png",
       name: "Wellness ApartHotel",
       location: "Velké Losiny",
     },
