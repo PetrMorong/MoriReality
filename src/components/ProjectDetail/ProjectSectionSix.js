@@ -1,12 +1,133 @@
 import * as React from "react";
 import styled from "styled-components";
 
+const ProjectSectionSix = ({ data }) => {
+  return (
+    <>
+      <Container>
+        <Wrapper>
+          <Headline>Časová osa projektu</Headline>
+          <OsaWrap>
+            <OsaLine />
+            <OsaLineFill style={{ width: data.timelineFill }} />
+
+            <Block style={{ top: "78px", left: "-2px" }}>
+              <Dot />
+              <DotTitle>{data.timeline[0].title}</DotTitle>
+              <DotDate>{data.timeline[0].date}</DotDate>
+            </Block>
+
+            <Block style={{ top: "78px", left: "25%" }}>
+              <Dot />
+              <DotTitle>{data.timeline[1].title}</DotTitle>
+              <DotDate>{data.timeline[1].date}</DotDate>
+            </Block>
+
+            <Block style={{ top: "78px", left: "50%" }}>
+              <Dot />
+              <DotTitle>{data.timeline[2].title}</DotTitle>
+              <DotDate>{data.timeline[2].date}</DotDate>
+            </Block>
+
+            <Block
+              style={{
+                display: "flex",
+                alignItems: "flex-end",
+                flexDirection: "column",
+              }}
+            >
+              <Dot />
+              <DotTitle style={{ textAlign: "end" }}>
+                {data.timeline[3].title}
+              </DotTitle>
+              <DotDate>{data.timeline[3].date}</DotDate>
+            </Block>
+          </OsaWrap>
+        </Wrapper>
+      </Container>
+      <Container style={{ background: "white" }}>
+        <WrapperArchitect>
+          <Text>{data.architectWord}</Text>
+          <Name>- {data.architectName}, Architekt</Name>
+        </WrapperArchitect>
+      </Container>
+    </>
+  );
+};
+
+const Block = styled.div`
+  /* position: absolute; */
+  z-index: 99;
+`;
+
+const DotDate = styled.div`
+  font-family: Georama;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.01em;
+  color: #2c2b34;
+
+  @media (max-width: 800px) {
+    font-size: 12px;
+    line-height: 20px;
+  }
+`;
+
+const DotTitle = styled.div`
+  font-family: Georama;
+  font-size: 21px;
+  line-height: 30px;
+  letter-spacing: 0.01em;
+  color: #b39b84;
+
+  @media (max-width: 800px) {
+    font-size: 16px;
+    line-height: 23px;
+  }
+`;
+
+const Dot = styled.div`
+  background: #ffffff;
+  border: 4px solid #b39b84;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  margin-bottom: 14px;
+`;
+
+const OsaWrap = styled.div`
+  height: 400px;
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-top: 79px;
+`;
+
+const OsaLineFill = styled.div`
+  height: 4px;
+  background: #b39b84;
+  position: absolute;
+  top: 85px;
+  left: 0;
+`;
+
+const OsaLine = styled.div`
+  width: 100%;
+  height: 4px;
+  background: #e1e1e8;
+  position: absolute;
+  top: 85px;
+  left: 0;
+`;
+
 const Container = styled.div`
   width: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
   background: #fafafa;
+  padding: 0 20px;
 `;
 
 const Wrapper = styled.div`
@@ -88,24 +209,5 @@ const ImageOsa = styled.img`
     height: 100px;
   }
 `;
-
-const ProjectSectionSix = ({ data }) => {
-  return (
-    <>
-      <Container>
-        <Wrapper>
-          <Headline>Časová osa projektu</Headline>
-          <ImageOsa src="/images/osa.png" />
-        </Wrapper>
-      </Container>
-      <Container style={{ background: "white" }}>
-        <WrapperArchitect>
-          <Text>{data.architectWord}</Text>
-          <Name>- {data.architectName}, Architekt</Name>
-        </WrapperArchitect>
-      </Container>
-    </>
-  );
-};
 
 export default ProjectSectionSix;

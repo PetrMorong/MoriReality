@@ -239,6 +239,25 @@ const data = {
       location: "Hrabenov, Ruda Nad Moravou",
     },
   ],
+  timelineFill: "10%",
+  timeline: [
+    {
+      title: "Projektová dokumentace",
+      date: "Únor 2022",
+    },
+    {
+      title: "Zahájení rekonstrukce",
+      date: "Duben 2022",
+    },
+    {
+      title: "Dokončení rekonstrukce",
+      date: "Listopad 2022",
+    },
+    {
+      title: "Předání nemovitosti",
+      date: "Prosinec 2022",
+    },
+  ],
   architectName: "Pavol Vojtek",
   architectWord:
     "“Historický objekt zo začiatku minulého storočia tu bol pred každým z nás a vďaka citlivej a poctivej rekonštrukcií bude ešte dlho slúžiť aj budúcim generáciám. Ukrýva v sebe niekoľko odkazov na dobu svojho vzniku, ktoré sme prečítali a nechali odprezentované Vám - budúcim užívateľom.“",

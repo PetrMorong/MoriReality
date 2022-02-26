@@ -229,6 +229,25 @@ const data = {
       location: "Velké Losiny",
     },
   ],
+  timelineFill: "10%",
+  timeline: [
+    {
+      title: "Projektová dokumentace",
+      date: "Únor 2022",
+    },
+    {
+      title: "Zahájení rekonstrukce",
+      date: "Duben 2022",
+    },
+    {
+      title: "Dokončení rekonstrukce",
+      date: "Listopad 2022",
+    },
+    {
+      title: "Předání nemovitosti",
+      date: "Prosinec 2022",
+    },
+  ],
   architectName: "Nikol Cojocaru",
   architectWord:
     "“Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.“",

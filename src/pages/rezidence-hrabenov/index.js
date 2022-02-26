@@ -78,7 +78,7 @@ const data = {
     },
     {
       value: "Prosinec",
-      highlighted: "12/2023",
+      highlighted: "12/2022",
       desc: "Termín Dokončení",
     },
   ],
@@ -164,7 +164,7 @@ const data = {
       number: "245/3",
       floor: "3NP",
       layout: "3 + 1",
-      size: "100 m2",
+      size: "88 m2",
       terasa: "50 m2",
       parking: "1",
       link: "/rezidence-hrabenov/ap-3",
@@ -192,7 +192,26 @@ const data = {
   ],
   architectName: "Pavol Vojtek",
   architectWord:
-    "“Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.“",
+    "“Historický objekt zo začiatku minulého storočia tu bol pred každým z nás a vďaka citlivej a poctivej rekonštrukcií bude ešte dlho slúžiť aj budúcim generáciám. Ukrýva v sebe niekoľko odkazov na dobu svojho vzniku, ktoré sme prečítali a nechali odprezentované Vám - budúcim užívateľom.“",
+  timelineFill: "10%",
+  timeline: [
+    {
+      title: "Projektová dokumentace",
+      date: "Únor 2022",
+    },
+    {
+      title: "Zahájení rekonstrukce",
+      date: "Duben 2022",
+    },
+    {
+      title: "Dokončení rekonstrukce",
+      date: "Listopad 2022",
+    },
+    {
+      title: "Předání nemovitosti",
+      date: "Prosinec 2022",
+    },
+  ],
 };
 
 const VilaRepublika = () => {
