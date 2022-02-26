@@ -7,8 +7,8 @@ import ApSectionTwo from "../../components/ApartmentDetail/ApSectionTwo";
 import ApSectionThree from "../../components/ApartmentDetail/ApSectionThree";
 
 const data = {
-  sectionOneBg: "/images/malaMorava/ap5/D_5-min.jpg",
-  layoutImage: "/images/malaMorava/ap7/layout.png",
+  sectionOneBg: "v1645822945/malaMorava/ap5/D_5-min_tasob8.jpg",
+  layoutImage: "v1645822959/malaMorava/ap7/layout_imyizs.png",
   apName: "Apartmán 39/7",
   projectName: "Malá Morava",
   price: "4 390 000",
@@ -42,12 +42,12 @@ const data = {
     },
   ],
   gallery: [
-    "/images/malaMorava/ap5/D_4-min.jpg",
-    "/images/malaMorava/ap5/D_2-min.jpg",
-    "/images/malaMorava/ap5/D_5-min.jpg",
-    "/images/malaMorava/ap5/D_3-min.jpg",
-    "/images/malaMorava/ap5/D_7-min.jpg",
-    "/images/malaMorava/ap5/D_6-min.jpg",
+    "v1645822941/malaMorava/ap5/D_4-min_rpgi1k.jpg",
+    "v1645822950/malaMorava/ap5/D_2-min_m8yzjh.jpg",
+    "v1645822945/malaMorava/ap5/D_5-min_tasob8.jpg",
+    "v1645822947/malaMorava/ap5/D_3-min_q7owfw.jpg",
+    "v1645822949/malaMorava/ap5/D_7-min_qaodtx.jpg",
+    "v1645822947/malaMorava/ap5/D_6-min_yivyvx.jpg",
   ],
   moreDetails: [
     {

@@ -1,6 +1,7 @@
 import * as React from "react";
 import styled from "styled-components";
 import Button from "../Button";
+import { buildImageUrl } from "cloudinary-build-url";
 
 const Container = styled.div`
   width: 100%;
@@ -181,25 +182,25 @@ const ButtonWrap = styled.div`
 
 const data = [
   {
-    imageUrl: "/images/projektVilaRepublika.png",
+    imageUrl: "v1645822964/vilaRepublika/img2_j6mpok.png",
     title: "Vila republika",
-    desc: "Apartmánový dům ve Velkých Losinách",
+    desc: "Apartmánový dům Velké Losiny",
     detailLink: "/vila-republika",
   },
   {
-    imageUrl: "/images/projektMalaMorava.jpg",
+    imageUrl: "v1645823018/projektMalaMorava_nzkcnk.jpg",
     title: "Chalupa Malá Morava",
     desc: "7 horských apartmány",
     detailLink: "/apartmany-mala-morava",
   },
   {
-    imageUrl: "/images/projektVlDva.png",
-    title: "Aparthotel Velké Losiny",
+    imageUrl: "v1645823025/projektVlDva_p4fsrb.png",
+    title: "Apartmánový dům Velké Losiny",
     desc: "9 apartmánů, Wellness",
     detailLink: "TODO",
   },
   {
-    imageUrl: "/images/hrabenov/DOM_2_1-min.jpg",
+    imageUrl: "v1645823344/hrabenov/1_frp1mw.jpg",
     title: "Rezidence Hrabenov",
     desc: "3 apartmány",
     detailLink: "/rezidence-hrabenov",
@@ -227,6 +228,8 @@ const HomeSectionFour = () => {
     }
   };
 
+  const imageUrl = buildImageUrl(slide.imageUrl, {});
+
   return (
     <Container>
       <Wrapper>
@@ -239,7 +242,7 @@ const HomeSectionFour = () => {
         <CarouoselContainer>
           <CarouoselItem
             style={{
-              backgroundImage: `url(${slide.imageUrl})`,
+              backgroundImage: `url(${imageUrl})`,
             }}
           >
             <CarouoselItemOverlay>

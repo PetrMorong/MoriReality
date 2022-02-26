@@ -32,49 +32,31 @@ const data = {
   ),
   sliderImages: [
     {
-      imageUrl: "/images/malaMorava/POHLAD1-min.jpg",
+      imageUrl: "v1645822943/malaMorava/POHLAD1-min_aihqvk.jpg",
     },
     {
-      imageUrl: "/images/malaMorava/POHLAD2-min.jpg",
+      imageUrl: "v1645822954/malaMorava/POHLAD2-min_rnl73g.jpg",
     },
     {
-      imageUrl: "/images/malaMorava/CHODBA3-2-min.jpg",
+      imageUrl: "v1645822944/malaMorava/CHODBA3-2-min_gtbied.jpg",
     },
     {
-      imageUrl: "/images/malaMorava/CHODBA3-1-min.jpg",
+      imageUrl: "v1645822951/malaMorava/SKLEP-min_trvqem.jpg",
     },
     {
-      imageUrl: "/images/malaMorava/SKLEP-min.jpg",
+      imageUrl: "v1645822950/malaMorava/ap5/D_2-min_m8yzjh.jpg",
     },
     {
-      imageUrl: "/images/malaMorava/SKLEP-WELLNESS-min.jpg",
+      imageUrl: "v1645822947/malaMorava/ap5/D_3-min_q7owfw.jpg",
     },
     {
-      imageUrl: "/images/malaMorava/ap5/D_2-min.jpg",
+      imageUrl: "v1645822941/malaMorava/ap5/D_4-min_rpgi1k.jpg",
     },
     {
-      imageUrl: "/images/malaMorava/ap5/D_3-min.jpg",
+      imageUrl: "v1645822945/malaMorava/ap5/D_5-min_tasob8.jpg",
     },
     {
-      imageUrl: "/images/malaMorava/ap5/D_4-min.jpg",
-    },
-    {
-      imageUrl: "/images/malaMorava/ap5/D_5-min.jpg",
-    },
-    {
-      imageUrl: "/images/malaMorava/1NPpůdorys-min.png",
-    },
-    {
-      imageUrl: "/images/malaMorava/2NPpůdorys-min.png",
-    },
-    {
-      imageUrl: "/images/malaMorava/1PP-min.png",
-    },
-    {
-      imageUrl: "/images/malaMorava/malaMoravaRez.png",
-    },
-    {
-      imageUrl: "/images/malaMorava/situace.png",
+      imageUrl: "v1645822962/malaMorava/situace_vpz28f.png",
     },
   ],
   stats: [
@@ -101,41 +83,41 @@ const data = {
   ],
   features: [
     {
-      icon: "saunaIcon",
+      icon: "/features/sauna.png",
       desc: "Privátní wellness",
     },
     {
-      icon: "saunaIcon",
+      icon: "/features/ski.png",
       desc: "Lyžárna",
     },
     {
-      icon: "saunaIcon",
-      desc: "Herní koutek",
+      icon: "/features/table-football(1).png",
+      desc: "Společenská místnost",
     },
     {
-      icon: "saunaIcon",
-      desc: "Vinný sklípek",
+      icon: "/features/view.png",
+      desc: "Krásný výhled",
     },
     {
-      icon: "saunaIcon",
-      desc: "15 parkovacích míst",
+      icon: "/features/park.png",
+      desc: "Zahrada",
     },
     {
-      icon: "saunaIcon",
-      desc: "Chytrá domácnost Loxone",
+      icon: "/features/parking-area.png",
+      desc: "Parkovací místo",
     },
     {
-      icon: "saunaIcon",
-      desc: "Podlahové Topení",
+      icon: "/features/smart-home.png",
+      desc: "Chytrá domácnost",
     },
     {
-      icon: "saunaIcon",
+      icon: "/features/door-lock.png",
       desc: "Chytrý zámek na kód",
     },
   ],
-  sectionImageOne: "/images/malaMorava/apDva/B_6-min.jpg",
-  sectionImageTwo: "/images/malaMorava/ap4/C_5-min.jpg",
-  sectionCover: "/images/malaMorava/ap1/A_3-min.jpg",
+  sectionImageOne: "v1645822947/malaMorava/apDva/B_6-min_x7tlml.jpg",
+  sectionImageTwo: "v1645822948/malaMorava/ap4/C_5-min_za5wxv.jpg",
+  sectionCover: "v1645822958/malaMorava/ap1/A_3-min_xrm2o3.jpg",
   ticksSection: [
     {
       highlighted: "Obchod i služby",
@@ -241,18 +223,18 @@ const data = {
   ],
   otherProjects: [
     {
-      image: "/images/vilaRepublika/mp01-min.jpg",
+      image: "v1645822941/vilaRepublika/mp01-min_pilgkw.jpg",
       name: "Vila republika",
       location: "Velké Losiny",
       link: "/vila-republika",
     },
     {
-      image: "/images/projektVlDva.png",
+      image: "v1645823025/projektVlDva_p4fsrb.png",
       name: "Wellness ApartHotel",
       location: "Velké Losiny",
     },
     {
-      image: "/images/Hrabenov1.png",
+      image: "v1645823344/hrabenov/1_frp1mw.jpg",
       name: "Rezidence Hrabenov",
       location: "Hrabenov, Ruda Nad Moravou",
     },

@@ -1,26 +1,28 @@
 import * as React from "react";
 import styled from "styled-components";
 import Button from "../Button";
+import { buildImageUrl } from "cloudinary-build-url";
 
 const data = [
   // Hrabenov
   {
-    name: "Byt 245/1 - 75 m²",
+    name: "Apartmán 245/1 - 75 m²",
     location: "Hrabenov, Ruda Nad Moravou",
     price: "3 450 000 kč",
-    image: "/images/hrabenov/B_3-min.jpg",
+    image: "v1645865838/hrabenov/A_3.1_e7dbga.jpg",
+    link: "/rezidence-hrabenov/ap-1",
   },
   {
-    name: "Byt 245/2 - 75 m²",
+    name: "Apartmán 245/2 - 75 m²",
     location: "Hrabenov, Ruda Nad Moravou",
     price: "3 450 000 kč",
-    image: "/images/hrabenov/B_1_BIELA-min.jpg",
+    image: "v1645865784/hrabenov/A_2.1.1_qm3upq.jpg",
   },
   {
-    name: "Byt 245/3 - 96 m²",
+    name: "Apartmán 245/3 - 96 m²",
     location: "Hrabenov, Ruda Nad Moravou",
     price: "3 990 000 kč",
-    image: "/images/hrabenov/B_6-min.jpg",
+    image: "v1645822960/hrabenov/B_6-min_uqvhkn.jpg",
   },
 
   // velké losiny
@@ -62,42 +64,42 @@ const data = [
     name: "Apartmán 39/1 - 72 m²",
     location: "Vlaské, Malá Morava",
     price: "5 790 000 kč",
-    image: "/images/malaMorava/ap1/A_3-min.jpg",
+    image: "v1645822958/malaMorava/ap1/A_3-min_xrm2o3.jpg",
     link: "/apartmany-mala-morava/ap-1",
   },
   {
     name: "Apartmán 39/2 - 61 m²",
     location: "Vlaské, Malá Morava",
     price: "5 290 000 kč",
-    image: "/images/malaMorava/apDva/B_4-min.jpg",
+    image: "v1645822944/malaMorava/apDva/B_4-min_q8mz8j.jpg",
     link: "/apartmany-mala-morava/ap-2",
   },
   {
     name: "Apartmán 39/4 - 36 m²",
     location: "Vlaské, Malá Morava",
     price: "3 990 000 kč",
-    image: "/images/malaMorava/ap4/C_1-min.jpg",
+    image: "v1645822952/malaMorava/ap4/C_1-min_m48ufp.jpg",
     link: "/apartmany-mala-morava/ap-4",
   },
   {
     name: "Apartmán 39/5 - 50 m²",
     location: "Vlaské, Malá Morava",
     price: "4 490 000 kč",
-    image: "/images/malaMorava/ap5/D_2-min.jpg",
+    image: "v1645822950/malaMorava/ap5/D_2-min_m8yzjh.jpg",
     link: "/apartmany-mala-morava/ap-5",
   },
   {
     name: "Apartmán 39/6 - 25 m²",
     location: "Vlaské, Malá Morava",
     price: "2 990 000 kč",
-    image: "/images/malaMorava/ap4/C_4-min.jpg",
+    image: "v1645822952/malaMorava/ap4/C_4-min_kcsxn0.jpg",
     link: "/apartmany-mala-morava/ap-6",
   },
   {
     name: "Apartmán 39/7 - 49 m²",
     location: "Vlaské, Malá Morava",
     price: "4 390 000 kč",
-    image: "/images/malaMorava/ap5/D_5-min.jpg",
+    image: "v1645822945/malaMorava/ap5/D_5-min_tasob8.jpg",
     link: "/apartmany-mala-morava/ap-7",
   },
 ];
@@ -108,14 +110,14 @@ const HomeSectionSix = () => {
       <Wrapper>
         <HeadlineRow>
           <Line></Line>
-          <Headline>Nemovisti na prodej</Headline>
+          <Headline>Nemovitosti na prodej</Headline>
           <Line></Line>
         </HeadlineRow>
 
         <Row>
           {data.map((item) => (
             <Col href={item.link}>
-              <Image src={item.image} />
+              <Image src={buildImageUrl(item.image, {})} />
               <Name>{item.name}</Name>
               <Location>{item.location}</Location>
               <Price>{item.price}</Price>

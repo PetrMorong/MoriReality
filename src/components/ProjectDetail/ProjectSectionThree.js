@@ -140,8 +140,8 @@ const Card = styled.div`
 `;
 
 const Icon = styled.img`
-  width: 95px;
-  height: 95px;
+  width: 75px;
+  height: 75px;
   margin-bottom: 16px;
 
   @media (max-width: 1180px) {
@@ -204,38 +204,38 @@ const ProjectSectionThree = ({ data }) => {
 
         <CardRow>
           <Card>
-            <Icon src={`/images/${data.features[0].icon}.svg`} />
+            <Icon src={`/images/${data.features[0].icon}`} />
             <IcontText>{data.features[0].desc}</IcontText>
           </Card>
           <Card>
-            <Icon src={`/images/${data.features[1].icon}.svg`} />
+            <Icon src={`/images/${data.features[1].icon}`} />
             <IcontText>{data.features[1].desc}</IcontText>
           </Card>
           <Card>
-            <Icon src={`/images/${data.features[2].icon}.svg`} />
+            <Icon src={`/images/${data.features[2].icon}`} />
             <IcontText>{data.features[2].desc}</IcontText>
           </Card>
           <Card>
-            <Icon src={`/images/${data.features[3].icon}.svg`} />
+            <Icon src={`/images/${data.features[3].icon}`} />
             <IcontText>{data.features[3].desc}</IcontText>
           </Card>
         </CardRow>
         <div style={{ height: 16 }} />
         <CardRow>
           <Card>
-            <Icon src={`/images/${data.features[4].icon}.svg`} />
+            <Icon src={`/images/${data.features[4].icon}`} />
             <IcontText>{data.features[4].desc}</IcontText>
           </Card>
           <Card>
-            <Icon src={`/images/${data.features[5].icon}.svg`} />
+            <Icon src={`/images/${data.features[5].icon}`} />
             <IcontText>{data.features[5].desc}</IcontText>
           </Card>
           <Card>
-            <Icon src={`/images/${data.features[6].icon}.svg`} />
+            <Icon src={`/images/${data.features[6].icon}`} />
             <IcontText>{data.features[6].desc}</IcontText>
           </Card>
           <Card>
-            <Icon src={`/images/${data.features[7].icon}.svg`} />
+            <Icon src={`/images/${data.features[7].icon}`} />
             <IcontText>{data.features[7].desc}</IcontText>
           </Card>
         </CardRow>

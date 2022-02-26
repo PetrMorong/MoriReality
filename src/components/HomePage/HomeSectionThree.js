@@ -1,6 +1,7 @@
 import * as React from "react";
 import styled from "styled-components";
 import Button from "../Button";
+import { buildImageUrl } from "cloudinary-build-url";
 
 const Container = styled.div`
   width: 100%;
@@ -108,7 +109,11 @@ const HomeSectionThree = () => {
         <Box
           style={{
             marginLeft: 0,
-            backgroundImage: `url("/images/homeThreeImageOne.jpg")`,
+            backgroundImage: `url(${buildImageUrl(
+              "v1645822939/homeThreeImageOne_osn1s7.jpg",
+              {}
+            )})`,
+
             backgroundPosition: "-104px",
           }}
         >
@@ -131,7 +136,10 @@ const HomeSectionThree = () => {
 
         <Box
           style={{
-            backgroundImage: `url("/images/homeThreeImage2.png")`,
+            backgroundImage: `url(${buildImageUrl(
+              "v1645823019/homeThreeImage2_wr3cdt.png",
+              {}
+            )})`,
           }}
         >
           <BoxOverlay>
@@ -154,7 +162,10 @@ const HomeSectionThree = () => {
         <Box
           style={{
             marginRight: 0,
-            backgroundImage: `url("/images/homeThreeImageThree.jpg")`,
+            backgroundImage: `url(${buildImageUrl(
+              "v1645823019/homeThreeImageThree_hnsxkt.jpg",
+              {}
+            )})`,
             backgroundPosition: "-234px",
           }}
         >

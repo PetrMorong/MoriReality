@@ -1,9 +1,12 @@
 import React from "react";
 import styled from "styled-components";
+import { buildImageUrl } from "cloudinary-build-url";
 
 const ApSectionOne = ({ data }) => {
+  const imageUrl = buildImageUrl(data.sectionOneBg, {});
+
   return (
-    <Container bgImage={data.sectionOneBg}>
+    <Container bgImage={imageUrl}>
       <Overlay>
         <GoBackWrap href={data.backLink}>
           <img src="/images/LeftArrow.svg" />

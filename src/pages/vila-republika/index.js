@@ -32,28 +32,28 @@ const data = {
   ),
   sliderImages: [
     {
-      imageUrl: "/images/vilaRepublika/mp01-min.jpg",
+      imageUrl: "v1645822941/vilaRepublika/mp01-min_pilgkw.jpg",
     },
     {
-      imageUrl: "/images/vilaRepublika/img2.png",
+      imageUrl: "v1645822964/vilaRepublika/img2_j6mpok.png",
     },
     {
-      imageUrl: "/images/vilaRepublika/mp02-min.jpg",
+      imageUrl: "v1645822943/vilaRepublika/mp02-min_yspitq.jpg",
     },
     {
-      imageUrl: "/images/vilaRepublika/1.1-min.jpg",
+      imageUrl: "v1645822938/vilaRepublika/1.1-min_yaebmu.jpg",
     },
     {
-      imageUrl: "/images/vilaRepublika/1.3.3-min.jpg",
+      imageUrl: "v1645822938/vilaRepublika/1.3.3-min_j5ku93.jpg",
     },
     {
-      imageUrl: "/images/vilaRepublika/F3-min.jpg",
+      imageUrl: "v1645822943/vilaRepublika/F3-min_icpvqo.jpg",
     },
     {
-      imageUrl: "/images/vilaRepublika/SAUNA1-min.jpg",
+      imageUrl: "v1645822937/vilaRepublika/SAUNA1-min_r0jgcz.jpg",
     },
     {
-      imageUrl: "/images/vilaRepublika/SAUNA2-min.jpg",
+      imageUrl: "v1645822962/vilaRepublika/SAUNA2-min_p65zfc.jpg",
     },
   ],
   stats: [
@@ -80,41 +80,41 @@ const data = {
   ],
   features: [
     {
-      icon: "saunaIcon",
+      icon: "/features/sauna.png",
       desc: "Privátní wellness",
     },
     {
-      icon: "saunaIcon",
+      icon: "/features/ski.png",
       desc: "Lyžárna",
     },
     {
-      icon: "saunaIcon",
-      desc: "Herní koutek",
+      icon: "/features/table-football(1).png",
+      desc: "Společenská místnost",
     },
     {
-      icon: "saunaIcon",
-      desc: "Vinný sklípek",
+      icon: "/features/view.png",
+      desc: "Krásný výhled",
     },
     {
-      icon: "saunaIcon",
-      desc: "15 parkovacích míst",
+      icon: "/features/park.png",
+      desc: "Zahrada",
     },
     {
-      icon: "saunaIcon",
-      desc: "Chytrá domácnost Loxone",
+      icon: "/features/parking-area.png",
+      desc: "Parkovací místo",
     },
     {
-      icon: "saunaIcon",
-      desc: "Podlahové Topení",
+      icon: "/features/smart-home.png",
+      desc: "Chytrá domácnost",
     },
     {
-      icon: "saunaIcon",
+      icon: "/features/door-lock.png",
       desc: "Chytrý zámek na kód",
     },
   ],
-  sectionImageOne: "/images/vilaRepublikaSectionImage1.jpeg",
-  sectionImageTwo: "/images/vilaRepublikaSectionImage2.jpeg",
-  sectionCover: "/images/vilaRepublikaSectionCover.jpeg",
+  sectionImageOne: "v1645823019/vilaRepublikaSectionImage1_ph3pqx.jpg",
+  sectionImageTwo: "v1645823022/vilaRepublikaSectionImage2_u0mzde.jpg",
+  sectionCover: "v1645823020/vilaRepublikaSectionCover_hju4sd.jpg",
   ticksSection: [
     {
       highlighted: "Obchod i služby",
@@ -213,18 +213,18 @@ const data = {
   ],
   otherProjects: [
     {
-      image: "/images/projektMalaMorava.jpg",
+      image: "v1645823018/projektMalaMorava_nzkcnk.jpg",
       name: "Horské Apartmány",
       location: "Vlaské, Malá Morava",
       link: "/apartmany-mala-morava",
     },
     {
-      image: "/images/Hrabenov1.png",
+      image: "v1645823344/hrabenov/1_frp1mw.jpg",
       name: "Rezidence Hrabenov",
       location: "Hrabenov, Ruda Nad Moravou",
     },
     {
-      image: "/images/projektVlDva.png",
+      image: "v1645823025/projektVlDva_p4fsrb.png",
       name: "Wellness ApartHotel",
       location: "Velké Losiny",
     },

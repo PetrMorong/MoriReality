@@ -7,11 +7,11 @@ import ApSectionTwo from "../../components/ApartmentDetail/ApSectionTwo";
 import ApSectionThree from "../../components/ApartmentDetail/ApSectionThree";
 
 const data = {
-  sectionOneBg: "/images/hrabenov/B_1-min.jpg",
-  layoutImage: "/images/hrabenov/layout2.png",
-  apName: "Byt 245/1",
+  sectionOneBg: "v1645865838/hrabenov/A_3.1_e7dbga.jpg",
+  layoutImage: "v1645822941/hrabenov/layout2_o7fr6m.png",
+  apName: "Apartmán 245/1",
   projectName: "Rezidence Hrabenov",
-  price: "5 790 000",
+  price: "3 450 000",
   backLink: "/rezidence-hrabenov",
   sectionOneDetails: [
     {
@@ -42,16 +42,16 @@ const data = {
     },
   ],
   gallery: [
-    "/images/hrabenov/B_1-min.jpg",
-    "/images/hrabenov/B_2-min.jpg",
-    "/images/hrabenov/B_3-min.jpg",
-    "/images/hrabenov/B_4-min.jpg",
-    "/images/hrabenov/B_5-min.jpg",
-    "/images/hrabenov/B_6-min.jpg",
-    "/images/hrabenov/B_7-min.jpg",
-    "/images/hrabenov/B_8-min.jpg",
-    "/images/hrabenov/B_9-min.jpg",
-    "/images/hrabenov/B_10-min.jpg",
+    "v1645865784/hrabenov/A_2.1.1_qm3upq.jpg",
+    "v1645865838/hrabenov/A_3.1_e7dbga.jpg",
+    "v1645865781/hrabenov/A_1.1_dkbpmk.jpg",
+    "v1645822960/hrabenov/B_6-min_uqvhkn.jpg",
+    "v1645822945/hrabenov/B_5B-min_acj2g4.jpg",
+    "v1645822947/hrabenov/B_8B-min_zoy8mu.jpg",
+    "v1645822950/hrabenov/B_10B-min_gnucxy.jpg",
+    "v1645822946/hrabenov/B_9B-min_yjq6vr.jpg",
+    "v1645823344/hrabenov/1_frp1mw.jpg",
+    "v1645823341/hrabenov/4_isndkx.jpg",
   ],
   moreDetails: [
     {

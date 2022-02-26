@@ -1,8 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 import Button from "../Button";
+import { buildImageUrl } from "cloudinary-build-url";
 
 const ApSectionThree = ({ data }) => {
+  const layout = buildImageUrl(data.layoutImage, {});
+
   return (
     <Container>
       <Wrapper>
@@ -43,7 +46,7 @@ const ApSectionThree = ({ data }) => {
           </Col1>
           <Col2>
             <img
-              src={data.layoutImage}
+              src={layout}
               style={{ height: "100%", objectFit: "contain", maxWidth: 600 }}
             />
           </Col2>

@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import React from "react";
+import { buildImageUrl } from "cloudinary-build-url";
 
 const ApSectionTwo = ({ data }) => {
   const [carouselIndex, setCarouseIndex] = React.useState(0);
@@ -20,6 +21,8 @@ const ApSectionTwo = ({ data }) => {
       setCarouseIndex(carouselIndex - 1);
     }
   };
+
+  const imageUrl = buildImageUrl(slide, {});
 
   return (
     <Container>
@@ -42,7 +45,7 @@ const ApSectionTwo = ({ data }) => {
         <CarouoselContainer>
           <CarouoselItem
             style={{
-              backgroundImage: `url(${slide})`,
+              backgroundImage: `url(${imageUrl})`,
             }}
           >
             <LeftArrowCol>

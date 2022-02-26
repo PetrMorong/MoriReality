@@ -64,55 +64,55 @@ const data = {
     {
       value: "350",
       highlighted: "m2",
-      desc: "Plocha pozemku",
+      desc: "Plocha zahrady",
     },
     {
       value: "3",
       highlighted: "",
-      desc: "Byty",
+      desc: "Apartmány",
     },
     {
       value: "Až",
       highlighted: "3+1",
-      desc: "Dispozice Bytů",
+      desc: "Dispozice",
     },
     {
       value: "Prosinec",
-      highlighted: "2023",
-      desc: "Termín Dokončení Apartmánů",
+      highlighted: "12/2023",
+      desc: "Termín Dokončení",
     },
   ],
   features: [
     {
-      icon: "saunaIcon",
-      desc: "Sauna",
+      icon: "/features/sauna.png",
+      desc: "Privátní wellness",
     },
     {
-      icon: "saunaIcon",
+      icon: "/features/ski.png",
       desc: "Lyžárna",
     },
     {
-      icon: "saunaIcon",
-      desc: "Kulečník",
+      icon: "/features/table-football(1).png",
+      desc: "Společenská místnost",
     },
     {
-      icon: "saunaIcon",
-      desc: "Bazén",
+      icon: "/features/view.png",
+      desc: "Krásný výhled",
     },
     {
-      icon: "saunaIcon",
+      icon: "/features/park.png",
       desc: "Zahrada",
     },
     {
-      icon: "saunaIcon",
-      desc: "5 parkovacích míst",
+      icon: "/features/parking-area.png",
+      desc: "Parkovací místo",
     },
     {
-      icon: "saunaIcon",
-      desc: "Sklep",
+      icon: "/features/smart-home.png",
+      desc: "Chytrá domácnost",
     },
     {
-      icon: "saunaIcon",
+      icon: "/features/door-lock.png",
       desc: "Chytrý zámek na kód",
     },
   ],
