@@ -162,14 +162,10 @@ const ProjectSectionFour = ({ data }) => {
           <Row>
             <Col>
               <Headline>
-                Podrobnější slovní{" "}
-                <HeadlineGold>popis daného projektu</HeadlineGold>
+                {data.sectionFourOneText.title}{" "}
+                <HeadlineGold>{data.sectionFourOneText.titleGold}</HeadlineGold>
               </Headline>
-              <Desc>
-                Našim cílem je poskytovat kvalitní a spolehlivé stavební služby.
-                Při realizaci vašich představ, myšlenek, a snů klademe důraz na
-                vstřícnost, důslednost, a jednání vedoucí k jistote.
-              </Desc>
+              <Desc>{data.sectionFourOneText.desc}</Desc>
             </Col>
             <Image src={imageUrlOne} />
           </Row>
@@ -177,14 +173,10 @@ const ProjectSectionFour = ({ data }) => {
           <RowReverse>
             <Col>
               <Headline>
-                Podrobnější slovní{" "}
-                <HeadlineGold>popis daného projektu</HeadlineGold>
+                {data.sectionFourTwoText.title}{" "}
+                <HeadlineGold>{data.sectionFourTwoText.titleGold}</HeadlineGold>
               </Headline>
-              <Desc>
-                Našim cílem je poskytovat kvalitní a spolehlivé stavební služby.
-                Při realizaci vašich představ, myšlenek, a snů klademe důraz na
-                vstřícnost, důslednost, a jednání vedoucí k jistote.
-              </Desc>
+              <Desc>{data.sectionFourTwoText.desc}</Desc>
             </Col>
             <Image src={imageUrlTwo} />
           </RowReverse>

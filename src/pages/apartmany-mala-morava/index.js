@@ -115,6 +115,19 @@ const data = {
       desc: "Chytrý zámek na kód",
     },
   ],
+
+  sectionFourOneText: {
+    title: "Zachovalé historické",
+    titleGold: "detaily a prvky",
+    desc: "S úctou k tradicím. V rámci rekonstrukce jsme se snažili o zachování všech okouzlujících historických prvků, které dodávají místu osobitý charakter. V některých apartmánech jsme ponechali originální zrenovované parkety, stejně tak restaurujeme výklenky kolem oken, původní kování, panty, okna a dveře.",
+  },
+
+  sectionFourTwoText: {
+    title: "Moderní domácnost",
+    titleGold: "a vyspělé technologie",
+    desc: "Domácnost, která se řídí sama a lze ji ovládat na dálku, je součástí i našeho projektu. Vydáváte se na víkend na lyže? Zapněte si topení v předstihu a přijeďte do vyhřátého. Zapomněli jste zhasnout světla při odjezdu? Učiňte tak jedním kliknutím odkudkoliv. Moderní technologie zajišťují pohodlí, šetří energie i váš čas. Pokud máte v plánu apartmán pronajímat v době, kdy ho nevyužíváte sami, stačí hostům zadat unikátní kód, pomocí kterého se dostanou do budovy.",
+  },
+
   sectionImageOne: "v1645822947/malaMorava/apDva/B_6-min_x7tlml.jpg",
   sectionImageTwo: "v1645822948/malaMorava/ap4/C_5-min_za5wxv.jpg",
   sectionCover: "v1645822958/malaMorava/ap1/A_3-min_xrm2o3.jpg",

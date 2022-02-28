@@ -20,15 +20,18 @@ const data = {
     "https://res.cloudinary.com/morireality/image/upload/v1645823021/vilaRepublikaCover_hykftv.png ",
   desc: (
     <>
-      Zde je místo pri krátky slovní popis prezentovaného projektu. Jsme rodinná
-      firma, která se s důrazem na poctivé řemeslo, kvalitu a nadčasový design
-      soutředí na výstavbu horských apartmánů v Jeseníkách a rezidenčních
-      nemovitostí na Šumpersku.
+      Utečte od starostí, vraťte se k přírodě. V malebné obci Ruda nad Moravou
+      na Šumpersku jsme citlivě zrekonstruovali historický objekt z 18. století.
+      Tři moderní apartmány se zahradou v sobě snoubí požadavky na komfortní
+      bydlení nového tisíciletí, přitom si ale uchovávají genius loci původního
+      architektonického díla.
       <br />
       <br />
-      Našim cílem je poskytovat kvalitní a spolehlivé stavební služby. Při
-      realizaci vašich představ, myšlenek. Našim cílem je poskytovat kvalitní a
-      spolehlivé stavební služby.
+      Zdejší nádherná lokalita je protkána turistickými trasami i cyklostezkami,
+      v létě s možnostmi koupání a v zimě lyžování. V dosahu budete mít
+      panenskou přírodu i veškeré služby. Užívat si přitom budete klidné
+      prostředí vesničky zasazené v podhůří Jeseníků. Apartmány jsou vhodné jako
+      investice i k trvalému bydlení.
     </>
   ),
   sliderImages: [
@@ -58,6 +61,18 @@ const data = {
     },
     {
       imageUrl: "v1645822946/hrabenov/B_9B-min_yjq6vr.jpg",
+    },
+    {
+      imageUrl: "v1646062243/hrabenov/8_dupwox.jpg",
+    },
+    {
+      imageUrl: "v1646062243/hrabenov/9_gt3rxh.jpg",
+    },
+    {
+      imageUrl: "v1646062243/hrabenov/8_dupwox.jpg",
+    },
+    {
+      imageUrl: "v1646062245/hrabenov/ISO_cjeydz.jpg",
     },
   ],
   stats: [
@@ -116,6 +131,19 @@ const data = {
       desc: "Chytrý zámek na kód",
     },
   ],
+
+  sectionFourOneText: {
+    title: "Zachovalé historické",
+    titleGold: "detaily a prvky",
+    desc: "S úctou k tradicím. V rámci rekonstrukce jsme se snažili o zachování všech okouzlujících historických prvků, které dodávají místu osobitý charakter. V některých apartmánech jsme ponechali originální zrenovované parkety, stejně tak restaurujeme výklenky kolem oken, původní kování, panty, okna a dveře.",
+  },
+
+  sectionFourTwoText: {
+    title: "Moderní domácnost",
+    titleGold: "a vyspělé technologie",
+    desc: "Domácnost, která se řídí sama a lze ji ovládat na dálku, je součástí i našeho projektu. Vydáváte se na víkend na lyže? Zapněte si topení v předstihu a přijeďte do vyhřátého. Zapomněli jste zhasnout světla při odjezdu? Učiňte tak jedním kliknutím odkudkoliv. Moderní technologie zajišťují pohodlí, šetří energie i váš čas. Pokud máte v plánu apartmán pronajímat v době, kdy ho nevyužíváte sami, stačí hostům zadat unikátní kód, pomocí kterého se dostanou do budovy.",
+  },
+
   sectionImageOne: "v1645865784/hrabenov/A_2.1.1_qm3upq.jpg",
   sectionImageTwo: "v1645822960/hrabenov/B_7-min_d5ngyj.jpg",
   sectionCover: "v1645865838/hrabenov/A_3.1_e7dbga.jpg",
@@ -123,38 +151,38 @@ const data = {
     {
       highlighted: "Obchod i služby",
       normal: "vše na dosah",
-      desc: "Nemovisti které stavíme jsou navrženy v moderním a nadčasovém designu, ale jsme připraveni vyhovět vaším požadavkům a představám do nejvyšší možné míry.",
+      desc: "Ruda nad Moravou leží v malebném údolí řeky Morava. Nachází se pouhých 10 minut jízdy od Šumperka, kde najdete veškerou občanskou vybavenost, dále kino, krytý bazén, bary, kavárny i výborné restaurace. Přímo v Rudě je místní hospoda a koupaliště.",
     },
     {
-      highlighted: "na dosah vašich rukou",
-      normal: "Zeleň a příroda",
-      desc: "Nemovisti které stavíme jsou navrženy v moderním a nadčasovém designu, ale jsme připraveni vyhovět vaším požadavkům a představám do nejvyšší možné míry.",
+      highlighted: "v zimě lyžování",
+      normal: "V létě příroda, ",
+      desc: "Překrásná krajina podhůří Jeseníků svádí k výletům všeho druhu. Po svých nebo na kole se můžete vydávat za přírodními krásami, na výšlapy do vrcholků Hanušovické vrchoviny nebo na zdejší rozhlednu Háj. Nejbližší lyžařský areál Štědrákova Lhota je vzdálen 7 km, Buková Hora 20 km a Kunčice necelých 30 km.",
     },
     {
-      highlighted: "na dosah vašich rukou",
-      normal: "Zeleň a příroda",
-      desc: "Nemovisti které stavíme jsou navrženy v moderním a nadčasovém designu, ale jsme připraveni vyhovět vaším požadavkům a představám do nejvyšší možné míry.",
+      highlighted: "a wellness zázemí",
+      normal: "Propojení se zelení",
+      desc: "Myslíme na to, aby apartmány byly co nejvíce propojeny s okolní krajinou. Každý má proto vlastní zahradu nebo terasu. Za domem stavíme společnou wellness zónu se saunou, vířivkou, ochlazovacím koutem a odpočinkovou částí. Ke společenským účelům bude sloužit místnost v přízemí se stolním fotbálkem a posezením.",
     },
   ],
   apartments: [
     {
-      price: "3 450 000 Kč",
+      price: "3 790 000 Kč",
       number: "245/1",
       floor: "2NP",
-      layout: "2 + kk",
-      size: "75 m2",
-      terasa: "95 m2",
+      layout: "3 + kk",
+      size: "63 m2",
+      terasa: "70 m2",
       parking: "1",
       link: "/rezidence-hrabenov/ap-1",
       reserved: false,
     },
     {
-      price: "3 450 000 Kč",
+      price: "3 250 000 Kč",
       number: "245/2",
       floor: "2NP",
-      layout: "2 + 1",
-      size: "74 m2",
-      terasa: "50 m2",
+      layout: "2 + kk",
+      size: "53 m2",
+      terasa: "18 m2",
       parking: "1",
       link: "/rezidence-hrabenov/ap-2",
       reserved: false,
@@ -165,7 +193,7 @@ const data = {
       floor: "3NP",
       layout: "3 + 1",
       size: "88 m2",
-      terasa: "50 m2",
+      terasa: "75 m2",
       parking: "1",
       link: "/rezidence-hrabenov/ap-3",
       reserved: false,

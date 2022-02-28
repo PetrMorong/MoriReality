@@ -5,7 +5,7 @@ import { buildImageUrl } from "cloudinary-build-url";
 
 const Container = styled.div`
   width: 100%;
-  height: 670px;
+  height: 730px;
   background: ${`url(${buildImageUrl(
     "v1645823021/vilaRepublikaCover_hykftv.png",
     {}
@@ -47,8 +47,8 @@ const LeftCol = styled.div`
 const RightColText = styled.div`
   width: 500px;
   font-family: Georama;
-  font-size: 19px;
-  line-height: 32px;
+  font-size: 18px;
+  line-height: 28px;
   letter-spacing: 0.01em;
   color: #ffffff;
 
