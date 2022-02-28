@@ -69,19 +69,12 @@ const Header = () => {
   const renderLinks = () => {
     return (
       <>
-        <a href="/" style={{ textDecoration: "none" }}>
-          <Link href="/#o-nas">O nás</Link>
-        </a>
-        <a href="/#projekty" style={{ textDecoration: "none" }}>
-          <Link>Projekty</Link>
-        </a>
+        <Link href="/#o-nas">O nás</Link>
 
-        <a
-          href="mailto:info@mori-reality.cz"
-          style={{ textDecoration: "none" }}
-        >
-          <Link>Kontakt</Link>
-        </a>
+        <Link>Projekty</Link>
+
+        <Link href="mailto:info@mori-reality.cz">Kontakt</Link>
+
         <div style={{ flex: 1 }} />
         <Link href="tel:+420 737 211 314">+420 737 211 314</Link>
         <a

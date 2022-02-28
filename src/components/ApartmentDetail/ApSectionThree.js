@@ -24,6 +24,7 @@ const ApSectionThree = ({ data }) => {
               return (
                 <TableRow
                   style={{ backgroundColor: isGray ? "#FAFAFA" : "white" }}
+                  key={i}
                 >
                   <TableText>{item.label}</TableText>
                   <TableText>{item.value}</TableText>
