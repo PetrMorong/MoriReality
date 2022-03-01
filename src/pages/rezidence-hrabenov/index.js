@@ -69,9 +69,6 @@ const data = {
       imageUrl: "v1646062243/hrabenov/9_gt3rxh.jpg",
     },
     {
-      imageUrl: "v1646062243/hrabenov/8_dupwox.jpg",
-    },
-    {
       imageUrl: "v1646062245/hrabenov/ISO_cjeydz.jpg",
     },
   ],
