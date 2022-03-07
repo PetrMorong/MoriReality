@@ -7,22 +7,22 @@ import ApSectionTwo from "../../components/ApartmentDetail/ApSectionTwo";
 import ApSectionThree from "../../components/ApartmentDetail/ApSectionThree";
 
 const data = {
-  sectionOneBg: "v1646637293/hrabenov/apA/1_xiveuc.jpg",
-  layoutImage: "v1646638993/hrabenov/apA/Untitled_9_z1vzyk.png",
-  apName: "Ap. 245/1",
+  sectionOneBg: "v1645865838/hrabenov/A_3.1_e7dbga.jpg",
+  layoutImage: "v1645822941/hrabenov/layout2_o7fr6m.png",
+  apName: "Ap. 245/2",
   projectName: "Rezidence Hrabenov",
-  price: "3 790 000",
+  price: "3 250 000",
   backLink: "/rezidence-hrabenov",
-  apTitle: "Apartmán Zlatník",
+  apTitle: "Apartmán Hrádek",
   apText: (
     <>
-      Vzdušný mezonet se dvěma ložnicemi a nadstandardní obytnou částí. Svým
-      prostorovým uspořádáním uspokojí i nároky pro pohodovou rodinnou
-      dovolenou. Náleží k němu vlastní část{" "}
-      <span>zahrady o velikosti 75 m2</span> se samostatným vchodem. V horním
-      patře se nachází velký obývací prostor s kuchyní, první ložnice a
-      prostorná koupelna. Po točitých schodech se dostanete do spodní části, kde
-      je umístěna další ložnice pro klidné spaní.
+      Stylový mezonetový apartmán <span>s terasou a krásnými výhledy</span>.
+      Ideální jako rekreační sídlo pro pár či jednotlivce. Má vysoké stropy a
+      velice příjemnou, vzdušnou atmosféru. Horní patro je řešeno jako obytné –
+      velký obývací prostor je tvořen z kuchyňské, jídelní a odpočinkové části.
+      Na patře je rovněž vstupní hala, koupelna a samostatné WC. Po točitých
+      schodech se dostanete do spodní odpočinkové části, kde je umístěna ložnice
+      pro klidné spaní.
       <br />
       <br />
       V ceně prodeje apartmánu je <span>parkovací stání a sklep.</span> Dále
@@ -34,12 +34,12 @@ const data = {
   ),
   sectionOneDetails: [
     {
-      text: "3+",
+      text: "2+",
       goldText: "kk",
       desc: "Dispozice",
     },
     {
-      text: "63 ",
+      text: "53 ",
       goldText: "m2",
       desc: "Podlahová Plocha",
     },
@@ -61,15 +61,14 @@ const data = {
     },
   ],
   gallery: [
-    "v1646637295/hrabenov/apA/8_h9o5zs.jpg",
-    "v1646637295/hrabenov/apA/2_dvckd5.jpg",
-    "v1646637293/hrabenov/apA/1_xiveuc.jpg",
-    "v1646637292/hrabenov/apA/6_lzwnwa.jpg",
-    "v1646637292/hrabenov/apA/6_lzwnwa.jpg",
-    "v1646637291/hrabenov/apA/9_kkrr6u.jpg",
-    "v1646637291/hrabenov/apA/9_kkrr6u.jpg",
-    "v1646637289/hrabenov/apA/10_e90kfz.jpg",
-    "v1646637289/hrabenov/apA/5_xptqfv.jpg",
+    "v1645865784/hrabenov/A_2.1.1_qm3upq.jpg",
+    "v1645865838/hrabenov/A_3.1_e7dbga.jpg",
+    "v1645865781/hrabenov/A_1.1_dkbpmk.jpg",
+    "v1646639118/hrabenov/B_7_iy5jt5.jpg",
+    "v1645822945/hrabenov/B_5B-min_acj2g4.jpg",
+    "v1645822947/hrabenov/B_8B-min_zoy8mu.jpg",
+    "v1645822950/hrabenov/B_10B-min_gnucxy.jpg",
+    "v1645822946/hrabenov/B_9B-min_yjq6vr.jpg",
     "v1645823344/hrabenov/1_frp1mw.jpg",
     "v1645823341/hrabenov/4_isndkx.jpg",
     "v1646062243/hrabenov/9_gt3rxh.jpg",
@@ -77,7 +76,7 @@ const data = {
   ],
   moreDetails: [
     {
-      text: "2023",
+      text: "2022",
       goldText: "",
       desc: "Datum Dokončení",
     },
@@ -99,17 +98,17 @@ const data = {
   ],
   table: [
     { label: "Stav", value: "Dostupný k rezervaci" },
-    { label: "Číslo bytu", value: "245/1 " },
-    { label: "Dispozice", value: "3+kk" },
+    { label: "Číslo bytu", value: "245/2" },
+    { label: "Dispozice", value: "2+kk" },
     { label: "Podlaží", value: "2" },
-    { label: "Podlahová plocha", value: "63m2" },
+    { label: "Podlahová plocha", value: "53m2" },
     { label: "Orientace", value: "Východ" },
-    { label: "Zahrada", value: "70m2" },
+    { label: "Terasa", value: "17" },
     { label: "Dokončení", value: "2022" },
   ],
 };
 
-const MalaMoravaAp1Page = () => {
+const MalaMoravaAp2Page = () => {
   return (
     <Layout>
       <Header />
@@ -121,4 +120,4 @@ const MalaMoravaAp1Page = () => {
   );
 };
 
-export default MalaMoravaAp1Page;
+export default MalaMoravaAp2Page;

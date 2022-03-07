@@ -28,18 +28,26 @@ const ApSectionTwo = ({ data }) => {
     <Container>
       <Wrapper>
         <MainText>
-          Když jde o <span>domov</span>, na kompromisy není prostor
+          {data.apTitle || (
+            <>
+              Když jde o <span>domov</span>, na kompromisy není prostor
+            </>
+          )}
         </MainText>
 
         <SubText>
-          Našim cílem je poskytovat kvalitní a spolehlivé stavební služby. Při
-          realizaci vašich představ, myšlenek, a snů klademe důraz na
-          vstřícnost, důslednost, a jednání vedoucí k jistote, že dostanete
-          <span> domov, se kterým budete doopravdy spokojeni.</span> S
-          důkladnými zkušenostami ve výstavbě domů spolupracujeme{" "}
-          <span>
-            se špičkovými se špičkovými architekty a interirovými designéry.
-          </span>
+          {data.apText || (
+            <>
+              Našim cílem je poskytovat kvalitní a spolehlivé stavební služby.
+              Při realizaci vašich představ, myšlenek, a snů klademe důraz na
+              vstřícnost, důslednost, a jednání vedoucí k jistote, že dostanete
+              <span> domov, se kterým budete doopravdy spokojeni.</span> S
+              důkladnými zkušenostami ve výstavbě domů spolupracujeme{" "}
+              <span>
+                se špičkovými se špičkovými architekty a interirovými designéry.
+              </span>
+            </>
+          )}
         </SubText>
 
         <CarouoselContainer>
