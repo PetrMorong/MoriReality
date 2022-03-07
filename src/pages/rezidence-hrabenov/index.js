@@ -21,7 +21,7 @@ const data = {
   desc: (
     <>
       Utečte od starostí, vraťte se k přírodě. V malebné obci Ruda nad Moravou
-      na Šumpersku jsme citlivě zrekonstruovali historický objekt z 18. století.
+      na Šumpersku jsme citlivě zrekonstruovali historický objekt z 19. století.
       Tři moderní apartmány se zahradou v sobě snoubí požadavky na komfortní
       bydlení nového tisíciletí, přitom si ale uchovávají genius loci původního
       architektonického díla.
