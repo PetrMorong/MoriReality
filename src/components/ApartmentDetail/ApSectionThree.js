@@ -115,7 +115,7 @@ const TableText = styled.p`
   color: #000000;
 `;
 
-const TableRow = styled.p`
+const TableRow = styled.div`
   padding: 12px 24px;
   display: flex;
   justify-content: space-between;
