@@ -6,16 +6,16 @@ import { buildImageUrl } from "cloudinary-build-url";
 const data = [
   // Hrabenov
   {
-    name: "Apartmán 245/1 - 75 m²",
+    name: "Apartmán 245/1 - 63 m²",
     location: "Hrabenov, Ruda Nad Moravou",
-    price: "3 450 000 kč",
+    price: "3 790 000 kč",
     image: "v1645865838/hrabenov/A_3.1_e7dbga.jpg",
     link: "/rezidence-hrabenov/ap-1",
   },
   {
-    name: "Apartmán 245/2 - 75 m²",
+    name: "Apartmán 245/2 - 53 m²",
     location: "Hrabenov, Ruda Nad Moravou",
-    price: "3 450 000 kč",
+    price: "3 290 000 kč",
     image: "v1645865784/hrabenov/A_2.1.1_qm3upq.jpg",
   },
   {
