@@ -32,11 +32,12 @@ const data = {
   ),
   sliderImages: [
     {
-      imageUrl: "v1645822941/vilaRepublika/mp01-min_pilgkw.jpg",
-    },
-    {
       imageUrl: "v1645822964/vilaRepublika/img2_j6mpok.png",
     },
+    {
+      imageUrl: "v1645822941/vilaRepublika/mp01-min_pilgkw.jpg",
+    },
+
     {
       imageUrl: "v1645822943/vilaRepublika/mp02-min_yspitq.jpg",
     },
@@ -73,7 +74,7 @@ const data = {
       desc: "Dispozice Apartmánů",
     },
     {
-      value: "Červen",
+      value: "Červenec",
       highlighted: "2022",
       desc: "Termín Dokončení Apartmánů",
     },
@@ -132,17 +133,17 @@ const data = {
     {
       highlighted: "Obchod i služby",
       normal: "vše na dosah",
-      desc: "Nemovisti které stavíme jsou navrženy v moderním a nadčasovém designu, ale jsme připraveni vyhovět vaším požadavkům a představám do nejvyšší možné míry.",
+      desc: "Ruda nad Moravou leží v malebném údolí řeky Morava. Nachází se pouhých 10 minut jízdy od Šumperka, kde najdete veškerou občanskou vybavenost, dále kino, krytý bazén, bary, kavárny i výborné restaurace. Přímo v Rudě je místní hospoda a koupaliště.",
     },
     {
-      highlighted: "na dosah vašich rukou",
-      normal: "Zeleň a příroda",
-      desc: "Nemovisti které stavíme jsou navrženy v moderním a nadčasovém designu, ale jsme připraveni vyhovět vaším požadavkům a představám do nejvyšší možné míry.",
+      highlighted: "v zimě lyžování",
+      normal: "V létě příroda, ",
+      desc: "Překrásná krajina podhůří Jeseníků svádí k výletům všeho druhu. Po svých nebo na kole se můžete vydávat za přírodními krásami, na výšlapy do vrcholků Hanušovické vrchoviny nebo na zdejší rozhlednu Háj. Nejbližší lyžařský areál Štědrákova Lhota je vzdálen 7 km, Buková Hora 20 km a Kunčice necelých 30 km.",
     },
     {
-      highlighted: "na dosah vašich rukou",
-      normal: "Zeleň a příroda",
-      desc: "Nemovisti které stavíme jsou navrženy v moderním a nadčasovém designu, ale jsme připraveni vyhovět vaším požadavkům a představám do nejvyšší možné míry.",
+      highlighted: "a wellness zázemí",
+      normal: "Propojení se zelení",
+      desc: "Myslíme na to, aby apartmány byly co nejvíce propojeny s okolní krajinou. Každý má proto vlastní zahradu nebo terasu. Za domem stavíme společnou wellness zónu se saunou, vířivkou, ochlazovacím koutem a odpočinkovou částí. Ke společenským účelům bude sloužit místnost v přízemí se stolním fotbálkem a posezením.",
     },
   ],
   apartments: [
@@ -155,7 +156,7 @@ const data = {
       terasa: "7,8 m2",
       parking: "1",
       link: "/vila-republika/ap-1",
-      reserved: true,
+      reserved: false,
     },
     {
       price: "3 990 000 Kč",
@@ -199,7 +200,7 @@ const data = {
       terasa: "3,6 m2",
       parking: "1",
       link: "/vila-republika/ap-5",
-      reserved: true,
+      reserved: false,
     },
     {
       price: "5 990 000 Kč",
@@ -232,33 +233,33 @@ const data = {
       link: "/apartmany-mala-morava",
     },
     {
-      image: "v1645823344/hrabenov/1_frp1mw.jpg",
+      image: "v1645823025/projektVlDva_p4fsrb.png",
+      name: "Apartmány",
+      location: "Velké Losiny",
+    },
+    {
+      image: "v1645823341/hrabenov/2_g1tut1.jpg",
       name: "Rezidence Hrabenov",
       location: "Hrabenov, Ruda Nad Moravou",
     },
-    {
-      image: "v1645823025/projektVlDva_p4fsrb.png",
-      name: "Wellness ApartHotel",
-      location: "Velké Losiny",
-    },
   ],
-  timelineFill: "10%",
+  timelineFill: "80%",
   timeline: [
     {
       title: "Projektová dokumentace",
-      date: "Únor 2022",
+      date: "Prosinec 2020",
     },
     {
       title: "Zahájení rekonstrukce",
-      date: "Duben 2022",
+      date: "Leden 2021",
     },
     {
       title: "Dokončení rekonstrukce",
-      date: "Listopad 2022",
+      date: "Červen 2022",
     },
     {
       title: "Předání nemovitosti",
-      date: "Prosinec 2022",
+      date: "Červenec 2022",
     },
   ],
   architectName: "Nikol Cojocaru",
@@ -270,6 +271,7 @@ const VilaRepublika = () => {
   return (
     <Layout>
       <Header />
+
       <ProjectSectionOne data={data} />
       <ProjectSectionTwo data={data} />
       <ProjectSectionThree data={data} />

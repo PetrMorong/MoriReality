@@ -7,8 +7,8 @@ import ApSectionTwo from "../../components/ApartmentDetail/ApSectionTwo";
 import ApSectionThree from "../../components/ApartmentDetail/ApSectionThree";
 
 const data = {
-  sectionOneBg: "/images/vilaRepublika/ap5/4.png",
-  layoutImage: "/images/vilaRepublika/ap5/layout4.png",
+  sectionOneBg: "v1645822952/vilaRepublika/ap5/4_p2lybw.png",
+  layoutImage: "v1645822937/vilaRepublika/ap5/layout4_ae2qhy.png",
   apName: "Apartmán 354/5",
   projectName: "Vila Republika",
   price: "3 990 000",
@@ -42,9 +42,11 @@ const data = {
     },
   ],
   gallery: [
-    "/images/vilaRepublika/ap5/1.png",
-    "/images/vilaRepublika/ap5/2.png",
-    "/images/vilaRepublika/ap5/3.png",
+    "v1647001091/vilaRepublika/ap5/Screenshot_2022-01-06_at_21.57.44_pbwm6d.png",
+    "v1645822948/vilaRepublika/ap5/1_mszurb.png",
+    "v1645822950/vilaRepublika/ap5/2_ejccat.png",
+    "v1645822941/vilaRepublika/ap5/3_fec1za.png",
+    "v1645822952/vilaRepublika/ap5/4_p2lybw.png",
     "/images/vilaRepublika/ap5/4.png",
   ],
   moreDetails: [
