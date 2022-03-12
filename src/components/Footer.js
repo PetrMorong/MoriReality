@@ -96,6 +96,14 @@ const Link = styled.a`
   margin-bottom: 12px;
   text-decoration: none;
   cursor: pointer;
+  transformation: 200ms;
+
+  display: flex;
+  align-items: center;
+
+  &:hover {
+    opacity: 0.8;
+  }
 `;
 
 const Footer = () => {
@@ -121,6 +129,20 @@ const Footer = () => {
           <Title>Kontakt</Title>
           <Link href="tel:+420 737 211 314">+420 737 211 314</Link>
           <Link href="mailto:info@mori-reality.cz">info@mori-reality.cz</Link>
+          <Link href="https://www.facebook.com/morireality" target="_blank">
+            <img
+              src="/images/facebook.png"
+              style={{ width: 20, height: 20, marginRight: 10 }}
+            />
+            Facebook
+          </Link>
+          <Link href="https://www.instagram.com/morireality/" target="_blank">
+            <img
+              src="/images/instagram.png"
+              style={{ width: 20, height: 20, marginRight: 10 }}
+            />
+            Instagram
+          </Link>
         </Col>
 
         <Col style={{ width: 250, alignItems: "flex-end" }}>
