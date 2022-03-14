@@ -140,7 +140,7 @@ const Footer = () => {
             Facebook
           </Link>
 
-          <Link href="https://www.instagram.com/morireality/" target="_blank">
+          <Link href="https://www.instagram.com/mori.reality/" target="_blank">
             <img
               src="/images/instagram.png"
               style={{ width: 20, height: 20, marginRight: 10 }}
