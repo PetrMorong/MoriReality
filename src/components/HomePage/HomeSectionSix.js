@@ -9,7 +9,7 @@ const data = [
     name: "Apartmán 245/1 - 63 m²",
     location: "Hrabenov, Ruda Nad Moravou",
     price: "3 790 000 kč",
-    image: "v1645865838/hrabenov/A_3.1_e7dbga.jpg",
+    image: "v1646637295/hrabenov/apA/8_h9o5zs.jpg",
     link: "/rezidence-hrabenov/ap-1",
   },
   {
@@ -17,12 +17,14 @@ const data = [
     location: "Hrabenov, Ruda Nad Moravou",
     price: "3 290 000 kč",
     image: "v1645865784/hrabenov/A_2.1.1_qm3upq.jpg",
+    link: "/rezidence-hrabenov/ap-2",
   },
   {
     name: "Apartmán 245/3 - 96 m²",
     location: "Hrabenov, Ruda Nad Moravou",
     price: "3 990 000 kč",
-    image: "v1645822960/hrabenov/B_6-min_uqvhkn.jpg",
+    image: "v1647260371/hrabenov/AP_C/7_he8vro.jpg",
+    link: "/rezidence-hrabenov/ap-3",
   },
 
   // velké losiny
