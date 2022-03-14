@@ -127,8 +127,11 @@ const Footer = () => {
 
         <Col style={{ width: 140 }}>
           <Title>Kontakt</Title>
+
           <Link href="tel:+420 737 211 314">+420 737 211 314</Link>
+
           <Link href="mailto:info@mori-reality.cz">info@mori-reality.cz</Link>
+
           <Link href="https://www.facebook.com/morireality" target="_blank">
             <img
               src="/images/facebook.png"
@@ -136,6 +139,7 @@ const Footer = () => {
             />
             Facebook
           </Link>
+
           <Link href="https://www.instagram.com/morireality/" target="_blank">
             <img
               src="/images/instagram.png"
