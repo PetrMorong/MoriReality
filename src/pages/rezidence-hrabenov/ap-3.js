@@ -11,7 +11,7 @@ const data = {
   layoutImage: "v1647260361/hrabenov/AP_C/13_fjxxrl.jpg",
   apName: "Ap. 245/3",
   projectName: "Rezidence Hrabenov",
-  price: "3 990 000",
+  price: "4 140 000",
   backLink: "/rezidence-hrabenov",
   apTitle: "Apartmán Blýskač",
   apText: (
