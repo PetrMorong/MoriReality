@@ -9,10 +9,28 @@ import ApSectionThree from "../../components/ApartmentDetail/ApSectionThree";
 const data = {
   sectionOneBg: "v1645822958/malaMorava/ap1/A_3-min_xrm2o3.jpg",
   layoutImage: "v1645822958/malaMorava/ap1/A_9-min_ii0uxj.jpg",
-  apName: "Apartmán 39/1",
+  apName: "Ap. 39/1",
   projectName: "Malá Morava",
   price: "5 790 000",
   backLink: "/apartmany-mala-morava",
+  apTitle: "Apartmán Devětsil",
+  apText: (
+    <>
+      Nadčasový apartmán v klasickém stylu. Největší z nabízených v horské
+      chalupě Malá Morava. Má velice útulnou atmosférou, kterou umocňují{" "}
+      <span>původní zrenovované parkety.</span> Dominantu bydlení tvoří obývací
+      prostor s kuchyní, jídelní a odpočinkovou částí. Umístěna zde může být i
+      rozkládací pohovka pro hosty. Součástí je dále samostatná ložnice,
+      koupelna se sprchovým koutem a dvěma umyvadly a prostorná vstupní hala.
+      <br />
+      <br />
+      V ceně apartmánu je kompletně zařízená kuchyňská linka včetně
+      elektrospotřebičů, dále podlahy, obklady, dlažby i sanita. Za příplatek
+      vám rádi interiér vybavíme kompletně dle návrhu interiérového designéra.
+      Postaráme se vám rovněž o správu krátkodobých pronájmů v době, kdy
+      nebudete apartmán využívat sami.
+    </>
+  ),
   sectionOneDetails: [
     {
       text: "2+",

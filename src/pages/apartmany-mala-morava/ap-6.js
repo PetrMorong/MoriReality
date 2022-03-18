@@ -9,10 +9,29 @@ import ApSectionThree from "../../components/ApartmentDetail/ApSectionThree";
 const data = {
   sectionOneBg: "v1645822946/malaMorava/ap4/C_3-min_lfymtf.jpg",
   layoutImage: "v1645822956/malaMorava/apSest/layout_hntrgs.png",
-  apName: "Apartmán 39/6",
+  apName: "Ap. 39/6",
   projectName: "Malá Morava",
   price: "2 990 000",
   backLink: "/apartmany-mala-morava",
+  apTitle: "Apartmán Sedmikvítek",
+  apText: (
+    <>
+      Pro nenáročné. <span>Nejmenší ze sedmi apartmánů</span> v projektu Malá
+      Morava. Vhodný pro pár, jednotlivce i jako zajímavá investice. Apartmán má
+      útulnou podkrovní atmosféru, vyveden je v horském stylu. Spací prostor je
+      od společenské části oddělen vzdušnou dřevěnou stěnou. Nechybí plně
+      funkční kuchyňská linka, místo pro jídelní kout a obývací část. Součástí
+      je samostatná koupelna s toaletou a sprchovým koutem.
+      <br />
+      <br />
+      V ceně apartmánu je kompletně zařízená kuchyňská linka včetně
+      elektrospotřebičů, dále podlahy, obklady, dlažby i sanita. Za příplatek
+      vám rádi interiér vybavíme kompletně dle návrhu interiérového designéra.
+      Postaráme se vám rovněž o správu krátkodobých pronájmů v době, kdy
+      nebudete apartmán využívat sami.
+    </>
+  ),
+
   sectionOneDetails: [
     {
       text: "1+",

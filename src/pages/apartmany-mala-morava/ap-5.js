@@ -9,10 +9,28 @@ import ApSectionThree from "../../components/ApartmentDetail/ApSectionThree";
 const data = {
   sectionOneBg: "v1645822950/malaMorava/ap5/D_2-min_m8yzjh.jpg",
   layoutImage: "v1645822939/malaMorava/ap5/layout_cfzwxy.png",
-  apName: "Apartmán 39/5",
+  apName: "Ap. 39/5",
   projectName: "Malá Morava",
   price: "4 490 000",
   backLink: "/apartmany-mala-morava",
+  apTitle: "Apartmán Dobromysl",
+  apText: (
+    <>
+      <span>Vzdušný mezonetový apartmán v horském stylu</span>, který má
+      oddělenou obytnou a odpočinkovou zónu. V prvním patře se nachází
+      společenská místnost s kuchyní, jídelnou a obývací části, dále pak
+      samostatná koupelna s toaletou a sprchovým koutem. Po točitém schodišti se
+      dostanete do útulné podkrovní ložnice, kde se krásně spí. Zrenovované
+      trámy a dřevěné patro dodávají bydlení jedinečné vyznění.
+      <br />
+      <br />
+      V ceně apartmánu je kompletně zařízená kuchyňská linka včetně
+      elektrospotřebičů, dále podlahy, obklady, dlažby i sanita. Za příplatek
+      vám rádi interiér vybavíme kompletně dle návrhu interiérového designéra.
+      Postaráme se vám rovněž o správu krátkodobých pronájmů v době, kdy
+      nebudete apartmán využívat sami.
+    </>
+  ),
   sectionOneDetails: [
     {
       text: "2+",

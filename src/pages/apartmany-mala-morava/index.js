@@ -19,15 +19,18 @@ const data = {
   cover: "vilaRepublikaCover",
   desc: (
     <>
-      Zde je místo pri krátky slovní popis prezentovaného projektu. Jsme rodinná
-      firma, která se s důrazem na poctivé řemeslo, kvalitu a nadčasový design
-      soutředí na výstavbu horských apartmánů v Jeseníkách a rezidenčních
-      nemovitostí na Šumpersku.
+      Načerpejte energii z čisté přírody. Na polosamotě, ve vísce Vlaské na
+      Šumpersku, rekonstruujeme kouzelnou chalupu z konce 19. století. Zasazena
+      je do půvabné krajiny Hanušovické vrchoviny, která lemuje povodí řeky
+      Moravy. Sedm luxusních apartmánů renovujeme v tradičním duchu, přitom se
+      všemi výdobytky moderního bydlení.
       <br />
       <br />
-      Našim cílem je poskytovat kvalitní a spolehlivé stavební služby. Při
-      realizaci vašich představ, myšlenek. Našim cílem je poskytovat kvalitní a
-      spolehlivé stavební služby.
+      Podhorská oblast Malá Morava leží na rozmezí mezi dvěma pohořími –
+      Králickým Sněžníkem a Jeseníky. V zimě si tu na své přijdou milovníci
+      všech zimních sportů, v létě zase příznivci horské turistiky a cyklistiky.
+      Na dovolenou sem ale můžete vyrážet bez ohledu na roční dobu a užívat si
+      sepjetí s přírodou pod hvězdnou oblohou.
     </>
   ),
   sliderImages: [
@@ -61,12 +64,12 @@ const data = {
   ],
   stats: [
     {
-      value: "1500",
+      value: "2400",
       highlighted: "m2",
       desc: "Plocha pozemku",
     },
     {
-      value: "6",
+      value: "7",
       highlighted: "",
       desc: "Apartmánů",
     },
@@ -76,7 +79,7 @@ const data = {
       desc: "Dispozice Apartmánů",
     },
     {
-      value: "Duben",
+      value: "Červen",
       highlighted: "2023",
       desc: "Termín Dokončení Apartmánů",
     },
@@ -117,35 +120,35 @@ const data = {
   ],
 
   sectionFourOneText: {
-    title: "Zachovalé historické",
-    titleGold: "detaily a prvky",
-    desc: "S úctou k tradicím. V rámci rekonstrukce jsme se snažili o zachování všech okouzlujících historických prvků, které dodávají místu osobitý charakter. V některých apartmánech jsme ponechali originální zrenovované parkety, stejně tak restaurujeme výklenky kolem oken, původní kování, panty, okna a dveře.",
+    title: " Moderní pojetí s",
+    titleGold: "půvabnými historickými detaily ",
+    desc: "Máme rádi původní architekturu podhůří Jeseníků. Celý objekt proto rekonstruujeme s citem a úctou k tradicím. Vstupní halu ozdobí zrenovované sloupy, romantickou atmosféru jednotlivých apartmánů podtrhnou obloukové klenby a dřevěná trámoví. Interiér domu ctí originální styl dřevěných oken a dveří, veškeré vybavení současně splňuje novodobé technické požadavky pro pohodlné bydlení. Dispozice apartmánů navrhl architekt tak, aby vyhovovaly nárokům moderní doby a žilo se tu lehce a bez starostí.",
   },
 
   sectionFourTwoText: {
     title: "Moderní domácnost",
     titleGold: "a vyspělé technologie",
-    desc: "Domácnost, která se řídí sama a lze ji ovládat na dálku, je součástí i našeho projektu. Vydáváte se na víkend na lyže? Zapněte si topení v předstihu a přijeďte do vyhřátého. Zapomněli jste zhasnout světla při odjezdu? Učiňte tak jedním kliknutím odkudkoliv. Moderní technologie zajišťují pohodlí, šetří energie i váš čas. Pokud máte v plánu apartmán pronajímat v době, kdy ho nevyužíváte sami, stačí hostům zadat unikátní kód, pomocí kterého se dostanou do budovy.",
+    desc: "Nadstandard už ve standardu. Při rekonstrukci používáme jen ty nejkvalitnější materiály – keramické obklady a dlažby, dřevěné podlahy, moderní spotřebiče, kuchyně na míru a luxusní sanitu. Celý objekt bude vytápěn podlahovým vytápěním a řízen moderními technologiemi. Na dálku půjde ovládat vše – od topení a osvětlení až k elektrickým zámkům. Pokud plánujete apartmán pronajímat, stačí hostům zadat unikátní kód, pomocí kterého se dostanou do budovy.",
   },
 
-  sectionImageOne: "v1645822947/malaMorava/apDva/B_6-min_x7tlml.jpg",
-  sectionImageTwo: "v1645822948/malaMorava/ap4/C_5-min_za5wxv.jpg",
-  sectionCover: "v1645822958/malaMorava/ap1/A_3-min_xrm2o3.jpg",
+  sectionImageOne: "v1645822948/malaMorava/apDva/B_5-min_gamg8v.jpg",
+  sectionImageTwo: "v1645822956/malaMorava/SKLEP-WELLNESS-min_kuyk5e.jpg",
+  sectionCover: "v1645822944/malaMorava/apDva/B_4-min_q8mz8j.jpg",
   ticksSection: [
     {
-      highlighted: "Obchod i služby",
-      normal: "vše na dosah",
-      desc: "Nemovisti které stavíme jsou navrženy v moderním a nadčasovém designu, ale jsme připraveni vyhovět vaším požadavkům a představám do nejvyšší možné míry.",
+      highlighted: "Lyžování v ",
+      normal: "srdci moravských hor",
+      desc: "Chalupa Malá Morava je skvělým výchozím bodem pro zimní dovolenou. V okolí se nachází hned několik lyžařských středisek a velké množství běžeckých tratí. Ski-areál Dolní Morava v podhůří Králického Sněžníku s 10 kilometry sjezdovek je vzdálen pouhých 14 minut jízdy autem. Další ski- areály jako například Červená Voda, Štědrákova Lhota nebo Stříbrnice se nachází v dojezdové vzdálenosti do 20 minut.",
     },
     {
-      highlighted: "na dosah vašich rukou",
-      normal: "Zeleň a příroda",
-      desc: "Nemovisti které stavíme jsou navrženy v moderním a nadčasovém designu, ale jsme připraveni vyhovět vaším požadavkům a představám do nejvyšší možné míry.",
+      highlighted: "povodí řeky Moravy",
+      normal: "Půvabná příroda ",
+      desc: "Víska Vlaské spadá pod katastr obce Malá Morava. Na polosamotě najdete místo k relaxaci a hlubokému odpočinku. Dobře se tu spí. Zdejší idylické podhůří vás okouzlí neposkvrněnou přírodou. Údolím se klikatí řeka Morava, všude kolem jsou jen louky, lesy, čistý vzduch a božský klid. A také turistické trasy, cyklostezky, koupaliště nebo orosené pivo v nedalekém pivovaru Holba. To vše jsou důvody, proč se sem budete tak rádi vracet.",
     },
     {
-      highlighted: "na dosah vašich rukou",
-      normal: "Zeleň a příroda",
-      desc: "Nemovisti které stavíme jsou navrženy v moderním a nadčasovém designu, ale jsme připraveni vyhovět vaším požadavkům a představám do nejvyšší možné míry.",
+      highlighted: " a zábava",
+      normal: "Wellness, grilování",
+      desc: "Nudit se nebudete ani na chalupě. Na zahradě vznikne wellness zóna s finskou sauna a vířivkou. Těšit se můžete na dlouhé večery pod hvězdami, krásné výhledy a grilování pod pergolou. K posezení, hudbě a oslavám poslouží vinný sklípek, kde se zabavíte i v zimě a při nepříznivém počasí. Pro vaše pohodlí budujeme také místnost pro kola a lyžárnu s vyhřívanými stojany na lyžařské boty.",
     },
   ],
   apartments: [
@@ -260,15 +263,15 @@ const data = {
     },
     {
       title: "Zahájení rekonstrukce",
-      date: "Duben 2022",
+      date: "Prosinec 2022",
     },
     {
       title: "Dokončení rekonstrukce",
-      date: "Listopad 2022",
+      date: "Červen 2023",
     },
     {
       title: "Předání nemovitosti",
-      date: "Prosinec 2022",
+      date: "Červenec 2023",
     },
   ],
   architectName: "Pavol Vojtek",

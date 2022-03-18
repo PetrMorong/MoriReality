@@ -9,10 +9,31 @@ import ApSectionThree from "../../components/ApartmentDetail/ApSectionThree";
 const data = {
   sectionOneBg: "v1645822944/malaMorava/apDva/B_4-min_q8mz8j.jpg",
   layoutImage: "v1645822961/malaMorava/apDva/B_9-min_ccsyur.jpg",
-  apName: "Apartmán 39/2",
+  apName: "Ap. 39/2",
   projectName: "Malá Morava",
   price: "5 290 000",
   backLink: "/apartmany-mala-morava",
+  apTitle: "Apartmán Zvonečník",
+  apText: (
+    <>
+      <span>Designový apartmán s klenbami</span>, působivými interiérovými prvky
+      a členitou dispozicí. Dominantu tvoří společenský pokoj s kuchyňským
+      ostrůvkem, jídelním koutem a obývací části. Na tuto místnost navazuje
+      první z ložnic, která je pro zachování vzdušnosti oddělena prosklenou
+      francouzskou stěnou. Do druhé ložnice se vchází ze vstupní haly, stejně
+      jako do samostatné koupelny. Tento umělecky pojatý apartmán rozhodně{" "}
+      <span>patří mezi nejoriginálnější v našem projektu Malá Morava</span>.
+      Jako jediný má vlastní terasu, ideální pro ranní kávu či snídani
+      s výhledem.
+      <br />
+      <br />
+      V ceně apartmánu je kompletně zařízená kuchyňská linka včetně
+      elektrospotřebičů, dále podlahy, obklady, dlažby i sanita. Za příplatek
+      vám rádi interiér vybavíme kompletně dle návrhu interiérového designéra.
+      Postaráme se vám rovněž o správu krátkodobých pronájmů v době, kdy
+      nebudete apartmán využívat sami.
+    </>
+  ),
   sectionOneDetails: [
     {
       text: "2+",

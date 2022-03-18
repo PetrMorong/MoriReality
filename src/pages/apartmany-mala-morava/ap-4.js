@@ -9,10 +9,29 @@ import ApSectionThree from "../../components/ApartmentDetail/ApSectionThree";
 const data = {
   sectionOneBg: "v1645822951/malaMorava/ap4/C_2-min_nnuqx1.jpg",
   layoutImage: "v1645822951/malaMorava/ap4/layout_p7wr7r.png",
-  apName: "Apartmán 39/4",
+  apName: "Ap. 39/4",
   projectName: "Malá Morava",
   price: "3 990 000",
   backLink: "/apartmany-mala-morava",
+  apTitle: "Apartmán Hvozdík",
+  apText: (
+    <>
+      <span>Romantický podkrovní apartmán v horském stylu</span> se
+      zrenovovanými původními trámy. Vhodný pro páry či jednotlivce. Obytná
+      místnost je rozdělena do dvou funkčních celků. Spací prostor je od
+      společenské části oddělen vzdušnou dřevěnou stěnou. Nechybí spotřebiči
+      vybavená kuchyňská linka, místo pro jídelní kout i obývací část. Pod
+      zkosenou střechou se nachází pracovní zákoutí. Součástí je samostatná
+      koupelna s toaletou a sprchovým koutem.
+      <br />
+      <br />
+      V ceně apartmánu je kompletně zařízená kuchyňská linka včetně
+      elektrospotřebičů, dále podlahy, obklady, dlažby i sanita. Za příplatek
+      vám rádi interiér vybavíme kompletně dle návrhu interiérového designéra.
+      Postaráme se vám rovněž o správu krátkodobých pronájmů v době, kdy
+      nebudete apartmán využívat sami.
+    </>
+  ),
   sectionOneDetails: [
     {
       text: "1+",
