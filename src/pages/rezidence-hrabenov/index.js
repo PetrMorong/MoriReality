@@ -16,6 +16,7 @@ const data = {
   title: "Rezidence Hrabenov",
   locationOne: "Hrabenov 245",
   locationTwo: "Ruda nad Moravou, Olomoucký kraj",
+  videoUrl: "https://youtu.be/N_I-1PyQdX8",
   cover:
     "https://res.cloudinary.com/morireality/image/upload/v1645823021/vilaRepublikaCover_hykftv.png ",
   desc: (
@@ -90,7 +91,7 @@ const data = {
     },
     {
       value: "Prosinec",
-      highlighted: "12/2022",
+      highlighted: "2022",
       desc: "Termín Dokončení",
     },
   ],

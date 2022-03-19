@@ -1,5 +1,6 @@
 import * as React from "react";
 import styled from "styled-components";
+import ReactPlayer from "react-player";
 
 const ProjectSectionSix = ({ data }) => {
   return (
@@ -51,9 +52,56 @@ const ProjectSectionSix = ({ data }) => {
           <Name>- {data.architectName}, Architekt</Name>
         </WrapperArchitect>
       </Container>
+
+      <Container style={{ background: "white" }}>
+        <WrapperTwo>
+          <HeadlineRow>
+            <Line></Line>
+            <HeadlineTwo>Video Prohlídka</HeadlineTwo>
+            <Line></Line>
+          </HeadlineRow>
+
+          <VideoWrap>
+            <ReactPlayer
+              url={data.videoUrl}
+              width="100%"
+              height="100%"
+              config={{
+                youtube: {
+                  playerVars: { showinfo: 1, controls: 1 },
+                },
+                // facebook: {
+                //   appId: "12345",
+                // },
+              }}
+            />
+          </VideoWrap>
+        </WrapperTwo>
+      </Container>
     </>
   );
 };
+
+const VideoWrap = styled.div`
+  width: 100%;
+  height: 662px;
+  margin-bottom: 40px;
+
+  @media (max-width: 800px) {
+    height: 210px;
+  }
+`;
+
+const WrapperTwo = styled.div`
+  width: 1180px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+
+  @media (max-width: 1180px) {
+    width: 100%;
+  }
+`;
 
 const Block = styled.div`
   /* position: absolute; */
@@ -144,7 +192,7 @@ const WrapperArchitect = styled.div`
   width: 1180px;
   margin-top: -90px;
   border-top: 3px solid #b29a84;
-  margin-bottom: 100px;
+  margin-bottom: 70px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -166,6 +214,19 @@ const Headline = styled.h4`
   @media (max-width: 800px) {
     padding-top: 80px;
     font-size: 37px;
+  }
+`;
+
+const HeadlineTwo = styled.div`
+  font-family: Georama;
+  font-size: 42px;
+  line-height: 51px;
+  color: #000000;
+  margin: 0 56px;
+
+  @media (max-width: 800px) {
+    font-size: 32px;
+    line-height: 41px;
   }
 `;
 
@@ -199,15 +260,24 @@ const Name = styled.p`
     font-weight: 600;
 `;
 
-const ImageOsa = styled.img`
+const HeadlineRow = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  height: 280px;
-  margin-top: 50px;
-  margin-bottom: 180px;
+  margin-bottom: 100px;
+  margin-top: 130px;
 
-  @media (max-width: 1180px) {
-    height: 100px;
+  @media (max-width: 800px) {
+    margin-bottom: 40px;
+    margin-top: 40px;
   }
+`;
+
+const Line = styled.div`
+  flex: 1;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  height: 1px;
 `;
 
 export default ProjectSectionSix;

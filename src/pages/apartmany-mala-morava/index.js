@@ -17,6 +17,7 @@ const data = {
   locationOne: "Vlaské 39",
   locationTwo: "Malá Morava, Olomoucký kraj",
   cover: "vilaRepublikaCover",
+  videoUrl: "https://youtu.be/_EIrESBeclU",
   desc: (
     <>
       Načerpejte energii z čisté přírody. Na polosamotě, ve vísce Vlaské na
@@ -81,7 +82,7 @@ const data = {
     {
       value: "Červen",
       highlighted: "2023",
-      desc: "Termín Dokončení Apartmánů",
+      desc: "Termín Dokončení",
     },
   ],
   features: [

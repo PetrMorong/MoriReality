@@ -17,6 +17,7 @@ const data = {
   locationOne: "Osvobození 354",
   locationTwo: "Velké Losiny, Olomoucký kraj",
   cover: "vilaRepublikaCover",
+  videoUrl: "https://youtu.be/vnrog-OczGQ",
   desc: (
     <>
       Zde je místo pri krátky slovní popis prezentovaného projektu. Jsme rodinná
@@ -76,7 +77,7 @@ const data = {
     {
       value: "Červenec",
       highlighted: "2022",
-      desc: "Termín Dokončení Apartmánů",
+      desc: "Termín Dokončení",
     },
   ],
   features: [
