@@ -49,7 +49,7 @@ const data = {
       desc: "Umístění",
     },
     {
-      text: "Východ",
+      text: "Jihozápad",
       goldText: "",
       desc: "Orientace",
     },
@@ -103,7 +103,7 @@ const data = {
     { label: "Dispozice", value: "3+kk" },
     { label: "Podlaží", value: "2" },
     { label: "Podlahová plocha", value: "63m2" },
-    { label: "Orientace", value: "Východ" },
+    { label: "Orientace", value: "Jihozápad" },
     { label: "Zahrada", value: "70m2" },
     { label: "Dokončení", value: "2022" },
   ],
