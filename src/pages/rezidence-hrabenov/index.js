@@ -218,7 +218,7 @@ const data = {
   ],
   architectName: "Pavol Vojtek",
   architectWord:
-    "“Historický objekt zo začiatku minulého storočia tu bol pred každým z nás a vďaka citlivej a poctivej rekonštrukcií bude ešte dlho slúžiť aj budúcim generáciám. Ukrýva v sebe niekoľko odkazov na dobu svojho vzniku, ktoré sme prečítali a nechali odprezentované Vám - budúcim užívateľom.“",
+    "“Viacgeneračný rodinný dom situovaný na kopcovitom pozemku má obrovský potenciál, ktorý sme sa rozhodli naplno využiť. Dispozičnými zmenami sa nám podarilo vyriešiť 3 bytové jednotky, ktoré sú vhodné ako na prechodné, tak na trvalé bývanie. Takto zrekonštruovaný dom bude poskytovať priestor na bývanie a relax.“",
   timelineFill: "10%",
   timeline: [
     {
