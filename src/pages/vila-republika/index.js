@@ -149,7 +149,7 @@ const data = {
   ],
   apartments: [
     {
-      price: "5 490 000 Kč",
+      price: "4 790 000 Kč",
       number: "354/1",
       floor: "1NP",
       layout: "2 + 1",
@@ -193,7 +193,7 @@ const data = {
       reserved: true,
     },
     {
-      price: "4 990 000 Kč",
+      price: "4 490 000 Kč",
       number: "354/5",
       floor: "2NP",
       layout: "1 + 1",

@@ -189,8 +189,8 @@ const data = [
   },
   {
     imageUrl: "v1645823018/projektMalaMorava_nzkcnk.jpg",
-    title: "Chalupa Malá Morava",
-    desc: "7 horských apartmány",
+    title: "Malá Morava",
+    desc: "7 horských apartmánů",
     detailLink: "/apartmany-mala-morava",
   },
   {

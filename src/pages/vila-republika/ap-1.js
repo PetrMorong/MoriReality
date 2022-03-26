@@ -11,7 +11,7 @@ const data = {
   layoutImage: "v1645822939/vilaRepublika/ap1/layout2_y511u1.png",
   apName: "Apartmán 354/1",
   projectName: "Vila Republika",
-  price: "5 490 000",
+  price: "4 790 000",
   backLink: "/vila-republika",
   sectionOneDetails: [
     {

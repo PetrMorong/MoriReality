@@ -11,12 +11,12 @@ const data = {
   layoutImage: "v1645822937/vilaRepublika/ap5/layout4_ae2qhy.png",
   apName: "Apartmán 354/5",
   projectName: "Vila Republika",
-  price: "3 990 000",
+  price: "4 490 000",
   backLink: "/vila-republika",
   sectionOneDetails: [
     {
-      text: "1+",
-      goldText: "1",
+      text: "2+",
+      goldText: "kk",
       desc: "Dispozice",
     },
     {
@@ -74,7 +74,7 @@ const data = {
   table: [
     { label: "Stav", value: "Dostupný k rezervaci" },
     { label: "Číslo bytu", value: "354/5 " },
-    { label: "Dispozice", value: "1+1" },
+    { label: "Dispozice", value: "2+kk" },
     { label: "Podlaží", value: "1" },
     { label: "Podlahová plocha", value: "42.4 m2" },
     { label: "Orientace", value: "Východ" },
