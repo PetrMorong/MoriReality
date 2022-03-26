@@ -71,7 +71,7 @@ const Header = () => {
       <>
         <Link href="/#o-nas">O nás</Link>
 
-        <Link>Projekty</Link>
+        <Link href="/#projekty">Projekty</Link>
 
         <Link href="mailto:info@mori-reality.cz">Kontakt</Link>
 
