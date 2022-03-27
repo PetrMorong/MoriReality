@@ -20,15 +20,19 @@ const data = {
   videoUrl: "https://youtu.be/vnrog-OczGQ",
   desc: (
     <>
-      Zde je místo pri krátky slovní popis prezentovaného projektu. Jsme rodinná
-      firma, která se s důrazem na poctivé řemeslo, kvalitu a nadčasový design
-      soutředí na výstavbu horských apartmánů v Jeseníkách a rezidenčních
-      nemovitostí na Šumpersku.
+      Wellness apartmány s prvorepublikovým šarmem. Místo, kde se moderna snoubí
+      s historií. V malebné obci pod vrcholky Hrubého Jeseníku rekonstruujeme
+      vilu z 30. let minulého století. Velké Losiny jsou jedny z nejstarších
+      moravských lázní. A s odkazem k lázeňské tradici renovujeme i všech sedm
+      apartmánů projektu. Ctíme minimalistické pojetí, všechny krásné
+      prvorepublikové prvky zůstanou zachovány.
       <br />
       <br />
-      Našim cílem je poskytovat kvalitní a spolehlivé stavební služby. Při
-      realizaci vašich představ, myšlenek. Našim cílem je poskytovat kvalitní a
-      spolehlivé stavební služby.
+      Apartmánový dům bude sloužit jako ubytování hotelového typu s kompletním
+      servisem. Vlastní apartmán vám tak může sloužit jako rodinné rekreační
+      zázemí. V době, kdy ho nebudete obývat sami, se pro vás stane pasivní
+      investicí. O kompletní správu rezervací a pohodlí vašich hostů se vám rádi
+      postaráme od A do Z.
     </>
   ),
   sliderImages: [
@@ -37,10 +41,6 @@ const data = {
     },
     {
       imageUrl: "v1645822941/vilaRepublika/mp01-min_pilgkw.jpg",
-    },
-
-    {
-      imageUrl: "v1645822943/vilaRepublika/mp02-min_yspitq.jpg",
     },
     {
       imageUrl: "v1645822938/vilaRepublika/1.1-min_yaebmu.jpg",
@@ -57,7 +57,48 @@ const data = {
     {
       imageUrl: "v1645822962/vilaRepublika/SAUNA2-min_p65zfc.jpg",
     },
+
+    {
+      imageUrl: "v1647000262/vilaRepublika/ap1/l07mensi_xywpsx.jpg",
+    },
+
+    {
+      imageUrl: "v1647000262/vilaRepublika/ap1/l06mensi_ojitki.jpg",
+    },
+
+    {
+      imageUrl: "v1647000263/vilaRepublika/ap1/l03_mszqi0.jpg",
+    },
+
+    {
+      imageUrl: "v1647000261/vilaRepublika/ap1/l05_l6aizz.jpg",
+    },
+
+    {
+      imageUrl: "v1647000260/vilaRepublika/ap1/l04_xlxwta.jpg",
+    },
+
+    {
+      imageUrl: "v1647000259/vilaRepublika/ap1/l02_ljqbfc.jpg",
+    },
+
+    {
+      imageUrl: "v1647000259/vilaRepublika/ap1/l01_bchohc.jpg",
+    },
+
+    {
+      imageUrl: "v1647000259/vilaRepublika/ap1/k04_qtn5by.jpg",
+    },
+
+    {
+      imageUrl: "v1647000257/vilaRepublika/ap1/k02_ohy5yk.jpg",
+    },
+
+    {
+      imageUrl: "v1647000257/vilaRepublika/ap1/h04_fosbf6.jpg",
+    },
   ],
+  hideArchitect: true,
   stats: [
     {
       value: "950",
@@ -116,35 +157,35 @@ const data = {
   ],
 
   sectionFourOneText: {
-    title: "Zachovalé historické",
-    titleGold: "detaily a prvky",
-    desc: "S úctou k tradicím. V rámci rekonstrukce jsme se snažili o zachování všech okouzlujících historických prvků, které dodávají místu osobitý charakter. V některých apartmánech jsme ponechali originální zrenovované parkety, stejně tak restaurujeme výklenky kolem oken, původní kování, panty, okna a dveře.",
+    title: "Originální koncept ",
+    titleGold: "designových apartmánů",
+    desc: "Zcela unikátní vyznění a jiné barevné ladění. Každý z našich apartmánů je originál, navrhoval ho jiný architekt. Vždy je to ale minimalismus s poctou k prvorepublikové architektuře. Ať už jsou to repasované dveře, původní parkety, dřevěná obložení nebo citlivě vybrané designové doplňky – vše ladí v jeden estetický celek. Velký důraz přitom klademe na luxusní vybavení a prvotřídní materiály.  Těšte se na pohodlné postele a kvalitní spánek.",
   },
 
   sectionFourTwoText: {
-    title: "Moderní domácnost",
-    titleGold: "a vyspělé technologie",
-    desc: "Domácnost, která se řídí sama a lze ji ovládat na dálku, je součástí i našeho projektu. Vydáváte se na víkend na lyže? Zapněte si topení v předstihu a přijeďte do vyhřátého. Zapomněli jste zhasnout světla při odjezdu? Učiňte tak jedním kliknutím odkudkoliv. Moderní technologie zajišťují pohodlí, šetří energie i váš čas. Pokud máte v plánu apartmán pronajímat v době, kdy ho nevyužíváte sami, stačí hostům zadat unikátní kód, pomocí kterého se dostanou do budovy.",
+    title: "Privátní wellness",
+    titleGold: "s útulnou atmosférou",
+    desc: "Pohodlí jsme podřídili všechno. V přízemí vily proto budujeme designové wellness centrum, kde můžete načerpat síly a užívat si soukromí. Čeká zde na vás finská sauna s parním nárazem, odpočinková část s výhledem do zeleně, whirpool vana pro dvě osoby a zážitková sprcha s relaxačními programy. Rezervaci si můžete udělat online a prostory si otevřít sami pomocí kódu, který vám zašleme.",
   },
 
-  sectionImageOne: "v1645823019/vilaRepublikaSectionImage1_ph3pqx.jpg",
-  sectionImageTwo: "v1645823022/vilaRepublikaSectionImage2_u0mzde.jpg",
-  sectionCover: "v1645823020/vilaRepublikaSectionCover_hju4sd.jpg",
+  sectionImageOne: "v1647000254/vilaRepublika/ap1/o01_lhqt6c.jpg",
+  sectionImageTwo: "v1645822962/vilaRepublika/SAUNA2-min_p65zfc.jpg",
+  sectionCover: "v1647000262/vilaRepublika/ap1/l07mensi_xywpsx.jpg",
   ticksSection: [
     {
-      highlighted: "Obchod i služby",
-      normal: "vše na dosah",
-      desc: "Ruda nad Moravou leží v malebném údolí řeky Morava. Nachází se pouhých 10 minut jízdy od Šumperka, kde najdete veškerou občanskou vybavenost, dále kino, krytý bazén, bary, kavárny i výborné restaurace. Přímo v Rudě je místní hospoda a koupaliště.",
+      highlighted: "Lázeňská tradice",
+      normal: "Velkýh Losin",
+      desc: "Velké Losiny mají co nabídnout. Usazené pod vrcholky hor jsou vstupní branou Hrubého Jeseníku. Příznivé klima a čerstvý horský vzduch prospějí vašemu tělu i duši, stejně jako léčivé minerální prameny nebo unikátní termální lázně, které nemají v České republice obdoby. Za poznáním se můžete vydat na prohlídku pozdně renesančního zámku nebo do velkolosinské ruční papírny. A k tomu si užívat skvělou gastronomii i mlsání v místní pralinkárně.",
     },
     {
-      highlighted: "v zimě lyžování",
-      normal: "V létě příroda, ",
-      desc: "Překrásná krajina podhůří Jeseníků svádí k výletům všeho druhu. Po svých nebo na kole se můžete vydávat za přírodními krásami, na výšlapy do vrcholků Hanušovické vrchoviny nebo na zdejší rozhlednu Háj. Nejbližší lyžařský areál Štědrákova Lhota je vzdálen 7 km, Buková Hora 20 km a Kunčice necelých 30 km.",
+      highlighted: "hrubého jeseníku",
+      normal: "Léčivá krása ",
+      desc: "Druhé největší pohoří České republiky stojí trochu stranou turistického zájmu, což ale má své velké výhody. Úchvatný ráz krajiny ještě nestihla pozměnit ruka člověka a zdejší neposkvrněná příroda má v sobě léčivou sílu. Vyšlápněte si na horu Praděd, vydejte se na okruh po vodopádech anebo místních rozhlednách. Nezapomeňte na přečerpávací vodní elektrárnu Dlouhé Stráně. Pěšky nebo na kole, kromě turistických tras je zde i široká síť cyklostezek. Jeseníky myslí na každého z vás.",
     },
     {
-      highlighted: "a wellness zázemí",
-      normal: "Propojení se zelení",
-      desc: "Myslíme na to, aby apartmány byly co nejvíce propojeny s okolní krajinou. Každý má proto vlastní zahradu nebo terasu. Za domem stavíme společnou wellness zónu se saunou, vířivkou, ochlazovacím koutem a odpočinkovou částí. Ke společenským účelům bude sloužit místnost v přízemí se stolním fotbálkem a posezením.",
+      highlighted: "už od listopadu",
+      normal: "Lyžování naplno ",
+      desc: "Hrubý Jeseník má skvělé sněhového podmínky. V dosahu budete mít hned několik ski-areálů. Necelých 10 kilometrů je vzdálen ski-areál Kouty a Přemyslov. Zhruba za 20 minut dorazíte na Praděd nebo Červenohorské sedlo. A mnoho dalších menších středisek objevíte v blízkém okolí. Pro běžkaře je nejatraktivnější oblastí Jesenická magistrála. Přejezd Jesenického hřebene na lyžích je jedním z nejkrásnějších horských výletů, které u nás můžete podniknout.",
     },
   ],
   apartments: [
@@ -235,7 +276,7 @@ const data = {
     },
     {
       image: "v1645823025/projektVlDva_p4fsrb.png",
-      name: "Apartmány",
+      name: "Wellness Apartmány",
       location: "Velké Losiny",
     },
     {
@@ -272,7 +313,6 @@ const VilaRepublika = () => {
   return (
     <Layout>
       <Header />
-
       <ProjectSectionOne data={data} />
       <ProjectSectionTwo data={data} />
       <ProjectSectionThree data={data} />

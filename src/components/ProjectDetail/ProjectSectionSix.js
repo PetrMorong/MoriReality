@@ -46,13 +46,14 @@ const ProjectSectionSix = ({ data }) => {
           </OsaWrap>
         </Wrapper>
       </Container>
-      <Container style={{ background: "white" }}>
-        <WrapperArchitect>
-          <Text>{data.architectWord}</Text>
-          <Name>- {data.architectName}, Architekt</Name>
-        </WrapperArchitect>
-      </Container>
-
+      {data.hideArchitect !== true && (
+        <Container style={{ background: "white" }}>
+          <WrapperArchitect>
+            <Text>{data.architectWord}</Text>
+            <Name>- {data.architectName}, Architekt</Name>
+          </WrapperArchitect>
+        </Container>
+      )}
       <Container style={{ background: "white" }}>
         <WrapperTwo>
           <HeadlineRow>
