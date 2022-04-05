@@ -237,7 +237,7 @@ const data = {
       price: "4 490 000 Kč",
       number: "354/5",
       floor: "2NP",
-      layout: "1 + 1",
+      layout: "2kk",
       size: "40,6 m2",
       terasa: "3,6 m2",
       parking: "1",
