@@ -175,7 +175,7 @@ const data = {
       reserved: false,
     },
     {
-      price: "3 250 000 Kč",
+      price: "3 400 000 Kč",
       number: "245/2",
       floor: "2NP",
       layout: "2 + kk",
@@ -183,7 +183,7 @@ const data = {
       terasa: "18 m2",
       parking: "1",
       link: "/rezidence-hrabenov/ap-2",
-      reserved: false,
+      reserved: true,
     },
     {
       price: "3 990 000 Kč",
