@@ -198,7 +198,7 @@ const data = {
       terasa: "7,8 m2",
       parking: "1",
       link: "/vila-republika/ap-1",
-      reserved: false,
+      reserved: true,
     },
     {
       price: "3 990 000 Kč",
@@ -242,7 +242,7 @@ const data = {
       terasa: "3,6 m2",
       parking: "1",
       link: "/vila-republika/ap-5",
-      reserved: false,
+      reserved: true,
     },
     {
       price: "5 990 000 Kč",
