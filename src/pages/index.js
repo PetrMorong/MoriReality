@@ -16,6 +16,7 @@ const HomePage = () => {
       <HomeSectionOne />
       <HomeSectionTwo />
       <HomeSectionThree />
+      {/* Gallery */}
       <HomeSectionFour />
       <HomeSectionFive />
       <HomeSectionSix />

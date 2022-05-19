@@ -188,16 +188,22 @@ const data = [
     detailLink: "/vila-republika",
   },
   {
-    imageUrl: "v1645823018/projektMalaMorava_nzkcnk.jpg",
-    title: "Malá Morava",
-    desc: "7 horských apartmánů",
-    detailLink: "/apartmany-mala-morava",
-  },
-  {
     imageUrl: "v1645823025/projektVlDva_p4fsrb.png",
     title: "Apartmánový dům Velké Losiny",
     desc: "9 apartmánů, Wellness",
-    detailLink: "TODO",
+    detailLink: "",
+  },
+  {
+    imageUrl: "v1652947191/Screenshot_2022-05-19_at_09.59.12_nzkktb.png",
+    title: "Kavárna Republika",
+    desc: "Velké Losiny",
+    detailLink: "",
+  },
+  {
+    imageUrl: "v1645823018/projektMalaMorava_nzkcnk.jpg",
+    title: "Horská Chalupa",
+    desc: "Malá Morava",
+    detailLink: "/apartmany-mala-morava",
   },
   {
     imageUrl: "v1645823344/hrabenov/1_frp1mw.jpg",
