@@ -182,17 +182,23 @@ const ButtonWrap = styled.div`
 
 const data = [
   {
+    imageUrl: "v1656862318/Kouty/03_hu0zzb.png",
+    title: "ApartHotel Kouty",
+    desc: "5ti hvězdičkový welness hotel",
+    detailLink: "/aparthotel-kouty",
+  },
+  {
     imageUrl: "v1645822964/vilaRepublika/img2_j6mpok.png",
     title: "Vila republika",
     desc: "Apartmánový dům Velké Losiny",
     detailLink: "/vila-republika",
   },
-  {
-    imageUrl: "v1645823025/projektVlDva_p4fsrb.png",
-    title: "Apartmánový dům Velké Losiny",
-    desc: "9 apartmánů, Wellness",
-    detailLink: "",
-  },
+  // {
+  //   imageUrl: "v1645823025/projektVlDva_p4fsrb.png",
+  //   title: "Apartmánový dům Velké Losiny",
+  //   desc: "9 apartmánů, Wellness",
+  //   detailLink: "",
+  // },
   {
     imageUrl: "v1652947191/Screenshot_2022-05-19_at_09.59.12_nzkktb.png",
     title: "Kavárna Republika",

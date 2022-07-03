@@ -54,31 +54,33 @@ const ProjectSectionSix = ({ data }) => {
           </WrapperArchitect>
         </Container>
       )}
-      <Container style={{ background: "white" }}>
-        <WrapperTwo>
-          <HeadlineRow>
-            <Line></Line>
-            <HeadlineTwo>Video Prohlídka</HeadlineTwo>
-            <Line></Line>
-          </HeadlineRow>
+      {data.videoUrl && (
+        <Container style={{ background: "white" }}>
+          <WrapperTwo>
+            <HeadlineRow>
+              <Line></Line>
+              <HeadlineTwo>Video Prohlídka</HeadlineTwo>
+              <Line></Line>
+            </HeadlineRow>
 
-          <VideoWrap>
-            <ReactPlayer
-              url={data.videoUrl}
-              width="100%"
-              height="100%"
-              config={{
-                youtube: {
-                  playerVars: { showinfo: 1, controls: 1 },
-                },
-                // facebook: {
-                //   appId: "12345",
-                // },
-              }}
-            />
-          </VideoWrap>
-        </WrapperTwo>
-      </Container>
+            <VideoWrap>
+              <ReactPlayer
+                url={data.videoUrl}
+                width="100%"
+                height="100%"
+                config={{
+                  youtube: {
+                    playerVars: { showinfo: 1, controls: 1 },
+                  },
+                  // facebook: {
+                  //   appId: "12345",
+                  // },
+                }}
+              />
+            </VideoWrap>
+          </WrapperTwo>
+        </Container>
+      )}
     </>
   );
 };
