@@ -182,13 +182,14 @@ const ButtonWrap = styled.div`
 
 const data = [
   {
-    imageUrl: "v1656862318/Kouty/03_hu0zzb.png",
-    title: "ApartHotel Kouty",
-    desc: "5ti hvězdičkový welness hotel",
+    imageUrl:
+      "v1664009931/Kouty/Screen_Shot_2022-08-18_at_11.26.44_2_yytalh.png",
+    title: "Wellness & spa ApartHotel ",
+    desc: "Kouty nad Desnou",
     detailLink: "/aparthotel-kouty",
   },
   {
-    imageUrl: "v1645822964/vilaRepublika/img2_j6mpok.png",
+    imageUrl: "v1664012324/vilaRepublika/IMG_20220826_112641_2_ds9r33.jpg",
     title: "Vila republika",
     desc: "Apartmánový dům Velké Losiny",
     detailLink: "/vila-republika",
@@ -199,22 +200,22 @@ const data = [
   //   desc: "9 apartmánů, Wellness",
   //   detailLink: "",
   // },
-  {
-    imageUrl: "v1652947191/Screenshot_2022-05-19_at_09.59.12_nzkktb.png",
-    title: "Kavárna Republika",
-    desc: "Velké Losiny",
-    detailLink: "",
-  },
+  // {
+  //   imageUrl: "v1652947191/Screenshot_2022-05-19_at_09.59.12_nzkktb.png",
+  //   title: "Kavárna Republika",
+  //   desc: "Velké Losiny",
+  //   detailLink: "",
+  // },
   {
     imageUrl: "v1645823018/projektMalaMorava_nzkcnk.jpg",
-    title: "Horská Chalupa",
+    title: "Apartmány",
     desc: "Malá Morava",
     detailLink: "/apartmany-mala-morava",
   },
   {
     imageUrl: "v1645823344/hrabenov/1_frp1mw.jpg",
     title: "Rezidence Hrabenov",
-    desc: "3 apartmány",
+    desc: "3 bytové jednotky",
     detailLink: "/rezidence-hrabenov",
   },
 ];

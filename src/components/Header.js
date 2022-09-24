@@ -65,7 +65,7 @@ const Link = styled.a`
   }
 `;
 
-const Header = () => {
+const Header = ({ email, phone }) => {
   const renderLinks = () => {
     return (
       <>
@@ -76,9 +76,12 @@ const Header = () => {
         <Link href="mailto:info@mori-reality.cz">Kontakt</Link>
 
         <div style={{ flex: 1 }} />
-        <Link href="tel:+420 737 211 314">+420 737 211 314</Link>
+
+        <Link href={`tel:${phone || "+420 737 211 314"}`}>
+          {phone || "+420 737 211 314"}
+        </Link>
         <a
-          href="mailto:info@mori-reality.cz"
+          href={`mailto:${email || "info@mori-reality.cz"}`}
           style={{ textDecoration: "none" }}
         >
           <Button>Kontaktovat</Button>

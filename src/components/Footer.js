@@ -106,7 +106,7 @@ const Link = styled.a`
   }
 `;
 
-const Footer = () => {
+const Footer = ({ email, phone }) => {
   return (
     <Container>
       <Wrapper>
@@ -128,9 +128,13 @@ const Footer = () => {
         <Col style={{ width: 140 }}>
           <Title>Kontakt</Title>
 
-          <Link href="tel:+420 737 211 314">+420 737 211 314</Link>
+          <Link href={`tel:${phone || "+420 737 211 314"}`}>
+            {phone || "+420 737 211 314"}
+          </Link>
 
-          <Link href="mailto:info@mori-reality.cz">info@mori-reality.cz</Link>
+          <Link href={`mailto:${email || "info@mori-reality.cz"}`}>
+            {email || "info@mori-reality.cz"}
+          </Link>
 
           <Link href="https://www.facebook.com/morireality" target="_blank">
             <img

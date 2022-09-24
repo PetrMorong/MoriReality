@@ -112,11 +112,11 @@ const data = {
 const MalaMoravaAp1Page = () => {
   return (
     <Layout>
-      <Header />
+      <Header email="dominik.lokoc@homeportal.cz" phone="+420 602 732 879" />
       <ApSectionOne data={data} />
       <ApSectionTwo data={data} />
       <ApSectionThree data={data} />
-      <Footer />
+      <Footer email="dominik.lokoc@homeportal.cz" phone="+420 602 732 879" />
     </Layout>
   );
 };

@@ -2,7 +2,7 @@ import * as React from "react";
 import styled from "styled-components";
 import ReactPlayer from "react-player";
 
-const ProjectSectionSix = ({ data }) => {
+const ProjectSectionSix = ({ data, videoSectionTitle }) => {
   return (
     <>
       <Container>
@@ -59,7 +59,9 @@ const ProjectSectionSix = ({ data }) => {
           <WrapperTwo>
             <HeadlineRow>
               <Line></Line>
-              <HeadlineTwo>Video Prohlídka</HeadlineTwo>
+              <HeadlineTwo>
+                {videoSectionTitle || "Video Prohlídka"}{" "}
+              </HeadlineTwo>
               <Line></Line>
             </HeadlineRow>
 

@@ -128,9 +128,9 @@ const HomeSectionThree = () => {
               čistotu práce. Používáme pouze nejkvalitnější materiály, které
               mají dlouhou životnost.
             </Desc>
-            <Button height={50} leftBorder={true} width={160}>
+            {/* <Button height={50} leftBorder={true} width={160}>
               Kontaktovat
-            </Button>
+            </Button> */}
           </SlideUp>
         </Box>
 
@@ -153,9 +153,9 @@ const HomeSectionThree = () => {
               nejmodernější technologie. Nadčasově pojaté interiéry plní
               požadavky na komfortní, pohodlné, a přitom funkční bydlení.
             </Desc>
-            <Button height={50} leftBorder={true} width={160}>
+            {/* <Button height={50} leftBorder={true} width={160}>
               Kontaktovat
-            </Button>
+            </Button> */}
           </SlideUp>
         </Box>
 
@@ -180,9 +180,9 @@ const HomeSectionThree = () => {
               spolehlivě a poctivě. To vše dělá z našich nemovitostí domovy, kam
               se budete každý den rádi vracet.
             </Desc>
-            <Button height={50} leftBorder={true} width={160}>
+            {/* <Button height={50} leftBorder={true} width={160}>
               Kontaktovat
-            </Button>
+            </Button> */}
           </SlideUp>
         </Box>
       </Wrapper>

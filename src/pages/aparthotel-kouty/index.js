@@ -20,30 +20,53 @@ const data = {
   //   videoUrl: "https://youtu.be/vnrog-OczGQ",
   desc: (
     <>
-      Wellness apartmány s prvorepublikovým šarmem. Místo, kde se moderna snoubí
-      s historií. V malebné obci pod vrcholky Hrubého Jeseníku rekonstruujeme
-      vilu z 30. let minulého století. Velké Losiny jsou jedny z nejstarších
-      moravských lázní. A s odkazem k lázeňské tradici renovujeme i všech sedm
-      apartmánů projektu. Ctíme minimalistické pojetí, všechny krásné
-      prvorepublikové prvky zůstanou zachovány.
-      <br />
-      <br />
-      Apartmánový dům bude sloužit jako ubytování hotelového typu s kompletním
-      servisem. Vlastní apartmán vám tak může sloužit jako rodinné rekreační
-      zázemí. V době, kdy ho nebudete obývat sami, se pro vás stane pasivní
-      investicí. O kompletní správu rezervací a pohodlí vašich hostů se vám rádi
-      postaráme od A do Z.
+      4 hvězdičkový aparthotel s restaurací a prémiovým wellness. Hotel se
+      nachází v Koutech nad Desnou 800m od skiareálu Kouty, kde je 3. nejdelší
+      sjezdovka v ČR a lanovka na nejvyšší horu Moravy Praděd. Celkem vznikne 24
+      luxusních apartmánů, 12 apartmánů bude na prodej a zbytek si majitel
+      ponechá na pronájem.
     </>
   ),
   sliderImages: [
     {
-      imageUrl: "v1656862318/Kouty/03_hu0zzb.png",
+      imageUrl:
+        "v1664009931/Kouty/Screen_Shot_2022-08-18_at_11.26.44_2_yytalh.png",
     },
     {
-      imageUrl: "v1656862315/Kouty/01_1_fmdnnm.jpg",
+      imageUrl:
+        "v1664009999/Kouty/Screen_Shot_2022-08-18_at_11.27.50_1_gnjjvw.png",
     },
     {
-      imageUrl: "v1656862310/Kouty/02_1_m1wjb8.jpg",
+      imageUrl:
+        "v1664010001/Kouty/Screen_Shot_2022-08-18_at_11.26.52_1_qlpgeb.png",
+    },
+    {
+      imageUrl:
+        "v1664010789/Kouty/Screen_Shot_2022-09-24_at_11.11.44_teirz1.png",
+    },
+    {
+      imageUrl:
+        "v1664009995/Kouty/Screen_Shot_2022-08-18_at_11.27.02_i9llj9.png",
+    },
+    {
+      imageUrl:
+        "v1664009993/Kouty/Screen_Shot_2022-08-18_at_11.27.23_qrojc1.png",
+    },
+    {
+      imageUrl:
+        "v1664010789/Kouty/Screen_Shot_2022-09-24_at_11.12.17_zaex8g.png",
+    },
+    {
+      imageUrl:
+        "v1664010792/Kouty/Screen_Shot_2022-09-24_at_11.10.36_fq6mot.png",
+    },
+    {
+      imageUrl:
+        "v1664010796/Kouty/Screen_Shot_2022-09-24_at_11.11.25_fauwtr.png",
+    },
+    {
+      imageUrl:
+        "v1664010794/Kouty/Screen_Shot_2022-09-24_at_11.11.07_x6lloq.png",
     },
     {
       imageUrl:
@@ -88,12 +111,12 @@ const data = {
   hideArchitect: true,
   stats: [
     {
-      value: "3000",
+      value: "7000",
       highlighted: "m2",
       desc: "Plocha pozemku",
     },
     {
-      value: "20",
+      value: "32",
       highlighted: "",
       desc: "Apartmánů",
     },
@@ -105,7 +128,7 @@ const data = {
     {
       value: "Říjen",
       highlighted: "2024",
-      desc: "Termín Dokončení",
+      desc: "Termín Dokončen",
     },
   ],
   features: [
@@ -161,6 +184,7 @@ const data = {
     "v1656862994/Kouty/pm-eme-cor-211116-cam001-jpeg_16384625467577_1920x1080_ftt_100_z2mvui.jpg",
   sectionCover:
     "v1656862992/Kouty/pm-eme-room2-211116-cam002-jpeg_16391630070542_1920x1080_ttt_90_ucqrqi.jpg",
+
   ticksSection: [
     {
       highlighted: "Lázeňská tradice",
@@ -180,40 +204,40 @@ const data = {
   ],
   apartments: [
     {
-      price: "2 900 000 Kč",
+      price: "Cena na dotaz",
       number: "131/1",
       floor: "2NP",
       layout: "1 + kk",
       size: "20 m2",
       terasa: "-",
       parking: "1",
-      link: "/vila-republika/ap-1",
+      // link: "/vila-republika/ap-1",
       reserved: false,
     },
     {
-      price: "3 290 000 Kč",
+      price: "Cena na dotaz",
       number: "131/2",
       floor: "2NP",
       layout: "2 + kk",
       size: "23 m2",
       terasa: "-",
       parking: "1",
-      link: "/vila-republika/ap-1",
+      // link: "/vila-republika/ap-1",
       reserved: false,
     },
     {
-      price: "3 490 000 Kč",
+      price: "Cena na dotaz",
       number: "131/3",
       floor: "2NP",
       layout: "1 + kk",
       size: "25 m2",
       terasa: "-",
       parking: "1",
-      link: "/vila-republika/ap-1",
+      // link: "/vila-republika/ap-1",
       reserved: false,
     },
     {
-      price: "3 900 000 Kč",
+      price: "Cena na dotaz",
       number: "131/4",
       floor: "2NP",
       layout: "1 + kk",
@@ -224,7 +248,7 @@ const data = {
       reserved: false,
     },
     {
-      price: "3 900 000 Kč",
+      price: "Cena na dotaz",
       number: "131/5",
       floor: "2NP",
       layout: "1 + kk",
@@ -235,7 +259,7 @@ const data = {
       reserved: false,
     },
     {
-      price: "3 490 000 Kč",
+      price: "Cena na dotaz",
       number: "131/6",
       floor: "2NP",
       layout: "1 + kk",
@@ -246,7 +270,7 @@ const data = {
       reserved: false,
     },
     {
-      price: "3 900 000 Kč",
+      price: "Cena na dotaz",
       number: "131/7",
       floor: "2NP",
       layout: "1 + kk",
@@ -257,22 +281,44 @@ const data = {
       reserved: false,
     },
     {
-      price: "3 900 000 Kč",
+      price: "Cena na dotaz",
       number: "131/8",
       floor: "2NP",
       layout: "1 + kk",
       size: "30 m2",
       terasa: "-",
       parking: "1",
-      link: "/vila-republika/ap-1",
+      // link: "/vila-republika/ap-1",
+      reserved: false,
+    },
+    {
+      price: "Cena na dotaz",
+      number: "131/9",
+      floor: "2NP",
+      layout: "1 + kk",
+      size: "39 m2",
+      terasa: "-",
+      parking: "1",
+      // link: "/vila-republika/ap-1",
+      reserved: false,
+    },
+    {
+      price: "Cena na dotaz",
+      number: "131/10",
+      floor: "2NP",
+      layout: "1 + kk",
+      size: "34 m2",
+      terasa: "-",
+      parking: "1",
+      // link: "/vila-republika/ap-1",
       reserved: false,
     },
   ],
   otherProjects: [
     {
       image: "v1645823018/projektMalaMorava_nzkcnk.jpg",
-      name: "Chalupa u lesa",
-      location: "Vlaské, Malá Morava",
+      name: "Apartmány",
+      location: "Malá Morava",
       link: "/apartmany-mala-morava",
     },
     {
@@ -285,6 +331,7 @@ const data = {
       image: "v1645823344/hrabenov/1_frp1mw.jpg",
       name: "Rezidence Hrabenov",
       location: "Hrabenov, Ruda Nad Moravou",
+      link: "/rezidence-hrabenov",
     },
   ],
   timelineFill: "5%",

@@ -200,8 +200,8 @@ const data = {
   otherProjects: [
     {
       image: "v1645823018/projektMalaMorava_nzkcnk.jpg",
-      name: "Horské Apartmány",
-      location: "Vlaské, Malá Morava",
+      name: "Apartmány",
+      location: "Malá Morava",
       link: "/apartmany-mala-morava",
     },
     {
@@ -211,9 +211,11 @@ const data = {
       link: "/vila-republika",
     },
     {
-      image: "v1645823025/projektVlDva_p4fsrb.png",
-      name: "Wellness ApartHotel",
-      location: "Velké Losiny",
+      image:
+        "v1664009999/Kouty/Screen_Shot_2022-08-18_at_11.27.50_1_gnjjvw.png",
+      name: "Wellness Aparthotel",
+      location: "Kouty nad Desnou",
+      link: "/aparthotel-kouty",
     },
   ],
   architectName: "Pavol Vojtek",
@@ -243,7 +245,7 @@ const data = {
 const VilaRepublika = () => {
   return (
     <Layout>
-      <Header />
+      <Header email="dominik.lokoc@homeportal.cz" phone="+420 602 732 879" />
       <ProjectSectionOne data={data} />
       <ProjectSectionTwo data={data} />
       <ProjectSectionThree data={data} />
@@ -252,7 +254,7 @@ const VilaRepublika = () => {
       <ProjectSectionSix data={data} />
       <PriceList data={data} />
       <OtherProjects data={data} />
-      <Footer />
+      <Footer email="dominik.lokoc@homeportal.cz" phone="+420 602 732 879" />
     </Layout>
   );
 };

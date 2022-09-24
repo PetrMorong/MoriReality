@@ -17,7 +17,7 @@ const data = {
   locationOne: "Osvobození 354",
   locationTwo: "Velké Losiny, Olomoucký kraj",
   cover: "vilaRepublikaCover",
-  videoUrl: "https://youtu.be/vnrog-OczGQ",
+  videoUrl: "https://youtu.be/23EWRlkDA4s",
   desc: (
     <>
       Wellness apartmány s prvorepublikovým šarmem. Místo, kde se moderna snoubí
@@ -37,66 +37,133 @@ const data = {
   ),
   sliderImages: [
     {
-      imageUrl: "v1645822964/vilaRepublika/img2_j6mpok.png",
-    },
-    {
-      imageUrl: "v1645822941/vilaRepublika/mp01-min_pilgkw.jpg",
-    },
-    {
-      imageUrl: "v1645822938/vilaRepublika/1.1-min_yaebmu.jpg",
-    },
-    {
-      imageUrl: "v1645822938/vilaRepublika/1.3.3-min_j5ku93.jpg",
-    },
-    {
-      imageUrl: "v1645822943/vilaRepublika/F3-min_icpvqo.jpg",
-    },
-    {
-      imageUrl: "v1645822937/vilaRepublika/SAUNA1-min_r0jgcz.jpg",
-    },
-    {
-      imageUrl: "v1645822962/vilaRepublika/SAUNA2-min_p65zfc.jpg",
+      imageUrl: "v1664012326/vilaRepublika/IMG_20220826_112328_ucbslh.jpg",
     },
 
     {
-      imageUrl: "v1647000262/vilaRepublika/ap1/l07mensi_xywpsx.jpg",
+      imageUrl: "v1664012324/vilaRepublika/IMG_20220826_112641_2_ds9r33.jpg",
     },
 
     {
-      imageUrl: "v1647000262/vilaRepublika/ap1/l06mensi_ojitki.jpg",
+      imageUrl: "v1664012322/vilaRepublika/received_594019832126996_qakzza.jpg",
     },
 
     {
-      imageUrl: "v1647000263/vilaRepublika/ap1/l03_mszqi0.jpg",
+      imageUrl:
+        "v1664012322/vilaRepublika/290488847_1208493546577146_4441050244833197163_n_1_yypr29.jpg",
     },
 
     {
-      imageUrl: "v1647000261/vilaRepublika/ap1/l05_l6aizz.jpg",
+      imageUrl:
+        "v1664012322/vilaRepublika/277235060_945405259479099_1749850267722574106_n_k0aq4f.jpg",
     },
 
     {
-      imageUrl: "v1647000260/vilaRepublika/ap1/l04_xlxwta.jpg",
+      imageUrl:
+        "v1664012322/vilaRepublika/277235060_945405259479099_1749850267722574106_n_k0aq4f.jpg",
     },
 
     {
-      imageUrl: "v1647000259/vilaRepublika/ap1/l02_ljqbfc.jpg",
+      imageUrl: "v1664012323/vilaRepublika/IMG_20220904_161049_1_t0hjwu.jpg",
     },
 
     {
-      imageUrl: "v1647000259/vilaRepublika/ap1/l01_bchohc.jpg",
+      imageUrl: "v1664012323/vilaRepublika/IMG_20220826_113059_gfvbvq.jpg",
     },
 
     {
-      imageUrl: "v1647000259/vilaRepublika/ap1/k04_qtn5by.jpg",
+      imageUrl: "v1664012323/vilaRepublika/IMG_20220826_113059_gfvbvq.jpg",
     },
 
     {
-      imageUrl: "v1647000257/vilaRepublika/ap1/k02_ohy5yk.jpg",
+      imageUrl: "v1664012327/vilaRepublika/IMG_20220826_113115_g4bpst.jpg",
     },
 
     {
-      imageUrl: "v1647000257/vilaRepublika/ap1/h04_fosbf6.jpg",
+      imageUrl: "v1664012327/vilaRepublika/IMG_20220826_113115_g4bpst.jpg",
     },
+
+    {
+      imageUrl: "v1664012327/vilaRepublika/IMG_20220826_121733_2_ysn42z.jpg",
+    },
+
+    {
+      imageUrl: "v1664012327/vilaRepublika/IMG_20220617_150325_1_jlewrv.jpg",
+    },
+
+    {
+      imageUrl: "v1664012329/vilaRepublika/IMG_20220904_160945_1_mkktp8.jpg",
+    },
+
+    {
+      imageUrl: "v1664013013/vilaRepublika/IMG_20220914_111001_ubpytt.jpg",
+    },
+
+    {
+      imageUrl: "v1664013012/vilaRepublika/IMG_20220914_110241_kjojys.jpg",
+    },
+
+    // {
+    //   imageUrl: "v1645822964/vilaRepublika/img2_j6mpok.png",
+    // },
+    // {
+    //   imageUrl: "v1645822941/vilaRepublika/mp01-min_pilgkw.jpg",
+    // },
+    // {
+    //   imageUrl: "v1645822938/vilaRepublika/1.1-min_yaebmu.jpg",
+    // },
+    // {
+    //   imageUrl: "v1645822938/vilaRepublika/1.3.3-min_j5ku93.jpg",
+    // },
+    // {
+    //   imageUrl: "v1645822943/vilaRepublika/F3-min_icpvqo.jpg",
+    // },
+    // {
+    //   imageUrl: "v1645822937/vilaRepublika/SAUNA1-min_r0jgcz.jpg",
+    // },
+    // {
+    //   imageUrl: "v1645822962/vilaRepublika/SAUNA2-min_p65zfc.jpg",
+    // },
+
+    // {
+    //   imageUrl: "v1647000262/vilaRepublika/ap1/l07mensi_xywpsx.jpg",
+    // },
+
+    // {
+    //   imageUrl: "v1647000262/vilaRepublika/ap1/l06mensi_ojitki.jpg",
+    // },
+
+    // {
+    //   imageUrl: "v1647000263/vilaRepublika/ap1/l03_mszqi0.jpg",
+    // },
+
+    // {
+    //   imageUrl: "v1647000261/vilaRepublika/ap1/l05_l6aizz.jpg",
+    // },
+
+    // {
+    //   imageUrl: "v1647000260/vilaRepublika/ap1/l04_xlxwta.jpg",
+    // },
+
+    // {
+    //   imageUrl: "v1647000259/vilaRepublika/ap1/l02_ljqbfc.jpg",
+    // },
+
+    // {
+    //   imageUrl: "v1647000259/vilaRepublika/ap1/l01_bchohc.jpg",
+    // },
+
+    // {
+    //   imageUrl: "v1647000259/vilaRepublika/ap1/k04_qtn5by.jpg",
+    // },
+
+    // {
+    //   imageUrl: "v1647000257/vilaRepublika/ap1/k02_ohy5yk.jpg",
+    // },
+
+    // {
+    //   imageUrl: "v1647000257/vilaRepublika/ap1/h04_fosbf6.jpg",
+    // },
   ],
   hideArchitect: true,
   stats: [
@@ -116,7 +183,7 @@ const data = {
       desc: "Dispozice Apartmánů",
     },
     {
-      value: "Červenec",
+      value: "Prosinec",
       highlighted: "2022",
       desc: "Termín Dokončení",
     },
@@ -270,19 +337,22 @@ const data = {
   otherProjects: [
     {
       image: "v1645823018/projektMalaMorava_nzkcnk.jpg",
-      name: "Horské Apartmány",
-      location: "Vlaské, Malá Morava",
+      name: "Apartmány",
+      location: "Malá Morava",
       link: "/apartmany-mala-morava",
     },
     {
-      image: "v1645823025/projektVlDva_p4fsrb.png",
-      name: "Wellness Apartmány",
-      location: "Velké Losiny",
+      image:
+        "v1664009999/Kouty/Screen_Shot_2022-08-18_at_11.27.50_1_gnjjvw.png",
+      name: "Wellness Aparthotel",
+      location: "Kouty nad Desnou",
+      link: "/aparthotel-kouty",
     },
     {
-      image: "v1645823341/hrabenov/2_g1tut1.jpg",
+      image: "v1645823344/hrabenov/1_frp1mw.jpg",
       name: "Rezidence Hrabenov",
       location: "Hrabenov, Ruda Nad Moravou",
+      link: "/rezidence-hrabenov",
     },
   ],
   timelineFill: "80%",
@@ -297,11 +367,11 @@ const data = {
     },
     {
       title: "Dokončení rekonstrukce",
-      date: "Červen 2022",
+      date: "Listopad 2022",
     },
     {
       title: "Předání nemovitosti",
-      date: "Červenec 2022",
+      date: "Prosinec 2022",
     },
   ],
   architectName: "Nikol Cojocaru",
@@ -318,7 +388,7 @@ const VilaRepublika = () => {
       <ProjectSectionThree data={data} />
       <ProjectSectionFour data={data} />
       <ProjectSectionFive data={data} />
-      <ProjectSectionSix data={data} />
+      <ProjectSectionSix data={data} videoSectionTitle="Video z rekonstrukce" />
       <PriceList data={data} />
       <OtherProjects data={data} />
       <Footer />

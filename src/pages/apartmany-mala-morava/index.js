@@ -70,9 +70,9 @@ const data = {
       desc: "Plocha pozemku",
     },
     {
-      value: "7",
+      value: "3",
       highlighted: "",
-      desc: "Apartmánů",
+      desc: "Apartmány",
     },
     {
       value: "Až",
@@ -80,7 +80,7 @@ const data = {
       desc: "Dispozice Apartmánů",
     },
     {
-      value: "Červen",
+      value: "Duben",
       highlighted: "2023",
       desc: "Termín Dokončení",
     },
@@ -154,7 +154,7 @@ const data = {
   ],
   apartments: [
     {
-      price: "5 790 000 Kč",
+      price: "4 990 000 Kč",
       number: "39/1",
       floor: "1NP",
       layout: "2kk",
@@ -166,10 +166,10 @@ const data = {
       link: "/apartmany-mala-morava/ap-1",
     },
     {
-      price: "5 290 000 Kč",
+      price: "4 290 000 Kč",
       number: "39/2",
       floor: "1NP",
-      layout: "2kk",
+      layout: "1kk",
       size: "51 m2",
       terasa: "19,25 m2",
       parking: "1",
@@ -178,64 +178,15 @@ const data = {
       link: "/apartmany-mala-morava/ap-2",
     },
     {
-      price: "4 490 000 Kč",
+      price: "3 390 000 Kč",
       number: "39/3",
       floor: "1NP",
       layout: "2kk",
-      size: "49 m2",
-      terasa: "-",
+      size: "36 m2",
+      terasa: "12,5 m2",
       parking: "1",
-      link: "",
-      reserved: true,
-    },
-
-    {
-      price: "3 990 000Kč",
-      number: "39/4",
-      floor: "2NP",
-      layout: "1kk",
-      size: "36.4 m2",
-      terasa: "-",
-      parking: "1",
-      link: "",
-      reserved: false,
       link: "/apartmany-mala-morava/ap-4",
-    },
-    {
-      price: "4 490 000 Kč",
-      number: "39/5",
-      floor: "2NP",
-      layout: "2kk",
-      size: "49.7 m2",
-      terasa: "-",
-      parking: "1",
-      link: "",
       reserved: false,
-      link: "/apartmany-mala-morava/ap-5",
-    },
-    {
-      price: "2 990 000 Kč",
-      number: "39/6",
-      floor: "2NP",
-      layout: "1kk",
-      size: "24.6 m2",
-      terasa: "-",
-      parking: "1",
-      link: "",
-      reserved: false,
-      link: "/apartmany-mala-morava/ap-6",
-    },
-    {
-      price: "4 390 000 Kč",
-      number: "39/7",
-      floor: "2NP",
-      layout: "2kk",
-      size: "48.92 m2",
-      terasa: "-",
-      parking: "1",
-      link: "",
-      reserved: false,
-      link: "/apartmany-mala-morava/ap-7",
     },
   ],
   otherProjects: [
@@ -246,14 +197,17 @@ const data = {
       link: "/vila-republika",
     },
     {
-      image: "v1645823025/projektVlDva_p4fsrb.png",
-      name: "Wellness ApartHotel",
-      location: "Velké Losiny",
+      image:
+        "v1664009999/Kouty/Screen_Shot_2022-08-18_at_11.27.50_1_gnjjvw.png",
+      name: "Wellness Aparthotel",
+      location: "Kouty nad Desnou",
+      link: "/aparthotel-kouty",
     },
     {
       image: "v1645823344/hrabenov/1_frp1mw.jpg",
       name: "Rezidence Hrabenov",
       location: "Hrabenov, Ruda Nad Moravou",
+      link: "/rezidence-hrabenov",
     },
   ],
   timelineFill: "10%",
@@ -283,7 +237,7 @@ const data = {
 const VilaRepublika = () => {
   return (
     <Layout>
-      <Header />
+      <Header email="dominik.lokoc@homeportal.cz" phone="+420 602 732 879" />
       <ProjectSectionOne data={data} />
       <ProjectSectionTwo data={data} />
       <ProjectSectionThree data={data} />
@@ -292,7 +246,7 @@ const VilaRepublika = () => {
       <ProjectSectionSix data={data} />
       <PriceList data={data} />
       <OtherProjects data={data} />
-      <Footer />
+      <Footer email="dominik.lokoc@homeportal.cz" phone="+420 602 732 879" />
     </Layout>
   );
 };
