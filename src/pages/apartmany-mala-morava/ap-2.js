@@ -7,11 +7,11 @@ import ApSectionTwo from "../../components/ApartmentDetail/ApSectionTwo";
 import ApSectionThree from "../../components/ApartmentDetail/ApSectionThree";
 
 const data = {
-  sectionOneBg: "v1645822944/malaMorava/apDva/B_4-min_q8mz8j.jpg",
-  layoutImage: "v1645822961/malaMorava/apDva/B_9-min_ccsyur.jpg",
+  sectionOneBg: "v1664193868/malaMorava/apDva/02_javate.jpg",
+  layoutImage: "v1664193870/malaMorava/apDva/08_wgonym.jpg",
   apName: "Ap. 39/2",
   projectName: "Malá Morava",
-  price: "5 290 000",
+  price: "3 990 000",
   backLink: "/apartmany-mala-morava",
   apTitle: "Apartmán Zvonečník",
   apText: (
@@ -63,14 +63,11 @@ const data = {
     },
   ],
   gallery: [
-    "v1645822954/malaMorava/apDva/B_2-min_ayhcv9.jpg",
-    "v1645822957/malaMorava/apDva/B_3-min_leu8s7.jpg",
-    "v1645822944/malaMorava/apDva/B_4-min_q8mz8j.jpg",
-    "v1645822948/malaMorava/apDva/B_5-min_gamg8v.jpg",
-    "v1645822954/malaMorava/apDva/B_1-min_oozemb.jpg",
-    "v1645822947/malaMorava/apDva/B_6-min_x7tlml.jpg",
-    "v1645822961/malaMorava/apDva/B_7-min_ciqulr.jpg",
-    "v1645822962/malaMorava/apDva/B_8-min_a2sxqm.jpg",
+    "v1664193869/malaMorava/apDva/03_q8fsme.jpg",
+    "v1664193868/malaMorava/apDva/02_javate.jpg",
+    "v1664193865/malaMorava/apDva/01_fyzfct.jpg",
+    "v1664193866/malaMorava/apDva/05_qzb5kz.jpg",
+    "v1664193867/malaMorava/apDva/07_ocvf3e.jpg",
   ],
   moreDetails: [
     {

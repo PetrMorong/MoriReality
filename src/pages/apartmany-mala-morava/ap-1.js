@@ -7,11 +7,11 @@ import ApSectionTwo from "../../components/ApartmentDetail/ApSectionTwo";
 import ApSectionThree from "../../components/ApartmentDetail/ApSectionThree";
 
 const data = {
-  sectionOneBg: "v1645822958/malaMorava/ap1/A_3-min_xrm2o3.jpg",
+  sectionOneBg: "v1664193128/malaMorava/ap1/Loznice_3_c2gfqz.jpg",
   layoutImage: "v1645822958/malaMorava/ap1/A_9-min_ii0uxj.jpg",
   apName: "Ap. 39/1",
   projectName: "Malá Morava",
-  price: "5 790 000",
+  price: "4 490 000",
   backLink: "/apartmany-mala-morava",
   apTitle: "Apartmán Devětsil",
   apText: (
@@ -60,12 +60,14 @@ const data = {
     },
   ],
   gallery: [
-    "v1645822958/malaMorava/ap1/A_3-min_xrm2o3.jpg",
-    "v1645822949/malaMorava/ap1/A_2-min_nfayg5.jpg",
-    "v1645822953/malaMorava/ap1/A_1-min_xcbk6w.jpg",
-    "v1645822945/malaMorava/ap1/A_8-min_pxfwxt.jpg",
-    "v1645822959/malaMorava/ap1/A_6-min_fv0otf.jpg",
-    "v1645822959/malaMorava/ap1/A_7-min_z8agiw.jpg",
+    "v1664193128/malaMorava/ap1/Loznice_2_yafacv.jpg",
+    "v1664193128/malaMorava/ap1/Loznice_1_w1uhjd.jpg",
+    "v1664193128/malaMorava/ap1/Loznice_3_c2gfqz.jpg",
+    "v1664192807/malaMorava/ap1/5_b5oh0d.jpg",
+    "v1664192806/malaMorava/ap1/4_olq2le.jpg",
+    "v1664192807/malaMorava/ap1/3_cm2r9i.jpg",
+    "v1664192806/malaMorava/ap1/KOUPELNA_3_v7ele9.jpg",
+    "v1664192806/malaMorava/ap1/KOUPELNA_1_vtiyiv.jpg",
   ],
   moreDetails: [
     {

@@ -19,6 +19,7 @@ const HomePage = () => {
       {/* Gallery */}
       <HomeSectionFour />
       <HomeSectionFive />
+      {/* Prices */}
       <HomeSectionSix />
       <Footer />
     </Layout>

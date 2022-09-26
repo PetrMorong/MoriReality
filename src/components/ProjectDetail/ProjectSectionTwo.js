@@ -2,6 +2,7 @@ import * as React from "react";
 import styled from "styled-components";
 import Button from "../Button";
 import { buildImageUrl } from "cloudinary-build-url";
+import Lightbox from "react-spring-lightbox";
 
 const Container = styled.div`
   width: 100%;
@@ -82,6 +83,7 @@ const LeftArrowCol = styled.div`
   top: 0;
   display: flex;
   align-items: center;
+  cursor: pointer;
 `;
 
 const ArrowWrap = styled.div`
@@ -99,8 +101,20 @@ const ArrowWrap = styled.div`
   }
 `;
 
+const MobileClickable = styled.div`
+  height: 100%;
+  width: calc(100% - 100px);
+  position: absolute;
+  left: 50px;
+  top: 0;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+`;
+
 const ProjectSectionTwo = ({ data }) => {
   const [carouselIndex, setCarouseIndex] = React.useState(0);
+  const [showGallery, setShowGallery] = React.useState(false);
 
   const images = data.sliderImages;
 
@@ -124,35 +138,110 @@ const ProjectSectionTwo = ({ data }) => {
 
   const imageUrl = buildImageUrl(slide.imageUrl, {});
 
+  const lightboxImages = data.sliderImages.map((image) => {
+    return { src: buildImageUrl(image.imageUrl, {}) };
+  });
+
   return (
-    <Container>
-      <Wrapper>
-        <CarouoselContainer>
-          <CarouoselItem
+    <>
+      <Container>
+        <Wrapper>
+          <CarouoselContainer>
+            <CarouoselItem
+              style={{
+                backgroundImage: `url("${imageUrl}")`,
+              }}
+            >
+              <CarouoselItemOverlay>
+                <Logo src="/images/logoSimple.svg" />
+                <LeftArrowCol>
+                  <ArrowWrap onClick={handlePrevious}>
+                    <img src="/images/LeftArrow.svg"></img>
+                  </ArrowWrap>
+                </LeftArrowCol>
+
+                <MobileClickable onClick={() => setShowGallery(true)} />
+
+                <RightArrowCol>
+                  <ArrowWrap onClick={handleNext}>
+                    <img
+                      style={{ transform: "rotate(180deg)" }}
+                      src="/images/LeftArrow.svg"
+                    ></img>
+                  </ArrowWrap>
+                </RightArrowCol>
+              </CarouoselItemOverlay>
+            </CarouoselItem>
+          </CarouoselContainer>
+        </Wrapper>
+      </Container>
+
+      <Lightbox
+        isOpen={showGallery}
+        onPrev={handlePrevious}
+        onNext={handleNext}
+        images={lightboxImages}
+        currentIndex={carouselIndex}
+        /* Add your own UI */
+        renderHeader={() => (
+          <div
+            onClick={() => setShowGallery(false)}
             style={{
-              backgroundImage: `url("${imageUrl}")`,
+              position: "absolute",
+              zIndex: 99,
+              right: 20,
+              top: 20,
+              color: "white",
+              fontSize: 30,
+              cursor: "pointer",
             }}
           >
-            <CarouoselItemOverlay>
-              <Logo src="/images/logoSimple.svg" />
-              <LeftArrowCol>
-                <ArrowWrap onClick={handlePrevious}>
-                  <img src="/images/LeftArrow.svg"></img>
-                </ArrowWrap>
-              </LeftArrowCol>
-              <RightArrowCol>
-                <ArrowWrap onClick={handleNext}>
-                  <img
-                    style={{ transform: "rotate(180deg)" }}
-                    src="/images/LeftArrow.svg"
-                  ></img>
-                </ArrowWrap>
-              </RightArrowCol>
-            </CarouoselItemOverlay>
-          </CarouoselItem>
-        </CarouoselContainer>
-      </Wrapper>
-    </Container>
+            x
+          </div>
+        )}
+        // renderFooter={() => (<CustomFooter />)}
+        renderPrevButton={() => (
+          <ArrowWrap
+            onClick={handlePrevious}
+            style={{
+              position: "absolute",
+              zIndex: 99,
+              left: 0,
+              top: "45%",
+            }}
+          >
+            <img src="/images/LeftArrow.svg"></img>
+          </ArrowWrap>
+        )}
+        renderNextButton={() => (
+          <ArrowWrap
+            onClick={handleNext}
+            style={{ position: "absolute", zIndex: 99, right: 0, top: "45%" }}
+          >
+            <img
+              style={{ transform: "rotate(180deg)" }}
+              src="/images/LeftArrow.svg"
+            ></img>
+          </ArrowWrap>
+        )}
+        style={{ background: "rgba(0,0,0,.7)" }}
+        onClose={() => setShowGallery(false)}
+
+        // renderImageOverlay={() => (<ImageOverlayComponent >)}
+        // className="cool-class"
+
+        /* Use single or double click to zoom */
+        // singleClickToZoom
+
+        /* react-spring config for open/close animation */
+        // pageTransitionConfig={{
+        //   from: { transform: "scale(0.75)", opacity: 0 },
+        //   enter: { transform: "scale(1)", opacity: 1 },
+        //   leave: { transform: "scale(0.75)", opacity: 0 },
+        //   config: { mass: 1, tension: 320, friction: 32 }
+        // }}
+      />
+    </>
   );
 };
 

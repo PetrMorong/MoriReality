@@ -70,9 +70,10 @@ const data = [
     link: "/apartmany-mala-morava/ap-1",
   },
   {
-    name: "Apartmán 39/2 - 36 m²",
+    name: "Apartmán 39/2 - 60 m²",
     location: "Vlaské, Malá Morava",
-    price: "2 990 000 kč",
+    price: "3 990 000 kč",
+
     image: "v1656865840/malaMorava/02_2_nlgatf.jpg",
     link: "/apartmany-mala-morava/ap-2",
   },
@@ -84,9 +85,10 @@ const data = [
   //   link: "/apartmany-mala-morava/ap-4",
   // },
   {
-    name: "Apartmán 39/3 - 60 m²",
+    name: "Apartmán 39/3 - 36 m²",
     location: "Vlaské, Malá Morava",
-    price: "3 900 000 kč",
+    price: "2 990 000 kč",
+
     image: "v1656865740/malaMorava/04_kaq17y.jpg",
     link: "/apartmany-mala-morava/ap-5",
   },

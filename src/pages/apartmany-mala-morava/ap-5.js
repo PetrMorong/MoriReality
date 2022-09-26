@@ -7,11 +7,11 @@ import ApSectionTwo from "../../components/ApartmentDetail/ApSectionTwo";
 import ApSectionThree from "../../components/ApartmentDetail/ApSectionThree";
 
 const data = {
-  sectionOneBg: "v1645822950/malaMorava/ap5/D_2-min_m8yzjh.jpg",
-  layoutImage: "v1645822939/malaMorava/ap5/layout_cfzwxy.png",
-  apName: "Ap. 39/5",
+  sectionOneBg: "v1664194162/malaMorava/ap3/04_mq9nfl.jpg",
+  layoutImage: "v1664194158/malaMorava/ap3/08_1_jt4n0a.jpg",
+  apName: "Ap. 39/3",
   projectName: "Malá Morava",
-  price: "4 490 000",
+  price: "2 990 000",
   backLink: "/apartmany-mala-morava",
   apTitle: "Apartmán Dobromysl",
   apText: (
@@ -33,17 +33,17 @@ const data = {
   ),
   sectionOneDetails: [
     {
-      text: "2+",
+      text: "1+",
       goldText: "kk",
       desc: "Dispozice",
     },
     {
-      text: "49.7 ",
+      text: "36 ",
       goldText: "m2",
       desc: "Podlahová Plocha",
     },
     {
-      text: "2 ",
+      text: "1 ",
       goldText: "NP",
       desc: "Umístění",
     },
@@ -60,12 +60,11 @@ const data = {
     },
   ],
   gallery: [
-    "v1645822941/malaMorava/ap5/D_4-min_rpgi1k.jpg",
-    "v1645822950/malaMorava/ap5/D_2-min_m8yzjh.jpg",
-    "v1645822945/malaMorava/ap5/D_5-min_tasob8.jpg",
-    "v1645822947/malaMorava/ap5/D_3-min_q7owfw.jpg",
-    "v1645822949/malaMorava/ap5/D_7-min_qaodtx.jpg",
-    "v1645822947/malaMorava/ap5/D_6-min_yivyvx.jpg",
+    "v1664194161/malaMorava/ap3/03_mdgnpv.jpg",
+    "v1664194160/malaMorava/ap3/02.1_uczinq.jpg",
+    "v1664194163/malaMorava/ap3/05_oukwjc.jpg",
+    "v1664194162/malaMorava/ap3/04_mq9nfl.jpg",
+    "v1664194158/malaMorava/ap3/07_gnrdbf.jpg",
   ],
   moreDetails: [
     {
@@ -91,12 +90,12 @@ const data = {
   ],
   table: [
     { label: "Stav", value: "Dostupný k rezervaci" },
-    { label: "Číslo bytu", value: "39/5" },
-    { label: "Dispozice", value: "2+kk" },
-    { label: "Podlaží", value: "2" },
-    { label: "Podlahová plocha", value: "49.7 m2" },
+    { label: "Číslo bytu", value: "39/3" },
+    { label: "Dispozice", value: "1+kk" },
+    { label: "Podlaží", value: "1" },
+    { label: "Podlahová plocha", value: "36 m2" },
     { label: "Orientace", value: "Východ" },
-    { label: "Terasa", value: "-" },
+    { label: "Terasa", value: "12.5 m2" },
     { label: "Dokončení", value: "2023" },
   ],
 };
