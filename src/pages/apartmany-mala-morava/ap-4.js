@@ -11,7 +11,7 @@ const data = {
   layoutImage: "v1645822951/malaMorava/ap4/layout_p7wr7r.png",
   apName: "Ap. 39/4",
   projectName: "Malá Morava",
-  price: "3 990 000",
+  price: "2 790 000",
   backLink: "/apartmany-mala-morava",
   apTitle: "Apartmán Hvozdík",
   apText: (

@@ -60,6 +60,15 @@ const data = {
       imageUrl: "v1645822945/malaMorava/ap5/D_5-min_tasob8.jpg",
     },
     {
+      imageUrl: "v1645822945/malaMorava/2NPpu%CC%8Adorys-min_ueox9k.png",
+    },
+
+    {
+      imageUrl:
+        "v1665000042/malaMorava/Screen_Shot_2022-10-05_at_21.35.29_kmnreq.png",
+    },
+
+    {
       imageUrl: "v1645822962/malaMorava/situace_vpz28f.png",
     },
   ],
@@ -70,9 +79,9 @@ const data = {
       desc: "Plocha pozemku",
     },
     {
-      value: "3",
+      value: "7",
       highlighted: "",
-      desc: "Apartmány",
+      desc: "Apartmánů",
     },
     {
       value: "Až",
@@ -80,7 +89,7 @@ const data = {
       desc: "Dispozice Apartmánů",
     },
     {
-      value: "Duben",
+      value: "Červenec",
       highlighted: "2023",
       desc: "Termín Dokončení",
     },
@@ -132,9 +141,9 @@ const data = {
     desc: "Nadstandard už ve standardu. Při rekonstrukci používáme jen ty nejkvalitnější materiály – keramické obklady a dlažby, dřevěné podlahy, moderní spotřebiče, kuchyně na míru a luxusní sanitu. Celý objekt bude vytápěn podlahovým vytápěním a řízen moderními technologiemi. Na dálku půjde ovládat vše – od topení a osvětlení až k elektrickým zámkům. Pokud plánujete apartmán pronajímat, stačí hostům zadat unikátní kód, pomocí kterého se dostanou do budovy.",
   },
 
-  sectionImageOne: "v1645822948/malaMorava/apDva/B_5-min_gamg8v.jpg",
+  sectionImageOne: "v1664194158/malaMorava/ap3/07_gnrdbf.jpg",
   sectionImageTwo: "v1645822956/malaMorava/SKLEP-WELLNESS-min_kuyk5e.jpg",
-  sectionCover: "v1645822944/malaMorava/apDva/B_4-min_q8mz8j.jpg",
+  sectionCover: "v1656865840/malaMorava/02_2_nlgatf.jpg",
   ticksSection: [
     {
       highlighted: "Lyžování v ",
@@ -187,6 +196,50 @@ const data = {
       parking: "1",
       link: "/apartmany-mala-morava/ap-5",
       reserved: false,
+    },
+    {
+      price: "2 790 000 Kč",
+      number: "39/4",
+      floor: "2NP",
+      layout: "1kk",
+      size: "36 m2",
+      terasa: "-",
+      parking: "1",
+      link: "/apartmany-mala-morava/ap-4",
+      reserved: false,
+    },
+    {
+      price: "3 490 000 Kč",
+      number: "39/5",
+      floor: "2NP",
+      layout: "2kk",
+      size: "49 m2",
+      terasa: "-",
+      parking: "1",
+      link: "/apartmany-mala-morava/ap-7",
+      reserved: false,
+    },
+    {
+      price: "3 490 000 Kč",
+      number: "39/6",
+      floor: "2NP",
+      layout: "1kk",
+      size: "24 m2",
+      terasa: "-",
+      parking: "1",
+      link: "",
+      reserved: true,
+    },
+    {
+      price: "3 490 000 Kč",
+      number: "39/7",
+      floor: "2NP",
+      layout: "2kk",
+      size: "48 m2",
+      terasa: "-",
+      parking: "1",
+      link: "",
+      reserved: true,
     },
   ],
   otherProjects: [

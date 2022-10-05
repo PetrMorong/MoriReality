@@ -208,7 +208,7 @@ const data = [
   // },
   {
     imageUrl: "v1645823018/projektMalaMorava_nzkcnk.jpg",
-    title: "Apartmány",
+    title: "Horské Apartmány",
     desc: "Malá Morava",
     detailLink: "/apartmany-mala-morava",
   },
