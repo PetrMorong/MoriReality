@@ -1,19 +1,19 @@
-import * as React from "react";
-import styled from "styled-components";
-import Button from "../Button";
-import { buildImageUrl } from "cloudinary-build-url";
+import * as React from 'react'
+import styled from 'styled-components'
+import Button from '../Button'
+import { buildImageUrl } from 'cloudinary-build-url'
 
 const Container = styled.div`
   width: 100%;
   display: flex;
   justify-content: center;
   margin-bottom: 130px;
-`;
+`
 
 const Wrapper = styled.div`
   background: white;
   width: 100%;
-`;
+`
 
 const HeadlineRow = styled.div`
   display: flex;
@@ -25,13 +25,13 @@ const HeadlineRow = styled.div`
   @media (max-width: 800px) {
     margin-bottom: 40px;
   }
-`;
+`
 
 const Line = styled.div`
   flex: 1;
   border: 1px solid rgba(0, 0, 0, 0.05);
   height: 1px;
-`;
+`
 
 const Headline = styled.div`
   font-family: Georama;
@@ -44,12 +44,12 @@ const Headline = styled.div`
     font-size: 32px;
     line-height: 41px;
   }
-`;
+`
 
 const CarouoselContainer = styled.div`
   display: flex;
   justify-content: center;
-`;
+`
 
 const CarouoselItem = styled.div`
   width: 1180px;
@@ -64,7 +64,7 @@ const CarouoselItem = styled.div`
     width: 100%;
     height: 260px;
   }
-`;
+`
 
 const ProjectInfo = styled.div`
   position: absolute;
@@ -76,7 +76,7 @@ const ProjectInfo = styled.div`
     left: 20px;
     bottom: 20px;
   }
-`;
+`
 
 const CarouoselItemOverlay = styled.div`
   width: 100%;
@@ -87,7 +87,7 @@ const CarouoselItemOverlay = styled.div`
     rgba(15, 15, 22, 0) 70.83%,
     rgba(15, 15, 22, 0.9) 100%
   );
-`;
+`
 
 const ProjectName = styled.div`
   font-family: Georama;
@@ -100,7 +100,7 @@ const ProjectName = styled.div`
     font-size: 18px;
     line-height: 25px;
   }
-`;
+`
 
 const ProjectDesc = styled.div`
   font-family: Georama;
@@ -113,7 +113,7 @@ const ProjectDesc = styled.div`
     font-size: 15px;
     line-height: 25px;
   }
-`;
+`
 
 const Logo = styled.img`
   width: 40px;
@@ -125,7 +125,7 @@ const Logo = styled.img`
   @media (max-width: 800px) {
     display: none;
   }
-`;
+`
 
 const RightArrowCol = styled.div`
   height: 100%;
@@ -134,7 +134,7 @@ const RightArrowCol = styled.div`
   top: 0;
   display: flex;
   align-items: center;
-`;
+`
 
 const MobileClickable = styled.a`
   height: 100%;
@@ -144,7 +144,7 @@ const MobileClickable = styled.a`
   top: 0;
   display: flex;
   align-items: center;
-`;
+`
 
 const LeftArrowCol = styled.div`
   height: 100%;
@@ -153,7 +153,7 @@ const LeftArrowCol = styled.div`
   top: 0;
   display: flex;
   align-items: center;
-`;
+`
 
 const ArrowWrap = styled.div`
   width: 54px;
@@ -168,7 +168,7 @@ const ArrowWrap = styled.div`
     width: 44px;
     height: 44px;
   }
-`;
+`
 
 const ButtonWrap = styled.div`
   position: absolute;
@@ -178,70 +178,76 @@ const ButtonWrap = styled.div`
   @media (max-width: 800px) {
     display: none;
   }
-`;
+`
 
 const data = [
-  {
-    imageUrl:
-      "v1664009931/Kouty/Screen_Shot_2022-08-18_at_11.26.44_2_yytalh.png",
-    title: "Wellness & spa ApartHotel ",
-    desc: "Kouty nad Desnou",
-    detailLink: "/aparthotel-kouty",
-  },
-  {
-    imageUrl: "v1664012324/vilaRepublika/IMG_20220826_112641_2_ds9r33.jpg",
-    title: "Vila republika",
-    desc: "Apartmánový dům Velké Losiny",
-    detailLink: "/vila-republika",
-  },
   // {
-  //   imageUrl: "v1645823025/projektVlDva_p4fsrb.png",
-  //   title: "Apartmánový dům Velké Losiny",
-  //   desc: "9 apartmánů, Wellness",
-  //   detailLink: "",
+  //   imageUrl:
+  //     "v1664009931/Kouty/Screen_Shot_2022-08-18_at_11.26.44_2_yytalh.png",
+  //   title: "Wellness & spa ApartHotel ",
+  //   desc: "Kouty nad Desnou",
+  //   detailLink: "/aparthotel-kouty",
   // },
+  {
+    imageUrl: 'v1675799324/vilaRepublikaFoto/DSC08533-HDR_v7mlgu.jpg',
+    title: 'Wellness apartmány Vila republika',
+    desc: 'Velké Losiny',
+    detailLink: 'https://www.vila-republika.cz',
+    outsideLink: true,
+  },
+
   // {
   //   imageUrl: "v1652947191/Screenshot_2022-05-19_at_09.59.12_nzkktb.png",
   //   title: "Kavárna Republika",
   //   desc: "Velké Losiny",
   //   detailLink: "",
   // },
+  // {
+  //   imageUrl: "v1645823018/projektMalaMorava_nzkcnk.jpg",
+  //   title: "Horské Apartmány",
+  //   desc: "Malá Morava",
+  //   detailLink: "/apartmany-mala-morava",
+  // },
   {
-    imageUrl: "v1645823018/projektMalaMorava_nzkcnk.jpg",
-    title: "Horské Apartmány",
-    desc: "Malá Morava",
-    detailLink: "/apartmany-mala-morava",
+    imageUrl: 'v1645823344/hrabenov/1_frp1mw.jpg',
+    title: 'Wellness Apartmány Hrabenov',
+    desc: 'Ruda nad Moravou',
+    detailLink: '/rezidence-hrabenov',
+    outsideLink: false,
   },
+
   {
-    imageUrl: "v1645823344/hrabenov/1_frp1mw.jpg",
-    title: "Rezidence Hrabenov",
-    desc: "3 bytové jednotky",
-    detailLink: "/rezidence-hrabenov",
+    imageUrl:
+      'v1676730941/VlDvojka/Screenshot_2023-02-18_at_15.12.19_py1arx.png',
+    title: 'Vila Republika 2.etapa',
+    desc: 'Velké Losiny',
+    detailLink: '',
+    outsideLink: false,
   },
-];
+]
 
 const HomeSectionFour = () => {
-  const [carouselIndex, setCarouseIndex] = React.useState(0);
+  const [carouselIndex, setCarouseIndex] = React.useState(0)
 
-  const slide = data[carouselIndex];
+  const slide = data[carouselIndex]
 
   const handleNext = () => {
     if (carouselIndex === data.length - 1) {
-      setCarouseIndex(0);
+      setCarouseIndex(0)
     } else {
-      setCarouseIndex(carouselIndex + 1);
+      setCarouseIndex(carouselIndex + 1)
     }
-  };
+  }
 
   const handlePrevious = () => {
     if (carouselIndex === 0) {
-      setCarouseIndex(data.length - 1);
+      setCarouseIndex(data.length - 1)
     } else {
-      setCarouseIndex(carouselIndex - 1);
+      setCarouseIndex(carouselIndex - 1)
     }
-  };
+  }
 
-  const imageUrl = buildImageUrl(slide.imageUrl, {});
+  const imageUrl = buildImageUrl(slide.imageUrl, {})
 
   return (
     <Container>
@@ -266,7 +272,10 @@ const HomeSectionFour = () => {
 
               <Logo src="/images/logoSimple.svg" />
 
-              <MobileClickable href={slide.detailLink} />
+              <MobileClickable
+                href={slide.detailLink}
+                target={slide.outsideLink ? '_blank' : null}
+              />
 
               <LeftArrowCol>
                 <ArrowWrap onClick={handlePrevious}>
@@ -277,14 +286,18 @@ const HomeSectionFour = () => {
               <RightArrowCol>
                 <ArrowWrap onClick={handleNext}>
                   <img
-                    style={{ transform: "rotate(180deg)" }}
+                    style={{ transform: 'rotate(180deg)' }}
                     src="/images/LeftArrow.svg"
                   ></img>
                 </ArrowWrap>
               </RightArrowCol>
 
               <ButtonWrap>
-                <a style={{ textDecoration: "none" }} href={slide.detailLink}>
+                <a
+                  style={{ textDecoration: 'none' }}
+                  target={slide.outsideLink ? '_blank' : null}
+                  href={slide.detailLink}
+                >
                   <Button>Zobrazit projekt</Button>
                 </a>
               </ButtonWrap>
@@ -293,7 +306,7 @@ const HomeSectionFour = () => {
         </CarouoselContainer>
       </Wrapper>
     </Container>
-  );
-};
+  )
+}
 
-export default HomeSectionFour;
+export default HomeSectionFour
