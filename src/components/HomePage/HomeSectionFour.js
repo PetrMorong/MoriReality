@@ -221,7 +221,7 @@ const data = [
       'v1676730941/VlDvojka/Screenshot_2023-02-18_at_15.12.19_py1arx.png',
     title: 'Vila Republika 2.etapa',
     desc: 'Velké Losiny',
-    detailLink: '',
+    detailLink: '/vila-republika-druha-etapa',
     outsideLink: false,
   },
 ]
