@@ -53,6 +53,11 @@ const data = {
 
     {
       imageUrl:
+        'v1676730931/VlDvojka/Screenshot_2023-02-18_at_15.14.16_b5ifow.png',
+    },
+
+    {
+      imageUrl:
         'v1676730933/VlDvojka/Screenshot_2023-02-18_at_15.14.58_ffxzoi.png',
     },
 
@@ -64,6 +69,24 @@ const data = {
     {
       imageUrl:
         'v1676730942/VlDvojka/Screenshot_2023-02-18_at_15.13.33_rmmnaw.png',
+    },
+
+    {
+      imageUrl:
+        'v1676926374/VlDvojka/Screenshot_2023-02-20_at_21.50.24_bomcoc.png',
+    },
+
+    {
+      imageUrl:
+        'v1676926378/VlDvojka/Screenshot_2023-02-20_at_21.50.46_hjmfoe.png',
+    },
+
+    {
+      imageUrl: 'v1676926397/VlDvojka/DSC08542-HDR_rz5odo.jpg',
+    },
+
+    {
+      imageUrl: 'v1676926402/VlDvojka/DSC08539-HDR_yzb5gz.jpg',
     },
 
     // {
@@ -267,7 +290,7 @@ const data = {
       size: '30 m2',
       terasa: '30 m2',
       parking: '1',
-      link: '/TODO',
+      link: '',
       reserved: false,
     },
     {
@@ -278,7 +301,7 @@ const data = {
       size: '34 m2',
       terasa: '50 m2',
       parking: '1',
-      link: 'TOD0',
+      link: '',
       reserved: false,
     },
     {
