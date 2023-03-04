@@ -89,107 +89,60 @@ const data = {
       imageUrl: 'v1676926402/VlDvojka/DSC08539-HDR_yzb5gz.jpg',
     },
 
-    // {
-    //   imageUrl: 'v1664012323/vilaRepublika/IMG_20220904_161049_1_t0hjwu.jpg',
-    // },
+    {
+      imageUrl:
+        'v1677958456/VlDvojka/Screenshot_2023-03-04_at_20.23.47_fcpl7i.png',
+    },
 
-    // {
-    //   imageUrl: 'v1664012323/vilaRepublika/IMG_20220826_113059_gfvbvq.jpg',
-    // },
+    {
+      imageUrl:
+        'v1677958461/VlDvojka/Screenshot_2023-03-04_at_20.24.17_jux09z.png',
+    },
 
-    // {
-    //   imageUrl: 'v1664012323/vilaRepublika/IMG_20220826_113059_gfvbvq.jpg',
-    // },
+    {
+      imageUrl:
+        'v1677958460/VlDvojka/Screenshot_2023-03-04_at_20.23.26_dmqrwi.png',
+    },
 
-    // {
-    //   imageUrl: 'v1664012327/vilaRepublika/IMG_20220826_113115_g4bpst.jpg',
-    // },
+    {
+      imageUrl:
+        'v1677958468/VlDvojka/Screenshot_2023-03-04_at_20.20.13_wrouo4.png',
+    },
 
-    // {
-    //   imageUrl: 'v1664012327/vilaRepublika/IMG_20220826_113115_g4bpst.jpg',
-    // },
+    {
+      imageUrl:
+        'v1677958460/VlDvojka/Screenshot_2023-03-04_at_20.20.29_vq6zbc.png',
+    },
 
-    // {
-    //   imageUrl: 'v1664012327/vilaRepublika/IMG_20220826_121733_2_ysn42z.jpg',
-    // },
+    {
+      imageUrl:
+        'v1677958458/VlDvojka/Screenshot_2023-03-04_at_20.22.25_cb25nd.png',
+    },
 
-    // {
-    //   imageUrl: 'v1664012327/vilaRepublika/IMG_20220617_150325_1_jlewrv.jpg',
-    // },
+    {
+      imageUrl:
+        'v1677958459/VlDvojka/Screenshot_2023-03-04_at_20.23.09_b8jydl.png',
+    },
 
-    // {
-    //   imageUrl: 'v1664012329/vilaRepublika/IMG_20220904_160945_1_mkktp8.jpg',
-    // },
+    {
+      imageUrl:
+        'v1677958465/VlDvojka/Screenshot_2023-03-04_at_20.27.18_n2vnbe.png',
+    },
 
-    // {
-    //   imageUrl: 'v1664013013/vilaRepublika/IMG_20220914_111001_ubpytt.jpg',
-    // },
+    {
+      imageUrl:
+        'v1677958463/VlDvojka/Screenshot_2023-03-04_at_20.27.43_njonyu.png',
+    },
 
-    // {
-    //   imageUrl: 'v1664013012/vilaRepublika/IMG_20220914_110241_kjojys.jpg',
-    // },
+    {
+      imageUrl:
+        'v1677958465/VlDvojka/Screenshot_2023-03-04_at_20.27.53_e90han.png',
+    },
 
-    // {
-    //   imageUrl: "v1645822964/vilaRepublika/img2_j6mpok.png",
-    // },
-    // {
-    //   imageUrl: "v1645822941/vilaRepublika/mp01-min_pilgkw.jpg",
-    // },
-    // {
-    //   imageUrl: "v1645822938/vilaRepublika/1.1-min_yaebmu.jpg",
-    // },
-    // {
-    //   imageUrl: "v1645822938/vilaRepublika/1.3.3-min_j5ku93.jpg",
-    // },
-    // {
-    //   imageUrl: "v1645822943/vilaRepublika/F3-min_icpvqo.jpg",
-    // },
-    // {
-    //   imageUrl: "v1645822937/vilaRepublika/SAUNA1-min_r0jgcz.jpg",
-    // },
-    // {
-    //   imageUrl: "v1645822962/vilaRepublika/SAUNA2-min_p65zfc.jpg",
-    // },
-
-    // {
-    //   imageUrl: "v1647000262/vilaRepublika/ap1/l07mensi_xywpsx.jpg",
-    // },
-
-    // {
-    //   imageUrl: "v1647000262/vilaRepublika/ap1/l06mensi_ojitki.jpg",
-    // },
-
-    // {
-    //   imageUrl: "v1647000263/vilaRepublika/ap1/l03_mszqi0.jpg",
-    // },
-
-    // {
-    //   imageUrl: "v1647000261/vilaRepublika/ap1/l05_l6aizz.jpg",
-    // },
-
-    // {
-    //   imageUrl: "v1647000260/vilaRepublika/ap1/l04_xlxwta.jpg",
-    // },
-
-    // {
-    //   imageUrl: "v1647000259/vilaRepublika/ap1/l02_ljqbfc.jpg",
-    // },
-
-    // {
-    //   imageUrl: "v1647000259/vilaRepublika/ap1/l01_bchohc.jpg",
-    // },
-
-    // {
-    //   imageUrl: "v1647000259/vilaRepublika/ap1/k04_qtn5by.jpg",
-    // },
-
-    // {
-    //   imageUrl: "v1647000257/vilaRepublika/ap1/k02_ohy5yk.jpg",
-    // },
-
-    // {
-    //   imageUrl: "v1647000257/vilaRepublika/ap1/h04_fosbf6.jpg",
-    // },
+    {
+      imageUrl:
+        'v1677958471/VlDvojka/Screenshot_2023-03-04_at_20.27.31_neem5s.png',
+    },
   ],
   hideArchitect: true,
   stats: [
@@ -261,9 +214,13 @@ const data = {
     desc: 'Pohodlí jsme podřídili všechno. V přízemí vily proto budujeme designové wellness centrum, kde můžete načerpat síly a užívat si soukromí. Čeká zde na vás finská sauna s parním nárazem, odpočinková část s výhledem do zeleně, whirpool vana pro dvě osoby a zážitková sprcha s relaxačními programy. Rezervaci si můžete udělat online a prostory si otevřít sami pomocí kódu, který vám zašleme.',
   },
 
-  sectionImageOne: 'v1647000254/vilaRepublika/ap1/o01_lhqt6c.jpg',
-  sectionImageTwo: 'v1645822962/vilaRepublika/SAUNA2-min_p65zfc.jpg',
-  sectionCover: 'v1647000262/vilaRepublika/ap1/l07mensi_xywpsx.jpg',
+  sectionImageOne:
+    'v1677958461/VlDvojka/Screenshot_2023-03-04_at_20.24.17_jux09z.png',
+  sectionImageTwo:
+    'v1677958460/VlDvojka/Screenshot_2023-03-04_at_20.23.26_dmqrwi.png',
+  sectionCover:
+    'v1677958456/VlDvojka/Screenshot_2023-03-04_at_20.23.47_fcpl7i.png',
+
   ticksSection: [
     {
       highlighted: 'Lázeňská tradice',
@@ -283,7 +240,7 @@ const data = {
   ],
   apartments: [
     {
-      price: '4 390 000 Kč',
+      price: '3 990 000 Kč',
       number: '1',
       floor: '1NP',
       layout: '1 + kk',
@@ -294,14 +251,14 @@ const data = {
       reserved: false,
     },
     {
-      price: '4 690 000 Kč',
+      price: '4 390 000 kč',
       number: '2',
       floor: '1NP',
       layout: '2 + kk',
       size: '34 m2',
       terasa: '50 m2',
       parking: '1',
-      link: '',
+      link: '/vila-republika-druha-etapa/ap-2',
       reserved: false,
     },
     {
