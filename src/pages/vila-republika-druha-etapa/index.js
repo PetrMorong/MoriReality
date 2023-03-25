@@ -58,39 +58,6 @@ const data = {
 
     {
       imageUrl:
-        'v1676730933/VlDvojka/Screenshot_2023-02-18_at_15.14.58_ffxzoi.png',
-    },
-
-    {
-      imageUrl:
-        'v1676730943/VlDvojka/Screenshot_2023-02-18_at_15.13.45_gjvwmu.png',
-    },
-
-    {
-      imageUrl:
-        'v1676730942/VlDvojka/Screenshot_2023-02-18_at_15.13.33_rmmnaw.png',
-    },
-
-    {
-      imageUrl:
-        'v1676926374/VlDvojka/Screenshot_2023-02-20_at_21.50.24_bomcoc.png',
-    },
-
-    {
-      imageUrl:
-        'v1676926378/VlDvojka/Screenshot_2023-02-20_at_21.50.46_hjmfoe.png',
-    },
-
-    {
-      imageUrl: 'v1676926397/VlDvojka/DSC08542-HDR_rz5odo.jpg',
-    },
-
-    {
-      imageUrl: 'v1676926402/VlDvojka/DSC08539-HDR_yzb5gz.jpg',
-    },
-
-    {
-      imageUrl:
         'v1677958456/VlDvojka/Screenshot_2023-03-04_at_20.23.47_fcpl7i.png',
     },
 
@@ -126,22 +93,12 @@ const data = {
 
     {
       imageUrl:
-        'v1677958465/VlDvojka/Screenshot_2023-03-04_at_20.27.18_n2vnbe.png',
+        'v1679733439/VlDvojka/Screenshot_2023-03-25_at_9.36.57_qnzpqe.png',
     },
 
     {
       imageUrl:
-        'v1677958463/VlDvojka/Screenshot_2023-03-04_at_20.27.43_njonyu.png',
-    },
-
-    {
-      imageUrl:
-        'v1677958465/VlDvojka/Screenshot_2023-03-04_at_20.27.53_e90han.png',
-    },
-
-    {
-      imageUrl:
-        'v1677958471/VlDvojka/Screenshot_2023-03-04_at_20.27.31_neem5s.png',
+        'v1679733448/VlDvojka/Screenshot_2023-03-25_at_9.36.48_gelooe.png',
     },
   ],
   hideArchitect: true,
@@ -170,7 +127,7 @@ const data = {
   features: [
     {
       icon: '/features/sauna.png',
-      desc: 'Privátní wellness',
+      desc: 'Venkovní wellness',
     },
     {
       icon: '/features/ski.png',
@@ -240,7 +197,7 @@ const data = {
   ],
   apartments: [
     {
-      price: '3 990 000 Kč',
+      price: '3 490 000 Kč',
       number: '1',
       floor: '1NP',
       layout: '1 + kk',
@@ -251,7 +208,7 @@ const data = {
       reserved: false,
     },
     {
-      price: '4 390 000 kč',
+      price: '3 890 000 kč',
       number: '2',
       floor: '1NP',
       layout: '2 + kk',

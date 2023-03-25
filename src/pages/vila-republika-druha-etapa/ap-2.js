@@ -13,7 +13,7 @@ const data = {
     'v1677960911/VlDvojka/Screenshot_2023-03-04_at_21.14.53_tuvftg.png',
   apName: 'Apartmán 2',
   projectName: 'Vila Republika',
-  price: '3 990 000',
+  price: '3 890 000',
   backLink: '/vila-republika-druha-etapa',
   sectionOneDetails: [
     {
@@ -51,10 +51,8 @@ const data = {
     'v1677958460/VlDvojka/Screenshot_2023-03-04_at_20.20.29_vq6zbc.png',
     'v1677958458/VlDvojka/Screenshot_2023-03-04_at_20.22.25_cb25nd.png',
     'v1677958459/VlDvojka/Screenshot_2023-03-04_at_20.23.09_b8jydl.png',
-    'v1677958465/VlDvojka/Screenshot_2023-03-04_at_20.27.18_n2vnbe.png',
-    'v1677958463/VlDvojka/Screenshot_2023-03-04_at_20.27.43_njonyu.png',
-    'v1677958465/VlDvojka/Screenshot_2023-03-04_at_20.27.53_e90han.png',
-    'v1677958471/VlDvojka/Screenshot_2023-03-04_at_20.27.31_neem5s.png',
+    'v1679733439/VlDvojka/Screenshot_2023-03-25_at_9.36.57_qnzpqe.png',
+    'v1679733448/VlDvojka/Screenshot_2023-03-25_at_9.36.48_gelooe.png',
   ],
   moreDetails: [
     {
