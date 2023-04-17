@@ -7,14 +7,14 @@ const data = [
   {
     name: 'Apartmán 2+kk - 34 m²',
     location: 'Vila Republika, Velké Losiny',
-    price: '3 890 000 Kč',
+    price: '3 790 000 Kč',
     image: 'v1676730941/VlDvojka/Screenshot_2023-02-18_at_15.12.19_py1arx.png',
     link: '/TODO',
   },
   {
     name: 'Apartmán 1+kk - 30 m²',
     location: 'Vila Republika, Velké Losiny',
-    price: '3 490 000 Kč',
+    price: '3 390 000 Kč',
     image: 'v1676730936/VlDvojka/Screenshot_2023-02-18_at_15.12.33_ad4t03.png',
     link: '/TODO',
   },

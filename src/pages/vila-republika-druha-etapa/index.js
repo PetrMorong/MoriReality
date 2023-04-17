@@ -197,7 +197,7 @@ const data = {
   ],
   apartments: [
     {
-      price: '3 490 000 Kč',
+      price: '3 390 000 Kč',
       number: '1',
       floor: '1NP',
       layout: '1 + kk',
@@ -205,10 +205,10 @@ const data = {
       terasa: '30 m2',
       parking: '1',
       link: '',
-      reserved: false,
+      reserved: true,
     },
     {
-      price: '3 890 000 kč',
+      price: '3 790 000 kč',
       number: '2',
       floor: '1NP',
       layout: '2 + kk',
@@ -216,7 +216,7 @@ const data = {
       terasa: '50 m2',
       parking: '1',
       link: '/vila-republika-druha-etapa/ap-2',
-      reserved: false,
+      reserved: true,
     },
     {
       price: '',

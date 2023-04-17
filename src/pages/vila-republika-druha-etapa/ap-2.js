@@ -13,7 +13,7 @@ const data = {
     'v1677960911/VlDvojka/Screenshot_2023-03-04_at_21.14.53_tuvftg.png',
   apName: 'Apartmán 2',
   projectName: 'Vila Republika',
-  price: '3 890 000',
+  price: '3 790 000',
   backLink: '/vila-republika-druha-etapa',
   sectionOneDetails: [
     {
