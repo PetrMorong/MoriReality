@@ -188,6 +188,17 @@ const data = [
   //   desc: "Kouty nad Desnou",
   //   detailLink: "/aparthotel-kouty",
   // },
+
+  {
+    imageUrl:
+      'v1703762307/Rapotin/A_14_-_Photo_4_2_osyno8.jpg',
+    title: 'Resort Červený Dvůr',
+    desc: 'Rapotín',
+    detailLink: '/',
+    outsideLink: false,
+  },
+
+  
   {
     imageUrl: 'v1675799324/vilaRepublikaFoto/DSC08533-HDR_v7mlgu.jpg',
     title: 'Wellness apartmány Vila republika',
@@ -209,15 +220,7 @@ const data = [
   //   detailLink: "/apartmany-mala-morava",
   // },
 
-   {
-    imageUrl:
-      'v1703762307/Rapotin/A_14_-_Photo_4_2_osyno8.jpg',
-    title: 'Resort Červený Dvůr',
-    desc: 'Rapotín',
-    detailLink: '/',
-    outsideLink: false,
-  },
-
+  
   {
     imageUrl: 'v1645823344/hrabenov/1_frp1mw.jpg',
     title: 'Rezidence Hrabenov',
