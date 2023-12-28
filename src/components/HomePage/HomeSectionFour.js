@@ -210,7 +210,7 @@ const data = [
   // },
   {
     imageUrl: 'v1645823344/hrabenov/1_frp1mw.jpg',
-    title: 'Wellness Apartmány Hrabenov',
+    title: 'Rezidence Hrabenov',
     desc: 'Ruda nad Moravou',
     detailLink: '/rezidence-hrabenov',
     outsideLink: false,
