@@ -208,6 +208,16 @@ const data = [
   //   desc: "Malá Morava",
   //   detailLink: "/apartmany-mala-morava",
   // },
+
+   {
+    imageUrl:
+      'v1703762307/Rapotin/A_14_-_Photo_4_2_osyno8.jpg',
+    title: 'Resort Červený Dvůr',
+    desc: 'Rapotín',
+    detailLink: '/',
+    outsideLink: false,
+  },
+
   {
     imageUrl: 'v1645823344/hrabenov/1_frp1mw.jpg',
     title: 'Rezidence Hrabenov',
@@ -216,14 +226,14 @@ const data = [
     outsideLink: false,
   },
 
-  {
-    imageUrl:
-      'v1676730941/VlDvojka/Screenshot_2023-02-18_at_15.12.19_py1arx.png',
-    title: 'Vila Republika 2.etapa',
-    desc: 'Velké Losiny',
-    detailLink: '/vila-republika-druha-etapa',
-    outsideLink: false,
-  },
+  // {
+  //   imageUrl:
+  //     'v1676730941/VlDvojka/Screenshot_2023-02-18_at_15.12.19_py1arx.png',
+  //   title: 'Vila Republika 2.etapa',
+  //   desc: 'Velké Losiny',
+  //   detailLink: '/vila-republika-druha-etapa',
+  //   outsideLink: false,
+  // },
 ]
 
 const HomeSectionFour = () => {

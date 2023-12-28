@@ -20,7 +20,7 @@ const HomePage = () => {
       <HomeSectionFour />
       <HomeSectionFive />
       {/* Prices */}
-      <HomeSectionSix />
+      {/* <HomeSectionSix /> */}
       <Footer />
     </Layout>
   );
