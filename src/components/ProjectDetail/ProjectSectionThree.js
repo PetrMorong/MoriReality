@@ -164,7 +164,7 @@ const IcontText = styled.p`
   }
 `;
 
-const ProjectSectionThree = ({ data }) => {
+const ProjectSectionThree = ({ data, onlyOnerow }) => {
   return (
     <Container>
       <Wrapper>
@@ -220,7 +220,10 @@ const ProjectSectionThree = ({ data }) => {
             <IcontText>{data.features[3].desc}</IcontText>
           </Card>
         </CardRow>
-        <div style={{ height: 16 }} />
+
+        {!onlyOnerow && (
+<>
+<div style={{ height: 16 }} />
         <CardRow>
           <Card>
             <Icon src={`/images/${data.features[4].icon}`} />
@@ -239,6 +242,9 @@ const ProjectSectionThree = ({ data }) => {
             <IcontText>{data.features[7].desc}</IcontText>
           </Card>
         </CardRow>
+        </>
+        )}
+       
       </Wrapper>
     </Container>
   );
