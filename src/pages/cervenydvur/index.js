@@ -13,23 +13,15 @@ import ProjectSectionSix from "../../components/ProjectDetail/ProjectSectionSix"
 
 const data = {
   status: "Ve výstavbě",
-  title: "Červený dvůr",
+  title: "Rezidence Červený dvůr",
   locationOne: "Výzkumníků 267",
   locationTwo: "Rapotín, okres Šumperk",
   cover: "vilaRepublikaCover",
-  // videoUrl: "https://youtu.be/23EWRlkDA4s",
   desc: (
     <>
-      Historie Červého dvora je provázána s osudy rodu Žerotínů a následně Lichtenštejnů,
-      kteří ho využívali jako panské odpočinkové sídlo. Zdejší dvory mají původ ve feudálním
-      hospodářství. Vznikaly z potřeby šlechty zajistit pro svou rodinu, úředníky i služebnictvo
-      dostatek potravin. První oficiální zmínky o poplužním dvoře nacházíme kolem roku 1618
-      v Zemských deskách. 
-     
-      Dvory se zaměřovaly na zemědělskou produkci, včetně pěstování obilí,
-chovu dobytka a zakládání zahrad. Rapotínský dvůr byl postaven ve tvaru nepravidelného
-otevřeného čtyřúhelníku s centrální budovou zámečku. V roce 1800 došlo mezi žerotínskou
-vrchností a rapotínskými sedláky k dohodě, že se mohou z roboty vyplatit. 
+      Zámecká rezidence Červený dvůt. Místo, kde se moderna snoubí s historií.  V malebné obci pod vrcholky Hrubého Jeseníku rekonstruujeme histooricku budovu z 30. let minulého století.
+      Ve cenovím standardu nabízíme kuchyňskou linku, podlahové krytinu, dveře, osvětlení.  Nyní máte stále možnost si zařídit design bytu podle svých představ.
+      Společnost Mori Reality je přímým majitelem nemovitosti, budete tedy jednat přímo s majitelem a ne s realitní kanceláří.
     </>
   ),
   sliderImages: [
@@ -64,6 +56,69 @@ vrchností a rapotínskými sedláky k dohodě, že se mohou z roboty vyplatit
       imageUrl: "v1703762307/Rapotin/A_14_-_Photo_4_2_osyno8.jpg",
     },
 
+    // ap C foto
+    {
+      imageUrl: "v1705667282/Rapotin/apC/Screenshot_2024-01-19_at_13.25.33_gxqh5m.png",
+    },
+
+    {
+      imageUrl: "v1705667284/Rapotin/apC/Screenshot_2024-01-19_at_13.25.42_rxqond.png",
+    },
+
+    {
+      imageUrl: "v1705667282/Rapotin/apC/Screenshot_2024-01-19_at_13.25.56_tlqxre.png",
+    },
+
+    {
+      imageUrl: "v1705667282/Rapotin/apC/Screenshot_2024-01-19_at_13.25.14_axyziu.png",
+    },
+
+    {
+      imageUrl: "v1705667282/Rapotin/apC/Screenshot_2024-01-19_at_13.25.23_krrdjo.png",
+    },
+
+    {
+      imageUrl: "v1705667284/Rapotin/apC/Screenshot_2024-01-19_at_13.26.13_pyvkwq.png",
+    },
+
+    {
+      imageUrl: "v1705667284/Rapotin/apC/Screenshot_2024-01-19_at_13.26.20_ufpglk.png",
+    },
+
+    {
+      imageUrl: "v1705667284/Rapotin/apC/Screenshot_2024-01-19_at_13.26.35_ez4mke.png",
+    },
+
+    {
+      imageUrl: "v1705667285/Rapotin/apC/Screenshot_2024-01-19_at_13.26.53_db8msw.png",
+    },
+
+    {
+      imageUrl: "v1705667285/Rapotin/apC/Screenshot_2024-01-19_at_13.27.07_xmugm9.png",
+    },
+
+    {
+      imageUrl: "v1705667285/Rapotin/apC/Screenshot_2024-01-19_at_13.27.14_zfemlb.png",
+    },
+
+    {
+      imageUrl: "v1705767715/Rapotin/Screenshot_2024-01-20_at_17.20.59_fbyuxt.png",
+    },
+
+    {
+      imageUrl: "v1705767716/Rapotin/Screenshot_2024-01-20_at_17.21.08_gkpfpc.png",
+    },
+
+    {
+      imageUrl: "v1705769082/Rapotin/Screenshot_2024-01-20_at_17.44.35_mx5rex.png",
+    },
+
+    
+    
+   
+
+
+
    
   ],
   hideArchitect: true,
@@ -96,40 +151,40 @@ vrchností a rapotínskými sedláky k dohodě, že se mohou z roboty vyplatit
     },
     {
       icon: "/features/ski.png",
-      desc: "Kolárna",
+      desc: "Sklepní koje",
     },
     {
       icon: "/features/view.png",
-      desc: "Klid",
+      desc: "Klid a příroda",
     },
     {
       icon: "/features/park.png",
-      desc: "Společná zahrada",
+      desc: "Vlastní zahrádka k bytu",
     },
   ],
 
   sectionFourOneText: {
-    title: "Historie",
-    titleGold: "TODO",
-    desc: "TODO",
+    title: "Historie ",
+    titleGold: "Červého dvora",
+    desc: "je provázána s osudy rodu Žerotínů a následně Lichtenštejnů, kteří ho využívali jako panské odpočinkové sídlo. Zdejší dvory mají původ ve feudálním hospodářství. Vznikaly z potřeby šlechty zajistit pro svou rodinu, úředníky i služebnictvo dostatek potravin. První oficiální zmínky o poplužním dvoře nacházíme kolem roku 1618 v Zemských deskách. Dvory se zaměřovaly na zemědělskou produkci, včetně pěstování obilí, chovu dobytka a zakládání zahrad. Rapotínský dvůr byl postaven ve tvaru nepravidelného otevřeného čtyřúhelníku s centrální budovou zámečku.",
   },
 
   sectionFourTwoText: {
     title: "Privátní wellness",
     titleGold: "s útulnou atmosférou",
-    desc: "TODO",
+    desc: "Pohodlí jsme podřídili všechno. V areálu červeného dvora budujeme privátní wellness, kde můžete načerpat síly a užívat si soukromí. Čeká zde na vás finská sauna, odpočinková část s výhledem do zeleně, koupací sud pro čtyři osoby. Budouocí majitelé bytů mají jeden vstup za měsíc zdarma.",
   },
 
   sectionImageOne: "v1705668049/Rapotin/1928_1_1_j1wzvm.jpg",
-  sectionImageTwo: "v1705668124/Rapotin/Screenshot_2024-01-19_at_13.39.43_vl4sgc.png",
+  sectionImageTwo: "v1705768460/Rapotin/DSC08873-HDR_isv4un.jpg",
 
-  sectionCover: "v1647000262/vilaRepublika/ap1/l07mensi_xywpsx.jpg",
+  sectionCover: "v1705768953/Rapotin/DSC09002-HDR_psufeb.jpg",
 
   ticksSection: [
     {
-      highlighted: "Lázeňská tradice",
-      normal: "Velkých Losin",
-      desc: "Velké Losiny mají co nabídnout. Usazené pod vrcholky hor jsou vstupní branou Hrubého Jeseníku. Příznivé klima a čerstvý horský vzduch prospějí vašemu tělu i duši, stejně jako léčivé minerální prameny nebo unikátní termální lázně, které nemají v České republice obdoby. Za poznáním se můžete vydat na prohlídku pozdně renesančního zámku nebo do velkolosinské ruční papírny. A k tomu si užívat skvělou gastronomii i mlsání v místní pralinkárně.",
+      highlighted: "Kompletní",
+      normal: "správa apartmánu",
+      desc: "Kupujete si byt jako investici? Nabízíme vám kompletní správu krátkodobých i dlouhodobých pronájmů, abyste dosáhli co nejvyššího výnosu a pasivního příjmu bez starostí.",
     },
     {
       highlighted: "Hrubého Jeseníku",
@@ -144,81 +199,114 @@ vrchností a rapotínskými sedláky k dohodě, že se mohou z roboty vyplatit
   ],
   apartments: [
     {
-      price: "4 790 000 Kč",
-      number: "354/1",
-      floor: "1NP",
-      layout: "2 + 1",
-      size: "48,2 m2",
-      terasa: "7,8 m2",
+      price: "3 420 000 Kč",
+      number: "Byt č.18",
+      floor: "2NP",
+      layout: "2kk",
+      size: "76 m2",
+      terasa: "-",
       parking: "1",
-      link: "/vila-republika/ap-1",
-      reserved: true,
+      link: "",
+      reserved: false,
+    },
+    {
+      price: "2 790 000 Kč",
+      number: "Byt č.19",
+      floor: "2NP",
+      layout: "2kk",
+      size: "55,63 m2",
+      terasa: "-",
+      parking: "1",
+      link: "",
+      reserved: false,
+    },
+    {
+      price: "2 500 000 Kč",
+      number: "Byt č.20",
+      floor: "2NP",
+      layout: "2kk",
+      size: "38.48 m2",
+      terasa: "-",
+      parking: "1",
+      link: "",
+      reserved: false,
+    },
+    {
+      price: "3 690 000 Kč",
+      number: "Byt č.21",
+      floor: "2NP",
+      layout: "1 + 1",
+      size: "82 m2",
+      terasa: "-",
+      parking: "1",
+      link: "",
+      reserved: false,
+    },
+    {
+      price: "1 900 000 Kč",
+      number: "Byt č.22",
+      floor: "2NP",
+      layout: "1kk",
+      size: "30.82 m2",
+      terasa: "-",
+      parking: "1",
+      link: "",
+      reserved: false,
+    },
+    {
+      price: "2 090 000 Kč",
+      number: "Byt č.23",
+      floor: "2NP",
+      layout: "1kk",
+      size: "35,4 m2",
+      terasa: "-",
+      parking: "1",
+      link: "",
+      reserved: false,
+    },
+    {
+      price: "1 790 000 Kč",
+      number: "Byt č.24",
+      floor: "2NP",
+      layout: "1kk",
+      size: "25,4 m2",
+      terasa: "-",
+      parking: "1",
+      link: "",
+      reserved: false,
     },
     {
       price: "3 990 000 Kč",
-      number: "354/2",
-      floor: "1NP",
-      layout: "1 + 1",
-      size: "36,9 m2",
-      terasa: "-",
-      parking: "1",
-      link: "/vila-republika/ap-2",
-      reserved: true,
-    },
-    {
-      price: "5 990 000 Kč",
-      number: "354/3",
-      floor: "1NP",
-      layout: "2kk",
-      size: "65,3 m2",
-      terasa: "15,6 m2",
-      parking: "1",
-      link: "",
-      reserved: true,
-    },
-    {
-      price: "4 500 000 Kč",
-      number: "354/4",
-      floor: "2NP",
-      layout: "1 + 1",
-      size: "37,7 m2",
-      terasa: "13,8m2",
-      parking: "1",
-      link: "",
-      reserved: true,
-    },
-    {
-      price: "4 490 000 Kč",
-      number: "354/5",
+      number: "Byt č.25",
       floor: "2NP",
       layout: "2kk",
-      size: "40,6 m2",
-      terasa: "3,6 m2",
-      parking: "1",
-      link: "/vila-republika/ap-5",
-      reserved: true,
-    },
-    {
-      price: "5 990 000 Kč",
-      number: "354/6",
-      floor: "2NP",
-      layout: "2 + 1",
-      size: "57,7 m2",
+      size: "89,9 m2",
       terasa: "-",
       parking: "1",
       link: "",
-      reserved: true,
+      reserved: false,
     },
     {
-      price: "7 990 000 Kč",
-      number: "354/7",
+      price: "2 990 000 Kč",
+      number: "Byt č.26",
       floor: "2NP",
-      layout: "1kk",
-      size: "133 m2",
+      layout: "3kk",
+      size: "67,3 m2",
       terasa: "-",
       parking: "1",
       link: "",
-      reserved: true,
+      reserved: false,
+    },
+    {
+      price: "2 590 000 Kč",
+      number: "Byt č.27",
+      floor: "2NP",
+      layout: "2kk",
+      size: "43,8 m2",
+      terasa: "-",
+      parking: "1",
+      link: "",
+      reserved: false,
     },
   ],
   otherProjects: [

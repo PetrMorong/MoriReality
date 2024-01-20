@@ -106,7 +106,7 @@ const HomeSectionFive = () => {
           <SubText>
             Kupujete si od nás horský apartmán zároveň jako investici? Nabízíme
             vám kompletní správu krátkodobých pronájmů, abyste dosáhli co
-            nejvyššího výnosu a pasivního příjmu bez starostí.
+            nejvyššího výnosu a pasivního příjmu bez starostí. 
           </SubText>
         </Col>
         <Col>

@@ -121,7 +121,7 @@ const OtherProjects = ({ data }) => {
       <Wrapper>
         <HeadlineRow>
           <Line></Line>
-          <Headline>Naše další projekty</Headline>
+          <Headline>Naše projekty</Headline>
           <Line></Line>
         </HeadlineRow>
         <Row>
