@@ -11,6 +11,13 @@ module.exports = {
         trackingId: "G-YSN8FJKHGX",
       },
     },
+
+    {
+      resolve: `gatsby-plugin-facebook-pixel`,
+      options: {
+        pixelId: '709775591288566',
+      },
+    },
     "gatsby-plugin-image",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sharp",
