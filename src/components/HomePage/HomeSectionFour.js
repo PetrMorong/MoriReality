@@ -194,7 +194,7 @@ const data = [
       'v1703762307/Rapotin/A_14_-_Photo_4_2_osyno8.jpg',
     title: 'Resort Červený Dvůr',
     desc: 'Rapotín',
-    detailLink: '/',
+    detailLink: "/cervenydvur",
     outsideLink: false,
   },
 

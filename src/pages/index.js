@@ -18,7 +18,6 @@ const HomePage = () => {
       <HomeSectionTwo />
       <HomeSectionThree />
       {/* Proejcts */}
-      {/* <OtherProjects data={data} /> */}
       <HomeSectionFour />
       
       <HomeSectionFive />
@@ -30,29 +29,6 @@ const HomePage = () => {
   );
 };
 
-const data = {
-  otherProjects: [
-    {
-      image: "v1645823018/projektMalaMorava_nzkcnk.jpg",
-      name: "Apartmány",
-      location: "Malá Morava",
-      link: "/apartmany-mala-morava",
-    },
-    {
-      image:
-        "v1664009999/Kouty/Screen_Shot_2022-08-18_at_11.27.50_1_gnjjvw.png",
-      name: "Wellness Aparthotel",
-      location: "Kouty nad Desnou",
-      link: "/aparthotel-kouty",
-    },
-    {
-      image: "v1645823344/hrabenov/1_frp1mw.jpg",
-      name: "Rezidence Hrabenov",
-      location: "Hrabenov, Ruda Nad Moravou",
-      link: "/rezidence-hrabenov",
-    },
-  ],
-}
 
 
 
