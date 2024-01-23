@@ -130,11 +130,11 @@ const PriceList = ({ data }) => {
                   <TableCellPrice>
                     {item.reserved ? "Rezervováno" : item.price}
                   </TableCellPrice>
-                  <TableCell>
+                  {/* <TableCell>
                     <TablePriceButton href={item.link}>
                       Více info
                     </TablePriceButton>
-                  </TableCell>
+                  </TableCell> */}
                 </TableRow>
               );
             })}
