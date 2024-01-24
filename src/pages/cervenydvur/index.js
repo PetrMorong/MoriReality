@@ -19,7 +19,7 @@ const data = {
   cover: "vilaRepublikaCover",
   desc: (
     <>
-      Zámecká rezidence Červený dvůt. Místo, kde se moderna snoubí s historií. V malebné obci Rapotín pod vrcholky Hrubého Jeseníku rekonstruujeme historickou budovu z 30. let minulého století.
+      Zámecká rezidence Červený dvůr. Místo, kde se moderna snoubí s historií. V malebné obci Rapotín pod vrcholky Hrubého Jeseníku rekonstruujeme historickou budovu z 30. let minulého století.
       V cenovém standardu nabízíme kuchyňskou linku, podlahovou krytinu, dveře, osvětlení a je možné za příplatek vybavit byt nábytkem. Nyní máte stále možnost si zařídit design bytu podle svých představ.
       Naše Společnost je přímým vlastníkem nemovitosti, budete tedy jednat přímo s majitelem a ne s realitní kanceláří.
     </>
