@@ -3,7 +3,6 @@ import Layout from "../../components/layout";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import PriceList from "../../components/ProjectDetail/PriceList";
-import OtherProjects from "../../components/ProjectDetail/OtherProjects";
 import ProjectSectionOne from "../../components/ProjectDetail/ProjectSectionOne";
 import ProjectSectionTwo from "../../components/ProjectDetail/ProjectSectionTwo";
 import ProjectSectionThree from "../../components/ProjectDetail/ProjectSectionThree";
@@ -20,8 +19,8 @@ const data = {
   desc: (
     <>
       Zámecká rezidence Červený dvůr. Místo, kde se moderna snoubí s historií. V malebné obci Rapotín pod vrcholky Hrubého Jeseníku rekonstruujeme historickou budovu z 30. let minulého století.
-      V cenovém standardu nabízíme kuchyňskou linku, podlahovou krytinu, dveře, osvětlení a je možné za příplatek vybavit byt nábytkem. Nyní máte stále možnost si zařídit design bytu podle svých představ.
-      Naše Společnost je přímým vlastníkem nemovitosti, budete tedy jednat přímo s majitelem a ne s realitní kanceláří.
+      V cenovém standardu není kuchyňská linka a nábytek, ale je možné za příplatek vybavit dle vašeho přání vybavit. Nyní máte stále možnost si zařídit design bytu podle svých představ.
+      Naše Společnost je přímým vlastníkem nemovitosti, budete tedy jednat přímo s majitelem.
     </>
   ),
   sliderImages: [
@@ -54,6 +53,14 @@ const data = {
 
     {
       imageUrl: "v1703762307/Rapotin/A_14_-_Photo_4_2_osyno8.jpg",
+    },
+
+    {
+      imageUrl: "v1706179611/Rapotin/4_7_rh67tj.jpg",
+    },
+
+    {
+      imageUrl: "v1706179609/Rapotin/2_6_bqhnrc.jpg",
     },
 
     // ap C foto
@@ -101,17 +108,35 @@ const data = {
       imageUrl: "v1705667285/Rapotin/apC/Screenshot_2024-01-19_at_13.27.14_zfemlb.png",
     },
 
+    // chodoba
+
+    {
+      imageUrl: "v1706264230/Rapotin/Screenshot_2024-01-26_at_11.07.52_cwidfp.png",
+    },
+
+    {
+      imageUrl: "v1706264226/Rapotin/Screenshot_2024-01-26_at_11.07.42_p7g1mu.png",
+    },
+
+    {
+      imageUrl: "v1706264225/Rapotin/Screenshot_2024-01-26_at_11.07.30_megn8g.png",
+    },
+
+    // historie
     {
       imageUrl: "v1705767715/Rapotin/Screenshot_2024-01-20_at_17.20.59_fbyuxt.png",
     },
-
     {
       imageUrl: "v1705767716/Rapotin/Screenshot_2024-01-20_at_17.21.08_gkpfpc.png",
     },
 
+    // půdorys
+
     {
       imageUrl: "v1705769082/Rapotin/Screenshot_2024-01-20_at_17.44.35_mx5rex.png",
     },
+
+    // venek
 
     {
       imageUrl: "v1705770987/Rapotin/DSC09091-HDR_k4ecw6.jpg",
@@ -124,14 +149,6 @@ const data = {
     {
       imageUrl: "v1705770977/Rapotin/DSC09090-HDR_fvmvmk.jpg",
     },
-
-    
-    
-   
-
-
-
-   
   ],
   hideArchitect: true,
   stats: [
@@ -247,7 +264,7 @@ const data = {
       price: "3 690 000 Kč",
       number: "Byt č.21",
       floor: "2NP",
-      layout: "1 + 1",
+      layout: "3kk",
       size: "82 m2",
       terasa: "-",
       parking: "1",
