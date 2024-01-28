@@ -136,6 +136,18 @@ const data = {
       imageUrl: "v1705769082/Rapotin/Screenshot_2024-01-20_at_17.44.35_mx5rex.png",
     },
 
+    // koje
+
+    {
+      imageUrl: "v1706447079/Rapotin/Screenshot_2024-01-28_at_13.45.11_ybgkab.png",
+    },
+
+    // zahradky
+
+    {
+      imageUrl: "v1706447075/Rapotin/Screenshot_2024-01-28_at_13.54.19_zo91uf.png",
+    },
+
     // venek
 
     {
@@ -165,10 +177,10 @@ const data = {
     {
       value: "Až",
       highlighted: "4+1",
-      desc: "Dispozice Apartmánů",
+      desc: "Dispozice Bytů",
     },
     {
-      value: "Červenec",
+      value: "Říjen",
       highlighted: "2024",
       desc: "Termín Dokončení",
     },
@@ -180,7 +192,7 @@ const data = {
     },
     {
       icon: "/features/ski.png",
-      desc: "Sklepní koje",
+      desc: "Sklepní kóje",
     },
     {
       icon: "/features/view.png",
@@ -233,9 +245,9 @@ const data = {
       floor: "2NP",
       layout: "2kk",
       size: "76 m2",
-      terasa: "-",
+      terasa: "2,79 m2",
       parking: "1",
-      link: "",
+      link: "/cervenydvur/byt18",
       reserved: false,
     },
     {
@@ -244,9 +256,9 @@ const data = {
       floor: "2NP",
       layout: "2kk",
       size: "55,63 m2",
-      terasa: "-",
+      terasa: "2,49 m2",
       parking: "1",
-      link: "",
+      link: "/cervenydvur/byt19",
       reserved: false,
     },
     {
@@ -255,9 +267,9 @@ const data = {
       floor: "2NP",
       layout: "2kk",
       size: "38.48 m2",
-      terasa: "-",
+      terasa: "2,49 m2",
       parking: "1",
-      link: "",
+      link: "/cervenydvur/byt20",
       reserved: false,
     },
     {
@@ -266,9 +278,9 @@ const data = {
       floor: "2NP",
       layout: "3kk",
       size: "82 m2",
-      terasa: "-",
+      terasa: "2,79 m2",
       parking: "1",
-      link: "",
+      link: "/cervenydvur/byt21",
       reserved: false,
     },
     {
@@ -277,9 +289,9 @@ const data = {
       floor: "2NP",
       layout: "1kk",
       size: "30.82 m2",
-      terasa: "-",
+      terasa: "2,49 m2",
       parking: "1",
-      link: "",
+      link: "/cervenydvur/byt22",
       reserved: false,
     },
     {
@@ -288,9 +300,9 @@ const data = {
       floor: "2NP",
       layout: "1kk",
       size: "35,4 m2",
-      terasa: "-",
+      terasa: "2,49 m2",
       parking: "1",
-      link: "",
+      link: "/cervenydvur/byt23",
       reserved: false,
     },
     {
@@ -299,20 +311,20 @@ const data = {
       floor: "2NP",
       layout: "1kk",
       size: "25,4 m2",
-      terasa: "-",
+      terasa: "2,49 m2",
       parking: "1",
-      link: "",
+      link: "/cervenydvur/byt24",
       reserved: false,
     },
     {
-      price: "3 990 000 Kč",
+      price: "1 890 000 Kč",
       number: "Byt č.25",
       floor: "2NP",
-      layout: "2kk",
-      size: "89,9 m2",
-      terasa: "-",
+      layout: "1kk",
+      size: "28,08 m2",
+      terasa: "2,49 m2",
       parking: "1",
-      link: "",
+      link: "/cervenydvur/byt25",
       reserved: false,
     },
     {
@@ -321,9 +333,9 @@ const data = {
       floor: "2NP",
       layout: "3kk",
       size: "67,3 m2",
-      terasa: "-",
+      terasa: "2,79 m2",
       parking: "1",
-      link: "",
+      link: "/cervenydvur/byt26",
       reserved: false,
     },
     {
@@ -332,9 +344,9 @@ const data = {
       floor: "2NP",
       layout: "2kk",
       size: "43,8 m2",
-      terasa: "-",
+      terasa: "2,49 m2",
       parking: "1",
-      link: "",
+      link: "/cervenydvur/byt27",
       reserved: false,
     },
   ],
@@ -371,10 +383,10 @@ const data = {
     },
     {
       title: "Dokončení rekonstrukce",
-      date: "Červenec 2023",
+      date: "Červenec 2024",
     },
     {
-      title: "Předání nemovitosti",
+      title: "Předání bytu",
       date: "Říjen 2024",
     },
   ],

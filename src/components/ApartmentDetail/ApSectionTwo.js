@@ -27,15 +27,15 @@ const ApSectionTwo = ({ data }) => {
   return (
     <Container>
       <Wrapper>
-        <MainText>
+        {/* <MainText>
           {data.apTitle || (
             <>
               Když jde o <span>domov</span>, na kompromisy není prostor
             </>
           )}
-        </MainText>
+        </MainText> */}
 
-        <SubText>
+        {/* <SubText>
           {data.apText || (
             <>
               Našim cílem je poskytovat kvalitní a spolehlivé stavební služby.
@@ -48,7 +48,7 @@ const ApSectionTwo = ({ data }) => {
               </span>
             </>
           )}
-        </SubText>
+        </SubText> */}
 
         <CarouoselContainer>
           <CarouoselItem

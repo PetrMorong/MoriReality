@@ -108,7 +108,7 @@ const PriceList = ({ data }) => {
               <TableCell>Podlaží</TableCell>
               <TableCell>Dispozice</TableCell>
               <TableCell>Plocha</TableCell>
-              <TableCell>Terasa</TableCell>
+              <TableCell>Sklepní kóje</TableCell>
               <TableCell>Parkování</TableCell>
               <TableCellPrice>Cena</TableCellPrice>
               <TableCell></TableCell>
@@ -130,11 +130,11 @@ const PriceList = ({ data }) => {
                   <TableCellPrice>
                     {item.reserved ? "Rezervováno" : item.price}
                   </TableCellPrice>
-                  {/* <TableCell>
+                  <TableCell>
                     <TablePriceButton href={item.link}>
                       Více info
                     </TablePriceButton>
-                  </TableCell> */}
+                  </TableCell>
                 </TableRow>
               );
             })}
