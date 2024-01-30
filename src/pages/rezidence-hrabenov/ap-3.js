@@ -11,7 +11,7 @@ const data = {
   layoutImage: 'v1647260361/hrabenov/AP_C/13_fjxxrl.jpg',
   apName: 'Ap. 245/3',
   projectName: 'Rezidence Hrabenov',
-  price: '3 990 000',
+  price: '1 290 000',
   backLink: '/rezidence-hrabenov',
   apTitle: 'Apartmán Blýskač',
   apText: (
@@ -34,7 +34,7 @@ const data = {
   sectionOneDetails: [
     {
       text: '3+',
-      goldText: 'kk',
+      goldText: '1',
       desc: 'Dispozice',
     },
     {

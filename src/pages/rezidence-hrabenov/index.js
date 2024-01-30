@@ -164,7 +164,7 @@ const data = {
   ],
   apartments: [
     {
-      price: '3 590 000 Kč',
+      price: '2 690 000 Kč',
       number: '245/1',
       floor: '2NP',
       layout: '3 + kk',
@@ -186,13 +186,13 @@ const data = {
       reserved: true,
     },
     {
-      price: '3 990 000 Kč',
+      price: '1 290 000 Kč',
       number: '245/3',
       floor: '3NP',
       layout: '3 + 1',
       size: '109 m2',
       terasa: '75 m2',
-      parking: '1',
+      parking: '2',
       link: '/rezidence-hrabenov/ap-3',
       reserved: false,
     },
