@@ -245,7 +245,7 @@ const data = {
 const VilaRepublika = () => {
   return (
     <Layout>
-      <Header email="dominik.lokoc@homeportal.cz" phone="+420 602 732 879" />
+      <Header email="info@mori-reality.cz" phone="+420 737 211 314" />
       <ProjectSectionOne data={data} />
       <ProjectSectionTwo data={data} />
       <ProjectSectionThree data={data} />
@@ -254,7 +254,7 @@ const VilaRepublika = () => {
       <ProjectSectionSix data={data} />
       <PriceList data={data} />
       {/* <OtherProjects data={data} /> */}
-      <Footer email="dominik.lokoc@homeportal.cz" phone="+420 602 732 879" />
+      <Footer email="info@mori-reality.cz" phone="+420 737 211 314" />
     </Layout>
   )
 }
