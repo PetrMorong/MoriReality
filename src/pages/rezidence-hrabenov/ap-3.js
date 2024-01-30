@@ -98,7 +98,7 @@ const data = {
   table: [
     { label: 'Stav', value: 'Dostupný k rezervaci' },
     { label: 'Číslo bytu', value: '245/3' },
-    { label: 'Dispozice', value: '3+kk' },
+    { label: 'Dispozice', value: '3+1' },
     { label: 'Podlaží', value: '3' },
     { label: 'Podlahová plocha', value: '109m2' },
     { label: 'Orientace', value: 'Východ' },
