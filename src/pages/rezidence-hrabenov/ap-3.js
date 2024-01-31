@@ -25,7 +25,9 @@ const data = {
       <br />
       V ceně prodeje bytu je <span>parkovací stání a sklep.</span>
       Byt se prodává ve stavu před rekonstrukcí. Kupující si tedy můžete zařídit dle vlastních představ.
-      Za příplatek vám také rádi bytdokončíme za pomocí našich řemeslníků.
+      Náklady na rekonstrukci odhadujeme na 950 000 kč a hodnotu bytu po dokončení na 3 500 000 kč.
+      Za příplatek vám také rádi byt dokončíme za pomocí našich řemeslníků.
+      Cena nastevena nízko, jelikož potřebujeme finance rychle použít v jiném projektu.
     </>
   ),
   sectionOneDetails: [
