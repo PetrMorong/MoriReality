@@ -9,26 +9,23 @@ import ApSectionThree from '../../components/ApartmentDetail/ApSectionThree'
 const data = {
   sectionOneBg: 'v1647260373/hrabenov/AP_C/1_d7bkqe.jpg',
   layoutImage: 'v1647260361/hrabenov/AP_C/13_fjxxrl.jpg',
-  apName: 'Ap. 245/3',
+  apName: 'Byt 245/3',
   projectName: 'Rezidence Hrabenov',
   price: '1 290 000',
   backLink: '/rezidence-hrabenov',
-  apTitle: 'Apartmán Blýskač',
+  apTitle: '',
   apText: (
     <>
-      Nadčasový podkrovní apartmán s velice útulnou atmosférou pro náročné.
+      Nadčasový podkrovní byt s velice útulnou atmosférou pro náročné.
       Největší z <span>nabízených v rezidenci Hrabenov</span>. Jeho dominantou
       je prosluněný obývací prostor s kuchyňskou, jídelní a odpočinkovou částí.
       Na patře jsou dále dvě ložnice, koupelna se sprchovým koutem a prostorná
-      vstupní hala. Vhodný ke krátkodobým pronájmům i k trvalému bydlení.
-      K apartmánu náleží zahrada se samostatným vstupem o velikosti 70 m2.
+      vstupní hala.
       <br />
       <br />
-      V ceně prodeje apartmánu je <span>parkovací stání a sklep.</span> Dále
-      kompletně zařízená kuchyňská linka včetně elektrospotřebičů, podlahy,
-      obklady, dlažby i sanita. Za příplatek vám také rádi vybavíme apartmán{' '}
-      <span>kompletně dle návrhu interiérového designéra</span>, od nábytku
-      a doplňků až k nádobí či příborům.
+      V ceně prodeje bytu je <span>parkovací stání a sklep.</span>
+      Byt se prodává ve stavu před rekonstrukcí. Kupující si tedy můžete zařídit dle vlastních představ.
+      Za příplatek vám také rádi bytdokončíme za pomocí našich řemeslníků.
     </>
   ),
   sectionOneDetails: [
@@ -82,7 +79,7 @@ const data = {
     {
       text: '',
       goldText: '3 ',
-      desc: 'apartmány v domě',
+      desc: 'byty v domě',
     },
     {
       text: 'Cihlová',
