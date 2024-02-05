@@ -5,6 +5,13 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-styled-components",
+
+    {
+      resolve: `gatsby-plugin-facebook-pixel`,
+      options: {
+        pixelId: '709775591288566',
+      },
+    },
  
     // {
     //   resolve: `gatsby-plugin-google-gtag`,
