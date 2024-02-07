@@ -192,7 +192,7 @@ const data = [
   {
     imageUrl:
       'v1703762307/Rapotin/A_14_-_Photo_4_2_osyno8.jpg',
-    title: 'Resort Červený Dvůr',
+    title: 'Rezidence Červený Dvůr',
     desc: 'Rapotín',
     detailLink: "/cervenydvur",
     outsideLink: false,
@@ -200,7 +200,7 @@ const data = [
 
   
   {
-    imageUrl: 'v1675799324/vilaRepublikaFoto/DSC08533-HDR_v7mlgu.jpg',
+    imageUrl: 'v1705756857/vilaRepublikaFoto/Exterier-zima/DSC08936-HDR_oiv0wx.jpg',
     title: 'Wellness apartmány Vila republika',
     desc: 'Velké Losiny',
     detailLink: 'https://www.vila-republika.cz',
