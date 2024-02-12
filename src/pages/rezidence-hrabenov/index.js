@@ -194,7 +194,7 @@ const data = {
       terasa: '75 m2',
       parking: '2',
       link: '/rezidence-hrabenov/ap-3',
-      reserved: false,
+      reserved: true,
     },
   ],
   otherProjects: [
