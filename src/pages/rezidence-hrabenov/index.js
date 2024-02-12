@@ -172,7 +172,7 @@ const data = {
       terasa: '70 m2',
       parking: '1',
       link: '/rezidence-hrabenov/ap-1',
-      reserved: false,
+      reserved: true,
     },
     {
       price: '3 400 000 Kč',
