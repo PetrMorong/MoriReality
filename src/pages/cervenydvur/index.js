@@ -336,7 +336,7 @@ const data = {
       terasa: "2,49 m2",
       parking: "1",
       link: "/cervenydvur/byt23",
-      reserved: false,
+      reserved: true,
     },
     {
       price: "1 790 000 Kč",
