@@ -241,6 +241,17 @@ const data = {
   apartments: [
     {
       price: "3 290 000 Kč",
+      number: "Byt č.12",
+      floor: "3NP",
+      layout: "3+1",
+      size: "62 m2",
+      terasa: "2,79 m2",
+      parking: "1",
+      link: "/",
+      reserved: true,
+    },
+    {
+      price: "3 290 000 Kč",
       number: "Byt č.14",
       floor: "3NP",
       layout: "2kk",
@@ -314,7 +325,7 @@ const data = {
       terasa: "2,79 m2",
       parking: "1",
       link: "/cervenydvur/byt21",
-      reserved: true,
+      reserved: false,
     },
     {
       price: "1 900 000 Kč",
