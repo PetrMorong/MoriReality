@@ -224,9 +224,29 @@ const data = {
       icon: "/features/table-football(1).png",
       desc: "Herna a Fittness",
     },
+
     {
       icon: "/features/park.png",
       desc: "Vlastní zahrádka k bytu",
+    },
+
+    {
+      icon: "/features/facial-treatment.png",
+      desc: "Masáže",
+    },
+
+     {
+      icon: "/features/playground.png",
+      desc: "Dětské Hřiště",
+    },
+
+    {
+      icon: "/features/treadmill.png",
+      desc: "Privátní Fitness",
+    },
+    {
+      icon: "/features/view.png",
+      desc: "Klid a příroda",
     },
   ],
 
@@ -471,7 +491,7 @@ const VilaRepublika = () => {
       <Header />
       <ProjectSectionOne data={data} />
       <ProjectSectionTwo data={data} />
-      <ProjectSectionThree data={data} onlyOnerow={true}/>
+      <ProjectSectionThree data={data} onlyOnerow={false}/>
       <ProjectSectionFour data={data} />
       <ProjectSectionFive data={data} />
       <ProjectSectionSix data={data} videoSectionTitle="Video z rekonstrukce" />
