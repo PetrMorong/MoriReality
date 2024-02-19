@@ -148,6 +148,32 @@ const data = {
       imageUrl: "v1706447075/Rapotin/Screenshot_2024-01-28_at_13.54.19_zo91uf.png",
     },
 
+    // sklep
+
+    {
+      imageUrl: "v1708351098/Rapotin/F1_dv7zxz.jpg",
+    },
+
+    {
+      imageUrl: "v1708351095/Rapotin/F3_pc75z5.jpg",
+    },
+
+    {
+      imageUrl: "v1708351096/Rapotin/H2_qh4zla.jpg",
+    },
+
+    {
+      imageUrl: "v1708351098/Rapotin/H3_jpy5kc.jpg",
+    },
+
+    {
+      imageUrl: "v1708351093/Rapotin/H4_nz4vnc.jpg",
+    },
+
+  
+
+   
+
     // venek
 
     {
@@ -195,8 +221,8 @@ const data = {
       desc: "Sklepní kóje",
     },
     {
-      icon: "/features/view.png",
-      desc: "Klid a příroda",
+      icon: "/features/table-football(1).png",
+      desc: "Herna a Fittness",
     },
     {
       icon: "/features/park.png",
