@@ -316,7 +316,7 @@ const data = {
       terasa: "2,79 m2",
       parking: "1",
       link: "/cervenydvur/byt15",
-      reserved: true,
+      reserved: false,
     },
     {
       price: "3 490 000 Kč",
@@ -331,7 +331,7 @@ const data = {
     },
     {
       price: "3 420 000 Kč",
-      number: "Byt č.18",
+      number: "Byt č.18", // investor Platil
       floor: "2NP",
       layout: "2kk",
       size: "76 m2",
@@ -382,7 +382,7 @@ const data = {
       terasa: "2,49 m2",
       parking: "1",
       link: "/cervenydvur/byt22",
-      reserved: false,
+      reserved: true,
     },
     {
       price: "2 090 000 Kč",
