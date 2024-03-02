@@ -206,8 +206,8 @@ const data = {
       desc: "Dispozice Bytů",
     },
     {
-      value: "Říjen",
-      highlighted: "2024",
+      value: "Únor",
+      highlighted: "2025",
       desc: "Termín Dokončení",
     },
   ],
@@ -294,7 +294,7 @@ const data = {
       terasa: "2,79 m2",
       parking: "1",
       link: "/",
-      reserved: true,
+      reserved: true, // smejkalova
     },
     {
       price: "3 290 000 Kč",
@@ -305,7 +305,7 @@ const data = {
       terasa: "2,79 m2",
       parking: "1",
       link: "/cervenydvur/byt14",
-      reserved: true,
+      reserved: true, // maky
     },
     {
       price: "2 390 000 Kč",
@@ -316,7 +316,7 @@ const data = {
       terasa: "2,79 m2",
       parking: "1",
       link: "/cervenydvur/byt15",
-      reserved: false,
+      reserved: true, // vlastní bydlení
     },
     {
       price: "3 490 000 Kč",
@@ -330,11 +330,11 @@ const data = {
       reserved: false,
     },
     {
-      price: "3 420 000 Kč",
+      price: "2 790 000 Kč",
       number: "Byt č.18", // investor Platil
       floor: "2NP",
       layout: "2kk",
-      size: "76 m2",
+      size: "43,51 m2",
       terasa: "2,79 m2",
       parking: "1",
       link: "/cervenydvur/byt18",
@@ -349,10 +349,10 @@ const data = {
       terasa: "2,49 m2",
       parking: "1",
       link: "/cervenydvur/byt19",
-      reserved: false,
+      reserved: true, // tatka
     },
     {
-      price: "2 500 000 Kč",
+      price: "2 690 000 Kč",
       number: "Byt č.20",
       floor: "2NP",
       layout: "2kk",
@@ -382,7 +382,7 @@ const data = {
       terasa: "2,49 m2",
       parking: "1",
       link: "/cervenydvur/byt22",
-      reserved: true,
+      reserved: true, // jelinkova
     },
     {
       price: "2 090 000 Kč",
@@ -393,51 +393,51 @@ const data = {
       terasa: "2,49 m2",
       parking: "1",
       link: "/cervenydvur/byt23",
-      reserved: true,
+      reserved: true, // hrudova
     },
     {
-      price: "1 790 000 Kč",
+      price: "2 990 000 Kč", //  2 360 000 kč
       number: "Byt č.24",
       floor: "2NP",
-      layout: "1kk",
-      size: "25,4 m2",
+      layout: "2kk",
+      size: "52,17 m2",
       terasa: "2,49 m2",
       parking: "1",
       link: "/cervenydvur/byt24",
-      reserved: false,
+      reserved: true, // mamka
     },
-    {
-      price: "1 890 000 Kč",
-      number: "Byt č.25",
-      floor: "2NP",
-      layout: "1kk",
-      size: "28,08 m2",
-      terasa: "2,49 m2",
-      parking: "1",
-      link: "/cervenydvur/byt25",
-      reserved: false,
-    },
+    // {
+    //   price: "1 890 000 Kč",
+    //   number: "Byt č.25",
+    //   floor: "2NP",
+    //   layout: "1kk",
+    //   size: "28,08 m2",
+    //   terasa: "2,49 m2",
+    //   parking: "1",
+    //   link: "/cervenydvur/byt25",
+    //   reserved: false,
+    // },
     {
       price: "2 990 000 Kč",
       number: "Byt č.26",
       floor: "2NP",
-      layout: "3kk",
-      size: "67,3 m2",
+      layout: "2kk",
+      size: "52,66 m2",
       terasa: "2,79 m2",
       parking: "1",
       link: "/cervenydvur/byt26",
       reserved: false,
     },
     {
-      price: "2 590 000 Kč",
+      price: "1 990 000 Kč",
       number: "Byt č.27",
       floor: "2NP",
       layout: "2kk",
-      size: "43,8 m2",
+      size: "35 m2",
       terasa: "2,49 m2",
       parking: "1",
       link: "/cervenydvur/byt27",
-      reserved: false,
+      reserved: false, // tom
     },
   ],
   otherProjects: [
@@ -477,7 +477,7 @@ const data = {
     },
     {
       title: "Předání bytu",
-      date: "Říjen 2024",
+      date: "Únor 2025",
     },
   ],
   architectName: "",
