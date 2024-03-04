@@ -46,7 +46,7 @@ const data = {
     },
   ],
   gallery: [
-    'v1706441738/Rapotin/karty/cerveny_dvur_karta_B18_nezarizeny_t1uhw7.jpg',
+    'v1709538819/Rapotin/karty/cerveny_dvur_karta_B18_nezarizeny_1_k93uf2.jpg,
   ],
   moreDetails: [
     {

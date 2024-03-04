@@ -352,7 +352,7 @@ const data = {
       reserved: true, // tatka
     },
     {
-      price: "2 690 000 Kč",
+      price: "2 490 000 Kč",
       number: "Byt č.20",
       floor: "2NP",
       layout: "2kk",
