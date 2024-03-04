@@ -352,7 +352,7 @@ const data = {
       reserved: true, // tatka
     },
     {
-      price: "2 490 000 Kč",
+      price: "2 500 000 Kč",
       number: "Byt č.20",
       floor: "2NP",
       layout: "2kk",
@@ -429,11 +429,11 @@ const data = {
       reserved: false,
     },
     {
-      price: "1 990 000 Kč",
+      price: "2 090 000 Kč",
       number: "Byt č.27",
       floor: "2NP",
       layout: "2kk",
-      size: "35 m2",
+      size: "34,4 m2",
       terasa: "2,49 m2",
       parking: "1",
       link: "/cervenydvur/byt27",
