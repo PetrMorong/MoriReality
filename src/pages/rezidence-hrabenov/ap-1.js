@@ -8,7 +8,7 @@ import ApSectionThree from '../../components/ApartmentDetail/ApSectionThree'
 
 const data = {
   sectionOneBg: 'v1710771831/hrabenov/ap1/DSC00304-HDR_dgs33t.jpg',
-  layoutImage: 'v1710771831/hrabenov/ap1/DSC00304-HDR_dgs33t.jpg',
+  layoutImage: 'v1646638993/hrabenov/apA/Untitled_9_z1vzyk.png',
   apName: 'Ap. 245/1',
   projectName: 'Rezidence Hrabenov',
   price: '2 900 000',
