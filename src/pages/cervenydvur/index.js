@@ -222,7 +222,7 @@ const data = {
     },
     {
       icon: "/features/table-football(1).png",
-      desc: "Herna a Fittness",
+      desc: "Společenská místnost",
     },
 
     {
@@ -327,7 +327,7 @@ const data = {
       terasa: "2,79 m2",
       parking: "1",
       link: "/cervenydvur/byt16",
-      reserved: false,
+      reserved: true,
     },
     {
       price: "2 790 000 Kč",
@@ -338,7 +338,7 @@ const data = {
       terasa: "2,79 m2",
       parking: "1",
       link: "/cervenydvur/byt18",
-      reserved: false,
+      reserved: true,
     },
     {
       price: "2 790 000 Kč",
@@ -360,7 +360,7 @@ const data = {
       terasa: "2,49 m2",
       parking: "1",
       link: "/cervenydvur/byt20",
-      reserved: false,
+      reserved: true,
     },
     {
       price: "3 690 000 Kč",
@@ -371,7 +371,7 @@ const data = {
       terasa: "2,79 m2",
       parking: "1",
       link: "/cervenydvur/byt21",
-      reserved: false,
+      reserved: true,
     },
     {
       price: "1 900 000 Kč",
@@ -426,7 +426,7 @@ const data = {
       terasa: "2,79 m2",
       parking: "1",
       link: "/cervenydvur/byt26",
-      reserved: false,
+      reserved: true,
     },
     {
       price: "2 090 000 Kč",
@@ -437,7 +437,7 @@ const data = {
       terasa: "2,49 m2",
       parking: "1",
       link: "/cervenydvur/byt27",
-      reserved: false, // tom
+      reserved: true, // tom
     },
   ],
   otherProjects: [
