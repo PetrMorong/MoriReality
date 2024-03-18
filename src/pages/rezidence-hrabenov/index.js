@@ -22,7 +22,7 @@ const data = {
   desc: (
     <>
       Utečte od starostí, vraťte se k přírodě. V malebné obci Ruda nad Moravou
-      na Šumpersku jsme citlivě zrekonstruovali historický objekt z 19. století.
+      na Šumpersku jsme citlivě zrekonstruovali nemovitost z 19. století.
       Tři moderní apartmány se zahradou v sobě snoubí požadavky na komfortní
       bydlení nového tisíciletí, přitom si ale uchovávají genius loci původního
       architektonického díla.
@@ -164,7 +164,7 @@ const data = {
   ],
   apartments: [
     {
-      price: '2 690 000 Kč',
+      price: '2 900 000 Kč',
       number: '245/1',
       floor: '2NP',
       layout: '3 + kk',
@@ -172,7 +172,7 @@ const data = {
       terasa: '70 m2',
       parking: '1',
       link: '/rezidence-hrabenov/ap-1',
-      reserved: true,
+      reserved: false,
     },
     {
       price: '3 400 000 Kč',
@@ -233,11 +233,11 @@ const data = {
     },
     {
       title: 'Dokončení rekonstrukce',
-      date: 'Září 2023',
+      date: 'Březen 2024',
     },
     {
       title: 'Předání nemovitosti',
-      date: 'Říjen 2023',
+      date: 'Duben 2024',
     },
   ],
 }
@@ -251,7 +251,7 @@ const VilaRepublika = () => {
       <ProjectSectionThree data={data} />
       <ProjectSectionFour data={data} />
       <ProjectSectionFive data={data} />
-      <ProjectSectionSix data={data} />
+      {/* <ProjectSectionSix data={data} /> */}
       <PriceList data={data} />
       {/* <OtherProjects data={data} /> */}
       <Footer email="info@mori-reality.cz" phone="+420 737 211 314" />
