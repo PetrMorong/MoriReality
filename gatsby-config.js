@@ -9,7 +9,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-facebook-pixel`,
       options: {
-        pixelId: '709775591288566',
+        pixelId: '266682846484018',
       },
     },
  
