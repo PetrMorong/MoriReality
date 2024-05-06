@@ -331,18 +331,18 @@ const data = {
     },
     {
       price: "2 790 000 Kč",
-      number: "Byt č.18", // investor Platil
+      number: "Byt č.23", // investor Platil
       floor: "2NP",
       layout: "2kk",
       size: "43,51 m2",
       terasa: "2,79 m2",
       parking: "1",
       link: "/cervenydvur/byt18",
-      reserved: true,
+      reserved: false,
     },
     {
       price: "2 790 000 Kč",
-      number: "Byt č.19",
+      number: "Byt č.24", // dříve 19
       floor: "2NP",
       layout: "2kk",
       size: "55,63 m2",
@@ -351,53 +351,53 @@ const data = {
       link: "/cervenydvur/byt19",
       reserved: true, // tatka
     },
-    {
-      price: "2 500 000 Kč",
-      number: "Byt č.20",
-      floor: "2NP",
-      layout: "2kk",
-      size: "38.48 m2",
-      terasa: "2,49 m2",
-      parking: "1",
-      link: "/cervenydvur/byt20",
-      reserved: true,
-    },
+    // {
+    //   price: "2 500 000 Kč",
+    //   number: "Byt č.24", // dříve 20
+    //   floor: "2NP",
+    //   layout: "2kk",
+    //   size: "38.48 m2",
+    //   terasa: "2,49 m2",
+    //   parking: "1",
+    //   link: "/cervenydvur/byt20",
+    //   reserved: true,
+    // },
     {
       price: "3 690 000 Kč",
-      number: "Byt č.21",
+      number: "Byt č.25", // dříve 21
       floor: "2NP",
       layout: "3kk",
       size: "82 m2",
       terasa: "2,79 m2",
       parking: "1",
       link: "/cervenydvur/byt21",
-      reserved: true,
+      reserved: false,
     },
     {
       price: "1 900 000 Kč",
-      number: "Byt č.22",
+      number: "Byt č.26",
       floor: "2NP",
       layout: "1kk",
       size: "30.82 m2",
       terasa: "2,49 m2",
       parking: "1",
       link: "/cervenydvur/byt22",
-      reserved: true, // jelinkova
+      reserved: true, // tatka
     },
     {
       price: "2 090 000 Kč",
-      number: "Byt č.23",
+      number: "Byt č.27",
       floor: "2NP",
       layout: "1kk",
       size: "35,4 m2",
       terasa: "2,49 m2",
       parking: "1",
       link: "/cervenydvur/byt23",
-      reserved: true, // hrudova
+      reserved: true, // maky
     },
     {
       price: "2 990 000 Kč", //  2 360 000 kč
-      number: "Byt č.24",
+      number: "Byt č.28",
       floor: "2NP",
       layout: "2kk",
       size: "52,17 m2",
@@ -419,25 +419,25 @@ const data = {
     // },
     {
       price: "2 990 000 Kč",
-      number: "Byt č.26",
+      number: "Byt č.30", // dříve 26
       floor: "2NP",
-      layout: "2kk",
+      layout: "3kk",
       size: "52,66 m2",
       terasa: "2,79 m2",
       parking: "1",
       link: "/cervenydvur/byt26",
-      reserved: true,
+      reserved: false,
     },
     {
       price: "2 090 000 Kč",
-      number: "Byt č.27",
+      number: "Byt č.31", // dříve 27
       floor: "2NP",
       layout: "2kk",
-      size: "34,4 m2",
+      size: "29,52 m2",
       terasa: "2,49 m2",
       parking: "1",
       link: "/cervenydvur/byt27",
-      reserved: true, // tom
+      reserved: false,
     },
   ],
   otherProjects: [
