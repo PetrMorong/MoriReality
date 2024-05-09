@@ -164,7 +164,7 @@ const data = {
   ],
   apartments: [
     {
-      price: '2 900 000 Kč',
+      price: '2 690 000 Kč',
       number: '245/1',
       floor: '2NP',
       layout: '3 + kk',

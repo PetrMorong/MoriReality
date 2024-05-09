@@ -11,7 +11,7 @@ const data = {
   layoutImage: 'v1646638993/hrabenov/apA/Untitled_9_z1vzyk.png',
   apName: 'Ap. 245/1',
   projectName: 'Rezidence Hrabenov',
-  price: '2 900 000',
+  price: '2 690 000',
   backLink: '/rezidence-hrabenov',
   apTitle: 'Apartmán Zlatník',
   apText: (
