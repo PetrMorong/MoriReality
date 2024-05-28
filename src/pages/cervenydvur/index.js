@@ -241,7 +241,7 @@ const data = {
     },
 
     {
-      icon: "/features/park.png",
+      icon: "/features/coffee-cup.png",
       desc: "Kavárna",
     },
 
@@ -251,7 +251,7 @@ const data = {
     },
 
      {
-      icon: "/features/playground.png",
+      icon: "/features/door-lock.png",
       desc: "Self checkin",
     },
 
@@ -438,7 +438,7 @@ const data = {
       terasa: "2,49 m2",
       parking: "1",
       priceVynos: "20 750 Kč",
-      vynos: "5%",
+      vynos: "6%",
       link: "/cervenydvur/byt24",
       reserved: false,
     },
