@@ -92,7 +92,7 @@ const TableCellPrice = styled(TableCell)`
   font-weight: bold;
 `;
 
-const PriceList = ({ data }) => {
+const PriceList = ({ data, vynos }) => {
   const [mouseOverRow, setMouseOverRow] = React.useState(undefined);
 
   const handleGoToDetail = () => {};
@@ -108,8 +108,18 @@ const PriceList = ({ data }) => {
               <TableCell>Podlaží</TableCell>
               <TableCell>Dispozice</TableCell>
               <TableCell>Plocha</TableCell>
-              <TableCell>Sklepní kóje</TableCell>
-              <TableCell>Parkování</TableCell>
+              {!vynos && (
+                    <>
+                      <TableCell>Sklepní kóje</TableCell>
+                      <TableCell>Parkování</TableCell>
+                    </>
+                  )}
+              {vynos && (
+                <>
+                  <TableCell>Měsíční Výnos</TableCell>
+                  <TableCell>Roční Výnos</TableCell>
+                </>
+              )}
               <TableCellPrice>Cena</TableCellPrice>
               <TableCell></TableCell>
             </TableHead>
@@ -125,8 +135,24 @@ const PriceList = ({ data }) => {
                   <TableCell>{item.floor}</TableCell>
                   <TableCell>{item.layout}</TableCell>
                   <TableCell>{item.size}</TableCell>
-                  <TableCell>{item.terasa}</TableCell>
-                  <TableCell>{item.parking}</TableCell>
+                  {!vynos && (
+                    <>
+                      <TableCell>{item.terasa}</TableCell>
+                      <TableCell>{item.parking}</TableCell>
+                    </>
+                  )}
+                  
+                  {vynos && (
+                    <>
+                      <TableCell>
+                        {item.priceVynos}
+                      </TableCell>
+                      <TableCell>
+                        {item.vynos}
+                      </TableCell>
+                    </>
+                    
+                  )}
                   <TableCellPrice>
                     {item.reserved ? "Rezervováno" : item.price}
                   </TableCellPrice>

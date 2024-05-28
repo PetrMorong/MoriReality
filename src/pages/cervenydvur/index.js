@@ -132,21 +132,21 @@ const data = {
 
     // půdorys
 
-    {
-      imageUrl: "v1705769082/Rapotin/Screenshot_2024-01-20_at_17.44.35_mx5rex.png",
-    },
+    // {
+    //   imageUrl: "v1705769082/Rapotin/Screenshot_2024-01-20_at_17.44.35_mx5rex.png",
+    // },
 
     // koje
 
-    {
-      imageUrl: "v1706447079/Rapotin/Screenshot_2024-01-28_at_13.45.11_ybgkab.png",
-    },
+    // {
+    //   imageUrl: "v1706447079/Rapotin/Screenshot_2024-01-28_at_13.45.11_ybgkab.png",
+    // },
 
     // zahradky
 
-    {
-      imageUrl: "v1706447075/Rapotin/Screenshot_2024-01-28_at_13.54.19_zo91uf.png",
-    },
+    // {
+    //   imageUrl: "v1706447075/Rapotin/Screenshot_2024-01-28_at_13.54.19_zo91uf.png",
+    // },
 
     // sklep
 
@@ -159,20 +159,12 @@ const data = {
     },
 
     {
-      imageUrl: "v1708351096/Rapotin/H2_qh4zla.jpg",
+      imageUrl: "v1709224711/Rapotin/C_H4_vxueih.jpg",
     },
 
     {
-      imageUrl: "v1708351098/Rapotin/H3_jpy5kc.jpg",
-    },
-
-    {
-      imageUrl: "v1708351093/Rapotin/H4_nz4vnc.jpg",
-    },
-
-  
-
-   
+      imageUrl: "v1709224710/Rapotin/C_H2_ekxncv.jpg",
+    },   
 
     // venek
 
@@ -187,6 +179,30 @@ const data = {
     {
       imageUrl: "v1705770977/Rapotin/DSC09090-HDR_fvmvmk.jpg",
     },
+
+    {
+      imageUrl: "v1716891888/Rapotin/IMG20240525103016_o7vmf4.jpg"
+    },
+
+    {
+      imageUrl: "v1716891888/Rapotin/IMG20240525103058_qnq0kt.jpg"
+    },
+
+    {
+      imageUrl: "v1716891877/Rapotin/IMG20240525103542_g5xupc.jpg"
+    },
+
+    {
+      imageUrl: "v1716891880/Rapotin/IMG20240525103520_ywgwnd.jpg"
+    },
+
+    {
+      imageUrl: "v1716891884/Rapotin/IMG20240525103722_sqlojj.jpg"
+    },
+
+    {
+      imageUrl: "v1716891884/Rapotin/IMG20240525103642_ejat6y.jpg"
+    }
   ],
   hideArchitect: true,
   stats: [
@@ -202,11 +218,11 @@ const data = {
     },
     {
       value: "Až",
-      highlighted: "4+1",
+      highlighted: "3kk",
       desc: "Dispozice Bytů",
     },
     {
-      value: "Únor",
+      value: "červen",
       highlighted: "2025",
       desc: "Termín Dokončení",
     },
@@ -227,7 +243,7 @@ const data = {
 
     {
       icon: "/features/park.png",
-      desc: "Vlastní zahrádka k bytu",
+      desc: "Kavárna",
     },
 
     {
@@ -237,7 +253,7 @@ const data = {
 
      {
       icon: "/features/playground.png",
-      desc: "Dětské Hřiště",
+      desc: "Self checkin",
     },
 
     {
@@ -286,70 +302,82 @@ const data = {
   ],
   apartments: [
     {
-      price: "3 290 000 Kč",
+      price: "4 340 000 Kč",
       number: "Byt č.12",
       floor: "3NP",
       layout: "3+1",
       size: "62 m2",
       terasa: "2,79 m2",
       parking: "1",
+      vynos: "6%",
+      priceVynos: "21 700 Kč",
       link: "/",
-      reserved: true, // smejkalova
+      reserved: true,
     },
     {
-      price: "3 290 000 Kč",
+      price: "4 620 000 Kč",
       number: "Byt č.14",
       floor: "3NP",
       layout: "2kk",
       size: "66 m2",
       terasa: "2,79 m2",
       parking: "1",
+      vynos: "5%",
+      priceVynos: "19 250 Kč",
       link: "/cervenydvur/byt14",
       reserved: true, // maky
     },
     {
-      price: "2 390 000 Kč",
+      price: "3 360 000 Kč",
       number: "Byt č.15",
       floor: "1NP",
       layout: "1kk",
       size: "42 m2",
       terasa: "2,79 m2",
       parking: "1",
+      vynos: "6%",
+      priceVynos: "16 800 Kč",
       link: "/cervenydvur/byt15",
-      reserved: true, // vlastní bydlení
+      reserved: true, // vlasní bydlení
     },
     {
-      price: "3 490 000 Kč",
+      price: "4 830 000 Kč",
       number: "Byt č.16",
       floor: "1NP",
       layout: "3kk",
       size: "69 m2",
       terasa: "2,79 m2",
       parking: "1",
+      vynos: "5%",
+      priceVynos: "24 150 Kč",
       link: "/cervenydvur/byt16",
       reserved: true,
     },
     {
-      price: "2 790 000 Kč",
+      price: "3 480 000 Kč",
       number: "Byt č.23", // investor Platil
       floor: "2NP",
       layout: "2kk",
       size: "43,51 m2",
       terasa: "2,79 m2",
       parking: "1",
+      vynos: "6%",
+      priceVynos: "17 400 Kč",
       link: "/cervenydvur/byt18",
       reserved: false,
     },
     {
-      price: "2 790 000 Kč",
+      price: "4 970 000 Kč",
       number: "Byt č.24", // dříve 19
       floor: "2NP",
       layout: "2kk",
-      size: "55,63 m2",
+      size: "71,05 m2",
       terasa: "2,49 m2",
       parking: "1",
+      vynos: "6%",
+      priceVynos: "24 850 Kč",
       link: "/cervenydvur/byt19",
-      reserved: true, // tatka
+      reserved: true,
     },
     // {
     //   price: "2 500 000 Kč",
@@ -363,48 +391,56 @@ const data = {
     //   reserved: true,
     // },
     {
-      price: "3 690 000 Kč",
+      price: "5 800 000 Kč",
       number: "Byt č.25", // dříve 21
       floor: "2NP",
       layout: "3kk",
       size: "82 m2",
       terasa: "2,79 m2",
       parking: "1",
+      vynos: "5%",
+      priceVynos: "29 000 Kč",
       link: "/cervenydvur/byt21",
       reserved: false,
     },
     {
-      price: "1 900 000 Kč",
+      price: "4 690 000  Kč",
       number: "Byt č.26",
       floor: "2NP",
-      layout: "1kk",
-      size: "30.82 m2",
+      layout: "2kk",
+      size: "67,64 m2",
       terasa: "2,49 m2",
       parking: "1",
+      vynos: "6%",
+      priceVynos: "27 916 Kč",
       link: "/cervenydvur/byt22",
-      reserved: true, // tatka
+      reserved: false,
     },
     {
-      price: "2 090 000 Kč",
+      price: "4,290,000  Kč",
       number: "Byt č.27",
       floor: "2NP",
-      layout: "1kk",
-      size: "35,4 m2",
+      layout: "2kk",
+      size: "55,57  m2",
       terasa: "2,49 m2",
       parking: "1",
+      vynos: "6%",
+      priceVynos: "21 450 Kč",
       link: "/cervenydvur/byt23",
-      reserved: true, // maky
+      reserved: false,
     },
     {
-      price: "2 990 000 Kč", //  2 360 000 kč
+      price: "4 150 000 Kč", //  2 360 000 kč
       number: "Byt č.28",
       floor: "2NP",
       layout: "2kk",
       size: "52,17 m2",
       terasa: "2,49 m2",
       parking: "1",
+      priceVynos: "20 750 Kč",
+      vynos: "5%",
       link: "/cervenydvur/byt24",
-      reserved: true, // mamka
+      reserved: false,
     },
     // {
     //   price: "1 890 000 Kč",
@@ -418,27 +454,31 @@ const data = {
     //   reserved: false,
     // },
     {
-      price: "2 990 000 Kč",
+      price: "5 990 000 Kč",
       number: "Byt č.30", // dříve 26
       floor: "2NP",
       layout: "3kk",
-      size: "52,66 m2",
+      size: "87,18  m2",
       terasa: "2,79 m2",
       parking: "1",
+      priceVynos: "35 940 Kč",
+      vynos: "5%",
       link: "/cervenydvur/byt26",
-      reserved: false,
+      reserved: true,
     },
-    {
-      price: "2 090 000 Kč",
-      number: "Byt č.31", // dříve 27
-      floor: "2NP",
-      layout: "2kk",
-      size: "29,52 m2",
-      terasa: "2,49 m2",
-      parking: "1",
-      link: "/cervenydvur/byt27",
-      reserved: false,
-    },
+    // {
+    //   price: "2 090 000 Kč",
+    //   number: "Byt č.31", // dříve 27
+    //   floor: "2NP",
+    //   layout: "2kk",
+    //   size: "29,52 m2",
+    //   terasa: "2,49 m2",
+    //   parking: "1",
+    //   priceVynos: "10 000 Kč",
+    //   vynos: "5%",
+    //   link: "/cervenydvur/byt27",
+    //   reserved: false,
+    // },
   ],
   otherProjects: [
     {
@@ -495,7 +535,7 @@ const VilaRepublika = () => {
       <ProjectSectionFour data={data} />
       <ProjectSectionFive data={data} />
       <ProjectSectionSix data={data} videoSectionTitle="Video z rekonstrukce" />
-      <PriceList data={data} />
+      <PriceList vynos={true} data={data} />
       {/* <OtherProjects data={data} /> */}
       <Footer />
     </Layout>
