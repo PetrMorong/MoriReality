@@ -191,8 +191,8 @@ const data = [
 
   {
     imageUrl:
-      'v1703762307/Rapotin/A_14_-_Photo_4_2_osyno8.jpg',
-    title: 'Rezidence Červený Dvůr',
+      'v1716896490/Rapotin/VIZ3_gqhh0g.jpg',
+    title: 'Resort Červený Dvůr',
     desc: 'Rapotín',
     detailLink: "/cervenydvur",
     outsideLink: false,
@@ -200,7 +200,7 @@ const data = [
 
   
   {
-    imageUrl: 'v1705756857/vilaRepublikaFoto/Exterier-zima/DSC08936-HDR_oiv0wx.jpg',
+    imageUrl: 'v1689504195/vilaRepublikaFoto/356584285_1096124314696983_2263942071942825600_n_xv0nkq.jpg',
     title: 'Wellness apartmány Vila republika',
     desc: 'Velké Losiny',
     detailLink: 'https://www.vila-republika.cz',
@@ -222,7 +222,7 @@ const data = [
 
   
   {
-    imageUrl: 'v1645823344/hrabenov/1_frp1mw.jpg',
+    imageUrl: 'v1716896708/DSC00334-HDR_yoidan.jpg',
     title: 'Rezidence Hrabenov',
     desc: 'Ruda nad Moravou',
     detailLink: '/rezidence-hrabenov',

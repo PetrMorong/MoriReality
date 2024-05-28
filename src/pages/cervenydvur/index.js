@@ -12,15 +12,14 @@ import ProjectSectionSix from "../../components/ProjectDetail/ProjectSectionSix"
 
 const data = {
   status: "Ve výstavbě",
-  title: "Rezidence Červený dvůr",
+  title: "Resort Červený dvůr",
   locationOne: "Výzkumníků 267",
   locationTwo: "Rapotín, okres Šumperk",
   cover: "vilaRepublikaCover",
   desc: (
     <>
-      Zámecká rezidence Červený dvůr. Místo, kde se moderna snoubí s historií. V malebné obci Rapotín pod vrcholky Hrubého Jeseníku rekonstruujeme historickou budovu z 30. let minulého století.
-      V cenovém standardu není kuchyňská linka a nábytek, ale je možné za příplatek vybavit dle vašeho přání vybavit. Nyní máte stále možnost si zařídit design bytu podle svých představ.
-      Naše Společnost je přímým vlastníkem nemovitosti, budete tedy jednat přímo s majitelem.
+      Resort Červený dvůr. Místo, kde se moderna snoubí s historií. V malebné obci Rapotín pod vrcholky Hrubého Jeseníku rekonstruujeme historickou budovu z 30. let minulého století.
+      Apartmánový dům bude sloužit jako ubytování hotelového typu s kompletním servisem. Vlastní apartmán vám tak může sloužit jako rodinné rekreační zázemí. V době, kdy ho nebudete obývat sami, se pro vás stane pasivní investicí. O kompletní správu rezervací a pohodlí vašich hostů se vám rádi postaráme od A do Z.
     </>
   ),
   sliderImages: [
@@ -285,20 +284,21 @@ const data = {
 
   ticksSection: [
     {
-      highlighted: "Kompletní",
-      normal: "správa apartmánu",
-      desc: "Kupujete si byt jako investici? Nabízíme vám kompletní správu krátkodobých i dlouhodobých pronájmů, abyste dosáhli co nejvyššího výnosu a pasivního příjmu bez starostí.",
+      highlighted: "Postup pří koupi",
+      normal: "apartmánu",
+      desc: "Konkrétní byt si můžete vybrat například podle výše investice či požadovaného ročního výnosu. Uzavře se smlouva o smlouvě budoucí kupní, složí se záloha a byt máte tímto rezervovaný. Po dokončení a uzavření kupní smlouvy se stáváte jediným vlastníkem nemovitosti, tedy budete figurovat na listu vlastnictví a na katastru nemovitostí. Nemovitost nebude z naší strany zatížena žádným zástavním právem ani věcným břemenem. Od této chvíle s nemovitostí můžete nakládat jakkoliv se vy, jakožto jediný vlastník, rozhodnete.",
     },
     {
-      highlighted: "Hrubého Jeseníku",
-      normal: "Léčivá krása ",
-      desc: "Druhé největší pohoří České republiky stojí trochu stranou turistického zájmu, což ale má své velké výhody. Úchvatný ráz krajiny ještě nestihla pozměnit ruka člověka a zdejší neposkvrněná příroda má v sobě léčivou sílu. Vyšlápněte si na horu Praděd, vydejte se na okruh po vodopádech anebo místních rozhlednách. Nezapomeňte na přečerpávací vodní elektrárnu Dlouhé Stráně. Pěšky nebo na kole, kromě turistických tras je zde i široká síť cyklostezek. Jeseníky myslí na každého z vás.",
+      highlighted: "správa apartmánu",
+      normal: "Kompletní ",
+      desc: "Kupujete si apartmán jako investici? Nabízíme vám kompletní správu a garantovaný výnos. Při podpisu kupní smlouvy uzavřeme vzájemnou smlouvu o nájmu a tím vaše starosti končí – platíme vždy a včas. Bez výjimky inkasujete pravidelné měsíční nájemné na svůj účet, a to bez ohledu obsazenost bytu. Od smlouvy můžete samozřejmě kdykoliv odstoupit, a to bez smluvních pokut.",
     },
     {
-      highlighted: "už od listopadu",
-      normal: "Lyžování naplno ",
-      desc: "Hrubý Jeseník má skvělé sněhového podmínky. V dosahu budete mít hned několik ski-areálů. Necelých 10 kilometrů je vzdálen ski-areál Kouty a Přemyslov. Zhruba za 20 minut dorazíte na Praděd nebo Červenohorské sedlo. A mnoho dalších menších středisek objevíte v blízkém okolí. Pro běžkaře je nejatraktivnější oblastí Jesenická magistrála. Přejezd Jesenického hřebene na lyžích je jedním z nejkrásnějších horských výletů, které u nás můžete podniknout.",
+      highlighted: "výši 100 % původní ceny",
+      normal: "Zpětný odkup",
+      desc: "V případě potřeby vám garantujeme smluvně zpětný odkup, a to ve 100 % výši kupní ceny. Tato nabídka je časově neomezená, neodvolatelná a trvalá. Také můžete nemovitost převzít kdykoliv do vlastní správy, anebo ji libovolně prodat na trhu s navýšením. Výnos, který jste získali během vlastnictví bytu vám samozřejmě zůstává.",
     },
+    
   ],
   apartments: [
     {
@@ -501,7 +501,7 @@ const data = {
       link: "/rezidence-hrabenov",
     },
   ],
-  timelineFill: "40%",
+  timelineFill: "50%",
   timeline: [
     {
       title: "Projektová dokumentace",
@@ -513,11 +513,11 @@ const data = {
     },
     {
       title: "Dokončení rekonstrukce",
-      date: "Červenec 2024",
+      date: "Květen 2025",
     },
     {
       title: "Předání bytu",
-      date: "Únor 2025",
+      date: "Červen 2025",
     },
   ],
   architectName: "",
