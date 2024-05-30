@@ -9,22 +9,22 @@ import ApSectionThree from '../../components/ApartmentDetail/ApSectionThree'
 const data = {
   sectionOneBg: "v1705667282/Rapotin/apC/Screenshot_2024-01-19_at_13.25.33_gxqh5m.png",
   layoutImage: "v1705667282/Rapotin/apC/Screenshot_2024-01-19_at_13.25.33_gxqh5m.png",
-  apName: 'Bytová jednotka č. 19',
-  projectName: 'Rezidence Červený Dvůr',
+  apName: 'Bytová jednotka č. 24',
+  projectName: 'Resort Červený Dvůr',
   price: '3 590 000',
   backLink: '/cervenydvur',
-  apTitle: 'Bytová jednotka č.19',
+  apTitle: 'Bytová jednotka č.24',
   apText: (
     <></>
   ),
   sectionOneDetails: [
     {
-      text: '2+',
+      text: '3+',
       goldText: 'kk',
       desc: 'Dispozice',
     },
     {
-      text: '55 ',
+      text: '83,04  ',
       goldText: 'm2',
       desc: 'Podlahová Plocha',
     },

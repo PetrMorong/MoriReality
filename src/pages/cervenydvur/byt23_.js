@@ -9,11 +9,11 @@ import ApSectionThree from '../../components/ApartmentDetail/ApSectionThree'
 const data = {
   sectionOneBg: "v1705667282/Rapotin/apC/Screenshot_2024-01-19_at_13.25.33_gxqh5m.png",
   layoutImage: "v1705667282/Rapotin/apC/Screenshot_2024-01-19_at_13.25.33_gxqh5m.png",
-  apName: 'Bytová jednotka č. 18',
-  projectName: 'Rezidence Červený Dvůr',
+  apName: 'Bytová jednotka č. 23',
+  projectName: 'Resort Červený Dvůr',
   price: '3 590 000',
   backLink: '/cervenydvur',
-  apTitle: 'Bytová jednotka č.18',
+  apTitle: 'Bytová jednotka č.23',
   apText: (
     <></>
   ),
@@ -46,7 +46,7 @@ const data = {
     },
   ],
   gallery: [
-    "v1709538819/Rapotin/karty/cerveny_dvur_karta_B18_nezarizeny_1_k93uf2.jpg",
+    "v1716899890/Rapotin/karty/nove/cerveny_dvur_karta_B18_1_qo040y.png",
   ],
   moreDetails: [
     {

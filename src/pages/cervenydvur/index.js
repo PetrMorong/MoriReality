@@ -363,7 +363,7 @@ const data = {
       parking: "1",
       vynos: "6%",
       priceVynos: "17 400 Kč",
-      link: "/cervenydvur/byt18",
+      link: "/cervenydvur/byt23_",
       reserved: false,
     },
     {
@@ -376,7 +376,7 @@ const data = {
       parking: "1",
       vynos: "6%",
       priceVynos: "24 850 Kč",
-      link: "/cervenydvur/byt19",
+      link: "/cervenydvur/byt24",
       reserved: true,
     },
     // {
@@ -400,7 +400,7 @@ const data = {
       parking: "1",
       vynos: "5%",
       priceVynos: "29 000 Kč",
-      link: "/cervenydvur/byt21",
+      link: "/cervenydvur/byt25_",
       reserved: false,
     },
     {
@@ -414,7 +414,7 @@ const data = {
       vynos: "6%",
       priceVynos: "27 916 Kč",
       link: "/cervenydvur/byt22",
-      reserved: false,
+      reserved: true, //čeká na kartu
     },
     {
       price: "4,290,000  Kč",
@@ -427,7 +427,7 @@ const data = {
       vynos: "6%",
       priceVynos: "21 450 Kč",
       link: "/cervenydvur/byt23",
-      reserved: false,
+      reserved: true, //čeká na kartu
     },
     {
       price: "4 150 000 Kč", //  2 360 000 kč
@@ -440,7 +440,7 @@ const data = {
       priceVynos: "20 750 Kč",
       vynos: "6%",
       link: "/cervenydvur/byt24",
-      reserved: false,
+      reserved: true, //čeká na kartu
     },
     // {
     //   price: "1 890 000 Kč",
@@ -464,7 +464,7 @@ const data = {
       priceVynos: "35 940 Kč",
       vynos: "5%",
       link: "/cervenydvur/byt26",
-      reserved: true,
+      reserved: true, //čeká na kartu
     },
     // {
     //   price: "2 090 000 Kč",
