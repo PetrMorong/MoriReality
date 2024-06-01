@@ -376,8 +376,8 @@ const data = {
       parking: "1",
       vynos: "6%",
       priceVynos: "24 850 Kč",
-      link: "/cervenydvur/byt24",
-      reserved: true,
+      link: "/cervenydvur/byt24_",
+      reserved: false,
     },
     // {
     //   price: "2 500 000 Kč",
@@ -404,7 +404,7 @@ const data = {
       reserved: false,
     },
     {
-      price: "4 690 000  Kč",
+      price: "4 690 000 Kč",
       number: "Byt č.26",
       floor: "2NP",
       layout: "2kk",
@@ -417,7 +417,7 @@ const data = {
       reserved: true, //čeká na kartu
     },
     {
-      price: "4,290,000  Kč",
+      price: "4 290 000 Kč",
       number: "Byt č.27",
       floor: "2NP",
       layout: "2kk",
@@ -430,7 +430,7 @@ const data = {
       reserved: true, //čeká na kartu
     },
     {
-      price: "4 150 000 Kč", //  2 360 000 kč
+      price: "4 150 000 Kč", //  2 360 000 kč mamka
       number: "Byt č.28",
       floor: "2NP",
       layout: "2kk",
@@ -479,6 +479,59 @@ const data = {
     //   link: "/cervenydvur/byt27",
     //   reserved: false,
     // },
+
+    {
+      price: "3 990 000 Kč",
+      number: "Domek byt č.1",
+      floor: "2NP",
+      layout: "2kk",
+      size: "47,94 m2",
+      terasa: "2,79 m2",
+      parking: "1",
+      priceVynos: "19 950 Kč",
+      vynos: "6%",
+      link: "/cervenydvur/domek-byt1",
+      reserved: false,
+    },
+    {
+      price: "3 790 000 Kč",
+      number: "Domek byt č.2",
+      floor: "2NP",
+      layout: "2kk",
+      size: "47,94 m2",
+      terasa: "2,79 m2",
+      parking: "1",
+      priceVynos: "18 950 Kč",
+      vynos: "6%",
+      link: "/cervenydvur/byt26",
+      reserved: false, //čeká na kartu
+    },
+    {
+      price: "4 290 000 Kč",
+      number: "Domek byt č.3",
+      floor: "2NP",
+      layout: "2kk",
+      size: "50,2 m2",
+      terasa: "2,79 m2",
+      parking: "1",
+      priceVynos: "21 450 Kč",
+      vynos: "6%",
+      link: "/cervenydvur/byt26",
+      reserved: false, //čeká na kartu
+    },
+    {
+      price: "3 990 000 Kč",
+      number: "Domek byt č.4",
+      floor: "2NP",
+      layout: "2kk",
+      size: "50,2 m2",
+      terasa: "2,79 m2",
+      parking: "1",
+      priceVynos: "19 950 Kč",
+      vynos: "6%",
+      link: "/cervenydvur/byt26",
+      reserved: false, //čeká na kartu
+    },
   ],
   otherProjects: [
     {

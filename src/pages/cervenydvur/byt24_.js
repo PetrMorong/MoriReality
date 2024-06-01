@@ -11,7 +11,7 @@ const data = {
   layoutImage: "v1705667282/Rapotin/apC/Screenshot_2024-01-19_at_13.25.33_gxqh5m.png",
   apName: 'Bytová jednotka č. 24',
   projectName: 'Resort Červený Dvůr',
-  price: '3 590 000',
+  price: '4 970 000',
   backLink: '/cervenydvur',
   apTitle: 'Bytová jednotka č.24',
   apText: (
@@ -24,7 +24,7 @@ const data = {
       desc: 'Dispozice',
     },
     {
-      text: '83,04  ',
+      text: '71,05  ',
       goldText: 'm2',
       desc: 'Podlahová Plocha',
     },
@@ -38,15 +38,14 @@ const data = {
       goldText: 'Červený',
       desc: 'Dvůr',
     },
-
     {
       text: '',
       goldText: 'Rapotín',
-      desc: 'Okres Šumeperk',
+      desc: 'Okres Šumperk',
     },
   ],
   gallery: [
-    'v1706442470/Rapotin/karty/cerveny_dvur_karta_B19_nezarizeny_kaherl.jpg',
+    'v1717227877/Rapotin/karty/Screenshot_2024-06-01_at_9.34.24_mdgml1.png',
   ],
   moreDetails: [
     {

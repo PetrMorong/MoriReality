@@ -45,7 +45,7 @@ const data = {
     {
       text: '',
       goldText: 'Rapotín',
-      desc: 'Okres Šumeperk',
+      desc: 'Okres Šumperk',
     },
   ],
   gallery: [
