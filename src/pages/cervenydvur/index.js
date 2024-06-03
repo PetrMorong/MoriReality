@@ -246,8 +246,8 @@ const data = {
     },
 
     {
-      icon: "/features/facial-treatment.png",
-      desc: "Masáže",
+      icon: "/features/parking-area.png",
+      desc: "Parkovácí místo",
     },
 
      {
