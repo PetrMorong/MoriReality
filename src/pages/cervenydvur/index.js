@@ -12,7 +12,7 @@ import ProjectSectionSix from "../../components/ProjectDetail/ProjectSectionSix"
 
 const data = {
   status: "Ve výstavbě",
-  title: "Resort Červený dvůr",
+  title: "Wellness Resort Červený dvůr",
   locationOne: "Výzkumníků 267",
   locationTwo: "Rapotín, okres Šumperk",
   cover: "vilaRepublikaCover",
