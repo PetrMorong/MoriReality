@@ -4,12 +4,16 @@ import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import ApSectionOne from '../../components/ApartmentDetail/ApSectionOne'
 import ApSectionTwo from '../../components/ApartmentDetail/ApSectionTwo'
+import ApSectionThree from '../../components/ApartmentDetail/ApSectionThree'
 
 const data = {
-  sectionOneBg: "v1717405262/Rapotin/domecek/01_dbdztk.jpg",
-  apName: 'Domek byt č.1',
+  sectionOneBg: "v1705667282/Rapotin/apC/Screenshot_2024-01-19_at_13.25.33_gxqh5m.png",
+  layoutImage: "v1705667282/Rapotin/apC/Screenshot_2024-01-19_at_13.25.33_gxqh5m.png",
+  apName: 'Bytová jednotka č. 28',
   projectName: 'Rezidence Červený Dvůr',
+  price: '3 290 000',
   backLink: '/cervenydvur',
+  apTitle: 'Bytová jednotka č.28',
   apText: (
     <></>
   ),
@@ -20,12 +24,12 @@ const data = {
       desc: 'Dispozice',
     },
     {
-      text: '47,94 ',
+      text: '52,17 ',
       goldText: 'm2',
       desc: 'Podlahová Plocha',
     },
     {
-      text: '1 ',
+      text: '2 ',
       goldText: 'NP',
       desc: 'Umístění',
     },
@@ -42,18 +46,7 @@ const data = {
     },
   ],
   gallery: [
-    "v1717232231/Rapotin/domecek/VIZ2_1_yon8dt.jpg",
-    "v1717232445/Rapotin/domecek/Screenshot_2024-06-01_at_11.00.07_bzcyoj.png",
-    "v1717230215/Rapotin/domecek/04_puzl0f.jpg",
-    "v1717405266/Rapotin/domecek/02_dlsn8e.jpg",
-    "v1717230211/Rapotin/domecek/03_jbc2qm.jpg",
-    "v1717405262/Rapotin/domecek/01_dbdztk.jpg",
-    "v1717405266/Rapotin/domecek/07_xlvyxx.jpg",
-    "v1717405268/Rapotin/domecek/06_nm8rfj.jpg",
-    "v1717405263/Rapotin/domecek/05_tv8jpz.jpg",
-    "v1717232997/Rapotin/domecek/08_1_jyjyur.jpg",
-    "v1717232993/Rapotin/domecek/09_1_zge1kp.jpg",
-    "v1717232992/Rapotin/domecek/10_1_rpjley.jpg"
+    "v1717406554/Rapotin/karty/cerveny_dvur_karta_B28_nezarizeny_vbe0op.jpg",
   ],
   moreDetails: [
     {

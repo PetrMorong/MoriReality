@@ -46,7 +46,7 @@ const data = {
     },
   ],
   gallery: [
-    'v1716899812/Rapotin/karty/nove/cerveny_dvur_karta_B21_1_fvjsdj.png',
+    'v1717772822/Rapotin/karty/25_ffov5t.png',
   ],
   moreDetails: [
     {

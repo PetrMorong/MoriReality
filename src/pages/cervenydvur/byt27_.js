@@ -11,7 +11,6 @@ const data = {
   // layoutImage: "v1705667282/Rapotin/apC/Screenshot_2024-01-19_at_13.25.33_gxqh5m.png",
   apName: 'Bytová jednotka č.27',
   projectName: 'Rezidence Červený Dvůr',
-  // price: '3 590 000',
   backLink: '/cervenydvur',
   apTitle: 'Bytová jednotka č.27',
   apText: (
@@ -24,7 +23,7 @@ const data = {
       desc: 'Dispozice',
     },
     {
-      text: '43 ',
+      text: '55,27 ',
       goldText: 'm2',
       desc: 'Podlahová Plocha',
     },
@@ -46,7 +45,7 @@ const data = {
     },
   ],
   gallery: [
-    'v1706442472/Rapotin/karty/cerveny_dvur_karta_B27_nezarizeny_siasie.jpg',
+    'v1717406554/Rapotin/karty/cerveny_dvur_karta_B27_nezarizeny_ynyxwn.jpg',
   ],
   moreDetails: [
     {

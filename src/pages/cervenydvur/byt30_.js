@@ -8,23 +8,23 @@ import ApSectionThree from '../../components/ApartmentDetail/ApSectionThree'
 
 const data = {
   sectionOneBg: "v1705667282/Rapotin/apC/Screenshot_2024-01-19_at_13.25.33_gxqh5m.png",
-  // layoutImage: "v1705667282/Rapotin/apC/Screenshot_2024-01-19_at_13.25.33_gxqh5m.png",
-  apName: 'Bytová jednotka č.26',
+  layoutImage: "v1705667282/Rapotin/apC/Screenshot_2024-01-19_at_13.25.33_gxqh5m.png",
+  apName: 'Bytová jednotka č. 30',
   projectName: 'Rezidence Červený Dvůr',
-  // price: '3 590 000',
+  // price: '3 290 000',
   backLink: '/cervenydvur',
-  apTitle: 'Bytová jednotka č.26',
+  apTitle: 'Bytová jednotka č.30',
   apText: (
     <></>
   ),
   sectionOneDetails: [
     {
-      text: '3+',
+      text: '2+',
       goldText: 'kk',
       desc: 'Dispozice',
     },
     {
-      text: '67 ',
+      text: '57,66 ',
       goldText: 'm2',
       desc: 'Podlahová Plocha',
     },
@@ -46,7 +46,7 @@ const data = {
     },
   ],
   gallery: [
-    'v1706442471/Rapotin/karty/cerveny_dvur_karta_B26_nezarizeny_pbuzkw.jpg',
+    "v1717775430/Rapotin/karty/30_tlny3y.png",
   ],
   moreDetails: [
     {

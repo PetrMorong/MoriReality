@@ -6,7 +6,7 @@ import ApSectionOne from '../../components/ApartmentDetail/ApSectionOne'
 import ApSectionTwo from '../../components/ApartmentDetail/ApSectionTwo'
 
 const data = {
-  sectionOneBg: "v1717230207/Rapotin/domecek/01_wyfeb7.jpg",
+  sectionOneBg: "v1717405262/Rapotin/domecek/01_dbdztk.jpg",
   apName: 'Domek byt č.2',
   projectName: 'Rezidence Červený Dvůr',
   backLink: '/cervenydvur',

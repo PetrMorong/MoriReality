@@ -62,10 +62,54 @@ const data = {
       imageUrl: "v1706179609/Rapotin/2_6_bqhnrc.jpg",
     },
 
-    // ap C foto
+    // domek interier foto
+
     {
-      imageUrl: "v1705667282/Rapotin/apC/Screenshot_2024-01-19_at_13.25.33_gxqh5m.png",
+      imageUrl: "v1717232231/Rapotin/domecek/VIZ2_1_yon8dt.jpg",
     },
+
+    {
+      imageUrl: "v1717230215/Rapotin/domecek/04_puzl0f.jpg",
+    },
+
+    {
+      imageUrl: "v1717405266/Rapotin/domecek/02_dlsn8e.jpg",
+    },
+
+    {
+      imageUrl: "v1717230211/Rapotin/domecek/03_jbc2qm.jpg",
+    },
+
+    {
+      imageUrl: "v1717405262/Rapotin/domecek/01_dbdztk.jpg",
+    },
+
+    {
+      imageUrl: "v1717405266/Rapotin/domecek/07_xlvyxx.jpg",
+    },
+
+    {
+      imageUrl: "v1717405268/Rapotin/domecek/06_nm8rfj.jpg",
+    },
+
+    {
+      imageUrl: "v1717405263/Rapotin/domecek/05_tv8jpz.jpg",
+    },
+
+    {
+      imageUrl: "v1717232997/Rapotin/domecek/08_1_jyjyur.jpg",
+    },
+
+    {
+      imageUrl: "v1717232993/Rapotin/domecek/09_1_zge1kp.jpg",
+    },
+
+    {
+      imageUrl: "v1717232992/Rapotin/domecek/10_1_rpjley.jpg",
+    },
+
+
+    // ap C foto
 
     {
       imageUrl: "v1705667284/Rapotin/apC/Screenshot_2024-01-19_at_13.25.42_rxqond.png",
@@ -107,7 +151,7 @@ const data = {
       imageUrl: "v1705667285/Rapotin/apC/Screenshot_2024-01-19_at_13.27.14_zfemlb.png",
     },
 
-    // chodoba
+    // chodba
 
     {
       imageUrl: "v1706264230/Rapotin/Screenshot_2024-01-26_at_11.07.52_cwidfp.png",
@@ -201,7 +245,13 @@ const data = {
 
     {
       imageUrl: "v1716891884/Rapotin/IMG20240525103642_ejat6y.jpg"
+    },
+
+    {
+      imageUrl: "v1717842416/Rapotin/IMG20240607182038_1_vg5ba5.jpg"
     }
+
+    
   ],
   hideArchitect: true,
   stats: [
@@ -291,7 +341,7 @@ const data = {
     {
       highlighted: "správa apartmánu",
       normal: "Kompletní ",
-      desc: "Kupujete si apartmán jako investici? Nabízíme vám kompletní správu a garantovaný výnos. Při podpisu kupní smlouvy uzavřeme vzájemnou smlouvu o nájmu a tím vaše starosti končí – platíme vždy a včas. Bez výjimky inkasujete pravidelné měsíční nájemné na svůj účet, a to bez ohledu obsazenost bytu. Od smlouvy můžete samozřejmě kdykoliv odstoupit, a to bez smluvních pokut.",
+      desc: "Kupujete si apartmán jako investici? Nabízíme vám kompletní správu a garantovaný výnos. Můžete také apartmán sami využívat 14dní v roce. Při podpisu kupní smlouvy uzavřeme vzájemnou smlouvu o nájmu a tím vaše starosti končí – platíme vždy a včas. Bez výjimky inkasujete pravidelné měsíční nájemné na svůj účet, a to bez ohledu obsazenost bytu. Od smlouvy můžete samozřejmě kdykoliv odstoupit, a to bez smluvních pokut.",
     },
     {
       highlighted: "výši 100 % původní ceny",
@@ -413,21 +463,21 @@ const data = {
       parking: "1",
       vynos: "6%",
       priceVynos: "27 916 Kč",
-      link: "/cervenydvur/byt22",
-      reserved: true, //čeká na kartu
+      link: "/cervenydvur/byt26_",
+      reserved: false,
     },
     {
       price: "4 290 000 Kč",
       number: "Byt č.27",
       floor: "2NP",
       layout: "2kk",
-      size: "55,57  m2",
+      size: "55,57 m2",
       terasa: "2,49 m2",
       parking: "1",
       vynos: "6%",
       priceVynos: "21 450 Kč",
-      link: "/cervenydvur/byt23",
-      reserved: true, //čeká na kartu
+      link: "/cervenydvur/byt27_",
+      reserved: false,
     },
     {
       price: "4 150 000 Kč", //  2 360 000 kč mamka
@@ -439,8 +489,8 @@ const data = {
       parking: "1",
       priceVynos: "20 750 Kč",
       vynos: "6%",
-      link: "/cervenydvur/byt24",
-      reserved: true, //čeká na kartu
+      link: "/cervenydvur/byt28_",
+      reserved: false,
     },
     // {
     //   price: "1 890 000 Kč",
@@ -454,31 +504,44 @@ const data = {
     //   reserved: false,
     // },
     {
-      price: "5 990 000 Kč",
+      price: "4 490 000 Kč",
       number: "Byt č.30", // dříve 26
       floor: "2NP",
-      layout: "3kk",
-      size: "87,18  m2",
+      layout: "2kk",
+      size: "57,66 m2",
       terasa: "2,79 m2",
       parking: "1",
-      priceVynos: "35 940 Kč",
-      vynos: "5%",
-      link: "/cervenydvur/byt26",
-      reserved: true, //čeká na kartu
+      priceVynos: "22 450 Kč",
+      vynos: "6%",
+      link: "/cervenydvur/byt30_",
+      reserved: false, 
     },
-    // {
-    //   price: "2 090 000 Kč",
-    //   number: "Byt č.31", // dříve 27
-    //   floor: "2NP",
-    //   layout: "2kk",
-    //   size: "29,52 m2",
-    //   terasa: "2,49 m2",
-    //   parking: "1",
-    //   priceVynos: "10 000 Kč",
-    //   vynos: "5%",
-    //   link: "/cervenydvur/byt27",
-    //   reserved: false,
-    // },
+    {
+      price: "2 290 000 Kč",
+      number: "Byt č.31", // dříve 27
+      floor: "2NP",
+      layout: "2kk",
+      size: "29,52 m2",
+      terasa: "2,49 m2",
+      parking: "1",
+      priceVynos: "11 450 Kč",
+      vynos: "6%",
+      link: "/cervenydvur/byt31_",
+      reserved: false,
+    },
+    {
+      price: "5 900 000 Kč",
+      number: "Byt č.32", // 30 + 31
+      floor: "2NP",
+      layout: "4+1",
+      size: "87,16 m2",
+      terasa: "2,49 m2",
+      parking: "1",
+      priceVynos: "29 500 Kč",
+      vynos: "5%",
+      link: "/cervenydvur/byt32_",
+      reserved: false,
+    },
 
     {
       price: "3 990 000 Kč",
