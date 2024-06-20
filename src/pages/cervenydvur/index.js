@@ -54,12 +54,34 @@ const data = {
       imageUrl: "v1703762307/Rapotin/A_14_-_Photo_4_2_osyno8.jpg",
     },
 
+    // venkovni wellness
+
     {
-      imageUrl: "v1706179611/Rapotin/4_7_rh67tj.jpg",
+      imageUrl: "v1718888051/Rapotin/V09_vwm1sb.jpg",
     },
 
     {
-      imageUrl: "v1706179609/Rapotin/2_6_bqhnrc.jpg",
+      imageUrl: "v1718888052/Rapotin/V03_o4rwks.jpg",
+    },
+
+    {
+      imageUrl: "v1718888055/Rapotin/V01_ozdaml.jpg",
+    },
+
+    {
+      imageUrl: "v1718888057/Rapotin/V02_zow2rj.jpg",
+    },
+
+    {
+      imageUrl: "v1718888058/Rapotin/V05_uqmy6x.jpg",
+    },
+
+    {
+      imageUrl: "v1718888058/Rapotin/V04_pj1nhe.jpg",
+    },
+
+    {
+      imageUrl: "v1718888054/Rapotin/V06_rqwq4k.jpg",
     },
 
     // domek interier foto
