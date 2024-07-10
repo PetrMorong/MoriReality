@@ -19,7 +19,9 @@ const data = {
   desc: (
     <>
       Resort Červený dvůr. Místo, kde se moderna snoubí s historií. V malebné obci Rapotín pod vrcholky Hrubého Jeseníku rekonstruujeme historickou budovu z 30. let minulého století.
-      Apartmánový dům bude sloužit jako ubytování hotelového typu s kompletním servisem. Vlastní apartmán vám tak může sloužit jako rodinné rekreační zázemí. V době, kdy ho nebudete obývat sami, se pro vás stane pasivní investicí. O kompletní správu rezervací a pohodlí vašich hostů se vám rádi postaráme od A do Z.
+      Apartmánový dům bude sloužit jako ubytování hotelového typu s kompletním servisem. Vlastní apartmán vám tak může sloužit jako rodinné rekreační zázemí. V době, kdy ho nebudete obývat sami, se pro vás stane pasivní investicí. O kompletní správu rezervací a pohodlí vašich hostů se vám rádi postaráme od A do Z. Více info o ubytování na našem webu. {" "}
+      <a style={{ color: "B39A84" }} target="_blank" href="https://www.resortcervenydvur.cz">wwww.resortcervenydvur.cz</a>
+
     </>
   ),
   sliderImages: [
@@ -49,6 +51,8 @@ const data = {
       imageUrl:
         "v1705666647/Rapotin/A_1_1_ur1n4x.jpg",
     },
+
+    // z vrchu
 
     {
       imageUrl: "v1703762307/Rapotin/A_14_-_Photo_4_2_osyno8.jpg",
@@ -132,46 +136,75 @@ const data = {
 
 
     // ap C foto
-
     {
-      imageUrl: "v1705667284/Rapotin/apC/Screenshot_2024-01-19_at_13.25.42_rxqond.png",
+      imageUrl: "v1720440333/Rapotin/ap26/01_if3vk1.jpg",
     },
-
     {
-      imageUrl: "v1705667282/Rapotin/apC/Screenshot_2024-01-19_at_13.25.56_tlqxre.png",
+      imageUrl: "v1720440321/Rapotin/ap26/02_riboo7.jpg",
     },
-
     {
-      imageUrl: "v1705667282/Rapotin/apC/Screenshot_2024-01-19_at_13.25.14_axyziu.png",
+      imageUrl: "v1720441578/Rapotin/ap26/03_yzsfur.jpg",
     },
-
     {
-      imageUrl: "v1705667282/Rapotin/apC/Screenshot_2024-01-19_at_13.25.23_krrdjo.png",
+      imageUrl: "v1720440216/Rapotin/ap26/04_ilyvz5.jpg",
     },
-
     {
-      imageUrl: "v1705667284/Rapotin/apC/Screenshot_2024-01-19_at_13.26.13_pyvkwq.png",
+      imageUrl: "v1720440323/Rapotin/ap26/05_ib7k0m.jpg",
     },
-
     {
-      imageUrl: "v1705667284/Rapotin/apC/Screenshot_2024-01-19_at_13.26.20_ufpglk.png",
+      imageUrl: "v1720440361/Rapotin/ap26/06_myfzct.jpg",
     },
-
     {
-      imageUrl: "v1705667284/Rapotin/apC/Screenshot_2024-01-19_at_13.26.35_ez4mke.png",
+      imageUrl: "v1720440308/Rapotin/ap26/07_kj7eit.jpg",
     },
-
     {
-      imageUrl: "v1705667285/Rapotin/apC/Screenshot_2024-01-19_at_13.26.53_db8msw.png",
+      imageUrl: "v1720440246/Rapotin/ap26/08_rhwwc9.jpg",
     },
-
     {
-      imageUrl: "v1705667285/Rapotin/apC/Screenshot_2024-01-19_at_13.27.07_xmugm9.png",
+      imageUrl: "v1720440355/Rapotin/ap26/09_fpwmjs.jpg",
     },
+    
 
-    {
-      imageUrl: "v1705667285/Rapotin/apC/Screenshot_2024-01-19_at_13.27.14_zfemlb.png",
-    },
+    // bureš ap C 
+    // {
+    //   imageUrl: "v1705667284/Rapotin/apC/Screenshot_2024-01-19_at_13.25.42_rxqond.png",
+    // },
+
+    // {
+    //   imageUrl: "v1705667282/Rapotin/apC/Screenshot_2024-01-19_at_13.25.56_tlqxre.png",
+    // },
+
+    // {
+    //   imageUrl: "v1705667282/Rapotin/apC/Screenshot_2024-01-19_at_13.25.14_axyziu.png",
+    // },
+
+    // {
+    //   imageUrl: "v1705667282/Rapotin/apC/Screenshot_2024-01-19_at_13.25.23_krrdjo.png",
+    // },
+
+    // {
+    //   imageUrl: "v1705667284/Rapotin/apC/Screenshot_2024-01-19_at_13.26.13_pyvkwq.png",
+    // },
+
+    // {
+    //   imageUrl: "v1705667284/Rapotin/apC/Screenshot_2024-01-19_at_13.26.20_ufpglk.png",
+    // },
+
+    // {
+    //   imageUrl: "v1705667284/Rapotin/apC/Screenshot_2024-01-19_at_13.26.35_ez4mke.png",
+    // },
+
+    // {
+    //   imageUrl: "v1705667285/Rapotin/apC/Screenshot_2024-01-19_at_13.26.53_db8msw.png",
+    // },
+
+    // {
+    //   imageUrl: "v1705667285/Rapotin/apC/Screenshot_2024-01-19_at_13.27.07_xmugm9.png",
+    // },
+
+    // {
+    //   imageUrl: "v1705667285/Rapotin/apC/Screenshot_2024-01-19_at_13.27.14_zfemlb.png",
+    // },
 
     // chodba
 
@@ -233,45 +266,45 @@ const data = {
 
     // venek
 
-    {
-      imageUrl: "v1705770987/Rapotin/DSC09091-HDR_k4ecw6.jpg",
-    },
+    // {
+    //   imageUrl: "v1705770987/Rapotin/DSC09091-HDR_k4ecw6.jpg",
+    // },
 
-    {
-      imageUrl: "v1705770982/Rapotin/DSC09066-HDR_whr9fd.jpg",
-    },
+    // {
+    //   imageUrl: "v1705770982/Rapotin/DSC09066-HDR_whr9fd.jpg",
+    // },
 
-    {
-      imageUrl: "v1705770977/Rapotin/DSC09090-HDR_fvmvmk.jpg",
-    },
+    // {
+    //   imageUrl: "v1705770977/Rapotin/DSC09090-HDR_fvmvmk.jpg",
+    // },
 
-    {
-      imageUrl: "v1716891888/Rapotin/IMG20240525103016_o7vmf4.jpg"
-    },
+    // {
+    //   imageUrl: "v1716891888/Rapotin/IMG20240525103016_o7vmf4.jpg"
+    // },
 
-    {
-      imageUrl: "v1716891888/Rapotin/IMG20240525103058_qnq0kt.jpg"
-    },
+    // {
+    //   imageUrl: "v1716891888/Rapotin/IMG20240525103058_qnq0kt.jpg"
+    // },
 
-    {
-      imageUrl: "v1716891877/Rapotin/IMG20240525103542_g5xupc.jpg"
-    },
+    // {
+    //   imageUrl: "v1716891877/Rapotin/IMG20240525103542_g5xupc.jpg"
+    // },
 
-    {
-      imageUrl: "v1716891880/Rapotin/IMG20240525103520_ywgwnd.jpg"
-    },
+    // {
+    //   imageUrl: "v1716891880/Rapotin/IMG20240525103520_ywgwnd.jpg"
+    // },
 
-    {
-      imageUrl: "v1716891884/Rapotin/IMG20240525103722_sqlojj.jpg"
-    },
+    // {
+    //   imageUrl: "v1716891884/Rapotin/IMG20240525103722_sqlojj.jpg"
+    // },
 
-    {
-      imageUrl: "v1716891884/Rapotin/IMG20240525103642_ejat6y.jpg"
-    },
+    // {
+    //   imageUrl: "v1716891884/Rapotin/IMG20240525103642_ejat6y.jpg"
+    // },
 
-    {
-      imageUrl: "v1717842416/Rapotin/IMG20240607182038_1_vg5ba5.jpg"
-    }
+    // {
+    //   imageUrl: "v1717842416/Rapotin/IMG20240607182038_1_vg5ba5.jpg"
+    // }
 
     
   ],
@@ -344,13 +377,13 @@ const data = {
   },
 
   sectionFourTwoText: {
-    title: "Privátní wellness",
+    title: "Wellness",
     titleGold: "s útulnou atmosférou",
-    desc: "Pohodlí jsme podřídili všechno. V areálu červeného dvora budujeme privátní wellness, kde můžete načerpat síly a užívat si soukromí. Čeká zde na vás finská sauna, odpočinková část s výhledem do zeleně, koupací sud pro čtyři osoby. Budouocí majitelé bytů mají jeden vstup za měsíc zdarma.",
+    desc: "Pohodlí jsme podřídili všechno. V areálu červeného dvora budujeme wellness, kde můžete načerpat síly a užívat si soukromí. Čeká zde na vás 2x finská sauna, odpočiívárna, ochlazovací bazének a jezírko."
   },
 
   sectionImageOne: "v1705668049/Rapotin/1928_1_1_j1wzvm.jpg",
-  sectionImageTwo: "v1705768460/Rapotin/DSC08873-HDR_isv4un.jpg",
+  sectionImageTwo: "v1718888055/Rapotin/V01_ozdaml.jpg",
 
   sectionCover: "v1705768953/Rapotin/DSC09002-HDR_psufeb.jpg",
 

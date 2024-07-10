@@ -7,7 +7,7 @@ import ApSectionTwo from '../../components/ApartmentDetail/ApSectionTwo'
 import ApSectionThree from '../../components/ApartmentDetail/ApSectionThree'
 
 const data = {
-  sectionOneBg: "v1705667282/Rapotin/apC/Screenshot_2024-01-19_at_13.25.33_gxqh5m.png",
+  sectionOneBg: "v1720440308/Rapotin/ap26/07_kj7eit.jpg",
   // layoutImage: "v1705667282/Rapotin/apC/Screenshot_2024-01-19_at_13.25.33_gxqh5m.png",
   apName: 'Bytová jednotka č.26',
   projectName: 'Rezidence Červený Dvůr',
@@ -46,7 +46,16 @@ const data = {
     },
   ],
   gallery: [
+    "v1720440333/Rapotin/ap26/01_if3vk1.jpg",
     'v1717406553/Rapotin/karty/cerveny_dvur_karta_B26_nezarizeny_cibmde.jpg',
+    "v1720440321/Rapotin/ap26/02_riboo7.jpg",
+    "v1720441578/Rapotin/ap26/03_yzsfur.jpg",
+    "v1720440216/Rapotin/ap26/04_ilyvz5.jpg",
+    "v1720440323/Rapotin/ap26/05_ib7k0m.jpg",
+    "v1720440361/Rapotin/ap26/06_myfzct.jpg",
+    "v1720440308/Rapotin/ap26/07_kj7eit.jpg",
+    "v1720440246/Rapotin/ap26/08_rhwwc9.jpg",
+    "v1720440355/Rapotin/ap26/09_fpwmjs.jpg",
   ],
   moreDetails: [
     {
