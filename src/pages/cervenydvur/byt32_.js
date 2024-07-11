@@ -7,8 +7,8 @@ import ApSectionTwo from '../../components/ApartmentDetail/ApSectionTwo'
 import ApSectionThree from '../../components/ApartmentDetail/ApSectionThree'
 
 const data = {
-  sectionOneBg: "v1705667282/Rapotin/apC/Screenshot_2024-01-19_at_13.25.33_gxqh5m.png",
-  layoutImage: "v1705667282/Rapotin/apC/Screenshot_2024-01-19_at_13.25.33_gxqh5m.png",
+  sectionOneBg: "v1720602996/Rapotin/ap32/02_trnovx.jpg",
+  // layoutImage: "v1705667282/Rapotin/apC/Screenshot_2024-01-19_at_13.25.33_gxqh5m.png",
   apName: 'Bytová jednotka č. 32',
   projectName: 'Rezidence Červený Dvůr',
   // price: '5 790 000',
@@ -46,7 +46,14 @@ const data = {
     },
   ],
   gallery: [
-    "v1717841078/Rapotin/karty/30_31__32_etewkt.png",
+    "v1720602999/Rapotin/ap32/01_rgntmh.jpg",
+    "v1720602996/Rapotin/ap32/02_trnovx.jpg",
+    "v1720603001/Rapotin/ap32/03_sxa9pm.jpg",
+    "v1720603000/Rapotin/ap32/04_hqzhfb.jpg",
+    "v1720602993/Rapotin/ap32/05_e2leq2.jpg",
+    "v1720602993/Rapotin/ap32/07_bxjfvn.jpg",
+    "v1720602999/Rapotin/ap32/06_q3xjr0.jpg",
+    "v1720602649/Rapotin/karty/32_yclevc.png",
   ],
   moreDetails: [
     {

@@ -26,6 +26,39 @@ const data = {
   ),
   sliderImages: [
     {
+      imageUrl: "v1720684653/Rapotin/DSC08357-min_lmko87.jpg",
+    },
+
+    {
+      imageUrl: "v1720684648/Rapotin/DSC08281-HDR-min_borxga.jpg",
+    },
+
+    {
+      imageUrl: "v1720684646/Rapotin/DSC08260-HDR-min_vm5wno.jpg",
+    },
+
+    {
+      imageUrl: "v1720684651/Rapotin/DSC08211-HDR-min_gzilsv.jpg",
+    },
+
+    {
+      imageUrl: "v1720684650/Rapotin/DSC08224-HDR-min_xdnrda.jpg",
+    },
+
+    {
+      imageUrl: "v1720684651/Rapotin/DSC08237-HDR-min_tkhhfa.jpg",
+    },
+
+    {
+      imageUrl: "v1720684652/Rapotin/DSC08316-min_lwi6wz.jpg",
+    },
+
+    {
+      imageUrl: "v1720684652/Rapotin/DSC08401-min_mmrtwj.jpg",
+    },
+    
+
+    {
       imageUrl: "v1705666647/Rapotin/C_1_3_xk16jr.jpg",
     },
 
@@ -385,7 +418,7 @@ const data = {
   sectionImageOne: "v1705668049/Rapotin/1928_1_1_j1wzvm.jpg",
   sectionImageTwo: "v1718888055/Rapotin/V01_ozdaml.jpg",
 
-  sectionCover: "v1705768953/Rapotin/DSC09002-HDR_psufeb.jpg",
+  sectionCover: "v1720602999/Rapotin/ap32/01_rgntmh.jpg",
 
   ticksSection: [
     {
