@@ -7,7 +7,8 @@ import ApSectionTwo from '../../components/ApartmentDetail/ApSectionTwo'
 import ApSectionThree from '../../components/ApartmentDetail/ApSectionThree'
 
 const data = {
-  sectionOneBg: "v1720440308/Rapotin/ap26/07_kj7eit.jpg",
+  sectionOneBg: "v1720602996/Rapotin/ap32/02_trnovx.jpg",
+
   // layoutImage: "v1705667282/Rapotin/apC/Screenshot_2024-01-19_at_13.25.33_gxqh5m.png",
   apName: 'Bytová jednotka č.26',
   projectName: 'Rezidence Červený Dvůr',
