@@ -24,7 +24,7 @@ const data = {
       desc: 'Dispozice',
     },
     {
-      text: '29,52 ',
+      text: '45,52',
       goldText: 'm2',
       desc: 'Podlahová Plocha',
     },
@@ -46,7 +46,7 @@ const data = {
     },
   ],
   gallery: [
-    "v1717775430/Rapotin/karty/30_tlny3y.png",
+    "v1717775778/Rapotin/karty/31_dfnfzi.png",
   ],
   moreDetails: [
     {

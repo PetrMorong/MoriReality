@@ -605,14 +605,14 @@ const data = {
       reserved: false, 
     },
     {
-      price: "2 290 000 Kč",
+      price: "3 640 000 Kč",
       number: "Byt č.31", // dříve 27
       floor: "2NP",
       layout: "2kk",
-      size: "29,52 m2",
+      size: "45,52 m2",
       terasa: "2,49 m2",
       parking: "1",
-      priceVynos: "11 450 Kč",
+      priceVynos: "18 208 Kč",
       vynos: "6%",
       link: "/cervenydvur/byt31_",
       reserved: false,
