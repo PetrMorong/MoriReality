@@ -23,7 +23,7 @@ const data = {
       desc: 'Dispozice',
     },
     {
-      text: '55,27 ',
+      text: '35,15 ',
       goldText: 'm2',
       desc: 'Podlahová Plocha',
     },

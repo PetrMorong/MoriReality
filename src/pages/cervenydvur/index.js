@@ -19,9 +19,8 @@ const data = {
   desc: (
     <>
       Resort Červený dvůr. Místo, kde se moderna snoubí s historií. V malebné obci Rapotín pod vrcholky Hrubého Jeseníku rekonstruujeme historickou budovu z 30. let minulého století.
-      Apartmánový dům bude sloužit jako ubytování hotelového typu s kompletním servisem. Vlastní apartmán vám tak může sloužit jako rodinné rekreační zázemí. V době, kdy ho nebudete obývat sami, se pro vás stane pasivní investicí. O kompletní správu rezervací a pohodlí vašich hostů se vám rádi postaráme od A do Z. Více info o ubytování na našem webu. {" "}
+      Apartmánový dům bude sloužit jako ubytování hotelového typu s kompletním servisem. V ceně apartmánu je parkovací místo, podíl na přijezdové cestě i kuchyňská linka. Vlastní apartmán vám tak může sloužit jako rodinné rekreační zázemí. V době, kdy ho nebudete obývat sami, se pro vás stane pasivní investicí. O kompletní správu rezervací a pohodlí vašich hostů se vám rádi postaráme od A do Z. Více info o ubytování na našem webu. {" "}
       <a style={{ color: "B39A84" }} target="_blank" href="https://www.resortcervenydvur.cz">wwww.resortcervenydvur.cz</a>
-
     </>
   ),
   sliderImages: [
@@ -542,40 +541,40 @@ const data = {
       reserved: false,
     },
     {
-      price: "4 690 000 Kč",
+      price: "2 790 000 Kč",
       number: "Byt č.26",
       floor: "2NP",
       layout: "2kk",
-      size: "67,64 m2",
+      size: "31,62 m2",
       terasa: "2,49 m2",
       parking: "1",
       vynos: "6%",
-      priceVynos: "27 916 Kč",
+      priceVynos: "13 950 Kč",
       link: "/cervenydvur/byt26_",
       reserved: false,
     },
     {
-      price: "4 290 000 Kč",
+      price: "2 900 000 Kč",
       number: "Byt č.27",
       floor: "2NP",
       layout: "2kk",
-      size: "55,57 m2",
+      size: "35,15 m2",
       terasa: "2,49 m2",
       parking: "1",
       vynos: "6%",
-      priceVynos: "21 450 Kč",
+      priceVynos: "14 500 Kč",
       link: "/cervenydvur/byt27_",
       reserved: false,
     },
     {
-      price: "4 150 000 Kč", //  2 360 000 kč mamka
+      price: "3 000 000 Kč", //  2 360 000 kč mamka
       number: "Byt č.28",
       floor: "2NP",
       layout: "2kk",
-      size: "52,17 m2",
+      size: "38,20 m2",
       terasa: "2,49 m2",
       parking: "1",
-      priceVynos: "20 750 Kč",
+      priceVynos: "15 000 Kč",
       vynos: "6%",
       link: "/cervenydvur/byt28_",
       reserved: false,

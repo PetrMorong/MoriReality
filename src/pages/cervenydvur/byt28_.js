@@ -19,12 +19,12 @@ const data = {
   ),
   sectionOneDetails: [
     {
-      text: '2+',
+      text: '1+',
       goldText: 'kk',
       desc: 'Dispozice',
     },
     {
-      text: '52,17 ',
+      text: '38,20 ',
       goldText: 'm2',
       desc: 'Podlahová Plocha',
     },
