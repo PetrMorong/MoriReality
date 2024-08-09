@@ -25,6 +25,14 @@ const data = {
   ),
   sliderImages: [
     {
+      imageUrl: "v1723189892/Rapotin/karty/DSC02635_1_c1mvxg.jpg",
+    },
+
+    {
+      imageUrl: "v1723189890/Rapotin/karty/DSC02684_1_b3zyup.jpg",
+    },
+
+    {
       imageUrl: "v1720684653/Rapotin/DSC08357-min_lmko87.jpg",
     },
 
@@ -36,13 +44,13 @@ const data = {
       imageUrl: "v1720684646/Rapotin/DSC08260-HDR-min_vm5wno.jpg",
     },
 
-    {
-      imageUrl: "v1720684651/Rapotin/DSC08211-HDR-min_gzilsv.jpg",
-    },
+    // {
+    //   imageUrl: "v1720684651/Rapotin/DSC08211-HDR-min_gzilsv.jpg",
+    // },
 
-    {
-      imageUrl: "v1720684650/Rapotin/DSC08224-HDR-min_xdnrda.jpg",
-    },
+    // {
+    //   imageUrl: "v1720684650/Rapotin/DSC08224-HDR-min_xdnrda.jpg",
+    // },
 
     {
       imageUrl: "v1720684651/Rapotin/DSC08237-HDR-min_tkhhfa.jpg",
