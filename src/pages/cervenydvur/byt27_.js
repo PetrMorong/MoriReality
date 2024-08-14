@@ -18,7 +18,7 @@ const data = {
   ),
   sectionOneDetails: [
     {
-      text: '2+',
+      text: '1+',
       goldText: 'kk',
       desc: 'Dispozice',
     },

@@ -20,7 +20,7 @@ const data = {
   ),
   sectionOneDetails: [
     {
-      text: '3+',
+      text: '1+',
       goldText: 'kk',
       desc: 'Dispozice',
     },
