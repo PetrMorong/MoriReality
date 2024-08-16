@@ -585,7 +585,7 @@ const data = {
       priceVynos: "15 000 Kč",
       vynos: "6%",
       link: "/cervenydvur/byt28_",
-      reserved: false,
+      reserved: true,
     },
     // {
     //   price: "1 890 000 Kč",
