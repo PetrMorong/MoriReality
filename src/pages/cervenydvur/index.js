@@ -100,43 +100,18 @@ const data = {
     },
 
      // fotbal
-     {
+    {
       imageUrl: "v1724491012/Rapotin/DSC02988_1_-min_wdbktk.jpg",
     },
 
-    
-
-     
-    
-
-
-
-    
-
     // grill
-
     {
       imageUrl: "v1724491010/Rapotin/DSC02929_1_-min_esyekw.jpg",
     },
 
     {
       imageUrl: "v1724491009/Rapotin/DSC02925_1_-min_xb2lcd.jpg",
-    },
-
-    
-
-   
-
-    
-
-   
-
-
-    
-
-
-    
-    
+    },    
 
     // vizky exterier
     {
