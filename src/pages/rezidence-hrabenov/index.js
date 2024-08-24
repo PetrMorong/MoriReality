@@ -12,7 +12,7 @@ import ProjectSectionFive from '../../components/ProjectDetail/ProjectSectionFiv
 import ProjectSectionSix from '../../components/ProjectDetail/ProjectSectionSix'
 
 const data = {
-  status: 'Ve výstavbě',
+  status: 'Dokončeno',
   title: 'Apartmány Hrabenov',
   locationOne: 'Hrabenov 245',
   locationTwo: 'Ruda nad Moravou, Olomoucký kraj',
