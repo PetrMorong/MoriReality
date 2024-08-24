@@ -13,7 +13,7 @@ import ProjectSectionSix from '../../components/ProjectDetail/ProjectSectionSix'
 
 const data = {
   status: 'Ve výstavbě',
-  title: 'Rezidence Hrabenov',
+  title: 'Apartmány Hrabenov',
   locationOne: 'Hrabenov 245',
   locationTwo: 'Ruda nad Moravou, Olomoucký kraj',
   videoUrl: 'https://youtu.be/N_I-1PyQdX8',
@@ -36,39 +36,35 @@ const data = {
     </>
   ),
   sliderImages: [
+
     {
-      imageUrl: 'v1645823344/hrabenov/1_frp1mw.jpg',
+      imageUrl: 'v1724488767/hrabenov/DSC03066-HDR-min_ekphad.jpg',
     },
+
     {
-      imageUrl: 'v1645823341/hrabenov/2_g1tut1.jpg',
+      imageUrl: 'v1724488769/hrabenov/DSC03058-HDR-min_lzi4cg.jpg',
     },
+
     {
-      imageUrl: 'v1645823341/hrabenov/4_isndkx.jpg',
+      imageUrl: 'v1724488769/hrabenov/DSC03058-HDR-min_lzi4cg.jpg',
     },
+
     {
-      imageUrl: 'v1645823305/hrabenov/A_1.1_ah7zah.jpg',
+      imageUrl: 'v1724488771/hrabenov/DSC03072-HDR-min_j4ilcy.jpg',
     },
+
     {
-      imageUrl: 'v1645865784/hrabenov/A_2.1.1_qm3upq.jpg',
+      imageUrl: 'v1724488767/hrabenov/DSC03079-min_qdvqtf.jpg',
     },
+
     {
-      imageUrl: 'v1645865838/hrabenov/A_3.1_e7dbga.jpg',
+      imageUrl: 'v1724488766/hrabenov/DSC03087-min_kzsxtq.jpg',
     },
+
     {
-      imageUrl: 'v1645822960/hrabenov/B_6-min_uqvhkn.jpg',
+      imageUrl: 'v1724488767/hrabenov/DSC03080-min_ucn7co.jpg',
     },
-    {
-      imageUrl: 'v1645822947/hrabenov/B_8B-min_zoy8mu',
-    },
-    {
-      imageUrl: 'v1645822946/hrabenov/B_9B-min_yjq6vr.jpg',
-    },
-    {
-      imageUrl: 'v1646062243/hrabenov/8_dupwox.jpg',
-    },
-    {
-      imageUrl: 'v1646062243/hrabenov/9_gt3rxh.jpg',
-    },
+
     {
       imageUrl: 'v1646062245/hrabenov/ISO_cjeydz.jpg',
     },
@@ -164,7 +160,7 @@ const data = {
   ],
   apartments: [
     {
-      price: '2 690 000 Kč',
+      price: '2 390 000 Kč',
       number: '245/1',
       floor: '2NP',
       layout: '3 + kk',

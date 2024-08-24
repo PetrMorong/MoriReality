@@ -191,8 +191,8 @@ const data = [
 
   {
     imageUrl:
-      'v1716896490/Rapotin/VIZ3_gqhh0g.jpg',
-    title: 'Resort Červený Dvůr',
+      'v1724490339/Rapotin/DSC02635_1_1_-min_rrcky4.jpg',
+    title: 'Wellness Resort Červený Dvůr',
     desc: 'Rapotín',
     detailLink: "/cervenydvur",
     outsideLink: false,
@@ -222,8 +222,8 @@ const data = [
 
   
   {
-    imageUrl: 'v1716896708/DSC00334-HDR_yoidan.jpg',
-    title: 'Rezidence Hrabenov',
+    imageUrl: 'v1724488767/hrabenov/DSC03066-HDR-min_ekphad.jpg',
+    title: 'Apartmány Hrabenov',
     desc: 'Ruda nad Moravou',
     detailLink: '/rezidence-hrabenov',
     outsideLink: false,

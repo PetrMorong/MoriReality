@@ -24,6 +24,7 @@ const data = {
     </>
   ),
   sliderImages: [
+    
     {
       imageUrl: "v1723189892/Rapotin/karty/DSC02635_1_c1mvxg.jpg",
     },
@@ -43,15 +44,6 @@ const data = {
     {
       imageUrl: "v1720684646/Rapotin/DSC08260-HDR-min_vm5wno.jpg",
     },
-
-    // {
-    //   imageUrl: "v1720684651/Rapotin/DSC08211-HDR-min_gzilsv.jpg",
-    // },
-
-    // {
-    //   imageUrl: "v1720684650/Rapotin/DSC08224-HDR-min_xdnrda.jpg",
-    // },
-
     {
       imageUrl: "v1720684651/Rapotin/DSC08237-HDR-min_tkhhfa.jpg",
     },
@@ -63,8 +55,90 @@ const data = {
     {
       imageUrl: "v1720684652/Rapotin/DSC08401-min_mmrtwj.jpg",
     },
+
+// okoli
+
+    // kun
+    {
+      imageUrl: "v1724491010/Rapotin/DSC02835_1_-min_h19rzd.jpg",
+    },
+
+    // rybnik
+    {
+      imageUrl: "v1724491012/Rapotin/DSC02877_1_-min_y40sxy.jpg",
+    },
+
+    // řeka
+    {
+      imageUrl: "v1724491010/Rapotin/DSC02882_1_-min_jbtv1r.jpg",
+    },
+
+    // golf
+    {
+      imageUrl: "v1724491012/Rapotin/DSC02897_1_-min_pxkmgp.jpg",
+    },
+
+    {
+      imageUrl: "v1724491007/Rapotin/DSC02899_1_-min_e1lvwq.jpg",
+    },
+
+
+    // hřiště
+
+    {
+      imageUrl: "v1724491012/Rapotin/DSC02920_1_-min_ipwcrt.jpg",
+    },
+
+    // badminton
+    {
+      imageUrl: "v1724491010/Rapotin/DSC03026_1_-min_lq3esw.jpg",
+    },
+
+    // petang
+    {
+      imageUrl: "v1724491010/Rapotin/DSC03031_1_-min_izp01w.jpg",
+    },
+
+     // fotbal
+     {
+      imageUrl: "v1724491012/Rapotin/DSC02988_1_-min_wdbktk.jpg",
+    },
+
     
 
+     
+    
+
+
+
+    
+
+    // grill
+
+    {
+      imageUrl: "v1724491010/Rapotin/DSC02929_1_-min_esyekw.jpg",
+    },
+
+    {
+      imageUrl: "v1724491009/Rapotin/DSC02925_1_-min_xb2lcd.jpg",
+    },
+
+    
+
+   
+
+    
+
+   
+
+
+    
+
+
+    
+    
+
+    // vizky exterier
     {
       imageUrl: "v1705666647/Rapotin/C_1_3_xk16jr.jpg",
     },
@@ -87,10 +161,6 @@ const data = {
         "v1705666647/Rapotin/A_2_rcdzvu.jpg",
     },
 
-    {
-      imageUrl:
-        "v1705666647/Rapotin/A_1_1_ur1n4x.jpg",
-    },
 
     // z vrchu
 
@@ -661,7 +731,7 @@ const data = {
       parking: "1",
       priceVynos: "18 950 Kč",
       vynos: "6%",
-      link: "/cervenydvur/byt26",
+      link: "/cervenydvur/domek-byt2",
       reserved: false, //čeká na kartu
     },
     {
@@ -674,7 +744,7 @@ const data = {
       parking: "1",
       priceVynos: "21 450 Kč",
       vynos: "6%",
-      link: "/cervenydvur/byt26",
+      link: "/cervenydvur/domek-byt3",
       reserved: false, //čeká na kartu
     },
     {
@@ -687,7 +757,7 @@ const data = {
       parking: "1",
       priceVynos: "19 950 Kč",
       vynos: "6%",
-      link: "/cervenydvur/byt26",
+      link: "/cervenydvur/domek-byt4",
       reserved: false, //čeká na kartu
     },
   ],
