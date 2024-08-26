@@ -49,6 +49,7 @@ const data = {
   gallery: [
     "v1720440333/Rapotin/ap26/01_if3vk1.jpg",
     'v1723189079/Rapotin/karty/26_k3cqnr.png',
+    "v1724661328/Rapotin/karty/CD_NP2_B26_qx2xzt.png",
     "v1720440321/Rapotin/ap26/02_riboo7.jpg",
     "v1720441578/Rapotin/ap26/03_yzsfur.jpg",
     "v1720440216/Rapotin/ap26/04_ilyvz5.jpg",

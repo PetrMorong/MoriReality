@@ -56,7 +56,7 @@ const data = {
       imageUrl: "v1720684652/Rapotin/DSC08401-min_mmrtwj.jpg",
     },
 
-// okoli
+    // okoli
 
     // kun
     {

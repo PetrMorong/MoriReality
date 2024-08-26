@@ -47,6 +47,7 @@ const data = {
   ],
   gallery: [
     'v1717772822/Rapotin/karty/25_ffov5t.png',
+    "v1724661328/Rapotin/karty/CD_NP2_B25_uovsnu.png"
   ],
   moreDetails: [
     {

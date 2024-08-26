@@ -47,6 +47,7 @@ const data = {
   ],
   gallery: [
     "v1716899890/Rapotin/karty/nove/cerveny_dvur_karta_B18_1_qo040y.png",
+    "v1724661328/Rapotin/karty/CD_NP2_B23_pqjpnp.png"
   ],
   moreDetails: [
     {
