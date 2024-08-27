@@ -101,9 +101,6 @@ Nábytek na fotografiích není součástí prodeje bytu. Prohlídky jsou možn�
     "v1710771830/hrabenov/ap1/DSC00316-HDR_v2rmjt.jpg",
     "v1710771823/hrabenov/ap1/DSC00328-HDR_c2pmzp.jpg",
     "v1710771823/hrabenov/ap1/DSC00322-HDR_gv1u6n.jpg",
-    "v1710771855/hrabenov/ap1/DSC00349-HDR_gw39zw.jpg",
-    "v1710771855/hrabenov/ap1/DSC00346-HDR_t6tmbm.jpg",
-    "v1710771852/hrabenov/ap1/DSC00358-HDR_s78pfw.jpg",
     "v1646062245/hrabenov/ISO_cjeydz.jpg",
     "v1646062245/hrabenov/ISO_cjeydz.jpg"
   ],
