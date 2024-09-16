@@ -554,7 +554,7 @@ const data = {
       vynos: "6%",
       priceVynos: "17 400 Kč",
       link: "/cervenydvur/byt23_",
-      reserved: false,
+      reserved: true,
     },
     {
       price: "4 970 000 Kč",
@@ -567,7 +567,7 @@ const data = {
       vynos: "6%",
       priceVynos: "24 850 Kč",
       link: "/cervenydvur/byt24_",
-      reserved: false,
+      reserved: true,
     },
     // {
     //   price: "2 500 000 Kč",
@@ -591,7 +591,7 @@ const data = {
       vynos: "5%",
       priceVynos: "29 000 Kč",
       link: "/cervenydvur/byt25_",
-      reserved: false,
+      reserved: true,
     },
     {
       price: "2 790 000 Kč",
@@ -604,7 +604,7 @@ const data = {
       vynos: "6%",
       priceVynos: "13 950 Kč",
       link: "/cervenydvur/byt26_",
-      reserved: false,
+      reserved: true,
     },
     {
       price: "2 900 000 Kč",
@@ -617,7 +617,7 @@ const data = {
       vynos: "6%",
       priceVynos: "14 500 Kč",
       link: "/cervenydvur/byt27_",
-      reserved: false,
+      reserved: true,
     },
     {
       price: "3 000 000 Kč", //  2 360 000 kč mamka
@@ -654,7 +654,7 @@ const data = {
       priceVynos: "22 450 Kč",
       vynos: "6%",
       link: "/cervenydvur/byt30_",
-      reserved: false, 
+      reserved: true, 
     },
     {
       price: "3 640 000 Kč",
@@ -667,7 +667,7 @@ const data = {
       priceVynos: "18 208 Kč",
       vynos: "6%",
       link: "/cervenydvur/byt31_",
-      reserved: false,
+      reserved: true,
     },
     {
       price: "5 900 000 Kč",
@@ -680,7 +680,7 @@ const data = {
       priceVynos: "29 500 Kč",
       vynos: "5%",
       link: "/cervenydvur/byt32_",
-      reserved: false,
+      reserved: true,
     },
 
     {
@@ -694,7 +694,7 @@ const data = {
       priceVynos: "19 950 Kč",
       vynos: "6%",
       link: "/cervenydvur/domek-byt1",
-      reserved: false,
+      reserved: true,
     },
     {
       price: "3 790 000 Kč",
@@ -707,7 +707,7 @@ const data = {
       priceVynos: "18 950 Kč",
       vynos: "6%",
       link: "/cervenydvur/domek-byt2",
-      reserved: false, //čeká na kartu
+      reserved: true, //čeká na kartu
     },
     {
       price: "4 290 000 Kč",
@@ -720,7 +720,7 @@ const data = {
       priceVynos: "21 450 Kč",
       vynos: "6%",
       link: "/cervenydvur/domek-byt3",
-      reserved: false, //čeká na kartu
+      reserved: true, //čeká na kartu
     },
     {
       price: "3 990 000 Kč",
@@ -733,7 +733,7 @@ const data = {
       priceVynos: "19 950 Kč",
       vynos: "6%",
       link: "/cervenydvur/domek-byt4",
-      reserved: false, //čeká na kartu
+      reserved: true, //čeká na kartu
     },
   ],
   otherProjects: [
