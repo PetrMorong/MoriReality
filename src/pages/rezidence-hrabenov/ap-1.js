@@ -141,11 +141,11 @@ Nábytek na fotografiích není součástí prodeje bytu. Prohlídky jsou možn�
 const MalaMoravaAp1Page = () => {
   return (
     <Layout>
-      <Header email="info@mori-reality.cz" phone="+420 737 211 314" />
+      <Header email="info@josefandrle.cz" phone="+420 605 177 870" />
       <ApSectionOne data={data} />
       <ApSectionTwo data={data} />
       <ApSectionThree data={data} />
-      <Footer email="info@mori-reality.cz" phone="+420 737 211 314" />
+      <Footer email="info@josefandrle.cz" phone="+420 605 177 870" />
     </Layout>
   )
 }
