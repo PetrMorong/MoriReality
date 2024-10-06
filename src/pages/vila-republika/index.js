@@ -32,75 +32,77 @@ const data = {
       servisem. Vlastní apartmán vám tak může sloužit jako rodinné rekreační
       zázemí. V době, kdy ho nebudete obývat sami, se pro vás stane pasivní
       investicí. O kompletní správu rezervací a pohodlí vašich hostů se vám rádi
-      postaráme od A do Z.
+      postaráme od A do Z. Více info o ubytování na našem webu. {" "}
+      <a style={{ color: "B39A84" }} target="_blank" href="https://www.vila-republika.cz">wwww.vila-republika.cz</a>
     </>
   ),
   sliderImages: [
+
+    
     {
-      imageUrl: "v1664012326/vilaRepublika/IMG_20220826_112328_ucbslh.jpg",
+      imageUrl: "v1689504195/vilaRepublikaFoto/356584285_1096124314696983_2263942071942825600_n_xv0nkq.jpg",
+    },
+    
+    {
+      imageUrl: 'v1689504133/vilaRepublikaFoto/IMG_1319-HDR-min_esxlxf.jpg',
+    },
+   
+  
+    {
+      imageUrl: 'v1689504129/vilaRepublikaFoto/IMG_1338-HDR-min_i68xc6.jpg',
     },
 
-    {
-      imageUrl: "v1664012324/vilaRepublika/IMG_20220826_112641_2_ds9r33.jpg",
-    },
 
     {
-      imageUrl: "v1664012322/vilaRepublika/received_594019832126996_qakzza.jpg",
+      imageUrl:
+      'v1689504130/vilaRepublikaFoto/IMG_1287-HDR-min_fjfc2b.jpg',
     },
 
     {
       imageUrl:
-        "v1664012322/vilaRepublika/290488847_1208493546577146_4441050244833197163_n_1_yypr29.jpg",
+      'v1689504125/vilaRepublikaFoto/IMG_1280-HDR-min_zdbls5.jpg',
     },
 
     {
-      imageUrl:
-        "v1664012322/vilaRepublika/277235060_945405259479099_1749850267722574106_n_k0aq4f.jpg",
+      imageUrl:         'v1689504131/vilaRepublikaFoto/IMG_1349-HDR-min_d00shg.jpg',
+
     },
 
     {
-      imageUrl:
-        "v1664012322/vilaRepublika/277235060_945405259479099_1749850267722574106_n_k0aq4f.jpg",
+      imageUrl:         'v1689504131/vilaRepublikaFoto/IMG_1389-HDR-min_iycbno.jpg',
+
     },
 
     {
-      imageUrl: "v1664012323/vilaRepublika/IMG_20220904_161049_1_t0hjwu.jpg",
+      imageUrl:'v1675799329/vilaRepublikaFoto/DSC08530-HDR_bw0gqc.jpg',
     },
 
     {
-      imageUrl: "v1664012323/vilaRepublika/IMG_20220826_113059_gfvbvq.jpg",
+      imageUrl:  'v1675799326/vilaRepublikaFoto/DSC08524-HDR_rx1gft.jpg',
     },
 
     {
-      imageUrl: "v1664012323/vilaRepublika/IMG_20220826_113059_gfvbvq.jpg",
+      imageUrl:  'v1680942535/vilaRepublikaFoto/SpolecenskaMistnost/DSC01924-HDR_zldqdu.jpg',
     },
 
     {
-      imageUrl: "v1664012327/vilaRepublika/IMG_20220826_113115_g4bpst.jpg",
+      imageUrl:  'v1680942700/vilaRepublikaFoto/SpolecenskaMistnost/DSC01975-min_p2jh6q.jpg',
     },
 
     {
-      imageUrl: "v1664012327/vilaRepublika/IMG_20220826_113115_g4bpst.jpg",
+      imageUrl: 'v1680942534/vilaRepublikaFoto/SpolecenskaMistnost/DSC01918-HDR_ltphob.jpg',
     },
 
     {
-      imageUrl: "v1664012327/vilaRepublika/IMG_20220826_121733_2_ysn42z.jpg",
+      imageUrl:  'v1680942527/vilaRepublikaFoto/SpolecenskaMistnost/DSC01951-HDR_r9c6ro.jpg',
     },
 
     {
-      imageUrl: "v1664012327/vilaRepublika/IMG_20220617_150325_1_jlewrv.jpg",
+      imageUrl:  'v1680942701/vilaRepublikaFoto/SpolecenskaMistnost/DSC01974-min_gpkq1v.jpg',
     },
 
     {
-      imageUrl: "v1664012329/vilaRepublika/IMG_20220904_160945_1_mkktp8.jpg",
-    },
-
-    {
-      imageUrl: "v1664013013/vilaRepublika/IMG_20220914_111001_ubpytt.jpg",
-    },
-
-    {
-      imageUrl: "v1664013012/vilaRepublika/IMG_20220914_110241_kjojys.jpg",
+      imageUrl:    'v1680942699/vilaRepublikaFoto/SpolecenskaMistnost/DSC01987-min_ljoda4.jpg',
     },
 
     // {
@@ -235,9 +237,9 @@ const data = {
     desc: "Pohodlí jsme podřídili všechno. V přízemí vily proto budujeme designové wellness centrum, kde můžete načerpat síly a užívat si soukromí. Čeká zde na vás finská sauna s parním nárazem, odpočinková část s výhledem do zeleně, whirpool vana pro dvě osoby a zážitková sprcha s relaxačními programy. Rezervaci si můžete udělat online a prostory si otevřít sami pomocí kódu, který vám zašleme.",
   },
 
-  sectionImageOne: "v1647000254/vilaRepublika/ap1/o01_lhqt6c.jpg",
-  sectionImageTwo: "v1645822962/vilaRepublika/SAUNA2-min_p65zfc.jpg",
-  sectionCover: "v1647000262/vilaRepublika/ap1/l07mensi_xywpsx.jpg",
+  sectionImageOne: "v1728205639/vilaRepublikaFoto/byt5/DSC00424-HDR-min_mkkwo3.jpg",
+  sectionImageTwo: "v1680936961/vilaRepublikaFoto/wellness/DSC02016-HDR_onzspt.jpg",
+  sectionCover: "v1675799782/vilaRepublikaFoto/byt5/DSC08342-HDR_eqajrc.jpg",
   ticksSection: [
     {
       highlighted: "Lázeňská tradice",
@@ -309,7 +311,7 @@ const data = {
       terasa: "3,6 m2",
       parking: "1",
       link: "/vila-republika/ap-5",
-      reserved: true,
+      reserved: false,
     },
     {
       price: "5 990 000 Kč",
@@ -336,24 +338,25 @@ const data = {
   ],
   otherProjects: [
     {
-      image: "v1645823018/projektMalaMorava_nzkcnk.jpg",
-      name: "Apartmány",
-      location: "Malá Morava",
-      link: "/apartmany-mala-morava",
+      image: "v1723189892/Rapotin/karty/DSC02635_1_c1mvxg.jpg",
+      name: "Wellnness Resort",
+      location: "Červený dvůr",
+      link: "/cervenydvur",
     },
     {
-      image:
-        "v1664009999/Kouty/Screen_Shot_2022-08-18_at_11.27.50_1_gnjjvw.png",
-      name: "Wellness Aparthotel",
-      location: "Kouty nad Desnou",
-      link: "/aparthotel-kouty",
-    },
-    {
-      image: "v1645823344/hrabenov/1_frp1mw.jpg",
+      image: "v1724488767/hrabenov/DSC03066-HDR-min_ekphad.jpg",
       name: "Rezidence Hrabenov",
       location: "Hrabenov, Ruda Nad Moravou",
       link: "/rezidence-hrabenov",
     },
+    {
+      image:
+        "v1664009931/Kouty/Screen_Shot_2022-08-18_at_11.26.44_2_yytalh.png",
+      name: "Wellness Aparthotel",
+      location: "Kouty nad Desnou",
+      link: "/aparthotel-kouty",
+    },
+   
   ],
   timelineFill: "80%",
   timeline: [
@@ -388,7 +391,7 @@ const VilaRepublika = () => {
       <ProjectSectionThree data={data} />
       <ProjectSectionFour data={data} />
       <ProjectSectionFive data={data} />
-      <ProjectSectionSix data={data} videoSectionTitle="Video z rekonstrukce" />
+      {/* <ProjectSectionSix data={data} videoSectionTitle="Video z rekonstrukce" /> */}
       <PriceList data={data} />
       <OtherProjects data={data} />
       <Footer />

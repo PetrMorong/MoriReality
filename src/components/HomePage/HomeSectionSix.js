@@ -4,25 +4,25 @@ import Button from '../Button'
 import { buildImageUrl } from 'cloudinary-build-url'
 
 const data = [
-  {
-    name: 'Apartmán 2+kk - 34 m²',
-    location: 'Vila Republika, Velké Losiny',
-    price: '3 790 000 Kč',
-    image: 'v1676730941/VlDvojka/Screenshot_2023-02-18_at_15.12.19_py1arx.png',
-    link: '/TODO',
-  },
-  {
-    name: 'Apartmán 1+kk - 30 m²',
-    location: 'Vila Republika, Velké Losiny',
-    price: '3 390 000 Kč',
-    image: 'v1676730936/VlDvojka/Screenshot_2023-02-18_at_15.12.33_ad4t03.png',
-    link: '/TODO',
-  },
+  // {
+  //   name: 'Apartmán 2+kk - 34 m²',
+  //   location: 'Vila Republika, Velké Losiny',
+  //   price: '3 790 000 Kč',
+  //   image: 'v1676730941/VlDvojka/Screenshot_2023-02-18_at_15.12.19_py1arx.png',
+  //   link: '/TODO',
+  // },
+  // {
+  //   name: 'Apartmán 1+kk - 30 m²',
+  //   location: 'Vila Republika, Velké Losiny',
+  //   price: '3 390 000 Kč',
+  //   image: 'v1676730936/VlDvojka/Screenshot_2023-02-18_at_15.12.33_ad4t03.png',
+  //   link: '/TODO',
+  // },
   {
     name: 'Apartmán 245/1 - 63 m²',
     location: 'Hrabenov, Ruda Nad Moravou',
-    price: '3 590 000 kč',
-    image: 'v1646637295/hrabenov/apA/8_h9o5zs.jpg',
+    price: '2 390 000 kč',
+    image: "v1710771830/hrabenov/ap1/DSC00316-HDR_v2rmjt.jpg",
     link: '/rezidence-hrabenov/ap-1',
   },
   // {
@@ -32,21 +32,16 @@ const data = [
   //   image: "v1645865784/hrabenov/A_2.1.1_qm3upq.jpg",
   //   link: "/rezidence-hrabenov/ap-2",
   // },
-  {
-    name: 'Apartmán 245/3 - 96 m²',
-    location: 'Hrabenov, Ruda Nad Moravou',
-    price: '3 990 000 kč',
-    image: 'v1647260371/hrabenov/AP_C/7_he8vro.jpg',
-    link: '/rezidence-hrabenov/ap-3',
-  },
+  // {
+  //   name: 'Apartmán 245/3 - 96 m²',
+  //   location: 'Hrabenov, Ruda Nad Moravou',
+  //   price: '3 990 000 kč',
+  //   image: 'v1647260371/hrabenov/AP_C/7_he8vro.jpg',
+  //   link: '/rezidence-hrabenov/ap-3',
+  // },
 
   // velké losiny
-  // {
-  //   name: "Apartmán 354/7 - 128 m²",
-  //   location: "Osvobození, Velké Losiny",
-  //   price: "8 890 000 kč",
-  //   image: "/images/vlAp7.jpg",
-  // },
+
   // {
   //   name: "Apartmán 354/6 - 58 m²",
   //   location: "Osvobození, Velké Losiny",
@@ -60,13 +55,21 @@ const data = [
   //   image: "/images/vlAp2.png",
   //   link: "/vila-republika/ap-2",
   // },
-  // {
-  //   name: "Apartmán 354/5 - 42 m²",
-  //   location: "Osvobození, Velké Losiny",
-  //   price: "4 990 000 kč",
-  //   image: "/images/vlAp5.png",
-  //   link: "/vila-republika/ap-5",
-  // },
+  {
+    name: "Losinský Apartmán - 42 m²",
+    location: "Vila Republika, Velké Losiny",
+    price: "4 490 000 kč",
+    image: "v1675799782/vilaRepublikaFoto/byt5/DSC08342-HDR_eqajrc.jpg",
+    link: "/vila-republika/ap-5",
+  },
+
+  {
+    name: "Apartmánový domek  - 70 m²",
+    location: "Vila Republika, Velké Losiny",
+    price: "5 990 000 kč",
+    image: "v1689504195/vilaRepublikaFoto/356584285_1096124314696983_2263942071942825600_n_xv0nkq.jpg",
+  },
+
   // {
   //   name: "Apartmán 354/1 -  52 m²",
   //   location: "Osvobození, Velké Losiny",
@@ -119,6 +122,31 @@ const data = [
   //   image: "v1645822945/malaMorava/ap5/D_5-min_tasob8.jpg",
   //   link: "/apartmany-mala-morava/ap-7",
   // },
+
+  // Rapotín
+   {
+    name: "Apartmán 267/1 - 35 m²",
+    location: "Červený dvůr, Rapotín",
+    price: "3 490 000 kč",
+    image: "v1728209916/Rapotin/ap1/DSC02526-HDR_1_-min_qlyagu.jpg",
+    link: "/cervenydvur/byt28_",
+  },
+
+  {
+    name: "Apartmán 267/28 - 38 m²",
+    location: "Červený dvůr, Rapotín",
+    price: "3 000 000 kč",
+    image: "v1720602999/Rapotin/ap32/01_rgntmh.jpg",
+    link: "/cervenydvur/byt28_",
+  },
+
+  {
+    name: "Apartmán 267/26 - 35 m²",
+    location: "Červený dvůr, Rapotín",
+    price: "2 790 000 kč",
+    image: "v1720440333/Rapotin/ap26/01_if3vk1.jpg",
+    link: "/cervenydvur/byt26_",
+  },
 ]
 
 const HomeSectionSix = () => {

@@ -154,7 +154,7 @@ const PriceList = ({ data, vynos }) => {
                     
                   )}
                   <TableCellPrice>
-                    {item.reserved ? "Rezervováno" : item.price}
+                    {item.reserved ? "Prodáno" : item.price}
                   </TableCellPrice>
                   <TableCell>
                     <TablePriceButton href={item.link}>

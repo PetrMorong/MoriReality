@@ -22,7 +22,7 @@ const HomePage = () => {
       
       <HomeSectionFive />
       {/* Prices */}
-      {/* <HomeSectionSix /> */}
+      <HomeSectionSix />
 
       <Footer />
     </Layout>

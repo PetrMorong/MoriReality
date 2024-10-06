@@ -9,6 +9,7 @@ import ProjectSectionThree from "../../components/ProjectDetail/ProjectSectionTh
 import ProjectSectionFour from "../../components/ProjectDetail/ProjectSectionFour";
 import ProjectSectionFive from "../../components/ProjectDetail/ProjectSectionFive";
 import ProjectSectionSix from "../../components/ProjectDetail/ProjectSectionSix";
+import OtherProjects from "../../components/ProjectDetail/OtherProjects";
 
 const data = {
   status: "Ve výstavbě",
@@ -554,7 +555,7 @@ const data = {
       vynos: "6%",
       priceVynos: "17 400 Kč",
       link: "/cervenydvur/byt23_",
-      reserved: true,
+      reserved: false,
     },
     {
       price: "4 970 000 Kč",
@@ -604,7 +605,7 @@ const data = {
       vynos: "6%",
       priceVynos: "13 950 Kč",
       link: "/cervenydvur/byt26_",
-      reserved: true,
+      reserved: false,
     },
     {
       price: "2 900 000 Kč",
@@ -617,7 +618,7 @@ const data = {
       vynos: "6%",
       priceVynos: "14 500 Kč",
       link: "/cervenydvur/byt27_",
-      reserved: true,
+      reserved: false,
     },
     {
       price: "3 000 000 Kč", //  2 360 000 kč mamka
@@ -630,7 +631,7 @@ const data = {
       priceVynos: "15 000 Kč",
       vynos: "6%",
       link: "/cervenydvur/byt28_",
-      reserved: true,
+      reserved: false,
     },
     // {
     //   price: "1 890 000 Kč",
@@ -667,7 +668,7 @@ const data = {
       priceVynos: "18 208 Kč",
       vynos: "6%",
       link: "/cervenydvur/byt31_",
-      reserved: true,
+      reserved: false,
     },
     {
       price: "5 900 000 Kč",
@@ -683,79 +684,83 @@ const data = {
       reserved: true,
     },
 
-    {
-      price: "3 990 000 Kč",
-      number: "Domek byt č.1",
-      floor: "2NP",
-      layout: "2kk",
-      size: "47,94 m2",
-      terasa: "2,79 m2",
-      parking: "1",
-      priceVynos: "19 950 Kč",
-      vynos: "6%",
-      link: "/cervenydvur/domek-byt1",
-      reserved: true,
-    },
-    {
-      price: "3 790 000 Kč",
-      number: "Domek byt č.2",
-      floor: "2NP",
-      layout: "2kk",
-      size: "47,94 m2",
-      terasa: "2,79 m2",
-      parking: "1",
-      priceVynos: "18 950 Kč",
-      vynos: "6%",
-      link: "/cervenydvur/domek-byt2",
-      reserved: true, //čeká na kartu
-    },
-    {
-      price: "4 290 000 Kč",
-      number: "Domek byt č.3",
-      floor: "2NP",
-      layout: "2kk",
-      size: "50,2 m2",
-      terasa: "2,79 m2",
-      parking: "1",
-      priceVynos: "21 450 Kč",
-      vynos: "6%",
-      link: "/cervenydvur/domek-byt3",
-      reserved: true, //čeká na kartu
-    },
-    {
-      price: "3 990 000 Kč",
-      number: "Domek byt č.4",
-      floor: "2NP",
-      layout: "2kk",
-      size: "50,2 m2",
-      terasa: "2,79 m2",
-      parking: "1",
-      priceVynos: "19 950 Kč",
-      vynos: "6%",
-      link: "/cervenydvur/domek-byt4",
-      reserved: true, //čeká na kartu
-    },
+    // {
+    //   price: "3 990 000 Kč",
+    //   number: "Domek byt č.1",
+    //   floor: "2NP",
+    //   layout: "2kk",
+    //   size: "47,94 m2",
+    //   terasa: "2,79 m2",
+    //   parking: "1",
+    //   priceVynos: "19 950 Kč",
+    //   vynos: "6%",
+    //   link: "/cervenydvur/domek-byt1",
+    //   reserved: true,
+    // },
+    // {
+    //   price: "3 790 000 Kč",
+    //   number: "Domek byt č.2",
+    //   floor: "2NP",
+    //   layout: "2kk",
+    //   size: "47,94 m2",
+    //   terasa: "2,79 m2",
+    //   parking: "1",
+    //   priceVynos: "18 950 Kč",
+    //   vynos: "6%",
+    //   link: "/cervenydvur/domek-byt2",
+    //   reserved: true, //čeká na kartu
+    // },
+    // {
+    //   price: "4 290 000 Kč",
+    //   number: "Domek byt č.3",
+    //   floor: "2NP",
+    //   layout: "2kk",
+    //   size: "50,2 m2",
+    //   terasa: "2,79 m2",
+    //   parking: "1",
+    //   priceVynos: "21 450 Kč",
+    //   vynos: "6%",
+    //   link: "/cervenydvur/domek-byt3",
+    //   reserved: true, //čeká na kartu
+    // },
+    // {
+    //   price: "3 990 000 Kč",
+    //   number: "Domek byt č.4",
+    //   floor: "2NP",
+    //   layout: "2kk",
+    //   size: "50,2 m2",
+    //   terasa: "2,79 m2",
+    //   parking: "1",
+    //   priceVynos: "19 950 Kč",
+    //   vynos: "6%",
+    //   link: "/cervenydvur/domek-byt4",
+    //   reserved: true, //čeká na kartu
+    // },
   ],
   otherProjects: [
+
+   
     {
-      image: "v1645823018/projektMalaMorava_nzkcnk.jpg",
-      name: "Apartmány",
-      location: "Malá Morava",
-      link: "/apartmany-mala-morava",
-    },
-    {
-      image:
-        "v1664009999/Kouty/Screen_Shot_2022-08-18_at_11.27.50_1_gnjjvw.png",
-      name: "Wellness Aparthotel",
-      location: "Kouty nad Desnou",
-      link: "/aparthotel-kouty",
-    },
-    {
-      image: "v1645823344/hrabenov/1_frp1mw.jpg",
+      image: "v1724488767/hrabenov/DSC03066-HDR-min_ekphad.jpg",
       name: "Rezidence Hrabenov",
       location: "Hrabenov, Ruda Nad Moravou",
       link: "/rezidence-hrabenov",
     },
+    {
+      image: "v1689504195/vilaRepublikaFoto/356584285_1096124314696983_2263942071942825600_n_xv0nkq.jpg",
+      name: 'Vila republika',
+      location: 'Velké Losiny',
+      link: '/vila-republika',
+    },
+
+    {
+      image:
+        "v1664009931/Kouty/Screen_Shot_2022-08-18_at_11.26.44_2_yytalh.png",
+      name: "Wellness Aparthotel",
+      location: "Kouty nad Desnou",
+      link: "/aparthotel-kouty",
+    },
+
   ],
   timelineFill: "50%",
   timeline: [
@@ -792,7 +797,7 @@ const VilaRepublika = () => {
       <ProjectSectionFive data={data} />
       <ProjectSectionSix data={data} videoSectionTitle="Video z rekonstrukce" />
       <PriceList vynos={true} data={data} />
-      {/* <OtherProjects data={data} /> */}
+      <OtherProjects data={data} />
       <Footer />
     </Layout>
   );

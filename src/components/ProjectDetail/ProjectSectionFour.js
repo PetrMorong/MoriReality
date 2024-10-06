@@ -185,7 +185,7 @@ const ProjectSectionFour = ({ data }) => {
       <CoverWrap>
         <Cover src={imageUrlThree} />
         <CoverOverlay>
-          <CoverText>Vizualizace bytu</CoverText>
+          <CoverText>Ukázkový byt</CoverText>
         </CoverOverlay>
       </CoverWrap>
     </>

@@ -3,7 +3,7 @@ import Layout from '../../components/layout'
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import PriceList from '../../components/ProjectDetail/PriceList'
-// import OtherProjects from '../../components/ProjectDetail/OtherProjects'
+import OtherProjects from '../../components/ProjectDetail/OtherProjects'
 import ProjectSectionOne from '../../components/ProjectDetail/ProjectSectionOne'
 import ProjectSectionTwo from '../../components/ProjectDetail/ProjectSectionTwo'
 import ProjectSectionThree from '../../components/ProjectDetail/ProjectSectionThree'
@@ -193,15 +193,18 @@ const data = {
       reserved: true,
     },
   ],
+
+
+
   otherProjects: [
     {
-      image: 'v1645823018/projektMalaMorava_nzkcnk.jpg',
-      name: 'Apartmány',
-      location: 'Malá Morava',
-      link: '/apartmany-mala-morava',
+      image: "v1723189892/Rapotin/karty/DSC02635_1_c1mvxg.jpg",
+      name: "Wellnness Resort",
+      location: "Červený dvůr",
+      link: "/cervenydvur",
     },
     {
-      image: 'v1645822941/vilaRepublika/mp01-min_pilgkw.jpg',
+      image: "v1689504195/vilaRepublikaFoto/356584285_1096124314696983_2263942071942825600_n_xv0nkq.jpg",
       name: 'Vila republika',
       location: 'Velké Losiny',
       link: '/vila-republika',
@@ -249,7 +252,7 @@ const VilaRepublika = () => {
       <ProjectSectionFive data={data} />
       {/* <ProjectSectionSix data={data} /> */}
       <PriceList data={data} />
-      {/* <OtherProjects data={data} /> */}
+      <OtherProjects data={data} />
       <Footer email="info@josefandrle.cz" phone="+420 605 177 870" />
     </Layout>
   )

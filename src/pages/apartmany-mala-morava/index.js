@@ -244,7 +244,7 @@ const data = {
   ],
   otherProjects: [
     {
-      image: "v1645822941/vilaRepublika/mp01-min_pilgkw.jpg",
+      image: "v1689504195/vilaRepublikaFoto/356584285_1096124314696983_2263942071942825600_n_xv0nkq.jpg",
       name: "Vila republika",
       location: "Velké Losiny",
       link: "/vila-republika",

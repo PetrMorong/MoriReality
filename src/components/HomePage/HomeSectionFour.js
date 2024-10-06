@@ -188,6 +188,15 @@ const data = [
   //   desc: "Kouty nad Desnou",
   //   detailLink: "/aparthotel-kouty",
   // },
+  
+  {
+    imageUrl: 'v1689504195/vilaRepublikaFoto/356584285_1096124314696983_2263942071942825600_n_xv0nkq.jpg',
+    title: 'Wellness apartmány Vila republika',
+    desc: 'Velké Losiny',
+    detailLink: '/vila-republika',
+    outsideLink: true,
+  },
+
 
   {
     imageUrl:
@@ -196,15 +205,6 @@ const data = [
     desc: 'Rapotín',
     detailLink: "/cervenydvur",
     outsideLink: false,
-  },
-
-  
-  {
-    imageUrl: 'v1689504195/vilaRepublikaFoto/356584285_1096124314696983_2263942071942825600_n_xv0nkq.jpg',
-    title: 'Wellness apartmány Vila republika',
-    desc: 'Velké Losiny',
-    detailLink: 'https://www.vila-republika.cz',
-    outsideLink: true,
   },
 
   // {
