@@ -603,7 +603,7 @@ const data = {
       terasa: "2,49 m2",
       parking: "1",
       vynos: "7%",
-      priceVynos: "13 950 Kč",
+      priceVynos: "16 275 Kč", // 8% výnos 18,600
       link: "/cervenydvur/byt26_",
       reserved: false,
     },
@@ -616,19 +616,19 @@ const data = {
       terasa: "2,49 m2",
       parking: "1",
       vynos: "7%",
-      priceVynos: "14 500 Kč",
+      priceVynos: "16 916 Kč", // 8% výnos 19,333
       link: "/cervenydvur/byt27_",
       reserved: false,
     },
     {
-      price: "3 000 000 Kč", //  2 360 000 kč mamka
+      price: "3 000 000 Kč",
       number: "Byt č.28",
       floor: "2NP",
       layout: "1kk",
       size: "38,20 m2",
       terasa: "2,49 m2",
       parking: "1",
-      priceVynos: "15 000 Kč",
+      priceVynos: "17 500 Kč", // 8% výnos 20,000
       vynos: "7%",
       link: "/cervenydvur/byt28_",
       reserved: false,
