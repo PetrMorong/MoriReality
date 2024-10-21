@@ -12,7 +12,7 @@ import ProjectSectionFive from "../../components/ProjectDetail/ProjectSectionFiv
 import ProjectSectionSix from "../../components/ProjectDetail/ProjectSectionSix";
 
 const data = {
-  status: "Ve výstavbě",
+  status: "Dokončeno",
   title: "Apartmánový dům Vila republika",
   locationOne: "Osvobození 354",
   locationTwo: "Velké Losiny, Olomoucký kraj",

@@ -77,8 +77,8 @@ const Header = ({ email, phone }) => {
 
         <div style={{ flex: 1 }} />
 
-        <Link href={`tel:${phone || "+420 737 211 314"}`}>
-          {phone || "+420 737 211 314"}
+        <Link href={`tel:${phone || "+420 775 561 091"}`}>
+          {phone || "+420 775 561 091"}
         </Link>
         <a
           href={`mailto:${email || "info@mori-reality.cz"}`}
