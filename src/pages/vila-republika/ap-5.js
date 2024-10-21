@@ -11,7 +11,7 @@ const data = {
   layoutImage: "v1645822937/vilaRepublika/ap5/layout4_ae2qhy.png",
   apName: "Losinský Apartmán",
   projectName: "Vila Republika",
-  price: "4 490 000",
+  price: "4 690 000",
   backLink: "/vila-republika",
   sectionOneDetails: [
     {

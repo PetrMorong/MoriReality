@@ -303,7 +303,7 @@ const data = {
       reserved: true,
     },
     {
-      price: "4 490 000 Kč",
+      price: "4 690 000 Kč",
       number: "354/5",
       floor: "2NP",
       layout: "2kk",

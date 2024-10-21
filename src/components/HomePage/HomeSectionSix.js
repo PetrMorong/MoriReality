@@ -58,7 +58,7 @@ const data = [
   {
     name: "Losinský Apartmán - 42 m²",
     location: "Vila Republika, Velké Losiny",
-    price: "4 490 000 kč",
+    price: "4 690 000 kč",
     image: "v1675799782/vilaRepublikaFoto/byt5/DSC08342-HDR_eqajrc.jpg",
     link: "/vila-republika/ap-5",
   },
