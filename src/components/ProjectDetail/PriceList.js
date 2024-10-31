@@ -92,7 +92,19 @@ const TableCellPrice = styled(TableCell)`
   font-weight: bold;
 `;
 
-const PriceList = ({ data, vynos }) => {
+const Akce = styled.div`
+
+margin-top: 60px;
+
+  font-family: Georama;
+  font-size: 25px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #000000;
+`;
+
+const PriceList = ({ data, vynos, showBonus }) => {
   const [mouseOverRow, setMouseOverRow] = React.useState(undefined);
 
   const handleGoToDetail = () => {};
@@ -165,6 +177,13 @@ const PriceList = ({ data, vynos }) => {
               );
             })}
           </Table>
+          
+            {showBonus && (
+              <Akce>
+                AKCE! Nyní nabízeme u apartmánů 1kk výnos 8% na první 3 roky. Akce platí do 31.12.2024
+              </Akce>
+            )}
+          
         </Wrapper>
       </Container>
     </>

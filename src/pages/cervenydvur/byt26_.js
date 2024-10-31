@@ -11,7 +11,7 @@ const data = {
 
   // layoutImage: "v1705667282/Rapotin/apC/Screenshot_2024-01-19_at_13.25.33_gxqh5m.png",
   apName: 'Bytová jednotka č.26',
-  projectName: 'Rezidence Červený Dvůr',
+  projectName: 'Resort Červený Dvůr',
   // price: '3 590 000',
   backLink: '/cervenydvur',
   apTitle: 'Bytová jednotka č.26',

@@ -45,6 +45,23 @@ const data = {
     {
       imageUrl: "v1720684646/Rapotin/DSC08260-HDR-min_vm5wno.jpg",
     },
+
+    // BYT 1
+    {
+      imageUrl: "v1728209916/Rapotin/ap1/DSC02526-HDR_1_-min_qlyagu.jpg",
+    },
+    {
+      imageUrl: "v1728209915/Rapotin/ap1/DSC02532-HDR_1_-min_xvs5yj.jpg",
+    },
+    {
+      imageUrl: "v1728209917/Rapotin/ap1/DSC02565-HDR_1_-min_wxsugy.jpg",
+    },
+    {
+      imageUrl: "v1728209914/Rapotin/ap1/DSC02562-HDR_1_-min_fsrnlw.jpg",
+    },
+    
+    // EXTERIER
+
     {
       imageUrl: "v1720684651/Rapotin/DSC08237-HDR-min_tkhhfa.jpg",
     },
@@ -412,7 +429,7 @@ const data = {
       desc: "Dispozice Bytů",
     },
     {
-      value: "červen",
+      value: "září",
       highlighted: "2025",
       desc: "Termín Dokončení",
     },
@@ -485,13 +502,25 @@ const data = {
       desc: "Kupujete si apartmán jako investici? Nabízíme vám kompletní správu a garantovaný výnos. Můžete také apartmán sami využívat 14dní v roce. Při podpisu kupní smlouvy uzavřeme vzájemnou smlouvu o nájmu a tím vaše starosti končí – platíme vždy a včas. Bez výjimky inkasujete pravidelné měsíční nájemné na svůj účet, a to bez ohledu obsazenost bytu. Od smlouvy můžete samozřejmě kdykoliv odstoupit, a to bez smluvních pokut.",
     },
     {
-      highlighted: "výši 100 % původní ceny",
-      normal: "Zpětný odkup",
-      desc: "V případě potřeby vám garantujeme smluvně zpětný odkup, a to ve 100 % výši kupní ceny. Tato nabídka je časově neomezená, neodvolatelná a trvalá. Také můžete nemovitost převzít kdykoliv do vlastní správy, anebo ji libovolně prodat na trhu s navýšením. Výnos, který jste získali během vlastnictví bytu vám samozřejmě zůstává.",
-    },
-    
+      highlighted: "už od listopadu",
+      normal: "Lyžování naplno ",
+      desc: "Hrubý Jeseník má skvělé sněhového podmínky. V dosahu budete mít hned několik ski-areálů. Necelých 10 kilometrů je vzdálen ski-areál Kouty a Přemyslov. Zhruba za 20 minut dorazíte na Praděd nebo Červenohorské sedlo. A mnoho dalších menších středisek objevíte v blízkém okolí. Pro běžkaře je nejatraktivnější oblastí Jesenická magistrála. Přejezd Jesenického hřebene na lyžích je jedním z nejkrásnějších horských výletů, které u nás můžete podniknout.",
+    }
   ],
   apartments: [
+    {
+      price: "3 290 000 Kč",
+      number: "Byt č.1",
+      floor: "1NP",
+      layout: "3+1",
+      size: "40,26 m2",
+      terasa: "2,79 m2",
+      parking: "1",
+      vynos: "7%",
+      priceVynos: "19 191 Kč",
+      link: "/cervenydvur/byt1_",
+      reserved: false,
+    },
     {
       price: "4 340 000 Kč",
       number: "Byt č.12",
@@ -670,19 +699,19 @@ const data = {
       link: "/cervenydvur/byt31_",
       reserved: false,
     },
-    {
-      price: "5 900 000 Kč",
-      number: "Byt č.32", // 30 + 31
-      floor: "2NP",
-      layout: "4+1",
-      size: "87,16 m2",
-      terasa: "2,49 m2",
-      parking: "1",
-      priceVynos: "29 500 Kč",
-      vynos: "5%",
-      link: "/cervenydvur/byt32_",
-      reserved: true,
-    },
+    // {
+    //   price: "5 900 000 Kč",
+    //   number: "Byt č.32", // 30 + 31
+    //   floor: "2NP",
+    //   layout: "4+1",
+    //   size: "87,16 m2",
+    //   terasa: "2,49 m2",
+    //   parking: "1",
+    //   priceVynos: "29 500 Kč",
+    //   vynos: "5%",
+    //   link: "/cervenydvur/byt32_",
+    //   reserved: true,
+    // },
 
     // {
     //   price: "3 990 000 Kč",
@@ -774,11 +803,11 @@ const data = {
     },
     {
       title: "Dokončení rekonstrukce",
-      date: "Květen 2025",
+      date: "srpen 2025",
     },
     {
       title: "Předání bytu",
-      date: "Červen 2025",
+      date: "Říjen 2025",
     },
   ],
   architectName: "",
@@ -796,7 +825,7 @@ const VilaRepublika = () => {
       <ProjectSectionFour data={data} />
       <ProjectSectionFive data={data} />
       <ProjectSectionSix data={data} videoSectionTitle="Video z rekonstrukce" />
-      <PriceList vynos={true} data={data} />
+      <PriceList vynos={true} data={data} showBonus={true} />
       <OtherProjects data={data} />
       <Footer />
     </Layout>

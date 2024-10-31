@@ -8,7 +8,7 @@ import ApSectionTwo from '../../components/ApartmentDetail/ApSectionTwo'
 const data = {
   sectionOneBg: "v1717405262/Rapotin/domecek/01_dbdztk.jpg",
   apName: 'Domek byt č.3',
-  projectName: 'Rezidence Červený Dvůr',
+  projectName: 'Resort Červený Dvůr',
   backLink: '/cervenydvur',
   apText: (
     <></>

@@ -41,6 +41,13 @@ const GoBackWrap = styled.a`
   cursor: pointer;
   text-decoration: none;
 
+  @media (max-width: 1180px) {
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 80px;
+
+  }
+
   img {
     margin-right: 15px;
     width: 8px;
