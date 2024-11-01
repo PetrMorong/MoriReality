@@ -499,7 +499,7 @@ const data = {
     {
       highlighted: "správa apartmánu",
       normal: "Kompletní ",
-      desc: "Kupujete si apartmán jako investici? Nabízíme vám kompletní správu a garantovaný výnos. Můžete také apartmán sami využívat 14dní v roce. Při podpisu kupní smlouvy uzavřeme vzájemnou smlouvu o nájmu a tím vaše starosti končí – platíme vždy a včas. Bez výjimky inkasujete pravidelné měsíční nájemné na svůj účet, a to bez ohledu obsazenost bytu. Od smlouvy můžete samozřejmě kdykoliv odstoupit, a to bez smluvních pokut.",
+      desc: "Kupujete si apartmán jako investici? Nabízíme vám kompletní správu a garantovaný výnos. Můžete také apartmán sami využívat 10dní v roce. Při podpisu kupní smlouvy uzavřeme vzájemnou smlouvu o nájmu a tím vaše starosti končí – platíme vždy a včas. Bez výjimky inkasujete pravidelné měsíční nájemné na svůj účet, a to bez ohledu obsazenost bytu. Od smlouvy můžete samozřejmě kdykoliv odstoupit, a to bez smluvních pokut.",
     },
     {
       highlighted: "už od listopadu",
