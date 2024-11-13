@@ -10,6 +10,7 @@ import ProjectSectionThree from '../../components/ProjectDetail/ProjectSectionTh
 import ProjectSectionFour from '../../components/ProjectDetail/ProjectSectionFour'
 import ProjectSectionFive from '../../components/ProjectDetail/ProjectSectionFive'
 import ProjectSectionSix from '../../components/ProjectDetail/ProjectSectionSix'
+import Gallery from "../../components/ProjectDetail/Gallery"
 
 const data = {
   status: 'Dokončeno',
@@ -252,6 +253,7 @@ const VilaRepublika = () => {
       <ProjectSectionFive data={data} />
       {/* <ProjectSectionSix data={data} /> */}
       <PriceList data={data} />
+      <Gallery data={data} />
       <OtherProjects data={data} />
       <Footer email="info@josefandrle.cz" phone="+420 605 177 870" />
     </Layout>

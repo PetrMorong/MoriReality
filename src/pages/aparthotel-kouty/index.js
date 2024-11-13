@@ -3,6 +3,7 @@ import Layout from "../../components/layout";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import PriceList from "../../components/ProjectDetail/PriceList";
+import Gallery from "../../components/ProjectDetail/Gallery"
 import OtherProjects from "../../components/ProjectDetail/OtherProjects";
 import ProjectSectionOne from "../../components/ProjectDetail/ProjectSectionOne";
 import ProjectSectionTwo from "../../components/ProjectDetail/ProjectSectionTwo";
@@ -369,6 +370,7 @@ const Kouty = () => {
       <ProjectSectionFive data={data} />
       <ProjectSectionSix data={data} />
       <PriceList data={data} />
+      <Gallery data={data} />
       <OtherProjects data={data} />
       <Footer />
     </Layout>

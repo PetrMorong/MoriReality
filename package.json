@@ -36,7 +36,8 @@
     "react-helmet": "^6.1.0",
     "react-player": "^2.16.0",
     "react-spring-lightbox": "^1.8.0",
-    "styled-components": "^6.1.13"
+    "styled-components": "^6.1.13",
+    "yet-another-react-lightbox": "^3.21.6"
   },
   "packageManager": "yarn@1.22.10+sha512.21a9d0188f5144f00df3b5464c5ef3b36bb1912c904ab48fb23bb408e81bb0a40e397af92ed7153dec975a0c156b4cb01b777c760ea449828606e60ad36d6a78"
 }
