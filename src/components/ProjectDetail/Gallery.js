@@ -3,6 +3,10 @@ import styled from "styled-components";
 import { buildImageUrl } from "cloudinary-build-url";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
+import { useEffect } from "react"
+import { initializeApp } from "firebase/app"
+import { firebaseConfig } from "../../../firebase-config"
+import { collection, getFirestore, getDocs } from "firebase/firestore"
 
 const Container = styled.div`
   width: 100%;
@@ -97,15 +101,38 @@ const Image = styled.img`
   }
 `;
 
-const OtherProjects = ({ data }) => {
+initializeApp(firebaseConfig);
+const db = getFirestore();
+
+const Gallery = ({ projectName }) => {
+  const [data, setData] = React.useState(null);
+  const [loading, setLoading] = React.useState(true);
   const [open, setOpen] = React.useState(false);
   const [lightboxIndex, setLightboxIndex] = React.useState(0);
 
-  const images = [];
-  data.otherProjects.map((item, index) => {
-    images.push({
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const querySnapshot = await getDocs(collection(db, projectName));
+        const fetchedData = querySnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
+        setData(fetchedData);
+      } catch (error) {
+        console.error('Error fetching Firestore data:', error);
+      } finally {
+        setLoading(false);
+      }
+    };
 
-      src: buildImageUrl(item.image, {
+    fetchData();
+  }, [projectName]);
+
+  if (loading) {
+    return <div>Loading...</div>;
+  }
+
+  const images = data.map((item, index) => {
+    return {
+      src: buildImageUrl(item.url, {
         transformations: {
           resize: {
             width: 800,
@@ -114,18 +141,10 @@ const OtherProjects = ({ data }) => {
         },
       }),
       alt: `image ${index}`,
-      // width: 3840,
-      // height: 2560,
+      id: item.id,
       width: 800,
       height: 500,
-      // srcSet: [
-      //   { src: "/image1x320.jpg", width: 320, height: 213 },
-      //   { src: "/image1x640.jpg", width: 640, height: 427 },
-      //   { src: "/image1x1200.jpg", width: 1200, height: 800 },
-      //   { src: "/image1x2048.jpg", width: 2048, height: 1365 },
-      //   { src: "/image1x3840.jpg", width: 3840, height: 2560 },
-      // ],
-    });
+    }
   });
 
   return (
@@ -137,21 +156,15 @@ const OtherProjects = ({ data }) => {
           <Line></Line>
         </HeadlineRow>
         <Row>
-          {data.otherProjects.map((item, index) => (
-            <Col href='#'>
+          {images.map((image, index) => (
+            <Col href='#' key={`image-${image.id}`}>
               <Image
-                src={buildImageUrl(item.image, {
-                  transformations: {
-                    resize: {
-                      width: 800,
-                      height: 500,
-                    },
-                  },
-                })}
+                src={image.src}
                 onClick={() => {
                   setOpen(true);
                   setLightboxIndex(index);
                 }}
+                alt={image.alt || undefined}
               ></Image>
             </Col>
           ))}
@@ -167,4 +180,4 @@ const OtherProjects = ({ data }) => {
   );
 };
 
-export default OtherProjects;
+export default Gallery;

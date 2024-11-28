@@ -253,7 +253,7 @@ const VilaRepublika = () => {
       <ProjectSectionFive data={data} />
       {/* <ProjectSectionSix data={data} /> */}
       <PriceList data={data} />
-      <Gallery data={data} />
+      <Gallery projectName="rezidence-hrabenov" />
       <OtherProjects data={data} />
       <Footer email="info@josefandrle.cz" phone="+420 605 177 870" />
     </Layout>

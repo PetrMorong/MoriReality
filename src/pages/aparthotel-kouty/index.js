@@ -370,7 +370,7 @@ const Kouty = () => {
       <ProjectSectionFive data={data} />
       <ProjectSectionSix data={data} />
       <PriceList data={data} />
-      <Gallery data={data} />
+      <Gallery projectName="aparthotel-kouty" />
       <OtherProjects data={data} />
       <Footer />
     </Layout>
