@@ -10,6 +10,7 @@ import ProjectSectionThree from "../../components/ProjectDetail/ProjectSectionTh
 import ProjectSectionFour from "../../components/ProjectDetail/ProjectSectionFour";
 import ProjectSectionFive from "../../components/ProjectDetail/ProjectSectionFive";
 import ProjectSectionSix from "../../components/ProjectDetail/ProjectSectionSix";
+import Gallery from "../../components/ProjectDetail/Gallery"
 
 const data = {
   status: "Dokončeno",
@@ -393,6 +394,7 @@ const VilaRepublika = () => {
       <ProjectSectionFive data={data} />
       {/* <ProjectSectionSix data={data} videoSectionTitle="Video z rekonstrukce" /> */}
       <PriceList data={data} />
+      <Gallery projectName="vila-republika" />
       <OtherProjects data={data} />
       <Footer />
     </Layout>
