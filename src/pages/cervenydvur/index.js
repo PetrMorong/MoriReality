@@ -818,7 +818,7 @@ const data = {
 const VilaRepublika = () => {
   return (
     <Layout>
-      <Header />
+      <Header email="vendula.kvapilova@nextreality.cz" phone="732419933" />
       <ProjectSectionOne data={data} />
       <ProjectSectionTwo data={data} />
       <ProjectSectionThree data={data} onlyOnerow={false}/>
@@ -826,7 +826,7 @@ const VilaRepublika = () => {
       <ProjectSectionFive data={data} />
       <ProjectSectionSix data={data} videoSectionTitle="Video z rekonstrukce" />
       <PriceList vynos={true} data={data} showBonus={true} />
-      <OtherProjects data={data} />
+      <Footer email="vendula.kvapilova@nextreality.cz" phone="732419933" />
       <Footer />
     </Layout>
   );
