@@ -832,4 +832,4 @@ const CervenyDvur = () => {
   );
 };
 
-export default VilaRepublika;
+export default CervenyDvur;
