@@ -244,7 +244,7 @@ const data = {
       size: "30 m2",
       terasa: "-",
       parking: "1",
-      link: "/vila-republika/ap-1",
+      link: "",
       reserved: false,
     },
     {
@@ -255,7 +255,7 @@ const data = {
       size: "30 m2",
       terasa: "-",
       parking: "1",
-      link: "/vila-republika/ap-1",
+      link: "",
       reserved: false,
     },
     {
@@ -266,7 +266,7 @@ const data = {
       size: "25 m2",
       terasa: "-",
       parking: "1",
-      link: "/vila-republika/ap-1",
+      link: "",
       reserved: false,
     },
     {
@@ -277,7 +277,7 @@ const data = {
       size: "30 m2",
       terasa: "-",
       parking: "1",
-      link: "/vila-republika/ap-1",
+      link: "",
       reserved: false,
     },
     {
@@ -288,7 +288,7 @@ const data = {
       size: "30 m2",
       terasa: "-",
       parking: "1",
-      // link: "/vila-republika/ap-1",
+      link: "",
       reserved: false,
     },
     {
@@ -299,7 +299,7 @@ const data = {
       size: "39 m2",
       terasa: "-",
       parking: "1",
-      // link: "/vila-republika/ap-1",
+      link: "",
       reserved: false,
     },
     {
@@ -310,7 +310,7 @@ const data = {
       size: "34 m2",
       terasa: "-",
       parking: "1",
-      // link: "/vila-republika/ap-1",
+      link: "",
       reserved: false,
     },
   ],

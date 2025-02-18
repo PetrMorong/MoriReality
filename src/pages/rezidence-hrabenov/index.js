@@ -49,25 +49,25 @@ const data = {
       imageUrl: 'v1724488769/hrabenov/DSC03058-HDR-min_lzi4cg.jpg',
     },
 
-    {
-      imageUrl: 'v1724488771/hrabenov/DSC03072-HDR-min_j4ilcy.jpg',
-    },
+    // {
+    //   imageUrl: 'v1724488771/hrabenov/DSC03072-HDR-min_j4ilcy.jpg',
+    // },
 
-    {
-      imageUrl: 'v1724488767/hrabenov/DSC03079-min_qdvqtf.jpg',
-    },
+    // {
+    //   imageUrl: 'v1724488767/hrabenov/DSC03079-min_qdvqtf.jpg',
+    // },
 
-    {
-      imageUrl: 'v1724488766/hrabenov/DSC03087-min_kzsxtq.jpg',
-    },
+    // {
+    //   imageUrl: 'v1724488766/hrabenov/DSC03087-min_kzsxtq.jpg',
+    // },
 
-    {
-      imageUrl: 'v1724488767/hrabenov/DSC03080-min_ucn7co.jpg',
-    },
+    // {
+    //   imageUrl: 'v1724488767/hrabenov/DSC03080-min_ucn7co.jpg',
+    // },
 
-    {
-      imageUrl: 'v1646062245/hrabenov/ISO_cjeydz.jpg',
-    },
+    // {
+    //   imageUrl: 'v1646062245/hrabenov/ISO_cjeydz.jpg',
+    // },
   ],
   stats: [
     {
@@ -167,8 +167,8 @@ const data = {
       size: '63 m2',
       terasa: '70 m2',
       parking: '1',
-      link: '/rezidence-hrabenov/ap-1',
-      reserved: false,
+      link: '/',
+      reserved: true,
     },
     {
       price: '3 400 000 Kč',
@@ -178,7 +178,7 @@ const data = {
       size: '53 m2',
       terasa: '18 m2',
       parking: '1',
-      link: '/rezidence-hrabenov/ap-2',
+      link: '/',
       reserved: true,
     },
     {
@@ -189,7 +189,7 @@ const data = {
       size: '109 m2',
       terasa: '75 m2',
       parking: '2',
-      link: '/rezidence-hrabenov/ap-3',
+      link: '/',
       reserved: true,
     },
   ],

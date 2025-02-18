@@ -5,6 +5,7 @@ import Footer from "../../components/Footer";
 import ApSectionOne from "../../components/ApartmentDetail/ApSectionOne";
 import ApSectionTwo from "../../components/ApartmentDetail/ApSectionTwo";
 import ApSectionThree from "../../components/ApartmentDetail/ApSectionThree";
+import { navigate} from "gatsby"
 
 const data = {
   sectionOneBg: "v1728205639/vilaRepublikaFoto/byt5/DSC00418-HDR-min_zaeazn.jpg",
@@ -143,7 +144,12 @@ const data = {
   ],
 };
 
-const MalaMoravaAp1Page = () => {
+const Ap5Vila = () => {
+
+  React.useEffect(() => {
+    navigate('https://www.dumsnu.com/l/apartman-2-kk-ve-velkych-losinach-s-kompletni-spravou-42-4-m2/');
+  }, []);
+
   return (
     <Layout>
       <Header />
@@ -155,4 +161,4 @@ const MalaMoravaAp1Page = () => {
   );
 };
 
-export default MalaMoravaAp1Page;
+export default Ap5Vila;
