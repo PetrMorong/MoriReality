@@ -817,15 +817,9 @@ const data = {
 };
 
 const CervenydvurPage = () => {
-
-  React.useEffect(() => {
-    navigate('https://www.dumsnu.com/cerveny-dvur-rapotin/');
-  }, []);
-
-
   return (
     <Layout>
-      <Header email="vendula.kvapilova@nextreality.cz" phone="732419933" />
+      <Header email="info@mori-reality.cz" phone="+420 775 561 091" />
       <ProjectSectionOne data={data} />
       <ProjectSectionTwo data={data} />
       <ProjectSectionThree data={data} onlyOnerow={false}/>
@@ -833,7 +827,7 @@ const CervenydvurPage = () => {
       <ProjectSectionFive data={data} />
       <ProjectSectionSix data={data} videoSectionTitle="Video z rekonstrukce" />
       <PriceList vynos={true} data={data} showBonus={true} />
-      <Footer email="vendula.kvapilova@nextreality.cz" phone="732419933" />
+      <Footer email="info@mori-reality.cz" phone="+420 775 561 091" />
       <Footer />
     </Layout>
   );
