@@ -10,6 +10,7 @@ import ProjectSectionFour from "../../components/ProjectDetail/ProjectSectionFou
 import ProjectSectionFive from "../../components/ProjectDetail/ProjectSectionFive";
 import ProjectSectionSix from "../../components/ProjectDetail/ProjectSectionSix";
 import OtherProjects from "../../components/ProjectDetail/OtherProjects";
+import { navigate } from 'gatsby';
 
 const data = {
   status: "Ve výstavbě",
@@ -462,7 +463,7 @@ const data = {
 const CervenyDvurPage = () => {
   return (
     <Layout>
-      <Header />
+      <Header email="vendula.kvapilova@nextreality.cz" phone="732419933" />
       <ProjectSectionOne data={data} />
       <ProjectSectionTwo data={data} />
       <ProjectSectionThree data={data} onlyOnerow={false} />

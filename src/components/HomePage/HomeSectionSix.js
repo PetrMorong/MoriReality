@@ -18,13 +18,13 @@ const data = [
   //   image: 'v1676730936/VlDvojka/Screenshot_2023-02-18_at_15.12.33_ad4t03.png',
   //   link: '/TODO',
   // },
-  {
-    name: 'Apartmán 245/1 - 63 m²',
-    location: 'Hrabenov, Ruda Nad Moravou',
-    price: '2 390 000 kč',
-    image: "v1710771830/hrabenov/ap1/DSC00316-HDR_v2rmjt.jpg",
-    link: '/rezidence-hrabenov/ap-1',
-  },
+  // {
+  //   name: 'Apartmán 245/1 - 63 m²',
+  //   location: 'Hrabenov, Ruda Nad Moravou',
+  //   price: '2 390 000 kč',
+  //   image: "v1710771830/hrabenov/ap1/DSC00316-HDR_v2rmjt.jpg",
+  //   link: '/rezidence-hrabenov/ap-1',
+  // },
   // {
   //   name: "Apartmán 245/2 - 53 m²",
   //   location: "Hrabenov, Ruda Nad Moravou",
@@ -64,10 +64,11 @@ const data = [
   },
 
   {
-    name: "Apartmánový domek  - 70 m²",
+    name: "Zahradní Apartmán - 98 m²",
     location: "Vila Republika, Velké Losiny",
     price: "5 990 000 kč",
     image: "v1689504195/vilaRepublikaFoto/356584285_1096124314696983_2263942071942825600_n_xv0nkq.jpg",
+    link: "https://www.dumsnu.com/l/zahradni-apartman-vila-republika-velke-losiny-67-m2/"
   },
 
   // {
@@ -129,7 +130,7 @@ const data = [
     location: "Červený dvůr, Rapotín",
     price: "3 490 000 kč",
     image: "v1728209916/Rapotin/ap1/DSC02526-HDR_1_-min_qlyagu.jpg",
-    link: "/cervenydvur/byt28_",
+    link: "https://www.dumsnu.com/cerveny-dvur-rapotin/",
   },
 
   {
@@ -137,7 +138,7 @@ const data = [
     location: "Červený dvůr, Rapotín",
     price: "3 000 000 kč",
     image: "v1720602999/Rapotin/ap32/01_rgntmh.jpg",
-    link: "/cervenydvur/byt28_",
+    link: "https://www.dumsnu.com/cerveny-dvur-rapotin/",
   },
 
   {
@@ -145,7 +146,7 @@ const data = [
     location: "Červený dvůr, Rapotín",
     price: "2 790 000 kč",
     image: "v1720440333/Rapotin/ap26/01_if3vk1.jpg",
-    link: "/cervenydvur/byt26_",
+    link: "https://www.dumsnu.com/cerveny-dvur-rapotin/",
   },
 ]
 
