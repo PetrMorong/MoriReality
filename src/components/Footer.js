@@ -128,8 +128,8 @@ const Footer = ({ email, phone }) => {
         <Col style={{ width: 140 }}>
           <Title>Kontakt</Title>
 
-          <Link href={`tel:${phone || "+420 775 561 091"}`}>
-            {phone || "+420 775 561 091"}
+          <Link href={`tel:${phone || "+420 601 502 889"}`}>
+            {phone || "+420 601 502 889"}
           </Link>
 
           <Link href={`mailto:${email || "info@mori-reality.cz"}`}>

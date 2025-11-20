@@ -20,396 +20,40 @@ const data = {
   desc: (
     <>
       Resort Červený dvůr. Místo, kde se moderna snoubí s historií. V malebné obci Rapotín pod vrcholky Hrubého Jeseníku rekonstruujeme historickou budovu z 30. let minulého století.
-      Apartmánový dům bude sloužit jako ubytování hotelového typu s kompletním servisem. V ceně apartmánu je parkovací místo, podíl na přijezdové cestě i kuchyňská linka. Vlastní apartmán vám tak může sloužit jako rodinné rekreační zázemí. V době, kdy ho nebudete obývat sami, se pro vás stane pasivní investicí. O kompletní správu rezervací a pohodlí vašich hostů se vám rádi postaráme od A do Z. Více info o ubytování na našem webu. {" "}
+      Apartmánový dům bude sloužit jako ubytování hotelového typu s kompletním servisem. Vlastní apartmán vám tak může sloužit jako rodinné rekreační zázemí. V době, kdy ho nebudete obývat sami, se pro vás stane pasivní investicí. O kompletní správu a pohodlí vašich hostů se vám rádi postaráme od A do Z. Více info o ubytování na našem webu. {" "}
       <a style={{ color: "B39A84" }} target="_blank" href="https://www.resortcervenydvur.cz">wwww.resortcervenydvur.cz</a>
     </>
   ),
   sliderImages: [
-    
-    {
-      imageUrl: "v1723189892/Rapotin/karty/DSC02635_1_c1mvxg.jpg",
-    },
 
     {
-      imageUrl: "v1723189890/Rapotin/karty/DSC02684_1_b3zyup.jpg",
-    },
-
-    {
-      imageUrl: "v1720684653/Rapotin/DSC08357-min_lmko87.jpg",
-    },
-
-    {
-      imageUrl: "v1720684648/Rapotin/DSC08281-HDR-min_borxga.jpg",
-    },
-
-    {
-      imageUrl: "v1720684646/Rapotin/DSC08260-HDR-min_vm5wno.jpg",
-    },
-
-    // BYT 1
-    {
-      imageUrl: "v1728209916/Rapotin/ap1/DSC02526-HDR_1_-min_qlyagu.jpg",
+      imageUrl: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
     },
     {
-      imageUrl: "v1728209915/Rapotin/ap1/DSC02532-HDR_1_-min_xvs5yj.jpg",
+      imageUrl: "v1763643021/Rapotin/DSC01347-HDR-min_aev5ff.jpg",
     },
     {
-      imageUrl: "v1728209917/Rapotin/ap1/DSC02565-HDR_1_-min_wxsugy.jpg",
+      imageUrl: "v1763643018/Rapotin/DSC01338-HDR-min_ovm1qq.jpg",
     },
     {
-      imageUrl: "v1728209914/Rapotin/ap1/DSC02562-HDR_1_-min_fsrnlw.jpg",
-    },
-    
-    // EXTERIER
-
-    {
-      imageUrl: "v1720684651/Rapotin/DSC08237-HDR-min_tkhhfa.jpg",
-    },
-
-    {
-      imageUrl: "v1720684652/Rapotin/DSC08316-min_lwi6wz.jpg",
-    },
-
-    {
-      imageUrl: "v1720684652/Rapotin/DSC08401-min_mmrtwj.jpg",
-    },
-
-    // okoli
-
-    // kun
-    {
-      imageUrl: "v1724491010/Rapotin/DSC02835_1_-min_h19rzd.jpg",
-    },
-
-    // rybnik
-    {
-      imageUrl: "v1724491012/Rapotin/DSC02877_1_-min_y40sxy.jpg",
-    },
-
-    // řeka
-    {
-      imageUrl: "v1724491010/Rapotin/DSC02882_1_-min_jbtv1r.jpg",
-    },
-
-    // golf
-    {
-      imageUrl: "v1724491012/Rapotin/DSC02897_1_-min_pxkmgp.jpg",
-    },
-
-    {
-      imageUrl: "v1724491007/Rapotin/DSC02899_1_-min_e1lvwq.jpg",
-    },
-
-
-    // hřiště
-
-    {
-      imageUrl: "v1724491012/Rapotin/DSC02920_1_-min_ipwcrt.jpg",
-    },
-
-    // badminton
-    {
-      imageUrl: "v1724491010/Rapotin/DSC03026_1_-min_lq3esw.jpg",
-    },
-
-    // petang
-    {
-      imageUrl: "v1724491010/Rapotin/DSC03031_1_-min_izp01w.jpg",
-    },
-
-     // fotbal
-    {
-      imageUrl: "v1724491012/Rapotin/DSC02988_1_-min_wdbktk.jpg",
-    },
-
-    // grill
-    {
-      imageUrl: "v1724491010/Rapotin/DSC02929_1_-min_esyekw.jpg",
-    },
-
-    {
-      imageUrl: "v1724491009/Rapotin/DSC02925_1_-min_xb2lcd.jpg",
-    },    
-
-    // vizky exterier
-    {
-      imageUrl: "v1705666647/Rapotin/C_1_3_xk16jr.jpg",
-    },
-
-    {
-      imageUrl: "v1705666647/Rapotin/B_2_2_b9kcym.jpg",
-    },
-
-    {
-      imageUrl: "v1705666647/Rapotin/E_2_hisdw0.jpg",
-    },
-
-    {
-      imageUrl:
-        "v1705666647/Rapotin/A_4_3_t151fz.jpg",
-    },
-
-    {
-      imageUrl:
-        "v1705666647/Rapotin/A_2_rcdzvu.jpg",
-    },
-
-
-    // z vrchu
-
-    {
-      imageUrl: "v1703762307/Rapotin/A_14_-_Photo_4_2_osyno8.jpg",
-    },
-
-    // venkovni wellness
-
-    {
-      imageUrl: "v1718888051/Rapotin/V09_vwm1sb.jpg",
-    },
-
-    {
-      imageUrl: "v1718888052/Rapotin/V03_o4rwks.jpg",
-    },
-
-    {
-      imageUrl: "v1718888055/Rapotin/V01_ozdaml.jpg",
-    },
-
-    {
-      imageUrl: "v1718888057/Rapotin/V02_zow2rj.jpg",
-    },
-
-    {
-      imageUrl: "v1718888058/Rapotin/V05_uqmy6x.jpg",
-    },
-
-    {
-      imageUrl: "v1718888058/Rapotin/V04_pj1nhe.jpg",
-    },
-
-    {
-      imageUrl: "v1718888054/Rapotin/V06_rqwq4k.jpg",
-    },
-
-    // domek interier foto
-
-    {
-      imageUrl: "v1717232231/Rapotin/domecek/VIZ2_1_yon8dt.jpg",
-    },
-
-    {
-      imageUrl: "v1717230215/Rapotin/domecek/04_puzl0f.jpg",
-    },
-
-    {
-      imageUrl: "v1717405266/Rapotin/domecek/02_dlsn8e.jpg",
-    },
-
-    {
-      imageUrl: "v1717230211/Rapotin/domecek/03_jbc2qm.jpg",
-    },
-
-    {
-      imageUrl: "v1717405262/Rapotin/domecek/01_dbdztk.jpg",
-    },
-
-    {
-      imageUrl: "v1717405266/Rapotin/domecek/07_xlvyxx.jpg",
-    },
-
-    {
-      imageUrl: "v1717405268/Rapotin/domecek/06_nm8rfj.jpg",
-    },
-
-    {
-      imageUrl: "v1717405263/Rapotin/domecek/05_tv8jpz.jpg",
-    },
-
-    {
-      imageUrl: "v1717232997/Rapotin/domecek/08_1_jyjyur.jpg",
-    },
-
-    {
-      imageUrl: "v1717232993/Rapotin/domecek/09_1_zge1kp.jpg",
-    },
-
-    {
-      imageUrl: "v1717232992/Rapotin/domecek/10_1_rpjley.jpg",
-    },
-
-
-    // ap C foto
-    {
-      imageUrl: "v1720440333/Rapotin/ap26/01_if3vk1.jpg",
+      imageUrl: "v1763643021/Rapotin/DSC01326-HDR-min_aii9k1.jpg",
     },
     {
-      imageUrl: "v1720440321/Rapotin/ap26/02_riboo7.jpg",
+      imageUrl: "v1763643019/Rapotin/DSC00731-HDR-min_rhlch6.jpg",
     },
     {
-      imageUrl: "v1720441578/Rapotin/ap26/03_yzsfur.jpg",
+      imageUrl: "v1763643022/Rapotin/DSC00866-min_vlwgs5.jpg",
     },
     {
-      imageUrl: "v1720440216/Rapotin/ap26/04_ilyvz5.jpg",
+      imageUrl: "v1763643020/Rapotin/DSC00919-min_kdr0gt.jpg",
     },
     {
-      imageUrl: "v1720440323/Rapotin/ap26/05_ib7k0m.jpg",
+      imageUrl: "v1763643007/Rapotin/DSC01118-HDR-min_ztlt5k.jpg",
     },
     {
-      imageUrl: "v1720440361/Rapotin/ap26/06_myfzct.jpg",
-    },
-    {
-      imageUrl: "v1720440308/Rapotin/ap26/07_kj7eit.jpg",
-    },
-    {
-      imageUrl: "v1720440246/Rapotin/ap26/08_rhwwc9.jpg",
-    },
-    {
-      imageUrl: "v1720440355/Rapotin/ap26/09_fpwmjs.jpg",
-    },
-    
-
-    // bureš ap C 
-    // {
-    //   imageUrl: "v1705667284/Rapotin/apC/Screenshot_2024-01-19_at_13.25.42_rxqond.png",
-    // },
-
-    // {
-    //   imageUrl: "v1705667282/Rapotin/apC/Screenshot_2024-01-19_at_13.25.56_tlqxre.png",
-    // },
-
-    // {
-    //   imageUrl: "v1705667282/Rapotin/apC/Screenshot_2024-01-19_at_13.25.14_axyziu.png",
-    // },
-
-    // {
-    //   imageUrl: "v1705667282/Rapotin/apC/Screenshot_2024-01-19_at_13.25.23_krrdjo.png",
-    // },
-
-    // {
-    //   imageUrl: "v1705667284/Rapotin/apC/Screenshot_2024-01-19_at_13.26.13_pyvkwq.png",
-    // },
-
-    // {
-    //   imageUrl: "v1705667284/Rapotin/apC/Screenshot_2024-01-19_at_13.26.20_ufpglk.png",
-    // },
-
-    // {
-    //   imageUrl: "v1705667284/Rapotin/apC/Screenshot_2024-01-19_at_13.26.35_ez4mke.png",
-    // },
-
-    // {
-    //   imageUrl: "v1705667285/Rapotin/apC/Screenshot_2024-01-19_at_13.26.53_db8msw.png",
-    // },
-
-    // {
-    //   imageUrl: "v1705667285/Rapotin/apC/Screenshot_2024-01-19_at_13.27.07_xmugm9.png",
-    // },
-
-    // {
-    //   imageUrl: "v1705667285/Rapotin/apC/Screenshot_2024-01-19_at_13.27.14_zfemlb.png",
-    // },
-
-    // chodba
-
-    {
-      imageUrl: "v1706264230/Rapotin/Screenshot_2024-01-26_at_11.07.52_cwidfp.png",
+      imageUrl: "v1763643018/Rapotin/DSC01123-HDR-min_bb20ze.jpg",
     },
 
-    {
-      imageUrl: "v1706264226/Rapotin/Screenshot_2024-01-26_at_11.07.42_p7g1mu.png",
-    },
-
-    {
-      imageUrl: "v1706264225/Rapotin/Screenshot_2024-01-26_at_11.07.30_megn8g.png",
-    },
-
-    // historie
-    {
-      imageUrl: "v1705767715/Rapotin/Screenshot_2024-01-20_at_17.20.59_fbyuxt.png",
-    },
-    {
-      imageUrl: "v1705767716/Rapotin/Screenshot_2024-01-20_at_17.21.08_gkpfpc.png",
-    },
-
-    // půdorys
-
-    // {
-    //   imageUrl: "v1705769082/Rapotin/Screenshot_2024-01-20_at_17.44.35_mx5rex.png",
-    // },
-
-    // koje
-
-    // {
-    //   imageUrl: "v1706447079/Rapotin/Screenshot_2024-01-28_at_13.45.11_ybgkab.png",
-    // },
-
-    // zahradky
-
-    // {
-    //   imageUrl: "v1706447075/Rapotin/Screenshot_2024-01-28_at_13.54.19_zo91uf.png",
-    // },
-
-    // sklep
-
-    {
-      imageUrl: "v1708351098/Rapotin/F1_dv7zxz.jpg",
-    },
-
-    {
-      imageUrl: "v1708351095/Rapotin/F3_pc75z5.jpg",
-    },
-
-    {
-      imageUrl: "v1709224711/Rapotin/C_H4_vxueih.jpg",
-    },
-
-    {
-      imageUrl: "v1709224710/Rapotin/C_H2_ekxncv.jpg",
-    },   
-
-    // venek
-
-    // {
-    //   imageUrl: "v1705770987/Rapotin/DSC09091-HDR_k4ecw6.jpg",
-    // },
-
-    // {
-    //   imageUrl: "v1705770982/Rapotin/DSC09066-HDR_whr9fd.jpg",
-    // },
-
-    // {
-    //   imageUrl: "v1705770977/Rapotin/DSC09090-HDR_fvmvmk.jpg",
-    // },
-
-    // {
-    //   imageUrl: "v1716891888/Rapotin/IMG20240525103016_o7vmf4.jpg"
-    // },
-
-    // {
-    //   imageUrl: "v1716891888/Rapotin/IMG20240525103058_qnq0kt.jpg"
-    // },
-
-    // {
-    //   imageUrl: "v1716891877/Rapotin/IMG20240525103542_g5xupc.jpg"
-    // },
-
-    // {
-    //   imageUrl: "v1716891880/Rapotin/IMG20240525103520_ywgwnd.jpg"
-    // },
-
-    // {
-    //   imageUrl: "v1716891884/Rapotin/IMG20240525103722_sqlojj.jpg"
-    // },
-
-    // {
-    //   imageUrl: "v1716891884/Rapotin/IMG20240525103642_ejat6y.jpg"
-    // },
-
-    // {
-    //   imageUrl: "v1717842416/Rapotin/IMG20240607182038_1_vg5ba5.jpg"
-    // }
-
-    
   ],
   hideArchitect: true,
   stats: [
@@ -419,7 +63,7 @@ const data = {
       desc: "Plocha pozemku",
     },
     {
-      value: "29",
+      value: "38",
       highlighted: "",
       desc: "Bytů",
     },
@@ -430,18 +74,18 @@ const data = {
     },
     {
       value: "září",
-      highlighted: "2025",
+      highlighted: "2026",
       desc: "Termín Dokončení",
     },
   ],
   features: [
     {
       icon: "/features/sauna.png",
-      desc: "Privátní wellness",
+      desc: "Veřejné wellness",
     },
     {
       icon: "/features/ski.png",
-      desc: "Sklepní kóje",
+      desc: "Lyžárna, Kolárna",
     },
     {
       icon: "/features/table-football(1).png",
@@ -450,7 +94,7 @@ const data = {
 
     {
       icon: "/features/coffee-cup.png",
-      desc: "Kavárna",
+      desc: "Snídaně",
     },
 
     {
@@ -458,7 +102,7 @@ const data = {
       desc: "Parkovácí místo",
     },
 
-     {
+    {
       icon: "/features/door-lock.png",
       desc: "Self checkin",
     },
@@ -482,13 +126,13 @@ const data = {
   sectionFourTwoText: {
     title: "Wellness",
     titleGold: "s útulnou atmosférou",
-    desc: "Pohodlí jsme podřídili všechno. V areálu červeného dvora budujeme wellness, kde můžete načerpat síly a užívat si soukromí. Čeká zde na vás 2x finská sauna, odpočiívárna, ochlazovací bazének a jezírko."
+    desc: "V areálu Červeného dvora klademe maximální důraz na pohodlí a kvalitní odpočinek. Aktuálně budujeme nové veřejné designové wellness, které nabídne dvě finské sauny, prostornou odpočívárnu a ochlazovací bazének."
   },
 
   sectionImageOne: "v1705668049/Rapotin/1928_1_1_j1wzvm.jpg",
-  sectionImageTwo: "v1718888055/Rapotin/V01_ozdaml.jpg",
+  sectionImageTwo: "v1763644198/Rapotin/wellnessOdp.png",
 
-  sectionCover: "v1720602999/Rapotin/ap32/01_rgntmh.jpg",
+  sectionCover: "v1763643017/Rapotin/DSC00809-HDR-min_ubagg2.jpg",
 
   ticksSection: [
     {
@@ -684,7 +328,7 @@ const data = {
       priceVynos: "22 450 Kč",
       vynos: "6%",
       link: "/cervenydvur/byt30_",
-      reserved: true, 
+      reserved: true,
     },
     {
       price: "3 640 000 Kč",
@@ -768,7 +412,7 @@ const data = {
   ],
   otherProjects: [
 
-   
+
     {
       image: "v1724488767/hrabenov/DSC03066-HDR-min_ekphad.jpg",
       name: "Rezidence Hrabenov",
@@ -791,23 +435,23 @@ const data = {
     },
 
   ],
-  timelineFill: "50%",
+  timelineFill: "85%",
   timeline: [
     {
       title: "Projektová dokumentace",
       date: "Srpen 2023",
     },
     {
-      title: "Zahájení rekonstrukce",
+      title: "Zahájení zateplení fasády",
       date: "Říjen 2023",
     },
     {
-      title: "Dokončení rekonstrukce",
-      date: "srpen 2025",
+      title: "Zisk stavebního povolení",
+      date: "listopad 2025",
     },
     {
       title: "Předání bytu",
-      date: "Říjen 2025",
+      date: "Říjen 2026",
     },
   ],
   architectName: "",
@@ -815,21 +459,21 @@ const data = {
     "",
 };
 
-const VilaRepublika = () => {
+const CervenyDvurPage = () => {
   return (
     <Layout>
       <Header />
       <ProjectSectionOne data={data} />
       <ProjectSectionTwo data={data} />
-      <ProjectSectionThree data={data} onlyOnerow={false}/>
+      <ProjectSectionThree data={data} onlyOnerow={false} />
       <ProjectSectionFour data={data} />
       <ProjectSectionFive data={data} />
       <ProjectSectionSix data={data} videoSectionTitle="Video z rekonstrukce" />
-      <PriceList vynos={true} data={data} showBonus={true} />
+      <PriceList vynos={true} data={data} showBonus={false} />
       <OtherProjects data={data} />
       <Footer />
     </Layout>
   );
 };
 
-export default VilaRepublika;
+export default CervenyDvurPage;

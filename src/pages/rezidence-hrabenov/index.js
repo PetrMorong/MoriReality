@@ -14,7 +14,7 @@ import Gallery from "../../components/ProjectDetail/Gallery"
 
 const data = {
   status: 'Dokončeno',
-  title: 'Apartmány Hrabenov',
+  title: 'Rezidence Hrabenov',
   locationOne: 'Hrabenov 245',
   locationTwo: 'Ruda nad Moravou, Olomoucký kraj',
   videoUrl: 'https://youtu.be/N_I-1PyQdX8',
@@ -169,7 +169,7 @@ const data = {
       terasa: '70 m2',
       parking: '1',
       link: '/rezidence-hrabenov/ap-1',
-      reserved: false,
+      reserved: true,
     },
     {
       price: '3 400 000 Kč',

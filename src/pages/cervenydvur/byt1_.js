@@ -46,18 +46,7 @@ const data = {
     },
   ],
   gallery: [
-    "v1728209916/Rapotin/ap1/DSC02526-HDR_1_-min_qlyagu.jpg",
-    "v1728209915/Rapotin/ap1/DSC02532-HDR_1_-min_xvs5yj.jpg",
-    "v1728209917/Rapotin/ap1/DSC02565-HDR_1_-min_wxsugy.jpg",
-    "v1728209914/Rapotin/ap1/DSC02562-HDR_1_-min_fsrnlw.jpg",
-    "v1728209917/Rapotin/ap1/DSC02546-HDR-2_1_-min_pxp4bu.jpg",
-    "v1728209914/Rapotin/ap1/DSC02535-HDR_1_-min_qztjxi.jpg",
-    "v1729505843/Rapotin/ap1/Screenshot_2024-10-21_at_11.56.54_dxtx3o.png",
-    "v1723189892/Rapotin/karty/DSC02635_1_c1mvxg.jpg",
-    "v1723189890/Rapotin/karty/DSC02684_1_b3zyup.jpg",
-    "v1720684653/Rapotin/DSC08357-min_lmko87.jpg",
-    "v1720684648/Rapotin/DSC08281-HDR-min_borxga.jpg",
-    "v1720684646/Rapotin/DSC08260-HDR-min_vm5wno.jpg",
+    "v1763461562/Rapotin/Text_odstavce_ofjnms.jpg"
   ],
   moreDetails: [
     {

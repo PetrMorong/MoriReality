@@ -181,13 +181,22 @@ const ButtonWrap = styled.div`
 `
 
 const data = [
-  // {
-  //   imageUrl:
-  //     "v1664009931/Kouty/Screen_Shot_2022-08-18_at_11.26.44_2_yytalh.png",
-  //   title: "Wellness & spa ApartHotel ",
-  //   desc: "Kouty nad Desnou",
-  //   detailLink: "/aparthotel-kouty",
-  // },
+  {
+    imageUrl:
+      'v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg',
+    title: 'Wellness Resort Červený Dvůr',
+    desc: 'Rapotín',
+    detailLink: "/cervenydvur",
+    outsideLink: false,
+  },
+
+  {
+    imageUrl: 'v1763645409/Kouty/02-min_ez8vl9.jpg',
+    title: 'Wellness aparthotel Mezi kopci',
+    desc: 'Kouty nad Desnou',
+    detailLink: '/aparthotel-kouty',
+    outsideLink: true,
+  },
   
   {
     imageUrl: 'v1689504195/vilaRepublikaFoto/356584285_1096124314696983_2263942071942825600_n_xv0nkq.jpg',
@@ -197,33 +206,9 @@ const data = [
     outsideLink: true,
   },
 
-
-  {
-    imageUrl:
-      'v1724490339/Rapotin/DSC02635_1_1_-min_rrcky4.jpg',
-    title: 'Wellness Resort Červený Dvůr',
-    desc: 'Rapotín',
-    detailLink: "/cervenydvur",
-    outsideLink: false,
-  },
-
-  // {
-  //   imageUrl: "v1652947191/Screenshot_2022-05-19_at_09.59.12_nzkktb.png",
-  //   title: "Kavárna Republika",
-  //   desc: "Velké Losiny",
-  //   detailLink: "",
-  // },
-  // {
-  //   imageUrl: "v1645823018/projektMalaMorava_nzkcnk.jpg",
-  //   title: "Horské Apartmány",
-  //   desc: "Malá Morava",
-  //   detailLink: "/apartmany-mala-morava",
-  // },
-
-  
   {
     imageUrl: 'v1724488767/hrabenov/DSC03066-HDR-min_ekphad.jpg',
-    title: 'Apartmány Hrabenov',
+    title: 'Rezidence Hrabenov',
     desc: 'Ruda nad Moravou',
     detailLink: '/rezidence-hrabenov',
     outsideLink: false,
