@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default data = {
+const data = {
   status: "Ve výstavbě",
   title: "Wellness Resort Červený dvůr",
   locationOne: "Výzkumníků 267",
@@ -667,3 +667,5 @@ export default data = {
   architectWord:
     "",
 };
+
+export default data

@@ -1,3 +1,5 @@
+// @ts-check
+
 import * as React from "react";
 import Layout from "../../components/layout";
 import Header from "../../components/Header";
@@ -13,19 +15,17 @@ import OtherProjects from "../../components/ProjectDetail/OtherProjects";
 import dataProjektu from "./dataProjektu"
 
 const CervenyDvurPage = () => {
-  const data = dataProjektu
-  
   return (
     <Layout>
-      <Header email="vendula.kvapilova@nextreality.cz" phone="732419933" />
-      <ProjectSectionOne data={data} />
-      <ProjectSectionTwo data={data} />
-      <ProjectSectionThree data={data} onlyOnerow={false} />
-      <ProjectSectionFour data={data} />
-      <ProjectSectionFive data={data} />
-      <ProjectSectionSix data={data} videoSectionTitle="Video z rekonstrukce" />
-      <PriceList vynos={true} data={data} showBonus={false} />
-      <OtherProjects data={data} />
+      <Header />
+      <ProjectSectionOne data={dataProjektu} />
+      <ProjectSectionTwo data={dataProjektu} />
+      <ProjectSectionThree data={dataProjektu} onlyOnerow={false} />
+      <ProjectSectionFour data={dataProjektu} />
+      <ProjectSectionFive data={dataProjektu} />
+      <ProjectSectionSix data={dataProjektu} videoSectionTitle="Video z rekonstrukce" />
+      <PriceList vynos={true} data={dataProjektu} showBonus={false} />
+      <OtherProjects data={dataProjektu} />
       <Footer />
     </Layout>
   );
