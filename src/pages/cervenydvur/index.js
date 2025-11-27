@@ -10,9 +10,11 @@ import ProjectSectionFour from "../../components/ProjectDetail/ProjectSectionFou
 import ProjectSectionFive from "../../components/ProjectDetail/ProjectSectionFive";
 import ProjectSectionSix from "../../components/ProjectDetail/ProjectSectionSix";
 import OtherProjects from "../../components/ProjectDetail/OtherProjects";
-import { data } from "./dataProjektu"
+import dataProjektu from "./dataProjektu"
 
 const CervenyDvurPage = () => {
+  const data = dataProjektu
+  
   return (
     <Layout>
       <Header email="vendula.kvapilova@nextreality.cz" phone="732419933" />

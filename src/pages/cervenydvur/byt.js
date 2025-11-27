@@ -6,7 +6,7 @@ import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import ApSectionOne from '../../components/ApartmentDetail/ApSectionOne'
 import ApSectionTwo from '../../components/ApartmentDetail/ApSectionTwo'
-import { data } from "./dataProjektu"
+import dataProjektu from "./dataProjektu"
 
 const useApartmentFromUrl = () => {
   const location = useLocation()
@@ -32,7 +32,7 @@ const useApartmentFromUrl = () => {
 
 
   // najít byt v JSONu – podle čísla
-  const ap = data.apartments.find(
+  const ap = dataProjektu.apartments.find(
     (item) => item.number === `Byt č.${idFromUrl}` || item.number === `Byt č. ${idFromUrl}`
   )
 
@@ -111,9 +111,7 @@ const mapApartmentToData = (/** @type any */ apartment) => {
 
 const CervenyDvurDetail = () => {
   const apartment = useApartmentFromUrl()
-
-  console.log("apartment", apartment)
-  
+    
   // loading / not found řešení
   if (typeof window !== 'undefined' && !apartment) {
     return (

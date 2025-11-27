@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const data = {
+export default data = {
   status: "Ve výstavbě",
   title: "Wellness Resort Červený dvůr",
   locationOne: "Výzkumníků 267",
