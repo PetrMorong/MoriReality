@@ -15,7 +15,7 @@ import { data } from "./dataProjektu"
 const CervenyDvurPage = () => {
   return (
     <Layout>
-      <Header />
+      <Header email="vendula.kvapilova@nextreality.cz" phone="732419933" />
       <ProjectSectionOne data={data} />
       <ProjectSectionTwo data={data} />
       <ProjectSectionThree data={data} onlyOnerow={false} />

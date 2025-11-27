@@ -249,7 +249,7 @@ Zajistíme vysokou obsazenost, bezstarostný provoz a dlouhodobý výnos.
       size: "30 m2",
       terasa: "-",
       parking: "1",
-      // link: "/vila-republika/ap-1",
+      link: "",
       reserved: false,
     },
     {
@@ -260,7 +260,7 @@ Zajistíme vysokou obsazenost, bezstarostný provoz a dlouhodobý výnos.
       size: "39 m2",
       terasa: "-",
       parking: "1",
-      // link: "/vila-republika/ap-1",
+      link: "",
       reserved: false,
     },
     {
@@ -271,7 +271,7 @@ Zajistíme vysokou obsazenost, bezstarostný provoz a dlouhodobý výnos.
       size: "34 m2",
       terasa: "-",
       parking: "1",
-      // link: "/vila-republika/ap-1",
+      link: "",
       reserved: false,
     },
   ],
