@@ -169,9 +169,11 @@ const PriceList = ({ data, vynos, showBonus }) => {
                     {item.reserved ? "Prodáno" : item.price}
                   </TableCellPrice>
                   <TableCell>
-                    <TablePriceButton href={item.link}>
+                     {item.reserved ? null : (
+                      <TablePriceButton href={item.link}>
                       Více info
-                    </TablePriceButton>
+                    </TablePriceButton>)
+                    }
                   </TableCell>
                 </TableRow>
               );

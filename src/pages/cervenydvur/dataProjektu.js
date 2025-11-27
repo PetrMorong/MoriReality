@@ -154,7 +154,7 @@ export const data = {
     link: "/cervenydvur/byt/?Id=1",
     reserved: false,
     sectionOneBg: "v1763643017/Rapotin/DSC00809-HDR-min_ubagg2.jpg",
-    gallery: ["v1763461562/Rapotin/Text_odstavce_ofjnms.jpg"]
+    gallery: ["v1764237724/Rapotin/karty/A_B1_snid6n.png"],
   },
   {
     price: "",
@@ -199,7 +199,7 @@ export const data = {
     link: "/cervenydvur/byt/?Id=4",
     reserved: false,
     sectionOneBg: "v1763643017/Rapotin/DSC00809-HDR-min_ubagg2.jpg",
-    gallery: ["v1763461562/Rapotin/Text_odstavce_ofjnms.jpg"]
+    gallery: ["v1764237724/Rapotin/karty/A_B4_btzwej.png"]
   },
   {
     price: "3 590 000 Kč",
@@ -214,7 +214,7 @@ export const data = {
     link: "/cervenydvur/byt/?Id=5",
     reserved: true,
     sectionOneBg: "v1763643017/Rapotin/DSC00809-HDR-min_ubagg2.jpg",
-    gallery: ["v1763461562/Rapotin/Text_odstavce_ofjnms.jpg"]
+    gallery: ["v1764237724/Rapotin/karty/A_B5_tlx0xt.png"]
   },
   {
     price: "",
@@ -274,7 +274,7 @@ export const data = {
     link: "/cervenydvur/byt/?Id=9",
     reserved: false,
     sectionOneBg: "v1763643017/Rapotin/DSC00809-HDR-min_ubagg2.jpg",
-    gallery: ["v1763461562/Rapotin/Text_odstavce_ofjnms.jpg"]
+    gallery: ["v1764237724/Rapotin/karty/A_B9_cudsw5.png"]
   },
   {
     price: "3 390 000 Kč",
@@ -289,7 +289,7 @@ export const data = {
     link: "/cervenydvur/byt/?Id=10",
     reserved: false,
     sectionOneBg: "v1763643017/Rapotin/DSC00809-HDR-min_ubagg2.jpg",
-    gallery: ["v1763461562/Rapotin/Text_odstavce_ofjnms.jpg"]
+    gallery: ["v1764237724/Rapotin/karty/A_B10_ilqvu3.png"]
   },
   {
     price: "3 500 000 Kč",
@@ -304,7 +304,7 @@ export const data = {
     link: "/cervenydvur/byt/?Id=11",
     reserved: false,
     sectionOneBg: "v1763643017/Rapotin/DSC00809-HDR-min_ubagg2.jpg",
-    gallery: ["v1763461562/Rapotin/Text_odstavce_ofjnms.jpg"]
+    gallery: ["v1764237724/Rapotin/karty/A_B11_yxsdj6.png"]
   },
   {
     price: "4 890 000 Kč",
@@ -319,7 +319,7 @@ export const data = {
     link: "/cervenydvur/byt/?Id=12",
     reserved: false,
     sectionOneBg: "v1763643017/Rapotin/DSC00809-HDR-min_ubagg2.jpg",
-    gallery: ["v1763461562/Rapotin/Text_odstavce_ofjnms.jpg"]
+    gallery: ["v1764237724/Rapotin/karty/A_B12_vjxtej.png"]
   },
   {
     price: "2 990 000 Kč",
@@ -334,7 +334,7 @@ export const data = {
     link: "/cervenydvur/byt/?Id=13",
     reserved: false,
     sectionOneBg: "v1763643017/Rapotin/DSC00809-HDR-min_ubagg2.jpg",
-    gallery: ["v1763461562/Rapotin/Text_odstavce_ofjnms.jpg"]
+    gallery: ["v1764237724/Rapotin/karty/A_B13_vc3y6b.png"]
   },
   {
     price: "",
@@ -365,7 +365,7 @@ export const data = {
     link: "/cervenydvur/byt/?Id=16",
     reserved: false,
     sectionOneBg: "v1763643017/Rapotin/DSC00809-HDR-min_ubagg2.jpg",
-    gallery: ["v1763461562/Rapotin/Text_odstavce_ofjnms.jpg"]
+    gallery: ["v1764237724/Rapotin/karty/B_B16_riysqp.png"]
   },
   {
     price: "",
@@ -426,7 +426,7 @@ export const data = {
     link: "/cervenydvur/byt/?Id=20",
     reserved: false,
     sectionOneBg: "v1763643017/Rapotin/DSC00809-HDR-min_ubagg2.jpg",
-    gallery: ["v1763461562/Rapotin/Text_odstavce_ofjnms.jpg"]
+    gallery: ["v1764237724/Rapotin/karty/B_B20_tk0ctx.png"]
   },
 
   {
@@ -506,7 +506,7 @@ export const data = {
     link: "/cervenydvur/byt/?Id=27",
     reserved: false,
     sectionOneBg: "v1763643017/Rapotin/DSC00809-HDR-min_ubagg2.jpg",
-    gallery: ["v1763461562/Rapotin/Text_odstavce_ofjnms.jpg"]
+    gallery: ["v1764237724/Rapotin/karty/C_B27_z4czfn.png"]
   },
 
   {
@@ -522,7 +522,7 @@ export const data = {
     link: "/cervenydvur/byt/?Id=28",
     reserved: false,
     sectionOneBg: "v1763643017/Rapotin/DSC00809-HDR-min_ubagg2.jpg",
-    gallery: ["v1763461562/Rapotin/Text_odstavce_ofjnms.jpg"]
+    gallery: ["v1764237724/Rapotin/karty/C_B28_xpkp7r.png"]
   },
 
   {
@@ -538,7 +538,7 @@ export const data = {
     link: "/cervenydvur/byt/?Id=29",
     reserved: false,
     sectionOneBg: "v1763643017/Rapotin/DSC00809-HDR-min_ubagg2.jpg",
-    gallery: ["v1763461562/Rapotin/Text_odstavce_ofjnms.jpg"]
+    gallery: ["v1764237724/Rapotin/karty/C_B29_t4n4x3.png"]
   },
 
   {
@@ -554,7 +554,7 @@ export const data = {
     link: "/cervenydvur/byt/?Id=30",
     reserved: false,
     sectionOneBg: "v1763643017/Rapotin/DSC00809-HDR-min_ubagg2.jpg",
-    gallery: ["v1763461562/Rapotin/Text_odstavce_ofjnms.jpg"]
+    gallery: ["v1764237724/Rapotin/karty/C_B30_elb7mw.png"]
   },
 
   {
@@ -570,7 +570,7 @@ export const data = {
     link: "/cervenydvur/byt/?Id=31",
     reserved: false,
     sectionOneBg: "v1763643017/Rapotin/DSC00809-HDR-min_ubagg2.jpg",
-    gallery: ["v1763461562/Rapotin/Text_odstavce_ofjnms.jpg"]
+    gallery: ["v1764237724/Rapotin/karty/C_B31_yvzjul.png"]
   },
 
   {
@@ -586,7 +586,7 @@ export const data = {
     link: "/cervenydvur/byt/?Id=32",
     reserved: false,
     sectionOneBg: "v1763643017/Rapotin/DSC00809-HDR-min_ubagg2.jpg",
-    gallery: ["v1763461562/Rapotin/Text_odstavce_ofjnms.jpg"]
+    gallery: ["v1764237724/Rapotin/karty/C_B32_dzxwbv.png"]
   },
 
   {
@@ -602,7 +602,7 @@ export const data = {
     link: "/cervenydvur/byt/?Id=33",
     reserved: false,
     sectionOneBg: "v1763643017/Rapotin/DSC00809-HDR-min_ubagg2.jpg",
-    gallery: ["v1763461562/Rapotin/Text_odstavce_ofjnms.jpg"]
+    gallery: ["v1764237724/Rapotin/karty/C_B33_31_kmkaur.png"]
   },
 
   {
@@ -618,7 +618,7 @@ export const data = {
     link: "/cervenydvur/byt/?Id=34",
     reserved: false,
     sectionOneBg: "v1763643017/Rapotin/DSC00809-HDR-min_ubagg2.jpg",
-    gallery: ["v1763461562/Rapotin/Text_odstavce_ofjnms.jpg"]
+    gallery: ["v1764237724/Rapotin/karty/C_B34_k4ys0l.png"]
   }
 ],
   otherProjects: [
