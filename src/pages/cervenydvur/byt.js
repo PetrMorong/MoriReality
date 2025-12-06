@@ -6,7 +6,7 @@ import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import ApSectionOne from '../../components/ApartmentDetail/ApSectionOne'
 import ApSectionTwo from '../../components/ApartmentDetail/ApSectionTwo'
-import dataProjektu from "./dataProjektu"
+import dataProjektu from "../../utils/dataProjektuCervenyDvur"
 
 const useApartmentFromUrl = () => {
   const location = useLocation()

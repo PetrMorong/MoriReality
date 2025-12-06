@@ -1,3 +1,5 @@
+// @ts-check
+
 import * as React from "react";
 import Layout from "../components/layout";
 import Header from "../components/Header";
@@ -13,7 +15,7 @@ import OtherProjects from "../components/ProjectDetail/OtherProjects";
 const HomePage = () => {
   return (
     <Layout>
-      <Header />
+      <Header email="info@mori-reality.cz" phone="601 502 889" />
       <HomeSectionOne />
       <HomeSectionTwo />
       <HomeSectionThree />
@@ -25,7 +27,7 @@ const HomePage = () => {
       <HomeSectionSix />
       */}
 
-      <Footer />
+      <Footer email="info@mori-reality.cz" phone="601 502 889" />
     </Layout>
   );
 };
