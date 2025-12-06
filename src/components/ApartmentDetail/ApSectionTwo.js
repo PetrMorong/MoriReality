@@ -73,7 +73,7 @@ const ApSectionTwo = ({ data }) => {
           </CarouoselItem>
         </CarouoselContainer>
 
-        <Row>
+       {/* <Row>
           {data.moreDetails.map((item, i) => (
             <BottomCol key={i}>
               <BoldText>
@@ -83,7 +83,7 @@ const ApSectionTwo = ({ data }) => {
               <Desc>{item.desc}</Desc>
             </BottomCol>
           ))}
-        </Row>
+        </Row> */}
       </Wrapper>
     </Container>
   );

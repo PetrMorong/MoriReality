@@ -3,6 +3,7 @@ import Layout from "../../components/layout";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import PriceList from "../../components/ProjectDetail/PriceList";
+import Gallery from "../../components/ProjectDetail/Gallery"
 import OtherProjects from "../../components/ProjectDetail/OtherProjects";
 import ProjectSectionOne from "../../components/ProjectDetail/ProjectSectionOne";
 import ProjectSectionTwo from "../../components/ProjectDetail/ProjectSectionTwo";
@@ -20,92 +21,52 @@ const data = {
   //   videoUrl: "https://youtu.be/vnrog-OczGQ",
   desc: (
     <>
-      4 hvězdičkový aparthotel s restaurací a prémiovým wellness. Hotel se
-      nachází v Koutech nad Desnou 800m od skiareálu Kouty, kde je 3. nejdelší
-      sjezdovka v ČR a lanovka na nejvyšší horu Moravy Praděd. Celkem vznikne 24
-      luxusních apartmánů, 12 apartmánů bude na prodej a zbytek si majitel
-      ponechá na pronájem.
+     Čtyřhvězdičkový aparthotel s restaurací a prémiovým wellness v srdci Jeseníků.
+Pouhých 800 metrů od skiareálu Kouty s 3. nejdelší sjezdovkou v ČR a lanovkou na Praděd.
+
+V projektu vznikne 23 designových jednotek, všechny jsou k prodeji —
+od komfortních apartmánů až po investiční ubytovací jednotky se stabilním výnosem. Majitelům nabízíme také kompletní správu, provoz i marketing.
+
+Součástí resortu bude:
+
+Privátní wellness s prémiovým vybavením, stylové bistro.h otelové pokoje a apartmány ve čtyřhvězdičkovém standardu, profesionální správa a plný servis pro investory
+
+Investujte do aparthotelu v jedné z nejrychleji rostoucích lokalit Jeseníků.
+Zajistíme vysokou obsazenost, bezstarostný provoz a dlouhodobý výnos.
     </>
   ),
   sliderImages: [
     {
       imageUrl:
-        "v1664009931/Kouty/Screen_Shot_2022-08-18_at_11.26.44_2_yytalh.png",
+        "v1763645408/Kouty/01-min_uxjr1h.jpg",
     },
     {
       imageUrl:
-        "v1664009999/Kouty/Screen_Shot_2022-08-18_at_11.27.50_1_gnjjvw.png",
+        "v1763645411/Kouty/04-min_ob6z5p.jpg",
     },
     {
       imageUrl:
-        "v1664010001/Kouty/Screen_Shot_2022-08-18_at_11.26.52_1_qlpgeb.png",
+        "v1763645409/Kouty/02-min_ez8vl9.jpg",
     },
     {
       imageUrl:
-        "v1664010789/Kouty/Screen_Shot_2022-09-24_at_11.11.44_teirz1.png",
+        "v1763645409/Kouty/03-min_mlwxdh.jpg",
     },
     {
       imageUrl:
-        "v1664009995/Kouty/Screen_Shot_2022-08-18_at_11.27.02_i9llj9.png",
+        "v1763645405/Kouty/recepce_01_tyr3cq.png",
     },
     {
       imageUrl:
-        "v1664009993/Kouty/Screen_Shot_2022-08-18_at_11.27.23_qrojc1.png",
+        "v1763645392/Kouty/1000015941_wzwq3z.png",
     },
     {
       imageUrl:
-        "v1664010789/Kouty/Screen_Shot_2022-09-24_at_11.12.17_zaex8g.png",
+        "v1763645403/Kouty/1000015942_k415zz.png",
     },
     {
       imageUrl:
-        "v1664010792/Kouty/Screen_Shot_2022-09-24_at_11.10.36_fq6mot.png",
-    },
-    {
-      imageUrl:
-        "v1664010796/Kouty/Screen_Shot_2022-09-24_at_11.11.25_fauwtr.png",
-    },
-    {
-      imageUrl:
-        "v1664010794/Kouty/Screen_Shot_2022-09-24_at_11.11.07_x6lloq.png",
-    },
-    {
-      imageUrl:
-        "v1656862992/Kouty/pm-eme-room-220316-cam001_16475882541423_1920x1080_ttt_90_ffvt96.webp",
-    },
-    {
-      imageUrl:
-        "v1656862992/Kouty/pm-eme-room2-211116-cam003-jpeg_16391630075761_1920x1080_ttt_90_oruiqe.webp",
-    },
-    {
-      imageUrl:
-        "v1656862992/Kouty/pm-eme-room2-211116-cam002-jpeg_16391630070542_1920x1080_ttt_90_ucqrqi.jpg",
-    },
-    {
-      imageUrl:
-        "v1656862993/Kouty/pm-eme-room2-211116-cam001-jpeg_16391630079451_1920x1080_ttt_90_qlyasp.webp",
-    },
-
-    {
-      imageUrl:
-        "v1656862994/Kouty/pm-eme-cor-211116-cam001-jpeg_16384625467577_1920x1080_ftt_100_z2mvui.jpg",
-    },
-    {
-      imageUrl:
-        "v1656862995/Kouty/14-interactive-lightmix_16384625075802_1920x1080_ftt_100_jmhi5e.jpg",
-    },
-
-    {
-      imageUrl:
-        "v1656862996/Kouty/9_16384624011471_1920x1080_ftt_100_mgtuvi.jpg",
-    },
-
-    {
-      imageUrl: "v1656863000/Kouty/7_16384624009_1920x1080_ftt_100_ejgakf.jpg",
-    },
-
-    {
-      imageUrl:
-        "v1656862995/Kouty/4_16384623847907_1920x1080_ftt_100_suy0ie.jpg",
+        "v1763645405/Kouty/1000015946_zr6ulp.png",
     },
   ],
   hideArchitect: true,
@@ -116,7 +77,7 @@ const data = {
       desc: "Plocha pozemku",
     },
     {
-      value: "32",
+      value: "23",
       highlighted: "",
       desc: "Apartmánů",
     },
@@ -127,14 +88,14 @@ const data = {
     },
     {
       value: "Říjen",
-      highlighted: "2024",
-      desc: "Termín Dokončen",
+      highlighted: "2027",
+      desc: "Termín Dokončení",
     },
   ],
   features: [
     {
       icon: "/features/sauna.png",
-      desc: "Saunový svět",
+      desc: "Privátní wellness",
     },
     {
       icon: "/features/ski.png",
@@ -142,11 +103,11 @@ const data = {
     },
     {
       icon: "/features/table-football(1).png",
-      desc: "Restaurace",
+      desc: "Bistro",
     },
     {
       icon: "/features/view.png",
-      desc: "5-ti hvězdičkový servis",
+      desc: "4 hvězdičkový servis",
     },
     {
       icon: "/features/park.png",
@@ -162,7 +123,7 @@ const data = {
     },
     {
       icon: "/features/door-lock.png",
-      desc: "Chytrý zámek na kód",
+      desc: "Self checkin",
     },
   ],
 
@@ -175,7 +136,7 @@ const data = {
   sectionFourTwoText: {
     title: "Wellness",
     titleGold: "s útulnou atmosférou",
-    desc: "Pohodlí jsme podřídili všechno. V přízemí hotelu proto budujeme designové wellness centrum, kde můžete načerpat síly a užívat si soukromí. Čeká zde na vás finská sauna s parním nárazem, odpočinková část s výhledem do zeleně, whirpool vana pro dvě osoby a zážitková sprcha s relaxačními programy. Rezervaci si můžete udělat online a prostory si otevřít sami pomocí kódu, který vám zašleme.",
+    desc: "Pohodlí jsme podřídili všechno. V přízemí hotelu proto budujeme designové wellness, kde můžete načerpat síly a užívat si soukromí. Čeká zde na vás finská sauna s parním nárazem, odpočinková část s výhledem do zeleně, whirpool vana pro dvě osoby a zážitková sprcha s relaxačními programy. Rezervaci si můžete udělat online a prostory si otevřít sami pomocí kódu, který vám zašleme.",
   },
 
   sectionImageOne:
@@ -204,7 +165,7 @@ const data = {
   ],
   apartments: [
     {
-      price: "Cena na dotaz",
+      price: "Projekt je v příprave",
       number: "131/1",
       floor: "2NP",
       layout: "1 + kk",
@@ -215,7 +176,7 @@ const data = {
       reserved: false,
     },
     {
-      price: "Cena na dotaz",
+      price: "Projekt je v příprave",
       number: "131/2",
       floor: "2NP",
       layout: "2 + kk",
@@ -226,7 +187,7 @@ const data = {
       reserved: false,
     },
     {
-      price: "Cena na dotaz",
+      price: "Projekt je v příprave",
       number: "131/3",
       floor: "2NP",
       layout: "1 + kk",
@@ -237,51 +198,51 @@ const data = {
       reserved: false,
     },
     {
-      price: "Cena na dotaz",
+      price: "Projekt je v příprave",
       number: "131/4",
       floor: "2NP",
       layout: "1 + kk",
       size: "30 m2",
       terasa: "-",
       parking: "1",
-      link: "",
+      // link: "/vila-republika/ap-1",
       reserved: false,
     },
     {
-      price: "Cena na dotaz",
+      price: "Projekt je v příprave",
       number: "131/5",
       floor: "2NP",
       layout: "1 + kk",
       size: "30 m2",
       terasa: "-",
       parking: "1",
-      link: "",
+      // link: "/vila-republika/ap-1",
       reserved: false,
     },
     {
-      price: "Cena na dotaz",
+      price: "Projekt je v příprave",
       number: "131/6",
       floor: "2NP",
       layout: "1 + kk",
       size: "25 m2",
       terasa: "-",
       parking: "1",
-      link: "",
+      // link: "/vila-republika/ap-1",
       reserved: false,
     },
     {
-      price: "Cena na dotaz",
+      price: "Projekt je v příprave",
       number: "131/7",
       floor: "2NP",
       layout: "1 + kk",
       size: "30 m2",
       terasa: "-",
       parking: "1",
-      link: "",
+      // link: "/vila-republika/ap-1",
       reserved: false,
     },
     {
-      price: "Cena na dotaz",
+      price: "Projekt je v příprave",
       number: "131/8",
       floor: "2NP",
       layout: "1 + kk",
@@ -292,7 +253,7 @@ const data = {
       reserved: false,
     },
     {
-      price: "Cena na dotaz",
+      price: "Projekt je v příprave",
       number: "131/9",
       floor: "2NP",
       layout: "1 + kk",
@@ -303,7 +264,7 @@ const data = {
       reserved: false,
     },
     {
-      price: "Cena na dotaz",
+      price: "Projekt je v příprave",
       number: "131/10",
       floor: "2NP",
       layout: "1 + kk",
@@ -338,19 +299,19 @@ const data = {
   timeline: [
     {
       title: "Projektová dokumentace",
-      date: "Listopad 2022",
+      date: "Listopad 2025",
     },
     {
       title: "Zahájení rekonstrukce",
-      date: "Listopad 2023",
+      date: "Leden 2025",
     },
     {
-      title: "Dokončení rekonstrukce",
-      date: "Září 2024",
+      title: "Dokončení rekonstrukce fasády",
+      date: "Září 2026",
     },
     {
       title: "Předání nemovitosti",
-      date: "Říjen 2024",
+      date: "Říjen 2026",
     },
   ],
   architectName: "Arch. Studio Reaktor",
@@ -369,6 +330,7 @@ const Kouty = () => {
       <ProjectSectionFive data={data} />
       <ProjectSectionSix data={data} />
       <PriceList data={data} />
+      {/* <Gallery projectName="aparthotel-kouty" /> */}
       <OtherProjects data={data} />
       <Footer />
     </Layout>
