@@ -9,7 +9,7 @@ const Container = styled.div`
   left: 0;
   display: flex;
   justify-content: center;
-  z-index: 1;
+  z-index: 2;
 `;
 
 const Wrapper = styled.div`
@@ -69,7 +69,7 @@ const Header = ({ email, phone }) => {
   const renderLinks = () => {
     return (
       <>
-        <Link href="/#o-nas">O nás</Link>
+        <Link href="/sprava-apartmanu">Správa apartmánů</Link>
 
         <Link href="/#projekty">Projekty</Link>
 

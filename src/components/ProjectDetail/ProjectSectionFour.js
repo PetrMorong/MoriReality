@@ -150,10 +150,45 @@ const CoverText = styled.p`
   }
 `;
 
+const Collapsed = styled.div`
+  max-height: ${(props) => (props.expanded ? "1000px" : "350px")};
+  overflow: hidden;
+  position: relative;
+  transition: max-height 0.4s ease;
+`;
+
+const FadeOut = styled.div`
+  display: ${(props) => (props.expanded ? "none" : "block")};
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  width: 100%;
+  background: linear-gradient(to bottom, rgba(255,255,255,0), #fff);
+`;
+
+const ShowMoreButton = styled.button`
+  margin-top: 12px;
+  background: none;
+  border: none;
+  color: #b29a84;
+  font-family: Georama;
+  font-size: 17px;
+  cursor: pointer;
+  padding: 0;
+
+  &:hover {
+    text-decoration: underline;
+  }
+`;
+
+
 const ProjectSectionFour = ({ data }) => {
   const imageUrlOne = buildImageUrl(data.sectionImageOne, {});
   const imageUrlTwo = buildImageUrl(data.sectionImageTwo, {});
   const imageUrlThree = buildImageUrl(data.sectionCover, {});
+  const [expandedOne, setExpandedOne] = React.useState(false);
+  const [expandedTwo, setExpandedTwo] = React.useState(false);
 
   return (
     <>
@@ -165,7 +200,14 @@ const ProjectSectionFour = ({ data }) => {
                 {data.sectionFourOneText.title}{" "}
                 <HeadlineGold>{data.sectionFourOneText.titleGold}</HeadlineGold>
               </Headline>
+              <Collapsed expanded={expandedOne}>
               <Desc>{data.sectionFourOneText.desc}</Desc>
+              {!expandedOne && <FadeOut />}
+            </Collapsed>
+
+            <ShowMoreButton onClick={() => setExpandedOne(!expandedOne)}>
+              {expandedOne ? "Zobrazit méně" : "Zobrazit více"}
+            </ShowMoreButton>
             </Col>
             <Image src={imageUrlOne} />
           </Row>

@@ -120,7 +120,7 @@ const Footer = ({ email, phone }) => {
 
         <Col>
           <Title>Společnost</Title>
-          <Link href="/#o-nas">O společnosti</Link>
+          <Link href="/sprava-apartmanu">O společnosti</Link>
           <Link href="/#projekty">Naše projekty</Link>
           <Link href="mailto:info@mori-reality.cz">Kontakt</Link>
         </Col>
