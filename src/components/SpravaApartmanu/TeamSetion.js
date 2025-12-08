@@ -2,6 +2,7 @@
 import * as React from "react";
 import styled from "styled-components";
 import Button from "../Button";
+import { buildImageUrl } from "cloudinary-build-url";
 
 const SectionContainer = styled.section`
   width: 100%;
@@ -143,7 +144,7 @@ const TeamSection = () => {
       name: "Petr Morong ml.",
       role: "Zakladatel & strategie / asset management",
       desc: "Stojí za vizí Mori Reality a rozvojem portfolia. Řídí investiční strategii a nastavuje koncepci správy apartmánů po ekonomické i provozní stránce.",
-      photo: "", // sem můžeš doplnit URL fotky
+      photo: buildImageUrl("v1765181825/1705662019817_1_x9vgy1.jpg",{} )
     },
     {
       name: "Markéta Dvořáková",
@@ -161,19 +162,19 @@ const TeamSection = () => {
       name: "Andrea Kuttlerová",
       role: "Provoz, hotelové zkušenosti",
       desc: "Přináší zkušenosti z hotelu Kolštejn a provozu vlastní kavárny. Dbá na kvalitu služeb a standardy pohostinství, které stojí za dobrými recenzemi.",
-      photo: "",
+      photo: buildImageUrl("v1765181825/1746116462854_cyeq43.jpg",{} )
     },
     {
       name: "Pavel Souček",
       role: "Provoz & guest experience",
       desc: "Má zkušenosti z hotelové sítě Orea. Zaměřuje se na host experience, efektivitu úklidů a procesy ve špičkách i mimo sezónu.",
-      photo: "",
+      photo: buildImageUrl("v1765181825/1705907482119_t1wk27.jpg",{}),
     },
     {
       name: "Tomáš Křen",
       role: "Revenue management & marketing",
       desc: "Řídí cenovou strategii, dynamické nacenění a marketingové kampaně. Zajišťuje maximální výnos apartmánů s ohledem na sezónnost a poptávku.",
-      photo: "",
+      photo: buildImageUrl("v1765181825/1695638237002_dzorry.jpg",{}),
     },
     {
       name: "Petr Morong st.",
