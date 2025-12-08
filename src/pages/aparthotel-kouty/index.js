@@ -293,7 +293,7 @@ Zajistíme vysokou obsazenost, bezstarostný provoz a dlouhodobý výnos.
       link: "/vila-republika",
     },
     {
-      image: "v1645823344/hrabenov/1_frp1mw.jpg",
+      image: "v1724488767/hrabenov/DSC03066-HDR-min_ekphad.jpg",
       name: "Rezidence Hrabenov",
       location: "Ruda Nad Moravou",
       link: "/rezidence-hrabenov",
