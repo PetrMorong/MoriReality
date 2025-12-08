@@ -11,17 +11,21 @@ import ProjectSectionThree from "../../components/ProjectDetail/ProjectSectionTh
 import ProjectSectionFour from "../../components/ProjectDetail/ProjectSectionFour";
 import ProjectSectionFive from "../../components/ProjectDetail/ProjectSectionFive";
 import ProjectSectionSix from "../../components/ProjectDetail/ProjectSectionSix";
+//import KoutyWhoSection from "../../components/ProjectDetail/KoutyWhoSection";
+//import KoutyFinancingSection from "../../components/ProjectDetail/KoutyFinancingSection";
+import KoutyInvestBlock from "../../components/ProjectDetail/KoutyInvestBlock";
+
 
 const data = {
   status: "Předprodej",
-  title: "ApartHotel Kouty",
+  title: "Wellnes hotel Kouty",
   locationOne: "Rejhotice 131",
   locationTwo: "Loučná nad Desnou",
   cover: "vilaRepublikaCover",
   //   videoUrl: "https://youtu.be/vnrog-OczGQ",
   desc: (
     <>
-     Čtyřhvězdičkový aparthotel s restaurací a prémiovým wellness v srdci Jeseníků.
+     Čtyřhvězdičkový hotel s bistrem a prémiovým wellness v srdci Jeseníků.
 Pouhých 800 metrů od skiareálu Kouty s 3. nejdelší sjezdovkou v ČR a lanovkou na Praděd.
 
 V projektu vznikne 23 designových jednotek, všechny jsou k prodeji —
@@ -31,7 +35,7 @@ Součástí resortu bude:
 
 Privátní wellness s prémiovým vybavením, stylové bistro.h otelové pokoje a apartmány ve čtyřhvězdičkovém standardu, profesionální správa a plný servis pro investory
 
-Investujte do aparthotelu v jedné z nejrychleji rostoucích lokalit Jeseníků.
+Investujte do hotelu v jedné z nejrychleji rostoucích lokalit Jeseníků.
 Zajistíme vysokou obsazenost, bezstarostný provoz a dlouhodobý výnos.
     </>
   ),
@@ -79,12 +83,12 @@ Zajistíme vysokou obsazenost, bezstarostný provoz a dlouhodobý výnos.
     {
       value: "23",
       highlighted: "",
-      desc: "Apartmánů",
+      desc: "Jednotek",
     },
     {
       value: "Až",
       highlighted: "2+kk",
-      desc: "Dispozice Apartmánů",
+      desc: "Dispozice",
     },
     {
       value: "Říjen",
@@ -140,27 +144,27 @@ Zajistíme vysokou obsazenost, bezstarostný provoz a dlouhodobý výnos.
   },
 
   sectionImageOne:
-    "v1656862993/Kouty/pm-eme-room2-211116-cam001-jpeg_16391630079451_1920x1080_ttt_90_qlyasp.webp",
+    "v1765193971/Kouty/ChatGPT_Image_Dec_8_2025_12_39_23_PM_mrqcrn.png",
   sectionImageTwo:
-    "v1656862994/Kouty/pm-eme-cor-211116-cam001-jpeg_16384625467577_1920x1080_ftt_100_z2mvui.jpg",
+    "v1763645392/Kouty/1000015941_wzwq3z.png",
   sectionCover:
     "v1656862992/Kouty/pm-eme-room2-211116-cam002-jpeg_16391630070542_1920x1080_ttt_90_ucqrqi.jpg",
 
   ticksSection: [
     {
-      highlighted: "Lázeňská tradice",
-      normal: "Velkých Losin",
-      desc: "Velké Losiny mají co nabídnout. Usazené pod vrcholky hor jsou vstupní branou Hrubého Jeseníku. Příznivé klima a čerstvý horský vzduch prospějí vašemu tělu i duši, stejně jako léčivé minerální prameny nebo unikátní termální lázně, které nemají v České republice obdoby. Za poznáním se můžete vydat na prohlídku pozdně renesančního zámku nebo do velkolosinské ruční papírny. A k tomu si užívat skvělou gastronomii i mlsání v místní pralinkárně.",
+      highlighted: "Profesionální ",
+      normal: "správa apartmánů ",
+      desc: "Bez starostí, s jasným výnosem. O provoz apartmánu se postará tým Mori Reality – od prezentace, přes rezervace, úklid a údržbu až po vyúčtování. Nastavíme správu tak, aby dávala dlouhodobý smysl a majiteli přinášela stabilní výnos, nikoli starosti. Majitel může apartmán libovolně využívat pro sebe, nebo jej přenechat správě podle zvoleného modelu.",
     },
     {
-      highlighted: "Hrubého Jeseníku",
-      normal: "Léčivá krása ",
-      desc: "Druhé největší pohoří České republiky stojí trochu stranou turistického zájmu, což ale má své velké výhody. Úchvatný ráz krajiny ještě nestihla pozměnit ruka člověka a zdejší neposkvrněná příroda má v sobě léčivou sílu. Vyšlápněte si na horu Praděd, vydejte se na okruh po vodopádech anebo místních rozhlednách. Nezapomeňte na přečerpávací vodní elektrárnu Dlouhé Stráně. Pěšky nebo na kole, kromě turistických tras je zde i široká síť cyklostezek. Jeseníky myslí na každého z vás.",
+      highlighted: "a vysoká obsazenost",
+      normal: "Investiční model ",
+      desc: "Atraktivní výnos díky silné poptávce po ubytování. Kouty i celé Jeseníky mají dlouhodobě vysokou obsazenost díky lyžování, cyklistice, turistice a lázeňským službám v okolí. Aparthotel navíc nabídne vlastní wellness, které výrazně podporuje obsazenost i mimo sezónu. Díky tomu může investor počítat se stabilním tokem rezervací a předvídatelným cashflow.",
     },
     {
-      highlighted: "už od listopadu",
-      normal: "Lyžování naplno ",
-      desc: "Hrubý Jeseník má skvělé sněhového podmínky. V dosahu budete mít hned několik ski-areálů. Necelých 10 kilometrů je vzdálen ski-areál Kouty a Přemyslov. Zhruba za 20 minut dorazíte na Praděd nebo Červenohorské sedlo. A mnoho dalších menších středisek objevíte v blízkém okolí. Pro běžkaře je nejatraktivnější oblastí Jesenická magistrála. Přejezd Jesenického hřebene na lyžích je jedním z nejkrásnějších horských výletů, které u nás můžete podniknout.",
+      highlighted: "garance",
+      normal: "Financování a  ",
+      desc: "Pomůžeme vám úvěr nastavit tak, aby schválení dopadlo. Nákup ubytovací jednotky má specifika, která běžné banky často neumí správně posoudit. Proto zajišťujeme odbornou pomoc s financováním – od výběru vhodné banky až po přípravu podkladů. Při využití našeho smluvního partnera je navíc rezervace vratná, pokud banka úvěr neschválí.",
     },
   ],
   apartments: [
@@ -276,26 +280,26 @@ Zajistíme vysokou obsazenost, bezstarostný provoz a dlouhodobý výnos.
     },
   ],
   otherProjects: [
-    {
-      image: "v1645823018/projektMalaMorava_nzkcnk.jpg",
-      name: "Apartmány",
-      location: "Malá Morava",
-      link: "/apartmany-mala-morava",
+   {
+      image: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
+      name: "Wellness resort",
+      location: "Červený dvůr, Rapotín",
+      link: "/cervenydvur",
     },
     {
       image: "v1689504195/vilaRepublikaFoto/356584285_1096124314696983_2263942071942825600_n_xv0nkq.jpg",
-      name: "Vila republika",
+      name: "Vila Republika",
       location: "Velké Losiny",
       link: "/vila-republika",
     },
     {
       image: "v1645823344/hrabenov/1_frp1mw.jpg",
       name: "Rezidence Hrabenov",
-      location: "Hrabenov, Ruda Nad Moravou",
+      location: "Ruda Nad Moravou",
       link: "/rezidence-hrabenov",
     },
   ],
-  timelineFill: "5%",
+  timelineFill: "10%",
   timeline: [
     {
       title: "Projektová dokumentace",
@@ -303,15 +307,15 @@ Zajistíme vysokou obsazenost, bezstarostný provoz a dlouhodobý výnos.
     },
     {
       title: "Zahájení rekonstrukce",
-      date: "Leden 2025",
+      date: "Leden 2026",
     },
     {
       title: "Dokončení rekonstrukce fasády",
-      date: "Září 2026",
+      date: "Duben 2027",
     },
     {
       title: "Předání nemovitosti",
-      date: "Říjen 2026",
+      date: "Červen 2027",
     },
   ],
   architectName: "Arch. Studio Reaktor",
@@ -330,6 +334,7 @@ const Kouty = () => {
       <ProjectSectionFive data={data} />
       <ProjectSectionSix data={data} />
       <PriceList data={data} />
+      <KoutyInvestBlock />
       {/* <Gallery projectName="aparthotel-kouty" /> */}
       <OtherProjects data={data} />
       <Footer />
