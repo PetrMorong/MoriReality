@@ -11,6 +11,7 @@ import ProjectSectionThree from "../../components/ProjectDetail/ProjectSectionTh
 import ProjectSectionFour from "../../components/ProjectDetail/ProjectSectionFour";
 import ProjectSectionFive from "../../components/ProjectDetail/ProjectSectionFive";
 import ProjectSectionSix from "../../components/ProjectDetail/ProjectSectionSix";
+import Faq from "../../components/ProjectDetail/Faq";
 import OtherProjects from "../../components/ProjectDetail/OtherProjects";
 import dataProjektu from "../../utils/dataProjektuCervenyDvur"
 
@@ -25,6 +26,7 @@ const CervenyDvurPage = () => {
       <ProjectSectionFive data={dataProjektu} />
       <ProjectSectionSix data={dataProjektu} videoSectionTitle="Video z rekonstrukce" />
       <PriceList vynos={true} data={dataProjektu} showBonus={false} />
+      <Faq />
       <OtherProjects data={dataProjektu} />
       <Footer email="info@mori-reality.cz" phone="601 502 889" />
     </Layout>

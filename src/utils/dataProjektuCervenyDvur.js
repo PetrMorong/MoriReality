@@ -109,13 +109,18 @@ const data = {
   sectionFourOneText: {
     title: "Historie ",
     titleGold: "Červého dvora",
-    desc: "je provázána s osudy rodu Žerotínů a následně Lichtenštejnů, kteří ho využívali jako panské odpočinkové sídlo. Zdejší dvory mají původ ve feudálním hospodářství. Vznikaly z potřeby šlechty zajistit pro svou rodinu, úředníky i služebnictvo dostatek potravin. První oficiální zmínky o poplužním dvoře nacházíme kolem roku 1618 v Zemských deskách. Dvory se zaměřovaly na zemědělskou produkci, včetně pěstování obilí, chovu dobytka a zakládání zahrad. Rapotínský dvůr byl postaven ve tvaru nepravidelného otevřeného čtyřúhelníku s centrální budovou zámečku.",
+    desc: "Červený dvůr má bohatou historii sahající až do 17. století, kdy byl součástí rozsáhlého panství rodu Žerotínů. Právě tehdy vznikl první zámeček, který sloužil jako správní a obytná budova uprostřed hospodářského dvora. V přízemí bývala kuchyně, komory a sklady, v patře několik světnic a menší kaple. V 18. a 19. století se dvůr postupně rozvíjel – zejména díky podnikatelům Wagnerovým, kteří zde provozovali bělidlo, tedy zařízení na bělení přízí a plátna. To dalo místu i jeho dnešní jméno Červený dvůr, které se už tehdy začalo používat. Později dvůr sloužil různým hospodářským účelům a stal se významnou součástí místního života. Po první světové válce zde vznikl tzv. Gabrielův dvůr, po druhé světové byl objekt přeměněn na výzkumný ústav pro chov skotu. V této době byl původní zámeček – kvůli technickému stavu – postupně odstraněn. Po roce 1945 byl celý areál znárodněn a několik desetiletí sloužil výhradně zemědělským a technickým účelům. Přesto si uchoval své jedinečné umístění v krajině i výraznou historickou stopu. Dnes prochází Červený dvůr citlivou rekonstrukcí a navazuje na svou historii novou kapitolou – přeměnou v moderní resort, který spojuje prvky původní architektury s dnešním komfortem a novým využitím. Z místa s příběhem se opět stává místo pro život, odpočinek a setkávání.",
   },
 
   sectionFourTwoText: {
     title: "Wellness",
-    titleGold: "s útulnou atmosférou",
-    desc: "V areálu Červeného dvora klademe maximální důraz na pohodlí a kvalitní odpočinek. Aktuálně budujeme nové veřejné designové wellness, které nabídne dvě finské sauny, prostornou odpočívárnu a ochlazovací bazének."
+    titleGold: "které přináší zážitek i vyšší obsazenost",
+    desc: `V areálu Červeného dvora stavíme na pohodlí a kvalitním odpočinku. Proto budujeme nové designové wellness, jehož první etapa bude dokončena na konci ledna — nabídne finskou saunu a ochlazovací bazének ve formátu privátního wellness.
+
+Během prvního roku tak hosté získají možnost užít si maximální soukromí a klid.
+Druhá etapa, plánovaná na příští rok, rozšíří wellness a umožní volný vstup pro všechny ubytované hosty.
+
+Wellness se tak stane výrazným benefitem resortu, který přirozeně zvyšuje zájem hostů i dlouhodobou obsazenost apartmánů..`
   },
 
   sectionImageOne: "v1705668049/Rapotin/1928_1_1_j1wzvm.jpg",
