@@ -154,11 +154,11 @@ const Footer = ({ email, phone }) => {
         </Col>
 
         <Col style={{ width: 250, alignItems: "flex-end" }}>
-          <Title>Mori Investing s.r.o</Title>
+          <Title>Mori Reality s.r.o</Title>
           <LogoText style={{ textAlign: "right" }}>
-            Osvobození 354,
+            	Pernerova 697/35, Karlín, 
             <br />
-            Velké Losiny, 788 15
+            186 00 Praha
             <br />
             <br />
             Společnost zapsáná v OR Krajského soudu v Ostravě pod značkou

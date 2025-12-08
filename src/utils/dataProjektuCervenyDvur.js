@@ -642,7 +642,7 @@ Wellness se tak stane výrazným benefitem resortu, který přirozeně zvyšuje 
 
     {
       image:
-        "v1664009931/Kouty/Screen_Shot_2022-08-18_at_11.26.44_2_yytalh.png",
+        "v1763645408/Kouty/01-min_uxjr1h.jpg",
       name: "Wellness Aparthotel",
       location: "Kouty nad Desnou",
       link: "/aparthotel-kouty",
