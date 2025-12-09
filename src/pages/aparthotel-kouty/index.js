@@ -18,7 +18,7 @@ import KoutyInvestBlock from "../../components/ProjectDetail/KoutyInvestBlock";
 
 const data = {
   status: "Předprodej",
-  title: "Wellnes hotel Kouty",
+  title: "Wellness hotel Kouty",
   locationOne: "Rejhotice 131",
   locationTwo: "Loučná nad Desnou",
   cover: "vilaRepublikaCover",
