@@ -666,7 +666,7 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
     size: "67,33 m2",
     terasa: "",
     parking: "",
-    priceVynos: "skutečné náklady12 421",
+    priceVynos: "skutečné náklady",
     vynos: "186 000 Kč",
     link: "/cervenydvur/byt/?Id=34",
     reserved: false,
