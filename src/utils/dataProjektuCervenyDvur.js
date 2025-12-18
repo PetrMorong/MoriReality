@@ -70,7 +70,7 @@ const data = {
   features: [
     {
       icon: "/features/sauna.png",
-      desc: "Veřejné wellness",
+      desc: "Wellness",
     },
     {
       icon: "/features/ski.png",
@@ -98,29 +98,26 @@ const data = {
 
     {
       icon: "/features/treadmill.png",
-      desc: "Privátní Fitness",
+      desc: "Fitness",
     },
     {
       icon: "/features/view.png",
-      desc: "Klid a příroda",
+      desc: "Klid a hory",
     },
   ],
 
   sectionFourOneText: {
-    title: "Historie ",
+    title: "Historie",
     titleGold: "Červého dvora",
     desc: "Červený dvůr má bohatou historii sahající až do 17. století, kdy byl součástí rozsáhlého panství rodu Žerotínů. Právě tehdy vznikl první zámeček, který sloužil jako správní a obytná budova uprostřed hospodářského dvora. V přízemí bývala kuchyně, komory a sklady, v patře několik světnic a menší kaple. V 18. a 19. století se dvůr postupně rozvíjel – zejména díky podnikatelům Wagnerovým, kteří zde provozovali bělidlo, tedy zařízení na bělení přízí a plátna. To dalo místu i jeho dnešní jméno Červený dvůr, které se už tehdy začalo používat. Později dvůr sloužil různým hospodářským účelům a stal se významnou součástí místního života. Po první světové válce zde vznikl tzv. Gabrielův dvůr, po druhé světové byl objekt přeměněn na výzkumný ústav pro chov skotu. V této době byl původní zámeček – kvůli technickému stavu – postupně odstraněn. Po roce 1945 byl celý areál znárodněn a několik desetiletí sloužil výhradně zemědělským a technickým účelům. Přesto si uchoval své jedinečné umístění v krajině i výraznou historickou stopu. Dnes prochází Červený dvůr citlivou rekonstrukcí a navazuje na svou historii novou kapitolou – přeměnou v moderní resort, který spojuje prvky původní architektury s dnešním komfortem a novým využitím. Z místa s příběhem se opět stává místo pro život, odpočinek a setkávání.",
   },
 
   sectionFourTwoText: {
-    title: "Wellness",
-    titleGold: "které přináší zážitek i vyšší obsazenost",
-    desc: `V areálu Červeného dvora stavíme na pohodlí a kvalitním odpočinku. Proto budujeme nové designové wellness, jehož první etapa bude dokončena na konci ledna — nabídne finskou saunu a ochlazovací bazének ve formátu privátního wellness.
+    title: "Wellness,",
+    titleGold: "zážitek a atraktivita",
+    desc: `V areálu Červeného dvora klademe důraz na pohodlí, klid a kvalitní odpočinek. Proto vzniká nové designové wellness, které přirozeně doplní atmosféru celého resortu. První etapa bude dokončena na konci ledna a nabídne finskou saunu s ochlazovacím bazénkem ve formátu privátního wellness.
 
-Během prvního roku tak hosté získají možnost užít si maximální soukromí a klid.
-Druhá etapa, plánovaná na příští rok, rozšíří wellness a umožní volný vstup pro všechny ubytované hosty.
-
-Wellness se tak stane výrazným benefitem resortu, který přirozeně zvyšuje zájem hostů i dlouhodobou obsazenost apartmánů..`
+Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v klidném prostředí areálu. Druhá etapa plánovaná na příští rok wellness dále rozšíří a zpřístupní jej všem ubytovaným hostům. Wellness se stane přirozenou a vyhledávanou součástí pobytu v Červeném dvoře a podtrhne celkový charakter místa zaměřeného na odpočinek a regeneraci.`
   },
 
   sectionImageOne: "v1705668049/Rapotin/1928_1_1_j1wzvm.jpg",
@@ -132,12 +129,12 @@ Wellness se tak stane výrazným benefitem resortu, který přirozeně zvyšuje 
     {
       highlighted: "Postup pří koupi",
       normal: "apartmánu",
-      desc: "Konkrétní byt si můžete vybrat například podle výše investice či požadovaného ročního výnosu. Uzavře se smlouva o smlouvě budoucí kupní, složí se záloha a byt máte tímto rezervovaný. Po dokončení a uzavření kupní smlouvy se stáváte jediným vlastníkem nemovitosti, tedy budete figurovat na listu vlastnictví a na katastru nemovitostí. Nemovitost nebude z naší strany zatížena žádným zástavním právem ani věcným břemenem. Od této chvíle s nemovitostí můžete nakládat jakkoliv se vy, jakožto jediný vlastník, rozhodnete.",
+      desc: "Vyberete si apartmán podle svých představ a investičních cílů. Následně uzavřeme smlouvu o smlouvě budoucí kupní a po složení zálohy je apartmán rezervován právě pro vás. Po dokončení jednotky a podpisu kupní smlouvy se stanete jejím výhradním vlastníkem. Od tohoto okamžiku s apartmánem nakládáte plně podle svého rozhodnutí.",
     },
     {
       highlighted: "správa apartmánu",
       normal: "Kompletní ",
-      desc: "Kupujete si apartmán jako investici? Nabízíme vám kompletní správu a garantovaný výnos. Můžete také apartmán sami využívat 10dní v roce. Při podpisu kupní smlouvy uzavřeme vzájemnou smlouvu o nájmu a tím vaše starosti končí – platíme vždy a včas. Bez výjimky inkasujete pravidelné měsíční nájemné na svůj účet, a to bez ohledu obsazenost bytu. Od smlouvy můžete samozřejmě kdykoliv odstoupit, a to bez smluvních pokut.",
+      desc: "Kupujete si apartmán jako investici? Nabízíme vám kompletní správu a garantovaný výnos. Apartmán můžete zároveň sami využívat až 10 dní v roce. Při podpisu kupní smlouvy uzavřeme také vzájemnou nájemní smlouvu a tím vaše starosti končí. Nájemné vám vyplácíme vždy řádně a včas. Pravidelné měsíční platby inkasujete na svůj účet bez ohledu na obsazenost apartmánu. Od smlouvy můžete kdykoliv odstoupit a to bez smluvních pokut.",
     },
     {
       highlighted: "už od listopadu",
@@ -147,19 +144,24 @@ Wellness se tak stane výrazným benefitem resortu, který přirozeně zvyšuje 
   ],
   apartments: [
   {
-    price: "3 490 000 Kč",
+    price: "3 700 000 Kč",
     number: "Byt č.1",
     floor: "1NP",
     layout: "1kk",
     size: "40,26 m2",
     terasa: "",
     parking: "",
-    priceVynos: "14 950 Kč",
-    vynos: "179 400 Kč",
+    priceVynos: "13 000 Kč",
+    vynos: "168 000 Kč",
     link: "/cervenydvur/byt/?Id=1",
     reserved: false,
-    sectionOneBg: "v1763643017/Rapotin/DSC00809-HDR-min_ubagg2.jpg",
-    gallery: ["v1764237724/Rapotin/karty/A_B1_snid6n.png"],
+    sectionOneBg: "v1763643021/Rapotin/DSC01347-HDR-min_aev5ff.jpg",
+    gallery: [
+      "v1765974399/Rapotin/A_B1_z9zvdp.png",
+      "v1765969810/Rapotin/A1Pudorys_lx0mj1.png",
+      "v1765969811/Rapotin/A1exterier_hq8jfu.png",
+
+    ],
   },
   {
     price: "",
@@ -199,27 +201,33 @@ Wellness se tak stane výrazným benefitem resortu, který přirozeně zvyšuje 
     size: "54,25 m2",
     terasa: "",
     parking: "",
-    priceVynos: "19 950 Kč",
-    vynos: "239 400 Kč",
+    priceVynos: "13 000 Kč",
+    vynos: "168 000 Kč",
     link: "/cervenydvur/byt/?Id=4",
     reserved: false,
     sectionOneBg: "v1763643017/Rapotin/DSC00809-HDR-min_ubagg2.jpg",
-    gallery: ["v1764237724/Rapotin/karty/A_B4_btzwej.png"]
+    gallery: ["v1764237724/Rapotin/karty/A_B4_btzwej.png",
+      "v1765972701/Rapotin/A4Pudorys_dql2on.png",
+      "v1765972703/Rapotin/A4Exterier_snawj5.png"
+    ]
   },
   {
-    price: "3 590 000 Kč",
+    price: "3 800 000 Kč",
     number: "Byt č.5",
     floor: "2NP",
     layout: "2kk",
     size: "36,00 m2",
     terasa: "",
     parking: "",
-    priceVynos: "14 450 Kč",
-    vynos: "173 400 Kč",
+    priceVynos: "15 500 Kč",
+    vynos: "186 000 Kč",
     link: "/cervenydvur/byt/?Id=5",
-    reserved: true,
+    reserved: false,
     sectionOneBg: "v1763643017/Rapotin/DSC00809-HDR-min_ubagg2.jpg",
-    gallery: ["v1764237724/Rapotin/karty/A_B5_tlx0xt.png"]
+    gallery: ["v1764237724/Rapotin/karty/A_B5_tlx0xt.png",
+      "v1765972782/Rapotin/A5Pudorys_zcnjgj.png",
+      "v1765972783/Rapotin/A5Exterier_wokqdk.png",
+    ]
   },
   {
     price: "",
@@ -267,15 +275,15 @@ Wellness se tak stane výrazným benefitem resortu, který přirozeně zvyšuje 
     gallery: ["v1763461562/Rapotin/Text_odstavce_ofjnms.jpg"]
   },
   {
-    price: "2 990 000 Kč",
+    price: "2 900 000 Kč",
     number: "Byt č.9",
     floor: "3NP",
     layout: "1kk",
     size: "30,11 m2",
     terasa: "",
     parking: "",
-    priceVynos: "14 292 Kč",
-    vynos: "171 500 Kč",
+    priceVynos: "13 000 Kč",
+    vynos: "168 000 Kč",
     link: "/cervenydvur/byt/?Id=9",
     reserved: false,
     sectionOneBg: "v1763643017/Rapotin/DSC00809-HDR-min_ubagg2.jpg",
@@ -289,27 +297,30 @@ Wellness se tak stane výrazným benefitem resortu, který přirozeně zvyšuje 
     size: "40,18 m2",
     terasa: "",
     parking: "",
-    priceVynos: "14 900 Kč",
-    vynos: "178 800 Kč",
+    priceVynos: "15 500 Kč",
+    vynos: "186 000 Kč",
     link: "/cervenydvur/byt/?Id=10",
-    reserved: false,
+    reserved: true,
     sectionOneBg: "v1763643017/Rapotin/DSC00809-HDR-min_ubagg2.jpg",
     gallery: ["v1764237724/Rapotin/karty/A_B10_ilqvu3.png"]
   },
   {
-    price: "3 500 000 Kč",
+    price: "3 490 000 Kč",
     number: "Byt č.11",
     floor: "3NP",
     layout: "2kk",
     size: "48,81 m2",
     terasa: "",
     parking: "",
-    priceVynos: "19 400 Kč",
-    vynos: "232 800 Kč",
+    priceVynos: "15 500 Kč",
+    vynos: "186 000 Kč",
     link: "/cervenydvur/byt/?Id=11",
     reserved: false,
     sectionOneBg: "v1763643017/Rapotin/DSC00809-HDR-min_ubagg2.jpg",
-    gallery: ["v1764237724/Rapotin/karty/A_B11_yxsdj6.png"]
+    gallery: ["v1764237724/Rapotin/karty/A_B11_yxsdj6.png",
+      "v1765972992/Rapotin/A11Pudorys_k1gfmu.png",
+      "v1765972993/Rapotin/A11Exterier_ejvlk6.png",
+    ]
   },
   {
     price: "4 890 000 Kč",
@@ -319,25 +330,28 @@ Wellness se tak stane výrazným benefitem resortu, který přirozeně zvyšuje 
     size: "73,52 m2",
     terasa: "",
     parking: "",
-    priceVynos: "24 542 Kč",
-    vynos: "294 500 Kč",
+    priceVynos: "skutečné náklady",
+    vynos: "186 000 Kč",
     link: "/cervenydvur/byt/?Id=12",
     reserved: false,
     sectionOneBg: "v1763643017/Rapotin/DSC00809-HDR-min_ubagg2.jpg",
-    gallery: ["v1764237724/Rapotin/karty/A_B12_vjxtej.png"]
+    gallery: ["v1764237724/Rapotin/karty/A_B12_vjxtej.png",
+      "v1765973074/Rapotin/A12Pudorys_uq8tkl.png",
+      "v1765973075/Rapotin/A12Exterier_h4h5kt.png",
+    ]
   },
   {
-    price: "2 990 000 Kč",
+    price: "2 970 000 Kč",
     number: "Byt č.13",
     floor: "3NP",
     layout: "1kk",
     size: "32,71 m2",
     terasa: "",
     parking: "",
-    priceVynos: "15 450 Kč",
-    vynos: "185 400 Kč",
+    priceVynos: "13 000 Kč",
+    vynos: "168 000 Kč",
     link: "/cervenydvur/byt/?Id=13",
-    reserved: false,
+    reserved: true,
     sectionOneBg: "v1763643017/Rapotin/DSC00809-HDR-min_ubagg2.jpg",
     gallery: ["v1764237724/Rapotin/karty/A_B13_vc3y6b.png"]
   },
@@ -365,12 +379,15 @@ Wellness se tak stane výrazným benefitem resortu, který přirozeně zvyšuje 
     size: "35,58 m2",
     terasa: "",
     parking: "",
-    priceVynos: "14 450 Kč",
-    vynos: "173 400 Kč",
+    priceVynos: "15 000 Kč",
+    vynos: "180 000 Kč",
     link: "/cervenydvur/byt/?Id=16",
     reserved: false,
     sectionOneBg: "v1763643017/Rapotin/DSC00809-HDR-min_ubagg2.jpg",
-    gallery: ["v1764237724/Rapotin/karty/B_B16_riysqp.png"]
+    gallery: ["v1764237724/Rapotin/karty/B_B16_riysqp.png",
+      "v1765973185/Rapotin/B16Pudorys_buxjta.png",
+      "v1765973186/Rapotin/B16Pudorys_2_cabvsg.png",
+    ]
   },
   {
     price: "",
@@ -426,12 +443,16 @@ Wellness se tak stane výrazným benefitem resortu, který přirozeně zvyšuje 
     size: "65,14 m2",
     terasa: "",
     parking: "",
-    priceVynos: "245 000 Kč",
-    vynos: "",
+    priceVynos: "skutečné náklady",
+    vynos: "186 000 Kč",
     link: "/cervenydvur/byt/?Id=20",
     reserved: false,
     sectionOneBg: "v1763643017/Rapotin/DSC00809-HDR-min_ubagg2.jpg",
-    gallery: ["v1764237724/Rapotin/karty/B_B20_tk0ctx.png"]
+    gallery: ["v1764237724/Rapotin/karty/B_B20_tk0ctx.png",
+      "v1765973267/Rapotin/B20Pudorys_lqhp3t.png",
+      "v1765973268/Rapotin/B20Exterier_1_hamvjt.png",
+      "v1765973268/Rapotin/B20Exterier_2_qo53de.png",
+    ]
   },
 
   {
@@ -474,7 +495,7 @@ Wellness se tak stane výrazným benefitem resortu, který přirozeně zvyšuje 
     size: "39,58 m2",
     terasa: "",
     parking: "",
-    priceVynos: "12 421 Kč",
+    priceVynos: "14 000 Kč",
     vynos: "149 050 Kč",
     link: "/cervenydvur/byt/?Id=25",
     reserved: true,
@@ -490,12 +511,15 @@ Wellness se tak stane výrazným benefitem resortu, který přirozeně zvyšuje 
     size: "28,04 m2",
     terasa: "",
     parking: "",
-    priceVynos: "15 125 Kč",
-    vynos: "181 500 Kč",
+    priceVynos: "13 000 Kč",
+    vynos: "168 000 Kč",
     link: "/cervenydvur/byt/?Id=26",
-    reserved: false,
+    reserved: true,
     sectionOneBg: "v1763643017/Rapotin/DSC00809-HDR-min_ubagg2.jpg",
-    gallery: ["v1763461562/Rapotin/Text_odstavce_ofjnms.jpg"]
+    gallery: ["v1765973507/Rapotin/C_B26_iemomn.png",
+      "v1765973430/Rapotin/C26Pudorys_jz0bad.png",
+      "v1765973431/Rapotin/C26Exterier_rcbbee.png",
+    ]
   },
 
   {
@@ -506,12 +530,15 @@ Wellness se tak stane výrazným benefitem resortu, který přirozeně zvyšuje 
     size: "35,41 m2",
     terasa: "",
     parking: "",
-    priceVynos: "16 500 Kč",
-    vynos: "198 000 Kč",
+    priceVynos: "13 000 Kč",
+    vynos: "168 000 Kč",
     link: "/cervenydvur/byt/?Id=27",
-    reserved: false,
+    reserved: true,
     sectionOneBg: "v1763643017/Rapotin/DSC00809-HDR-min_ubagg2.jpg",
-    gallery: ["v1764237724/Rapotin/karty/C_B27_z4czfn.png"]
+    gallery: ["v1765973578/Rapotin/C_B27_lfxhcl.png",
+      "v1765973600/Rapotin/C27Pudorys_soi75r.png",
+      "v1765973602/Rapotin/C27Exterier_zfhnvn.png",
+    ]
   },
 
   {
@@ -522,12 +549,15 @@ Wellness se tak stane výrazným benefitem resortu, který přirozeně zvyšuje 
     size: "30,82 m2",
     terasa: "",
     parking: "",
-    priceVynos: "15 538 Kč",
-    vynos: "186 450 Kč",
+    priceVynos: "13 000 Kč",
+    vynos: "186 000 Kč",
     link: "/cervenydvur/byt/?Id=28",
-    reserved: false,
+    reserved: true,
     sectionOneBg: "v1763643017/Rapotin/DSC00809-HDR-min_ubagg2.jpg",
-    gallery: ["v1764237724/Rapotin/karty/C_B28_xpkp7r.png"]
+    gallery: ["v1765973683/Rapotin/C_B28_hs0tyi.png",
+      "v1765973674/Rapotin/C28Pud_tw2sj8.png",
+      "v1765973677/Rapotin/C28Ext_so5fxp.png",
+    ]
   },
 
   {
@@ -538,12 +568,16 @@ Wellness se tak stane výrazným benefitem resortu, který přirozeně zvyšuje 
     size: "82,20 m2",
     terasa: "",
     parking: "",
-    priceVynos: "22 458 Kč",
-    vynos: "269 500 Kč",
+    priceVynos: "skutečné náklady",
+    vynos: "186 000 Kč",
     link: "/cervenydvur/byt/?Id=29",
     reserved: false,
     sectionOneBg: "v1763643017/Rapotin/DSC00809-HDR-min_ubagg2.jpg",
-    gallery: ["v1764237724/Rapotin/karty/C_B29_t4n4x3.png"]
+    gallery: ["v1765973759/Rapotin/C_B29_yh5mds.png",
+      "v1765973789/Rapotin/C29Pudorys_t3mqpj.png",
+      "v1765973789/Rapotin/C29Exteri1_axmwpc.png",
+      "v1765973791/Rapotin/C29Exteri_2_ynngy9.png",
+    ]
   },
 
   {
@@ -554,12 +588,16 @@ Wellness se tak stane výrazným benefitem resortu, který přirozeně zvyšuje 
     size: "38,48 m2",
     terasa: "",
     parking: "",
-    priceVynos: "14 667 Kč",
-    vynos: "176 000 Kč",
+    priceVynos: "15 000 Kč",
+    vynos: "180 000 Kč",
     link: "/cervenydvur/byt/?Id=30",
-    reserved: false,
+    reserved: true,
     sectionOneBg: "v1763643017/Rapotin/DSC00809-HDR-min_ubagg2.jpg",
-    gallery: ["v1764237724/Rapotin/karty/C_B30_elb7mw.png"]
+    gallery: ["v1765973902/Rapotin/C_B30_tto6n2.png",
+      "v1765973894/Rapotin/C30Pudorys_exlk5q.png",
+      "v1765973896/Rapotin/C30Exteri_d0m2dj.png",
+
+    ]
   },
 
   {
@@ -570,60 +608,73 @@ Wellness se tak stane výrazným benefitem resortu, který přirozeně zvyšuje 
     size: "55,63 m2",
     terasa: "",
     parking: "",
-    priceVynos: "17 875 Kč",
-    vynos: "214 500 Kč",
+    priceVynos: "15 000 Kč",
+    vynos: "180 000 Kč",
     link: "/cervenydvur/byt/?Id=31",
-    reserved: false,
+    reserved: true,
     sectionOneBg: "v1763643017/Rapotin/DSC00809-HDR-min_ubagg2.jpg",
-    gallery: ["v1764237724/Rapotin/karty/C_B31_yvzjul.png"]
+    gallery: ["v1765973977/Rapotin/C_B31_z98gue.png",
+      "v1765974018/Rapotin/C31Pudorys_omm18s.png",
+      "v1765974021/Rapotin/C31Exteri_siq8hd.png",
+
+    ]
   },
 
   {
     price: "4 300 000 Kč",
     number: "Byt č.32",
     floor: "2NP",
-    layout: "2kk",
+    layout: "3kk",
     size: "76,17 m2",
     terasa: "",
     parking: "",
-    priceVynos: "19 708 Kč",
-    vynos: "236 500 Kč",
+    priceVynos: "skutečné náklady",
+    vynos: "186 000 Kč",
     link: "/cervenydvur/byt/?Id=32",
     reserved: false,
     sectionOneBg: "v1763643017/Rapotin/DSC00809-HDR-min_ubagg2.jpg",
-    gallery: ["v1764237724/Rapotin/karty/C_B32_dzxwbv.png"]
+    gallery: ["v1765974121/Rapotin/C_B32_vhx2qk.png",
+      "v1765974116/Rapotin/C32Pudorys_dve9nx.png",
+      "v1765974118/Rapotin/C32Exteri_jzxxdy.png",
+    ]
   },
 
   {
-    price: "3 800 000 Kč",
+    price: "3 150 000 Kč",
     number: "Byt č.33",
     floor: "2NP",
     layout: "2kk",
-    size: "52,02 m2",
+    size: "43,84 m2",
     terasa: "",
     parking: "",
-    priceVynos: "17 417 Kč",
-    vynos: "209 000 Kč",
+    priceVynos: "13 000 Kč",
+    vynos: "168 000 Kč",
     link: "/cervenydvur/byt/?Id=33",
-    reserved: false,
+    reserved: true,
     sectionOneBg: "v1763643017/Rapotin/DSC00809-HDR-min_ubagg2.jpg",
-    gallery: ["v1764237724/Rapotin/karty/C_B33_31_kmkaur.png"]
+    gallery: ["v1765974195/Rapotin/C_B33_gii1sm.png",
+      "v1765974211/Rapotin/C33Pudorys_yzejva.png",
+      "v1765974213/Rapotin/C33Exteri_rril8x.png",
+    ]
   },
 
   {
     price: "3 900 000 Kč",
     number: "Byt č.34",
     floor: "2NP",
-    layout: "2kk",
-    size: "57,08 m2",
+    layout: "3kk",
+    size: "67,33 m2",
     terasa: "",
     parking: "",
-    priceVynos: "17 875 Kč",
-    vynos: "214 500 Kč",
+    priceVynos: "skutečné náklady12 421",
+    vynos: "186 000 Kč",
     link: "/cervenydvur/byt/?Id=34",
     reserved: false,
     sectionOneBg: "v1763643017/Rapotin/DSC00809-HDR-min_ubagg2.jpg",
-    gallery: ["v1764237724/Rapotin/karty/C_B34_k4ys0l.png"]
+    gallery: ["v1765974305/Rapotin/C_B34_kbnppk.png",
+      "v1765974287/Rapotin/C34Pudorys_poh6uf.png",
+      "v1765974289/Rapotin/C34Exteri_wszuly.png",
+    ]
   }
 ],
   otherProjects: [
