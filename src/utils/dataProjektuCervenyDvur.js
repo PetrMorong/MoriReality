@@ -42,6 +42,26 @@ const data = {
     {
       imageUrl: "v1763643018/Rapotin/DSC01123-HDR-min_bb20ze.jpg",
     },
+   
+      {
+      imageUrl: "v1769180262/Rapotin/1767123741966-yh0ea9mmo3_1_nac1bo.png",
+    },
+      {
+      imageUrl: "v1769180262/Rapotin/1767123741966-yh0ea9mmo3_1_nac1bo.png",
+    },
+      {
+      imageUrl: "v1769180337/Rapotin/1767123572885-ax10xyl54x_1_3_mnirli.png",
+    },
+      {
+      imageUrl: "v1769180262/Rapotin/1767124431790-ot3nx6m4vp_2_cczvli.png",
+    },
+       {
+      imageUrl: "v1769180263/Rapotin/Modern_Bathroom_with_Earthy_Tones_1_ekbawi.png",
+    },
+        {
+      imageUrl: "v1769180263/Rapotin/satna_weytfu.png",
+    },
+    
 
   ],
   hideArchitect: true,
@@ -157,10 +177,15 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
     reserved: false,
     sectionOneBg: "v1763643021/Rapotin/DSC01347-HDR-min_aev5ff.jpg",
     gallery: [
+      "v1769180592/Rapotin/DSC02526-HDR_1_-min_yoj7ld.jpg",
       "v1765974399/Rapotin/A_B1_z9zvdp.png",
       "v1765969810/Rapotin/A1Pudorys_lx0mj1.png",
       "v1765969811/Rapotin/A1exterier_hq8jfu.png",
-
+      "v1769180589/Rapotin/DSC02565-HDR_1_-min_mnuwxp.jpg",
+      "v1769180589/Rapotin/DSC02562-HDR_1_-min_anfzzt.jpg",
+      "v1769180586/Rapotin/DSC02532-HDR_1_-min_ucxuqw.jpg",
+      "v1769180587/Rapotin/DSC02535-HDR_1_-min_ocr3xn.jpg",
+      "v1769180588/Rapotin/DSC02546-HDR-2_1_-min_yg0iwq.jpg"
     ],
   },
   {
@@ -206,9 +231,16 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
     link: "/cervenydvur/byt/?Id=4",
     reserved: false,
     sectionOneBg: "v1763643017/Rapotin/DSC00809-HDR-min_ubagg2.jpg",
-    gallery: ["v1764237724/Rapotin/karty/A_B4_btzwej.png",
+    gallery: [
+      "v1769181009/Rapotin/LL401874-HDR-min_scd0ze.jpg",
+      "v1769162947/Rapotin/A_B4_rxhfbk.png",
       "v1765972701/Rapotin/A4Pudorys_dql2on.png",
-      "v1765972703/Rapotin/A4Exterier_snawj5.png"
+      "v1765972703/Rapotin/A4Exterier_snawj5.png",
+      "v1769181011/Rapotin/LL401865-HDR-min_yqr64i.jpg",
+      "v1769181011/Rapotin/LL401877-HDR-min_e4p2ju.jpg",
+      "v1769181011/Rapotin/LL401901-HDR-min_vdyi04.jpg",
+      "v1769181777/Rapotin/ChatGPT_Image_Jan_23_2026_04_22_24_PM_eq3xro.png"
+
     ]
   },
   {
@@ -224,9 +256,12 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
     link: "/cervenydvur/byt/?Id=5",
     reserved: false,
     sectionOneBg: "v1763643017/Rapotin/DSC00809-HDR-min_ubagg2.jpg",
-    gallery: ["v1764237724/Rapotin/karty/A_B5_tlx0xt.png",
+    gallery: [
+      "v1769183303/Rapotin/ChatGPT_Image_Jan_23_2026_04_48_14_PM_vx1qi8.png",
+      "v1769163138/Rapotin/A_B5_q021pa.png",
       "v1765972782/Rapotin/A5Pudorys_zcnjgj.png",
       "v1765972783/Rapotin/A5Exterier_wokqdk.png",
+      "v1769182359/Rapotin/ChatGPT_Image_Jan_4_2026_05_33_36_PM_1_pkvgoj.png",
     ]
   },
   {
@@ -287,7 +322,10 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
     link: "/cervenydvur/byt/?Id=9",
     reserved: false,
     sectionOneBg: "v1763643017/Rapotin/DSC00809-HDR-min_ubagg2.jpg",
-    gallery: ["v1764237724/Rapotin/karty/A_B9_cudsw5.png"]
+   gallery: ["v1769164195/Rapotin/A_B9_nmvfe5.png",
+      "v1769174880/Rapotin/A9Pudorys_bymizs.png",
+      "v1769174882/Rapotin/A9Exterier_riqpwn.png",
+    ]
   },
   {
     price: "3 390 000 Kč",
@@ -317,7 +355,7 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
     link: "/cervenydvur/byt/?Id=11",
     reserved: false,
     sectionOneBg: "v1763643017/Rapotin/DSC00809-HDR-min_ubagg2.jpg",
-    gallery: ["v1764237724/Rapotin/karty/A_B11_yxsdj6.png",
+    gallery: ["v1769163457/Rapotin/A_B11_d8fawj.png",
       "v1765972992/Rapotin/A11Pudorys_k1gfmu.png",
       "v1765972993/Rapotin/A11Exterier_ejvlk6.png",
     ]
@@ -335,7 +373,7 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
     link: "/cervenydvur/byt/?Id=12",
     reserved: false,
     sectionOneBg: "v1763643017/Rapotin/DSC00809-HDR-min_ubagg2.jpg",
-    gallery: ["v1764237724/Rapotin/karty/A_B12_vjxtej.png",
+    gallery: ["v1769163492/Rapotin/A_B12_est6zl.png",
       "v1765973074/Rapotin/A12Pudorys_uq8tkl.png",
       "v1765973075/Rapotin/A12Exterier_h4h5kt.png",
     ]
@@ -384,7 +422,7 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
     link: "/cervenydvur/byt/?Id=16",
     reserved: false,
     sectionOneBg: "v1763643017/Rapotin/DSC00809-HDR-min_ubagg2.jpg",
-    gallery: ["v1764237724/Rapotin/karty/B_B16_riysqp.png",
+    gallery: ["v1769163530/Rapotin/B_B16_luyd29.png",
       "v1765973185/Rapotin/B16Pudorys_buxjta.png",
       "v1765973186/Rapotin/B16Pudorys_2_cabvsg.png",
     ]
@@ -448,7 +486,7 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
     link: "/cervenydvur/byt/?Id=20",
     reserved: false,
     sectionOneBg: "v1763643017/Rapotin/DSC00809-HDR-min_ubagg2.jpg",
-    gallery: ["v1764237724/Rapotin/karty/B_B20_tk0ctx.png",
+    gallery: ["v1769163567/Rapotin/B_B20_q7haer.png",
       "v1765973267/Rapotin/B20Pudorys_lqhp3t.png",
       "v1765973268/Rapotin/B20Exterier_1_hamvjt.png",
       "v1765973268/Rapotin/B20Exterier_2_qo53de.png",
