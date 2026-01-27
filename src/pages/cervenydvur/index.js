@@ -25,7 +25,7 @@ const CervenyDvurPage = () => {
       <ProjectSectionFour data={dataProjektu} />
       <ProjectSectionFive data={dataProjektu} />
       <ProjectSectionSix data={dataProjektu} videoSectionTitle="Video z rekonstrukce" />
-      <PriceList vynos={true} data={dataProjektu} showBonus={false} />
+      <PriceList vynos={true} data={dataProjektu} showBonus={false} category={true} />
       <Faq />
       <OtherProjects data={dataProjektu} />
       <Footer email="info@mori-reality.cz" phone="601 502 889" />

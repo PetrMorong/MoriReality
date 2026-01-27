@@ -164,9 +164,9 @@ const Container = styled.div`
   position: relative;
   width: 100%;
   height: 830px;
-  background: ${(p) => `url("${p.bgImage}")`};
+  background: ${(p) => `url("${p.bgImage}")`} no-repeat;
   padding-bottom: 140px;
-  background-position: 0 -79px;
+  background-position: center center;
   background-size: cover;
 
   @media (max-width: 800px) {

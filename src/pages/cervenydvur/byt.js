@@ -7,6 +7,7 @@ import Footer from '../../components/Footer'
 import ApSectionOne from '../../components/ApartmentDetail/ApSectionOne'
 import ApSectionTwo from '../../components/ApartmentDetail/ApSectionTwo'
 import dataProjektu from "../../utils/dataProjektuCervenyDvur"
+import ApSectionFour from '../../components/ApartmentDetail/ApSectionFour'
 
 const useApartmentFromUrl = () => {
   const location = useLocation()
@@ -55,6 +56,11 @@ const mapApartmentToData = (/** @type any */ apartment) => {
     price: apartment.price, // např. "3 900 000 Kč"
     backLink: '/cervenydvur',
     apTitle: apartment.number,
+    category: apartment.category || "",      
+    layout: apartment.layout || "",
+    standardsPdfUrl: apartment.standardy || "/download/standardy-a-vybaveni.pdf",       
+    sizeValue,                            
+    floorValue,                            
     apText: <></>,
     sectionOneDetails: [
       {
@@ -138,6 +144,7 @@ const CervenyDvurDetail = () => {
       <ApSectionOne data={data} />
       <ApSectionTwo data={data} />
       {/* <ApSectionThree data={data} /> */}
+      {/* <ApSectionFour data={data} />*/}
       <Footer email="info@mori-reality.cz" phone="+420 775 561 091" />
     </Layout>
   )

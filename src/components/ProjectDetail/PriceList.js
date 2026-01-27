@@ -88,7 +88,7 @@ const TablePriceButton = styled.a`
 `;
 
 const TableCellPrice = styled(TableCell)`
-  min-width: 300px;
+  min-width: 200px;
   font-weight: bold;
 `;
 
@@ -104,7 +104,7 @@ margin-top: 60px;
   color: #000000;
 `;
 
-const PriceList = ({ data, vynos, showBonus }) => {
+const PriceList = ({ data, vynos, showBonus, category }) => {
   const [mouseOverRow, setMouseOverRow] = React.useState(undefined);
 
   const handleGoToDetail = () => {};
@@ -128,11 +128,15 @@ const PriceList = ({ data, vynos, showBonus }) => {
                   )}
               {vynos && (
                 <>
-                  <TableCell>Měsíční Výnos</TableCell>
+                  <TableCell>Měs. Výnos</TableCell>
                   <TableCell>Roční Výnos</TableCell>
                 </>
               )}
+              {category && (
+                  <TableCell>Kategorie</TableCell>
+              )}
               <TableCellPrice>Cena</TableCellPrice>
+           
               <TableCell></TableCell>
             </TableHead>
             {data.apartments.map((item, index) => {
@@ -165,9 +169,18 @@ const PriceList = ({ data, vynos, showBonus }) => {
                     </>
                     
                   )}
+
+                  <TableCell>
+                    {item.category}
+                  </TableCell>
+
                   <TableCellPrice>
                     {item.reserved ? "Prodáno" : item.price}
                   </TableCellPrice>
+
+                 
+              
+                  
                   <TableCell>
                      {item.reserved ? null : (
                       <TablePriceButton href={item.link}>
