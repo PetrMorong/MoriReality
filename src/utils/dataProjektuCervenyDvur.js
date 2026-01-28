@@ -176,7 +176,7 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
     link: "/cervenydvur/byt/?Id=1",
     reserved: false,
     sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
-    category: "Standard",
+    category: "Komfort",
     gallery: [
       "v1769180592/Rapotin/DSC02526-HDR_1_-min_yoj7ld.jpg",
       "v1765974399/Rapotin/A_B1_z9zvdp.png",
