@@ -250,25 +250,26 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
     ]
   },
   {
-    price: "3 800 000 Kč",
+    price: "3 890 000 Kč",
     number: "Byt č.5",
     floor: "2NP",
     layout: "2kk",
-    size: "36,00 m2",
+    size: "39,86 m2",
     terasa: "",
     parking: "",
     priceVynos: "15 500 Kč",
     vynos: "186 000 Kč",
     link: "/cervenydvur/byt/?Id=5",
     reserved: false,
-        category: "Komfort",
+    category: "Komfort",
     sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
     gallery: [
-      "v1769183303/Rapotin/ChatGPT_Image_Jan_23_2026_04_48_14_PM_vx1qi8.png",
-      "v1769163138/Rapotin/A_B5_q021pa.png",
+      "v1769182359/Rapotin/ChatGPT_Image_Jan_4_2026_05_33_36_PM_1_pkvgoj.png",
+      //"v1769183303/Rapotin/ChatGPT_Image_Jan_23_2026_04_48_14_PM_vx1qi8.png",
+      //"v1769163138/Rapotin/A_B5_q021pa.png",
       "v1765972782/Rapotin/A5Pudorys_zcnjgj.png",
       "v1765972783/Rapotin/A5Exterier_wokqdk.png",
-      "v1769182359/Rapotin/ChatGPT_Image_Jan_4_2026_05_33_36_PM_1_pkvgoj.png",
+      "v1769676231/Rapotin/ChatGPT_Image_Jan_29_2026_09_43_33_AM_oaww71.png",
     ]
   },
   {
