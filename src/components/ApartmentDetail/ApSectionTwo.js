@@ -35,8 +35,8 @@ const ApSectionTwo = ({ data }) => {
           )}
         </MainText> */}
 
-        <SubText>
-          {data.apText || (
+        {/* <SubText>
+         {data.apText || (
             <>
               Našim cílem je poskytovat kvalitní a spolehlivé stavební služby.
               Při realizaci vašich představ, myšlenek, a snů klademe důraz na
@@ -48,7 +48,7 @@ const ApSectionTwo = ({ data }) => {
               </span>
             </>
           )}
-        </SubText>
+        </SubText> */}
 
         <CarouoselContainer>
           <CarouoselItem

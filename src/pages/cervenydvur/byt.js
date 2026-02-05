@@ -61,7 +61,7 @@ const mapApartmentToData = (/** @type any */ apartment) => {
     standardsPdfUrl: apartment.standardy || "/download/standardy-a-vybaveni.pdf",       
     sizeValue,                            
     floorValue,                            
-    apText: <></>,
+    ...apartment,
     sectionOneDetails: [
       {
         text: dispoText,
@@ -144,7 +144,7 @@ const CervenyDvurDetail = () => {
       <ApSectionOne data={data} />
       <ApSectionTwo data={data} />
       {/* <ApSectionThree data={data} /> */}
-      {/* <ApSectionFour data={data} />*/}
+      <ApSectionFour data={data} />
       <Footer email="info@mori-reality.cz" phone="+420 775 561 091" />
     </Layout>
   )

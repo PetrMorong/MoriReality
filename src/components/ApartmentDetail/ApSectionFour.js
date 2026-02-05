@@ -4,10 +4,11 @@ import styled from "styled-components";
 import Button from "../Button";
 
 /**
- * ApSectionFour – Premium-only upsell/info section
+ * ApSectionFour – info section
  *
  * Expected data props:
  * - category: string (e.g. "Premium Suite" / "Château Suite")
+ * - categoryDescription: string
  * - apName: string (e.g. "Byt č.12")
  * - layout: string (e.g. "3kk")
  * - sizeValue: string|number (e.g. "73,52")
@@ -18,14 +19,7 @@ import Button from "../Button";
  */
 const ApSectionFour = ({ data }) => {
   const categoryRaw = data?.category || "";
-  const category = categoryRaw.toLowerCase();
-  const isPremium =
-    category.includes("premium") ||
-    category.includes("chateau") ||
-    category.includes("château");
-
-  if (!isPremium) return null;
-
+  const category = categoryRaw.toLowerCase()
   const standardsUrl = data?.standardsPdfUrl || "/standardy.pdf"; // fallback (change if needed)
   const contactEmail = data?.contactEmail || "info@mori-reality.cz";
 
@@ -34,7 +28,7 @@ const ApSectionFour = ({ data }) => {
       <Wrapper>
         <HeadlineRow>
           <Line />
-          <Headline>Prémiová kategorie</Headline>
+          <Headline>Kategorie {category}</Headline>
           <Line />
         </HeadlineRow>
 
@@ -43,11 +37,10 @@ const ApSectionFour = ({ data }) => {
             <div>
               <BadgeTitle>{data?.category || "Premium Suite"}</BadgeTitle>
               <BadgeSub>
-                Výběrový byt v historické části Resortu Červený dvůr – pro ty, kteří chtějí
-                atmosféru, prostor a skutečný komfort.
+                {data.categoryDescription}
               </BadgeSub>
               <BadgeNote>
-                Premium v podkroví: <b>klimatizace</b> a <b>elektrický krb</b>.
+                {data.apText}
               </BadgeNote>
             </div>
           </Badge>
@@ -74,36 +67,21 @@ const ApSectionFour = ({ data }) => {
 
         <Grid>
           <Card>
-            <CardTitle>Proč je tenhle byt Premium</CardTitle>
+            <CardTitle>{data.colOneTitle}</CardTitle>
             <List>
-              <li>
-                <b>3kk</b> – dvě samostatné ložnice + velký obytný prostor s kuchyní
-              </li>
-              <li>
-                <b>Klimatizace</b> pro celoroční komfort
-              </li>
-              <li>
-                <b>Elektrický krb</b> jako atmosférický a designový prvek
-              </li>
-              <li>
-                Historická část resortu – „château vibe“ bez přestřelené okázalosti
-              </li>
+              {data.colOneText}
+              
             </List>
           </Card>
 
           <Card>
-            <CardTitle>Kuchyň a vybavení</CardTitle>
+            <CardTitle>{data.colTwoTitle}</CardTitle>
             <Body>
-              Byt je prodáván <b>bez kuchyňské linky</b>, aby si každý majitel mohl zvolit řešení
-              podle vlastního vkusu, rozpočtu a způsobu využití (osobní bydlení vs. investice).
-              <br />
-              <br />
-              Na vyžádání umíme zajistit realizaci kuchyně <b>na klíč</b> dle doporučeného
-              standardu Resortu Červený dvůr (zaměření, výroba, montáž, spotřebiče).
+              {data.colTwoDescription}
             </Body>
 
             <Warn>
-              Uvedené vybavení <b>není zahrnuto</b> v ceně bytu.
+              {data.colTwoClaim}
             </Warn>
 
             <DownloadRow>
@@ -117,26 +95,18 @@ const ApSectionFour = ({ data }) => {
               </a>
 
               <DownloadNote>
-                Přehled standardů provedení a orientačního seznamu vybavení. Vybavení není v ceně.
+                {data.colTwoDownloadDesc}
               </DownloadNote>
             </DownloadRow>
           </Card>
 
           <Card>
-            <CardTitle>Co je zahrnuto v ceně</CardTitle>
+            <CardTitle>{data.colThreeTitle}</CardTitle>
             <List>
-              <li>Dokončené podlahy</li>
-              <li>Obklady a dlažby v koupelně</li>
-              <li>Sanitární vybavení</li>
-              <li>Interiérové dveře</li>
-              <li>Kompletní elektroinstalace a osvětlení</li>
-              <li>Příprava pro kuchyňskou linku</li>
-              <li>
-                U Premium: <b>klimatizace</b> a <b>elektrický krb</b>
-              </li>
+              {data.colThreeDesc}
             </List>
             <SmallNote>
-              Kuchyňská linka a volné vybavení nejsou součástí ceny bytu.
+              {data.colThreeNote}
             </SmallNote>
           </Card>
         </Grid>
