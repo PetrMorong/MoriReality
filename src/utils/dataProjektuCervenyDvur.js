@@ -43,25 +43,26 @@ const data = {
       imageUrl: "v1763643018/Rapotin/DSC01123-HDR-min_bb20ze.jpg",
     },
 
-    {
-      imageUrl: "v1769180262/Rapotin/1767123741966-yh0ea9mmo3_1_nac1bo.png",
-    },
-    {
-      imageUrl: "v1769180262/Rapotin/1767123741966-yh0ea9mmo3_1_nac1bo.png",
-    },
-    {
-      imageUrl: "v1769180337/Rapotin/1767123572885-ax10xyl54x_1_3_mnirli.png",
-    },
-    {
-      imageUrl: "v1769180262/Rapotin/1767124431790-ot3nx6m4vp_2_cczvli.png",
-    },
-    {
-      imageUrl: "v1769180263/Rapotin/Modern_Bathroom_with_Earthy_Tones_1_ekbawi.png",
-    },
-    {
-      imageUrl: "v1769180263/Rapotin/satna_weytfu.png",
-    },
+    // wellness
 
+    {
+      imageUrl: "v1771946206/Rapotin/DSC06556_hlqxkq.jpg",
+    },
+    {
+      imageUrl: "v1771946205/Rapotin/DSC06545_ql8j8q.jpg",
+    },
+    {
+      imageUrl: "v1771947050/Rapotin/VIRIVKA_luotcr.png",
+    },
+    {
+      imageUrl: "v1771946209/Rapotin/77d88bdd-d590-4a13-9a75-2082673efe88_fps82k.png",
+    },
+    {
+      imageUrl: "v1771946205/Rapotin/DSC06530_lu3wyf.jpg"
+    },
+    {
+      imageUrl: "v1771946211/Rapotin/Bar_xd94xf.png"
+    },
 
   ],
   hideArchitect: true,
@@ -931,12 +932,14 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
       reserved: false,
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: [
-        "v1769420998/Rapotin/01_4_pl7rs9.jpg",
-        "v1769420999/Rapotin/08_loapkw.jpg",
-        "v1769420998/Rapotin/09_bfajlz.jpg",
-        "v1765973683/Rapotin/C_B28_hs0tyi.png",
-        "v1765973674/Rapotin/C28Pud_tw2sj8.png",
-        "v1765973677/Rapotin/C28Ext_so5fxp.png",
+        "v1771949199/Rapotin/F_01_cwc4gj.jpg",
+        "v1771949197/Rapotin/F_02_wa8x9c.jpg",
+        "v1771949203/Rapotin/F_03_hf8l8t.jpg",
+        "v1771949186/Rapotin/F_04_czwhp4.jpg",
+        "v1771949191/Rapotin/F_05_cfm6ye.jpg",
+        "v1771949187/Rapotin/F_06_o26iql.jpg",
+        "v1771949196/Rapotin/F_07_sbzvx5.jpg",
+        "v1771949649/Rapotin/BYT_28_PUDORYS_tyqloz.png",
       ]
     },
 
