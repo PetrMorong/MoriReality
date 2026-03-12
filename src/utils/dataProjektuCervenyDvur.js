@@ -525,16 +525,16 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
         "v1765972993/Rapotin/A11Exterier_ejvlk6.png",
       ]
     },
-    {
-      price: "4 990 000 Kč",
+       {
+      price: "TODO",
       number: "Byt č.12",
       floor: "3NP",
-      layout: "3kk",
-      size: "73,52 m2",
+      layout: "1kk",
+      size: "26,15 m2",
       terasa: "",
       parking: "",
-      priceVynos: "18 400 Kč",
-      category: "👑 Premium Suite",
+      priceVynos: "TODO",
+      category: "Komfort",
       categoryDescription:
         "Prémiová jednotka s důrazem na komfort, design a nadstandardní vybavení – ideální pro vlastní bydlení i prémiový pronájem.",
       apText:
@@ -550,7 +550,6 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
           <li>Promyšlené řešení vhodné i pro vícelůžkové nebo rodinné využití.</li>
         </>
       ),
-
       colTwoTitle: "Design a standard",
       colTwoDescription:
         <>
@@ -574,8 +573,62 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
       ),
       colThreeNote:
         "Prémiová dispozice a vybavení umožňují nastavení vyššího nájemného i silnější pozici při dalším prodeji.",
-      vynos: "220 800 Kč",
+      vynos: "TODO",
       link: "/cervenydvur/byt/?Id=12",
+      reserved: false,
+      sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
+      gallery: [""] //TODO
+    },
+    {
+      price: "TODO",
+      number: "Byt č.13",
+      floor: "3NP",
+      layout: "2kk",
+      size: "55,76 m2",
+      terasa: "",
+      parking: "",
+      priceVynos: "TODO",
+      category: "Suite",
+      categoryDescription:
+        "Prémiová jednotka s důrazem na komfort, design a nadstandardní vybavení – ideální pro vlastní bydlení i prémiový pronájem.",
+      apText:
+        <>
+          Jednotka se převádí ve stavu <b>rozestavěno</b>. <b>Převod je plánován na 03–04/2026</b>. <br /><br />Standardní dokončení je plánováno na <b>10/2026</b>. V případě zájmu je možné zajistit <b>prioritní dokončení jednotky</b> v kratším termínu, vždy při zachování stejného standardu a technického dohledu investora.
+        </>,
+      colOneTitle: "Prémiové vybavení",
+      colOneText: (
+        <>
+          <li><b>Elektrický krb</b> – atmosféra a komfort po celý rok.</li>
+          <li><b>Klimatizace</b> pro maximální pohodlí.</li>
+          <li><b>Dvě koupelny</b> – výrazný nadstandard.</li>
+          <li>Promyšlené řešení vhodné i pro vícelůžkové nebo rodinné využití.</li>
+        </>
+      ),
+      colTwoTitle: "Design a standard",
+      colTwoDescription:
+        <>
+          Jednotka je navržena v <b>prémiovém designu</b> s důrazem na detail, kvalitu materiálů a dlouhodobou nadčasovost. Vybavení odpovídá vyšší kategorii a je cílené na náročnější klientelu.
+        </>,
+      colTwoClaim:
+        <>
+          <b>Dokončení probíhá vždy pod řízením investora</b>. Případné zrychlení termínu znamená posílení realizační kapacity, nikoliv změnu kvality nebo standardu.
+        </>,
+      colTwoDownloadDesc:
+        "Detailní rozsah standardu, vybavení a harmonogram dokončení rádi poskytneme na vyžádání.",
+
+      colThreeTitle: "Harmonogram a jistoty",
+      colThreeDesc: (
+        <>
+          <li><b>Převod rozestavěné jednotky: 03–04/2026</b>.</li>
+          <li><b>Standardní dokončení: 10/2026</b>.</li>
+          <li>Možnost <b>prioritního dokončení</b> v kratším termínu.</li>
+          <li> Po kolaudaci nabízí byt č. 12 možnost budoucího rozdělení na dvě jednotky</li>
+        </>
+      ),
+      colThreeNote:
+        "Prémiová dispozice a vybavení umožňují nastavení vyššího nájemného i silnější pozici při dalším prodeji.",
+      vynos: "TODO",
+      link: "/cervenydvur/byt/?Id=13",
       reserved: false,
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: ["v1769163492/Rapotin/A_B12_est6zl.png",
@@ -585,7 +638,7 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
     },
     {
       price: "2 970 000 Kč",
-      number: "Byt č.13",
+      number: "Byt č.14",
       floor: "3NP",
       layout: "1kk",
       size: "32,71 m2",
@@ -594,14 +647,15 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
       priceVynos: "13 000 Kč",
       vynos: "168 000 Kč",
       category: "Komfort",
-      link: "/cervenydvur/byt/?Id=13",
-      reserved: true,
+      link: "/cervenydvur/byt/?Id=14",
+      reserved: true, // Kocian
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: ["v1764237724/Rapotin/karty/A_B13_vc3y6b.png"]
     },
+     // 15 wellness
     {
       price: "",
-      number: "Byt č.14",
+      number: "Byt č.16",
       floor: "1NP",
       layout: "3kk",
       size: "82,20 m2",
@@ -609,16 +663,16 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
       parking: "",
       priceVynos: "",
       vynos: "",
-      link: "/cervenydvur/byt/?Id=14",
+      link: "/cervenydvur/byt/?Id=16",
       category: "Rodinný superior",
-      reserved: true,
+      reserved: true, // držení na FO
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: ["v1763461562/Rapotin/Text_odstavce_ofjnms.jpg"]
     },
-
+   
     {
       price: "3 390 000 Kč",
-      number: "Byt č.16",
+      number: "Byt č.17",
       floor: "2NP",
       layout: "2kk",
       size: "35,58 m2",
@@ -626,9 +680,9 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
       parking: "",
       priceVynos: "15 000 Kč",
       vynos: "180 000 Kč",
-      link: "/cervenydvur/byt/?Id=16",
+      link: "/cervenydvur/byt/?Id=17",
       category: "Suite",
-      reserved: true,
+      reserved: true, // Tom - Novotný
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: ["v1769163530/Rapotin/B_B16_luyd29.png",
         "v1765973185/Rapotin/B16Pudorys_buxjta.png",
@@ -637,7 +691,7 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
     },
     {
       price: "",
-      number: "Byt č.17",
+      number: "Byt č.18",
       floor: "2NP",
       layout: "1kk",
       size: "24,95 m2",
@@ -645,26 +699,9 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
       parking: "",
       priceVynos: "",
       vynos: "",
-      link: "/cervenydvur/byt/?Id=17",
-      category: "Komfort",
-      reserved: true,
-      sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
-      gallery: ["v1763461562/Rapotin/Text_odstavce_ofjnms.jpg"]
-    },
-    {
-      price: "",
-      number: "Byt č.18",
-      floor: "2NP",
-      layout: "1kk",
-      size: "34,87 m2",
-      terasa: "",
-      parking: "",
-      priceVynos: "",
-      vynos: "",
       link: "/cervenydvur/byt/?Id=18",
       category: "Komfort",
-
-      reserved: true,
+      reserved: true, // Tom - Livanský
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: ["v1763461562/Rapotin/Text_odstavce_ofjnms.jpg"]
     },
@@ -673,22 +710,38 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
       number: "Byt č.19",
       floor: "2NP",
       layout: "1kk",
-      size: "25,02 m2",
+      size: "34,87 m2",
       terasa: "",
       parking: "",
       priceVynos: "",
       vynos: "",
       link: "/cervenydvur/byt/?Id=19",
       category: "Komfort",
+      reserved: true, // čimera
+      sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
+      gallery: ["v1763461562/Rapotin/Text_odstavce_ofjnms.jpg"]
+    },
+    {
+      price: "",
+      number: "Byt č.20",
+      floor: "2NP",
+      layout: "1kk",
+      size: "25,02 m2",
+      terasa: "",
+      parking: "",
+      priceVynos: "",
+      vynos: "",
+      link: "/cervenydvur/byt/?Id=20",
+      category: "Komfort",
 
-      reserved: true,
+      reserved: true, // čimera
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: ["v1763461562/Rapotin/Text_odstavce_ofjnms.jpg"]
     },
 
     {
       price: "4 900 000 Kč",
-      number: "Byt č.20",
+      number: "Byt č.21",
       floor: "3NP",
       layout: "3kk",
       size: "65,14 m2",
@@ -696,7 +749,7 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
       parking: "",
       priceVynos: "18 400 Kč",
       vynos: "220 800 Kč",
-      link: "/cervenydvur/byt/?Id=20",
+      link: "/cervenydvur/byt/?Id=21",
       category: "👑 Premium Suite",
       categoryDescription:
         "Prémiová jednotka s důrazem na komfort, design a nadstandardní vybavení – ideální pro vlastní bydlení i prémiový pronájem.",
@@ -737,7 +790,7 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
       ),
       colThreeNote:
         "Prémiová dispozice a vybavení umožňují nastavení vyššího nájemného i silnější pozici při dalším prodeji.",
-      reserved: false,
+      reserved: false, 
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: [
         "v1769431024/Rapotin/ChatGPT_Image_Jan_26_2026_01_36_16_PM_plnveh.png",
@@ -751,7 +804,7 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
 
     {
       price: "",
-      number: "Byt č.21",
+      number: "Byt č.22",
       floor: "3NP",
       layout: "2kk",
       size: "81,38 m2",
@@ -761,14 +814,14 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
       vynos: "",
       link: "/cervenydvur/byt/?Id=21",
       category: "Suite",
-      reserved: true,
+      reserved: true, // čimera
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: ["v1763461562/Rapotin/Text_odstavce_ofjnms.jpg"]
     },
 
     {
       price: "",
-      number: "Byt č.22",
+      number: "Byt č.23",
       floor: "3NP",
       layout: "2kk",
       size: "52,56 m2",
@@ -778,14 +831,14 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
       vynos: "",
       link: "/cervenydvur/byt/?Id=22",
       category: "Suite",
-      reserved: true,
+      reserved: true, // čimera
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: ["v1763461562/Rapotin/Text_odstavce_ofjnms.jpg"]
     },
 
     {
       price: "2 710 000 Kč",
-      number: "Byt č.25",
+      number: "Byt č.24",
       floor: "2NP",
       layout: "2kk",
       size: "39,58 m2",
@@ -795,8 +848,7 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
       vynos: "149 050 Kč",
       link: "/cervenydvur/byt/?Id=25",
       category: "Suite",
-
-      reserved: true,
+      reserved: true, // čimera
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: ["v1763461562/Rapotin/Text_odstavce_ofjnms.jpg"]
     },
@@ -813,7 +865,7 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
       vynos: "168 000 Kč",
       link: "/cervenydvur/byt/?Id=26",
       category: "Modern Studio",
-      reserved: true,
+      reserved: true, // potřeba odkoupit místnost od čimery
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: ["v1765973507/Rapotin/C_B26_iemomn.png",
         "v1765973430/Rapotin/C26Pudorys_jz0bad.png",
@@ -941,17 +993,17 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
     },
 
     {
-      price: "4 900 000 Kč",
+      price: "TODO",
       number: "Byt č.29",
       floor: "2NP",
-      layout: "3kk",
-      size: "82,20 m2",
+      layout: "1kk",
+      size: "22,01 m2",
       terasa: "",
       parking: "",
-      priceVynos: "skutečné náklady",
+      priceVynos: "TODO",
       vynos: "-",
       link: "/cervenydvur/byt/?Id=29",
-      category: "Modern Residence",
+      category: "Modern Studio",
       categoryDescription:
         "Moderní byty v části C s přímým vnitřním propojením na kavárnu, hernu a dětský koutek.",
       apText:
@@ -999,15 +1051,15 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
     },
 
     {
-      price: "3 200 000 Kč",
+      price: "TODO",
       number: "Byt č.30",
       floor: "2NP",
       layout: "2kk",
-      size: "38,48 m2",
+      size: "57,10 m2",
       terasa: "",
       parking: "",
-      priceVynos: "15 000 Kč",
-      vynos: "180 000 Kč",
+      priceVynos: "TODO",
+      vynos: "TODO",
       link: "/cervenydvur/byt/?Id=30",
       category: "Modern Suite",
       categoryDescription:
@@ -1057,15 +1109,15 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
     },
 
     {
-      price: "3 900 000 Kč",
+      price: "TODO",
       number: "Byt č.31",
       floor: "2NP",
       layout: "2kk",
-      size: "55,63 m2",
+      size: "42,49 m2",
       terasa: "",
       parking: "",
-      priceVynos: "15 000 Kč",
-      vynos: "180 000 Kč",
+      priceVynos: "TODO",
+      vynos: "TODO",
       category: "Modern Suite",
       categoryDescription:
         "Moderní byty v části C s přímým vnitřním propojením na kavárnu, hernu a dětský koutek.",
@@ -1115,15 +1167,15 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
     },
 
     {
-      price: "4 300 000 Kč",
+      price: "TODO",
       number: "Byt č.32",
       floor: "2NP",
-      layout: "3kk",
-      size: "76,17 m2",
+      layout: "2kk",
+      size: "41,15 m2",
       terasa: "",
       parking: "",
-      priceVynos: "skutečné náklady",
-      category: "Modern Residence",
+      priceVynos: "TODO",
+      category: "Modern Suite",
       categoryDescription:
         "Moderní byty v části C s přímým vnitřním propojením na kavárnu, hernu a dětský koutek.",
       apText:
@@ -1161,7 +1213,7 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
       ),
       colThreeNote:
         "Část C nabízí nejvyšší uživatelský komfort díky vnitřnímu propojení služeb a modernímu pojetí bydlení.",
-      vynos: "-",
+      vynos: "TODO",
       link: "/cervenydvur/byt/?Id=32",
       reserved: false,
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
@@ -1177,11 +1229,11 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
     },
 
     {
-      price: "3 150 000 Kč",
-      number: "Byt č.33",
+      price: "TODO",
+      number: "Ubytovací j. č.33",
       floor: "2NP",
       layout: "2kk",
-      size: "43,84 m2",
+      size: "37,93 m2",
       category: "Modern Suite",
       categoryDescription:
         "Moderní byty v části C s přímým vnitřním propojením na kavárnu, hernu a dětský koutek.",
@@ -1234,10 +1286,10 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
     },
 
     {
-      price: "3 900 000 Kč",
+      price: "TODO",
       number: "Byt č.34",
       floor: "2NP",
-      layout: "3kk",
+      layout: "2kk",
       category: "Modern Residence",
       categoryDescription:
         "Moderní byty v části C s přímým vnitřním propojením na kavárnu, hernu a dětský koutek.",
@@ -1276,11 +1328,11 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
       ),
       colThreeNote:
         "Část C nabízí nejvyšší uživatelský komfort díky vnitřnímu propojení služeb a modernímu pojetí bydlení.",
-      size: "67,33 m2",
+      size: "42,94 m2",
       terasa: "",
       parking: "",
-      priceVynos: "skutečné náklady",
-      vynos: "-",
+      priceVynos: "TODO",
+      vynos: "TODO",
       link: "/cervenydvur/byt/?Id=34",
       reserved: false,
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
@@ -1294,7 +1346,39 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
         "v1765974287/Rapotin/C34Pudorys_poh6uf.png",
         "v1765974289/Rapotin/C34Exteri_wszuly.png",
       ]
-    }
+    },
+        {
+      price: "TODO",
+      number: "Byt č.35",
+      floor: "2NP",
+      layout: "2kk",
+      size: "53,63 m2",
+      terasa: "",
+      parking: "",
+      priceVynos: "TODO",
+      vynos: "TODO",
+      link: "/cervenydvur/byt/?Id=35",
+      category: "Suite",
+      reserved: false, // jednání maky zajemce
+      sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
+      gallery: ["v1763461562/Rapotin/Text_odstavce_ofjnms.jpg"]
+    },
+        {
+      price: "TODO",
+      number: "Byt č.36",
+      floor: "2NP",
+      layout: "2kk",
+      size: "57,45 m2",
+      terasa: "",
+      parking: "",
+      priceVynos: "",
+      vynos: "",
+      link: "/cervenydvur/byt/?Id=36",
+      category: "Suite",
+      reserved: false,
+      sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
+      gallery: ["v1763461562/Rapotin/Text_odstavce_ofjnms.jpg"]
+    },
   ],
   otherProjects: [
     {
