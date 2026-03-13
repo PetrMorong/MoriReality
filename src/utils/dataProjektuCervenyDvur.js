@@ -613,7 +613,7 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
       link: "/cervenydvur/byt/?Id=12",
       reserved: false,
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
-      gallery: [""] //TODO
+      gallery: ["v1773406649/Rapotin/A_B12_tx6wyy.png"]
     },
     {
       price: "3 900 000 Kč",
@@ -667,7 +667,7 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
       link: "/cervenydvur/byt/?Id=13",
       reserved: false,
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
-      gallery: ["v1769163492/Rapotin/A_B12_est6zl.png",
+      gallery: ["upload/v1773406689/Rapotin/A_B13_wqrazt.png",
         "v1765973074/Rapotin/A12Pudorys_uq8tkl.png",
         "v1765973075/Rapotin/A12Exterier_h4h5kt.png",
       ]
@@ -1020,7 +1020,6 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
       reserved: false,
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: [
-
         "v1771949199/Rapotin/F_01_cwc4gj.jpg",
         "v1771949197/Rapotin/F_02_wa8x9c.jpg",
         "v1771949203/Rapotin/F_03_hf8l8t.jpg",
@@ -1029,7 +1028,6 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
         "v1771949187/Rapotin/F_06_o26iql.jpg",
         "v1771949196/Rapotin/F_07_sbzvx5.jpg",
         "v1773389509/Rapotin/C_B28_ted0or.png",
-
       ]
     },
 
@@ -1196,9 +1194,7 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
       link: "/cervenydvur/byt/?Id=31",
       reserved: false,
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
-      gallery: [
-      
-      ]
+      gallery: ["v1773406525/Rapotin/C_B31_v8jeka.png"]
     },
 
     {
@@ -1252,9 +1248,7 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
       link: "/cervenydvur/byt/?Id=32",
       reserved: false,
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
-      gallery: [
-      
-      ]
+      gallery: ["v1773406489/Rapotin/C_B32_l1am4r.png"]
     },
 
     {
@@ -1308,9 +1302,7 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
       link: "/cervenydvur/byt/?Id=33",
       reserved: false,
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
-      gallery: [
-       
-      ]
+      gallery: ["v1773406461/Rapotin/C_B33_ha8eyz.png"]
     },
 
     {
@@ -1364,9 +1356,7 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
       link: "/cervenydvur/byt/?Id=34",
       reserved: false,
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
-      gallery: [
-    
-      ]
+      gallery: ["v1773406431/Rapotin/C_B34_xrnqbu.png"]
     },
         {
       price: "3 800 000  Kč",
@@ -1382,9 +1372,7 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
       category: "Suite",
       reserved: false,
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
-      gallery: [
-        
-      ]
+      gallery: ["v1773406398/Rapotin/C_B35_jza2xa.png"]
     },
         {
       price: "3 650 000 Kč",
@@ -1400,9 +1388,7 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
       category: "Suite",
       reserved: true, // jednání Badik
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
-      gallery: [
-        
-      ]
+      gallery: ["v1773407616/Rapotin/C_B36_s1qq4w.png"]
     },
   ],
   otherProjects: [
