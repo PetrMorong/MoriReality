@@ -46,22 +46,22 @@ const data = {
     // wellness
 
     {
-      imageUrl: "v1771946206/Rapotin/DSC06556_hlqxkq.jpg",
+      imageUrl: "v1773849235/Rapotin/DSC07004_1_grjrxp.jpg",
     },
     {
-      imageUrl: "v1771946205/Rapotin/DSC06545_ql8j8q.jpg",
+      imageUrl: "v1773849227/Rapotin/DSC07001_1_fvvlxh.jpg",
     },
     {
-      imageUrl: "v1771947050/Rapotin/VIRIVKA_luotcr.png",
+      imageUrl: "v1773849227/Rapotin/DSC07009_1_n8rixd.jpg",
     },
     {
-      imageUrl: "v1771946209/Rapotin/77d88bdd-d590-4a13-9a75-2082673efe88_fps82k.png",
+      imageUrl: "v1773849229/Rapotin/DSC06991_1_moequq.jpg",
     },
     {
-      imageUrl: "v1771946205/Rapotin/DSC06530_lu3wyf.jpg"
+      imageUrl: "v1773849236/Rapotin/DSC07020_1_xym9hm.jpg"
     },
     {
-      imageUrl: "v1771946211/Rapotin/Bar_xd94xf.png"
+      imageUrl: "v1771946209/Rapotin/77d88bdd-d590-4a13-9a75-2082673efe88_fps82k.png"
     },
 
   ],
@@ -136,13 +136,15 @@ const data = {
   sectionFourTwoText: {
     title: "Wellness,",
     titleGold: "zážitek a atraktivita",
-    desc: `V areálu Červeného dvora klademe důraz na pohodlí, klid a kvalitní odpočinek. Proto vzniká nové designové wellness, které přirozeně doplní atmosféru celého resortu. První etapa bude dokončena na konci ledna a nabídne finskou saunu s ochlazovacím bazénkem ve formátu privátního wellness.
+    desc: `V areálu Červeného dvora klademe důraz na pohodlí, klid a kvalitní odpočinek. Proto jsme vytvořili designové wellness, které přirozeně doplňuje atmosféru celého resortu.
 
-Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v klidném prostředí areálu. Druhá etapa plánovaná na příští rok wellness dále rozšíří a zpřístupní jej všem ubytovaným hostům. Wellness se stane přirozenou a vyhledávanou součástí pobytu v Červeném dvoře a podtrhne celkový charakter místa zaměřeného na odpočinek a regeneraci.`
+Wellness je nyní již otevřeno a nabízí finskou saunu s ochlazovacím bazénkem ve formátu privátního wellness. Hosté si tak mohou vychutnat maximální soukromí a nerušený relax v klidném prostředí areálu.
+
+Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červeném dvoře a podtrhuje celkový charakter místa zaměřeného na odpočinek a regeneraci.`
   },
 
   sectionImageOne: "v1705668049/Rapotin/1928_1_1_j1wzvm.jpg",
-  sectionImageTwo: "v1763644198/Rapotin/wellnessOdp.png",
+  sectionImageTwo: "v1773849229/Rapotin/DSC06991_1_moequq.jpg",
 
   sectionCover: "v1763643017/Rapotin/DSC00809-HDR-min_ubagg2.jpg",
 
@@ -378,7 +380,8 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
       gallery: [
         "v1769182359/Rapotin/ChatGPT_Image_Jan_4_2026_05_33_36_PM_1_pkvgoj.png",
         "v1773389510/Rapotin/A_B5_gv6xe6.png",
-        "v1765972783/Rapotin/A5Exterier_wokqdk.png",
+        "v1773847282/Rapotin/Exterier_03_26/A5Pudorys_xyw9ln.png",
+        "v1773847282/Rapotin/Exterier_03_26/A5Pudorys_xyw9ln.png",
       ]
     },
     {
@@ -484,8 +487,8 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: [
         "v1773389507/Rapotin/A_B9_u0gxab.png",
-        "v1769174880/Rapotin/A9Pudorys_bymizs.png",
-        "v1769174882/Rapotin/A9Exterier_riqpwn.png",
+       "v1773847282/Rapotin/Exterier_03_26/A9Pudorys_fapix6.png",
+        "v1773847294/Rapotin/Exterier_03_26/A9Exterier_klonug.png",
       ]
     },
     {
@@ -521,8 +524,7 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: [
         "v1773389508/Rapotin/A_B11_iohpzn.png",
-        "v1765972992/Rapotin/A11Pudorys_k1gfmu.png",
-        "v1765972993/Rapotin/A11Exterier_ejvlk6.png",
+       
       ]
     },
     {
@@ -556,9 +558,10 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
       reserved: false,
       category: "Suite",
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
-      gallery: ["v1769163457/Rapotin/A_B11_d8fawj.png",
-        "v1765972992/Rapotin/A11Pudorys_k1gfmu.png",
-        "v1765972993/Rapotin/A11Exterier_ejvlk6.png",
+      gallery: [
+        "v1769163457/Rapotin/A_B11_d8fawj.png",
+        "v1773847284/Rapotin/Exterier_03_26/A11Pudorys_ce15wf.png",
+        "v1773847295/Rapotin/Exterier_03_26/A11Exterier_uq8yv3.png",
       ]
     },
        {
@@ -613,7 +616,11 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
       link: "/cervenydvur/byt/?Id=12",
       reserved: false,
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
-      gallery: ["v1773406649/Rapotin/A_B12_tx6wyy.png"]
+      gallery: [
+        "v1773406649/Rapotin/A_B12_tx6wyy.png",
+        "v1773847283/Rapotin/Exterier_03_26/A12Pudorys_dv8zo2.png",
+        "v1773847300/Rapotin/Exterier_03_26/A12Exterier_pdnogl.png"
+      ]
     },
     {
       price: "3 900 000 Kč",
@@ -667,9 +674,10 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
       link: "/cervenydvur/byt/?Id=13",
       reserved: false,
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
-      gallery: ["upload/v1773406689/Rapotin/A_B13_wqrazt.png",
-        "v1765973074/Rapotin/A12Pudorys_uq8tkl.png",
-        "v1765973075/Rapotin/A12Exterier_h4h5kt.png",
+      gallery: [
+        "upload/v1773406689/Rapotin/A_B13_wqrazt.png",
+        "v1773847283/Rapotin/Exterier_03_26/A13Pudorys_e9ocru.png",
+        "v1773847303/Rapotin/Exterier_03_26/A13Exterier_xsobr5.png",
       ]
     },
     {
@@ -832,9 +840,9 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
         "v1769431024/Rapotin/ChatGPT_Image_Jan_26_2026_01_36_16_PM_plnveh.png",
         "v1769431024/Rapotin/ChatGPT_Image_Jan_26_2026_01_34_32_PM_fzproo.png",
         "v1773389508/Rapotin/B_B21_kqh50f.png",
-        "v1765973267/Rapotin/B20Pudorys_lqhp3t.png",
-        "v1765973268/Rapotin/B20Exterier_1_hamvjt.png",
-        "v1765973268/Rapotin/B20Exterier_2_qo53de.png",
+        "v1773847282/Rapotin/Exterier_03_26/B21Pudorys_w7qigo.png",
+        "v1773847310/Rapotin/Exterier_03_26/B21Exterier_2_hsmdc7.png",
+        "v1773847309/Rapotin/Exterier_03_26/B21Exterier_1_smrscp.png",
       ]
     },
 
@@ -903,9 +911,10 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
       category: "Modern Studio",
       reserved: true, // potřeba odkoupit místnost od čimery
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
-      gallery: ["v1765973507/Rapotin/C_B26_iemomn.png",
-        "v1765973430/Rapotin/C26Pudorys_jz0bad.png",
-        "v1765973431/Rapotin/C26Exterier_rcbbee.png",
+      gallery: [
+        "v1765973507/Rapotin/C_B26_iemomn.png",
+        "v1773847283/Rapotin/Exterier_03_26/C26Pudorys_a5lsfv.png",
+        "v1773847310/Rapotin/Exterier_03_26/C26Exterier_bprecz.png",
       ]
     },
 
@@ -963,8 +972,8 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: [
         "v1773389509/Rapotin/C_B27_nwjhzw.png",
-        "v1765973600/Rapotin/C27Pudorys_soi75r.png",
-        "v1765973602/Rapotin/C27Exterier_zfhnvn.png",
+        "v1773847285/Rapotin/Exterier_03_26/C27Pudorys_dzqdyd.png",
+        "v1773847307/Rapotin/Exterier_03_26/C27Exterier_hj3tpx.png",
       ]
     },
 
@@ -1028,6 +1037,8 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
         "v1771949187/Rapotin/F_06_o26iql.jpg",
         "v1771949196/Rapotin/F_07_sbzvx5.jpg",
         "v1773389509/Rapotin/C_B28_ted0or.png",
+        "v1773847283/Rapotin/Exterier_03_26/C28Pudorys_p7iupy.png",
+        "v1773847313/Rapotin/Exterier_03_26/C28Exterier_nk5ckt.png"
       ]
     },
 
@@ -1084,6 +1095,8 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: [
         "v1773389509/Rapotin/C_B29_wjj5eq.png",
+        "v1773847284/Rapotin/Exterier_03_26/C29Pudorys_al8oh4.png",
+        "v1773847324/Rapotin/Exterier_03_26/C29Exterier_2_lkaacn.png"
       ]
     },
 
@@ -1140,6 +1153,8 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: [
         "v1773389510/Rapotin/C_B30_qfzexp.png",
+        "v1773847284/Rapotin/Exterier_03_26/C30Pudorys_fhqalk.png",
+        "v1773847328/Rapotin/Exterier_03_26/C30Exterier_2_tk0x0w.png"
       ]
     },
 
@@ -1194,7 +1209,11 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
       link: "/cervenydvur/byt/?Id=31",
       reserved: false,
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
-      gallery: ["v1773406525/Rapotin/C_B31_v8jeka.png"]
+      gallery: [
+        "v1773406525/Rapotin/C_B31_v8jeka.png",
+        "v1773847285/Rapotin/Exterier_03_26/C31Pudorys_lzsxkd.png",
+        "v1773847314/Rapotin/Exterier_03_26/C31Exterier_nvlqut.png"
+      ]
     },
 
     {
@@ -1248,7 +1267,11 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
       link: "/cervenydvur/byt/?Id=32",
       reserved: false,
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
-      gallery: ["v1773406489/Rapotin/C_B32_l1am4r.png"]
+      gallery: [
+        "v1773406489/Rapotin/C_B32_l1am4r.png",
+        "v1773847285/Rapotin/Exterier_03_26/C32Pudorys_xbjmfv.png",
+        "v1773847318/Rapotin/Exterier_03_26/C32Exterier_drigs7.png"
+      ]
     },
 
     {
@@ -1302,7 +1325,11 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
       link: "/cervenydvur/byt/?Id=33",
       reserved: true,
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
-      gallery: ["v1773406461/Rapotin/C_B33_ha8eyz.png"]
+      gallery: [
+        "v1773406461/Rapotin/C_B33_ha8eyz.png",
+        "v1773847285/Rapotin/Exterier_03_26/C33Pudorys_bdzulj.png",
+        "v1773847318/Rapotin/Exterier_03_26/C34Exterier_bkpiop.png"
+      ]
     },
 
     {
@@ -1356,7 +1383,11 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
       link: "/cervenydvur/byt/?Id=34",
       reserved: false,
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
-      gallery: ["v1773406431/Rapotin/C_B34_xrnqbu.png"]
+      gallery: [
+        "v1773406431/Rapotin/C_B34_xrnqbu.png",
+        "v1773847286/Rapotin/Exterier_03_26/C34Pudorys_mgmgnp.png",
+        "v1773847318/Rapotin/Exterier_03_26/C34Exterier_bkpiop.png"
+      ]
     },
         {
       price: "3 800 000  Kč",
@@ -1372,7 +1403,11 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
       category: "Suite",
       reserved: false,
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
-      gallery: ["v1773406398/Rapotin/C_B35_jza2xa.png"]
+      gallery: [
+        "v1773406398/Rapotin/C_B35_jza2xa.png",
+        "v1773847286/Rapotin/Exterier_03_26/C35Pudorys_w7jbrg.png",
+        "v1773847320/Rapotin/Exterier_03_26/C35Exterier_depp3h.png"
+      ]
     },
         {
       price: "3 650 000 Kč",
@@ -1388,7 +1423,11 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
       category: "Suite",
       reserved: true, // jednání Badik
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
-      gallery: ["v1773407616/Rapotin/C_B36_s1qq4w.png"]
+      gallery: [
+        "v1773407616/Rapotin/C_B36_s1qq4w.png",
+        "v1773847286/Rapotin/Exterier_03_26/C36Pudorys_ppowjs.png",
+        "v1773847322/Rapotin/Exterier_03_26/C36Exterier_svueun.png"
+      ]
     },
   ],
   otherProjects: [
