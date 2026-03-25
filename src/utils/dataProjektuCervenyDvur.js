@@ -499,46 +499,10 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       size: "40,18 m2",
       terasa: "",
       parking: "",
-      priceVynos: "15 000 Kč",
-      vynos: "180 000 Kč",
-      link: "/cervenydvur/byt/?Id=10",
-      reserved: true,
-      category: "Suite",
-      sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
-      gallery: ["v1764237724/Rapotin/karty/A_B10_ilqvu3.png"]
-    },
-    {
-      price: "3 490 000 Kč",
-      number: "Byt č.11",
-      floor: "3NP",
-      layout: "2kk",
-      size: "48,81 m2",
-      terasa: "",
-      parking: "",
-      priceVynos: "15 500 Kč",
-      vynos: "186 000 Kč",
-      link: "/cervenydvur/byt/?Id=11",
-      category: "Suite",
-      reserved: false,
-      category: "Suite",
-      sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
-      gallery: [
-        "v1773389508/Rapotin/A_B11_iohpzn.png",
-       
-      ]
-    },
-    {
-      price: "3 390 000 Kč",
-      number: "Byt č.10",
-      floor: "3NP",
-      layout: "2kk",
-      size: "40,18 m2",
-      terasa: "",
-      parking: "",
       priceVynos: "15 500 Kč",
       vynos: "186 000 Kč",
       link: "/cervenydvur/byt/?Id=10",
-      reserved: true,
+      reserved: true, // novotný
       category: "Suite",
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: ["v1764237724/Rapotin/karty/A_B10_ilqvu3.png"]
