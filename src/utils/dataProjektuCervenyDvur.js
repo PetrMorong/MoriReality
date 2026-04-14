@@ -1304,7 +1304,6 @@ Hosté si tak budou moci vychutnat maximální soukromí a nerušený relax v kl
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: ["v1773406461/Rapotin/C_B33_ha8eyz.png"]
     },
-
     {
       price: "3 200 000 Kč",
       number: "Byt č.34",
