@@ -523,7 +523,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       category: "Suite",
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: [
-        "v1769163457/Rapotin/A_B11_d8fawj.png",
+        "v1773389508/Rapotin/A_B11_iohpzn.png",
         "v1773847284/Rapotin/Exterier_03_26/A11Pudorys_ce15wf.png",
         "v1773847295/Rapotin/Exterier_03_26/A11Exterier_uq8yv3.png",
       ]
@@ -639,7 +639,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       reserved: false,
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: [
-        "upload/v1773406689/Rapotin/A_B13_wqrazt.png",
+        "v1773406689/Rapotin/A_B13_wqrazt.png",
         "v1773847283/Rapotin/Exterier_03_26/A13Pudorys_e9ocru.png",
         "v1773847303/Rapotin/Exterier_03_26/A13Exterier_xsobr5.png",
       ]
