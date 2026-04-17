@@ -177,7 +177,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       priceVynos: "13 000 Kč",
       vynos: "168 000 Kč",
       link: "/cervenydvur/byt/?Id=1",
-      reserved: false,
+      reserved: true, // Jirgl
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       category: "Komfort",
       categoryDescription:
@@ -259,7 +259,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       gallery: ["v1763461562/Rapotin/Text_odstavce_ofjnms.jpg"]
     },
     {
-      price: "3 990 000 Kč",
+      price: "4 490 000 Kč",
       number: "Byt č.4",
       floor: "1NP",
       layout: "1kk",
@@ -323,15 +323,15 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       ]
     },
     {
-      price: "3 990 000 Kč",
+      price: "4 790 000 Kč",
       number: "Byt č.5",
       floor: "2NP",
       layout: "2kk",
       size: "39,86 m2",
       terasa: "",
       parking: "",
-      priceVynos: "16 000 Kč",
-      vynos: "192 000 Kč",
+      priceVynos: "15 000 Kč",
+      vynos: "180 000 Kč",
       link: "/cervenydvur/byt/?Id=5",
       reserved: false,
       category: "Wellness Suite",
@@ -443,7 +443,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       priceVynos: "13 000 Kč",
       vynos: "168 000 Kč",
       link: "/cervenydvur/byt/?Id=9",
-      reserved: false,
+      reserved: true, // Andrassi
       category: "Komfort",
       categoryDescription:
         "Podkrovní byt v nejvyšším patře domu s výhledem do zahrady – výjimečná poloha, světlo a soukromí.",
@@ -519,7 +519,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       vynos: "186 000 Kč",
       link: "/cervenydvur/byt/?Id=11",
       category: "Suite",
-      reserved: false,
+      reserved: true, //prudkovi
       category: "Suite",
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: [
@@ -529,11 +529,11 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       ]
     },
        {
-      price: "2 750 000 Kč",
+      price: "2 990 000 Kč",
       number: "Byt č.12",
       floor: "3NP",
       layout: "1kk",
-      size: "26,15 m2",
+      size: "24,19 m2",
       terasa: "",
       parking: "",
       priceVynos: "11 000 Kč",
@@ -587,11 +587,11 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       ]
     },
     {
-      price: "3 900 000 Kč",
+      price: "4 690 000 Kč",
       number: "Byt č.13",
       floor: "3NP",
       layout: "2kk",
-      size: "55,76 m2",
+      size: "51,72 m2",
       terasa: "",
       parking: "",
       priceVynos: "15 000 Kč",
@@ -798,7 +798,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       ),
       colThreeNote:
         "Prémiová dispozice a vybavení umožňují nastavení vyššího nájemného i silnější pozici při dalším prodeji.",
-      reserved: false, 
+      reserved: true, // Markéta dar, držíme dlouhodobě  
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: [
         "v1769431024/Rapotin/ChatGPT_Image_Jan_26_2026_01_36_16_PM_plnveh.png",
@@ -862,7 +862,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     },
 
     {
-      price: "3 300 000 Kč",
+      price: "3 590 000 Kč",
       number: "Byt č.26",
       floor: "2NP",
       layout: "1kk",
@@ -873,7 +873,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       vynos: "168 000 Kč",
       link: "/cervenydvur/byt/?Id=26",
       category: "Modern Studio",
-      reserved: true, // potřeba odkoupit místnost od čimery
+      reserved: false, // potřeba odkoupit místnost od čimery
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: [
         "v1765973507/Rapotin/C_B26_iemomn.png",
@@ -883,7 +883,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     },
 
     {
-      price: "3 600 000 Kč",
+      price: "3 890 000 Kč",
       number: "Byt č.27",
       floor: "2NP",
       layout: "1kk",
@@ -942,11 +942,11 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     },
 
     {
-      price: "3 390 000 Kč",
+      price: "3 790 000 Kč",
       number: "Byt č.28",
       floor: "2NP",
       layout: "1kk",
-      size: "30,82 m2",
+      size: "31,03 m2",
       terasa: "",
       parking: "",
       priceVynos: "13 000 Kč",
@@ -1007,7 +1007,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     },
 
     {
-      price: "2 650 000 Kč",
+      price: "2 990 000 Kč",
       number: "Byt č.29",
       floor: "2NP",
       layout: "1kk",
@@ -1065,7 +1065,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     },
 
     {
-      price: "3 950 000 Kč",
+      price: "3 990 000 Kč",
       number: "Byt č.30",
       floor: "2NP",
       layout: "2kk",
@@ -1113,7 +1113,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       ),
       colThreeNote:
         "Část C nabízí nejvyšší uživatelský komfort díky vnitřnímu propojení služeb a modernímu pojetí bydlení.",
-      reserved: true,
+      reserved: false,
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: [
         "v1773389510/Rapotin/C_B30_qfzexp.png",
@@ -1123,7 +1123,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     },
 
     {
-      price: "3 200 000 Kč",
+      price: "3 790 000 Kč",
       number: "Byt č.31",
       floor: "2NP",
       layout: "2kk",
@@ -1181,7 +1181,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     },
 
     {
-      price: "3 200 000 Kč",
+      price: "3 290 000 Kč",
       number: "Byt č.32",
       floor: "2NP",
       layout: "2kk",
@@ -1229,7 +1229,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
         "Část C nabízí nejvyšší uživatelský komfort díky vnitřnímu propojení služeb a modernímu pojetí bydlení.",
       vynos: "180 000 Kč",
       link: "/cervenydvur/byt/?Id=32",
-      reserved: false,
+      reserved: true, // Ivan Badík
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: [
         "v1773406489/Rapotin/C_B32_l1am4r.png",
@@ -1239,7 +1239,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     },
 
     {
-      price: "2 950 000 Kč",
+      price: "3 790 000 Kč",
       number: "Ubytovací j. č.33",
       floor: "2NP",
       layout: "2kk",
@@ -1287,7 +1287,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       priceVynos: "15 000 Kč",
       vynos: "180 000 Kč",
       link: "/cervenydvur/byt/?Id=33",
-      reserved: true,
+      reserved: false,
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: [
         "v1773406461/Rapotin/C_B33_ha8eyz.png",
@@ -1296,7 +1296,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       ]
     },
     {
-      price: "3 200 000 Kč",
+      price: "3 290 000 Kč",
       number: "Byt č.34",
       floor: "2NP",
       layout: "2kk",
@@ -1344,7 +1344,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       priceVynos: "15 000 Kč",
       vynos: "180 000 Kč",
       link: "/cervenydvur/byt/?Id=34",
-      reserved: false,
+      reserved: true,
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: [
         "v1773406431/Rapotin/C_B34_xrnqbu.png",
@@ -1353,10 +1353,10 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       ]
     },
         {
-      price: "3 800 000  Kč",
+      price: "4 790 000  Kč",
       number: "Byt č.35",
       floor: "2NP",
-      layout: "2kk",
+      layout: "3kk",
       size: "53,63 m2",
       terasa: "",
       parking: "",
@@ -1373,7 +1373,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       ]
     },
         {
-      price: "3 650 000 Kč",
+      price: "3 690 000 Kč",
       number: "Byt č.36",
       floor: "2NP",
       layout: "2kk",

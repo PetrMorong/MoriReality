@@ -195,7 +195,7 @@ const PriceList = ({ data, vynos, showBonus, category }) => {
           
             {showBonus && (
               <Akce>
-                AKCE! Nyní nabízeme u apartmánů 1kk výnos 8% na první 3 roky. Akce platí do 31.12.2024
+                AKCE: Kuchyňská linka se spotřebiči zdarma při rezervaci jednotky v části C. Platí do 31. 5. 2026.
               </Akce>
             )}
           
