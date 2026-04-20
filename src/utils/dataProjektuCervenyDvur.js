@@ -169,7 +169,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       {
       price: "3 700 000 Kč",
       number: "Byt č.1",
-      floor: "1NP",
+      floor: "1NP A",
       layout: "1kk",
       size: "40,26 m2",
       terasa: "",
@@ -228,7 +228,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     {
       price: "",
       number: "Byt č.2",
-      floor: "1NP",
+      floor: "1NP A",
       layout: "1kk",
       size: "27,50 m2",
       terasa: "",
@@ -244,7 +244,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     {
       price: "",
       number: "Byt č.3",
-      floor: "1NP",
+      floor: "1NP A",
       layout: "1kk",
       size: "24,48 m2",
       terasa: "",
@@ -261,7 +261,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     {
       price: "4 490 000 Kč",
       number: "Byt č.4",
-      floor: "1NP",
+      floor: "1NP A",
       layout: "1kk",
       size: "54,25 m2",
       terasa: "",
@@ -325,7 +325,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     {
       price: "4 790 000 Kč",
       number: "Byt č.5",
-      floor: "2NP",
+      floor: "2NP A",
       layout: "2kk",
       size: "39,86 m2",
       terasa: "",
@@ -387,7 +387,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     {
       price: "",
       number: "Byt č.6",
-      floor: "2NP",
+      floor: "2NP A",
       layout: "1kk",
       size: "25,88 m2",
       terasa: "",
@@ -403,7 +403,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     {
       price: "",
       number: "Byt č.7",
-      floor: "2NP",
+      floor: "2NP A",
       layout: "1kk",
       size: "24,57 m2",
       terasa: "",
@@ -419,7 +419,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     {
       price: "",
       number: "Byt č.8",
-      floor: "2NP",
+      floor: "2NP A",
       layout: "4kk",
       size: "100m2",
       terasa: "",
@@ -435,7 +435,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     {
       price: "2 900 000 Kč",
       number: "Byt č.9",
-      floor: "3NP",
+      floor: "3NP A",
       layout: "1kk",
       size: "30,11 m2",
       terasa: "",
@@ -494,7 +494,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     {
       price: "3 390 000 Kč",
       number: "Byt č.10",
-      floor: "3NP",
+      floor: "3NP A",
       layout: "2kk",
       size: "40,18 m2",
       terasa: "",
@@ -510,7 +510,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     {
       price: "3 490 000 Kč",
       number: "Byt č.11",
-      floor: "3NP",
+      floor: "3NP A",
       layout: "2kk",
       size: "48,81 m2",
       terasa: "",
@@ -531,7 +531,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
        {
       price: "2 990 000 Kč",
       number: "Byt č.12",
-      floor: "3NP",
+      floor: "3NP A",
       layout: "1kk",
       size: "24,19 m2",
       terasa: "",
@@ -589,7 +589,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     {
       price: "4 690 000 Kč",
       number: "Byt č.13",
-      floor: "3NP",
+      floor: "3NP A",
       layout: "2kk",
       size: "51,72 m2",
       terasa: "",
@@ -647,7 +647,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     {
       price: "2 970 000 Kč",
       number: "Byt č.14",
-      floor: "3NP",
+      floor: "3NP B",
       layout: "1kk",
       size: "32,71 m2",
       terasa: "",
@@ -664,7 +664,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     {
       price: "",
       number: "Byt č.16",
-      floor: "1NP",
+      floor: "1NP B",
       layout: "3kk",
       size: "82,20 m2",
       terasa: "",
@@ -681,7 +681,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     {
       price: "3 390 000 Kč",
       number: "Byt č.17",
-      floor: "2NP",
+      floor: "2NP B",
       layout: "2kk",
       size: "35,58 m2",
       terasa: "",
@@ -700,7 +700,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     {
       price: "",
       number: "Byt č.18",
-      floor: "2NP",
+      floor: "2NP B",
       layout: "1kk",
       size: "24,95 m2",
       terasa: "",
@@ -716,7 +716,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     {
       price: "",
       number: "Byt č.19",
-      floor: "2NP",
+      floor: "2NP B",
       layout: "1kk",
       size: "34,87 m2",
       terasa: "",
@@ -732,7 +732,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     {
       price: "",
       number: "Byt č.20",
-      floor: "2NP",
+      floor: "2NP B",
       layout: "1kk",
       size: "25,02 m2",
       terasa: "",
@@ -750,7 +750,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     {
       price: "4 900 000 Kč",
       number: "Byt č.21",
-      floor: "3NP",
+      floor: "3NP B",
       layout: "3kk",
       size: "65,14 m2",
       terasa: "",
@@ -813,7 +813,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     {
       price: "",
       number: "Byt č.22",
-      floor: "3NP",
+      floor: "3NP B",
       layout: "2kk",
       size: "81,38 m2",
       terasa: "",
@@ -830,7 +830,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     {
       price: "",
       number: "Byt č.23",
-      floor: "3NP",
+      floor: "3NP B",
       layout: "2kk",
       size: "52,56 m2",
       terasa: "",
@@ -847,7 +847,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     {
       price: "2 710 000 Kč",
       number: "Byt č.24",
-      floor: "2NP",
+      floor: "2NP B",
       layout: "2kk",
       size: "39,58 m2",
       terasa: "",
@@ -864,7 +864,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     {
       price: "3 590 000 Kč",
       number: "Byt č.26",
-      floor: "2NP",
+      floor: "2NP C",
       layout: "1kk",
       size: "28,04 m2",
       terasa: "",
@@ -885,7 +885,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     {
       price: "3 890 000 Kč",
       number: "Byt č.27",
-      floor: "2NP",
+      floor: "2NP C",
       layout: "1kk",
       size: "35,41 m2",
       terasa: "",
@@ -944,7 +944,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     {
       price: "3 790 000 Kč",
       number: "Byt č.28",
-      floor: "2NP",
+      floor: "2NP C",
       layout: "1kk",
       size: "31,03 m2",
       terasa: "",
@@ -1009,7 +1009,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     {
       price: "2 990 000 Kč",
       number: "Byt č.29",
-      floor: "2NP",
+      floor: "2NP C",
       layout: "1kk",
       size: "22,01 m2",
       terasa: "",
@@ -1067,7 +1067,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     {
       price: "3 990 000 Kč",
       number: "Byt č.30",
-      floor: "2NP",
+      floor: "2NP C",
       layout: "2kk",
       size: "57,10 m2",
       terasa: "",
@@ -1125,7 +1125,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     {
       price: "3 790 000 Kč",
       number: "Byt č.31",
-      floor: "2NP",
+      floor: "2NP C",
       layout: "2kk",
       size: "42,49 m2",
       terasa: "",
@@ -1183,7 +1183,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     {
       price: "3 290 000 Kč",
       number: "Byt č.32",
-      floor: "2NP",
+      floor: "2NP C",
       layout: "2kk",
       size: "41,15 m2",
       terasa: "",
@@ -1241,7 +1241,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     {
       price: "3 790 000 Kč",
       number: "Ubytovací j. č.33",
-      floor: "2NP",
+      floor: "2NP C",
       layout: "2kk",
       size: "37,93 m2",
       category: "Modern Suite",
@@ -1298,7 +1298,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     {
       price: "3 290 000 Kč",
       number: "Byt č.34",
-      floor: "2NP",
+      floor: "2NP C",
       layout: "2kk",
       category: "Modern Residence",
       categoryDescription:
@@ -1355,7 +1355,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
         {
       price: "4 790 000  Kč",
       number: "Byt č.35",
-      floor: "2NP",
+      floor: "2NP C",
       layout: "3kk",
       size: "53,63 m2",
       terasa: "",
@@ -1375,7 +1375,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
         {
       price: "3 690 000 Kč",
       number: "Byt č.36",
-      floor: "2NP",
+      floor: "2NP C",
       layout: "2kk",
       size: "57,45 m2",
       terasa: "",
@@ -1384,7 +1384,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       vynos: "180 000 Kč",
       link: "/cervenydvur/byt/?Id=36",
       category: "Suite",
-      reserved: true, // jednání Badik
+      reserved: true, // Badik
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: [
         "v1773407616/Rapotin/C_B36_s1qq4w.png",
