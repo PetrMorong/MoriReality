@@ -58,7 +58,7 @@ const mapApartmentToData = (/** @type any */ apartment) => {
     apTitle: apartment.number,
     category: apartment.category || "",      
     layout: apartment.layout || "",
-    standardsPdfUrl: apartment.standardy || "/download/standardy-a-vybaveni.pdf",       
+    standardsPdfUrl: apartment.standardy || "/Standardy-CD.pdf",       
     sizeValue,                            
     floorValue,                            
     ...apartment,
