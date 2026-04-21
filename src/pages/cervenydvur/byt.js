@@ -12,18 +12,13 @@ import ApSectionFour from '../../components/ApartmentDetail/ApSectionFour'
 const useApartmentFromUrl = () => {
   const location = useLocation()
 
-  // když jsme na serveru při buildu
   if (typeof window === 'undefined' || !location) {
     return null
   }
 
-  const pathname = location.pathname || ''
   const search = location.search || ''
-
-
   let idFromUrl = null
 
-  // ?id=31
   if (search) {
     const params = new URLSearchParams(search)
     idFromUrl = params.get('Id')
@@ -31,10 +26,9 @@ const useApartmentFromUrl = () => {
 
   if (!idFromUrl) return null
 
-
-  // najít byt v JSONu – podle čísla
+  // hledá podle čísla na konci – funguje pro "Byt č.33" i "Ubytovací j. č.33"
   const ap = dataProjektu.apartments.find(
-    (item) => item.number === `Byt č.${idFromUrl}` || item.number === `Byt č. ${idFromUrl}`
+    (item) => item.number.endsWith(`č.${idFromUrl}`) || item.number.endsWith(`č. ${idFromUrl}`)
   )
 
   return ap || null
@@ -47,8 +41,8 @@ const mapApartmentToData = (/** @type any */ apartment) => {
   const dispoText = layoutText.replace('kk', '') // "2"
   const dispoGold = layoutText.includes('kk') ? 'kk' : ''
 
-  const floorValue = apartment.floor ? apartment.floor.replace('NP', '') : ''
-
+  const floorParts = apartment.floor ? apartment.floor.split(' ') : ['', '']
+const floorValue = apartment.floor || ''
   return {
     sectionOneBg: apartment.sectionOneBg,
     apName: apartment.number,
@@ -74,10 +68,10 @@ const mapApartmentToData = (/** @type any */ apartment) => {
         desc: 'Podlahová plocha',
       },
       {
-        text: floorValue,
-        goldText: 'NP',
-        desc: 'Umístění',
-      },
+  text: floorValue,   // "2NP C"
+  goldText: '',
+  desc: 'Umístění',
+},
       {
         text: '',
         goldText: 'Červený',

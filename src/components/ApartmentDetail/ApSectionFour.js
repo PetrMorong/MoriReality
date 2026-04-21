@@ -59,7 +59,7 @@ const ApSectionFour = ({ data }) => {
               <FactLabel>Podlahová plocha</FactLabel>
             </Fact>
             <Fact>
-              <FactValue>{data?.floorValue}. NP</FactValue>
+              <FactValue>{data?.floorValue}</FactValue>
               <FactLabel>Umístění</FactLabel>
             </Fact>
           </KeyFacts>

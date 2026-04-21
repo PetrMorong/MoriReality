@@ -862,26 +862,60 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     },
 
     {
-      price: "3 590 000 Kč",
-      number: "Byt č.26",
-      floor: "2NP C",
-      layout: "1kk",
-      size: "28,04 m2",
-      terasa: "",
-      parking: "",
-      priceVynos: "13 000 Kč",
-      vynos: "168 000 Kč",
-      link: "/cervenydvur/byt/?Id=26",
-      category: "Modern Studio",
-      reserved: false, // potřeba odkoupit místnost od čimery
-      sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
-      gallery: [
-        "v1765973507/Rapotin/C_B26_iemomn.png",
-        "v1773847283/Rapotin/Exterier_03_26/C26Pudorys_a5lsfv.png",
-        "v1773847310/Rapotin/Exterier_03_26/C26Exterier_bprecz.png",
-      ]
-    },
-
+  price: "3 590 000 Kč",
+  number: "Byt č.26",
+  floor: "2NP C",
+  layout: "1kk",
+  size: "28,04 m2",
+  terasa: "",
+  parking: "",
+  priceVynos: "13 000 Kč",
+  vynos: "168 000 Kč",
+  link: "/cervenydvur/byt/?Id=26",
+  category: "Modern Studio",
+  categoryDescription:
+    "Moderní byty v části C s přímým vnitřním propojením na kavárnu, hernu a dětský koutek.",
+  apText:
+    <>
+      Byty v části C představují <b>moderní část projektu</b> s odlišným architektonickým a interiérovým pojetím. Design je čistý, současný a navržený s důrazem na funkčnost, světlo a dlouhodobou nadčasovost. <br /><br /><b>Hlavní výhodou části C je přímé vnitřní propojení</b> s kavárnou, hernou a dětským koutkem v 1. NP části C – <b>bez nutnosti chodit venkovními prostory</b>, což je rozdíl oproti částem A a B. <br /><br />Jednotky se převádějí ve stavu <b>rozestavěno</b>. <b>Převod je plánován na 03–04/2026</b>, standardní dokončení pak na <b>10/2026</b>.
+    </>,
+  colOneTitle: "Výhody části C",
+  colOneText: (
+    <>
+      <li><b>Přímé vnitřní propojení</b> na kavárnu, hernu a dětský koutek.</li>
+      <li>Komfortní pohyb v rámci objektu <b>bez nutnosti vycházet ven</b>.</li>
+      <li>Ideální řešení pro jednotlivce, páry i krátkodobé pobyty.</li>
+      <li>Výrazná konkurenční výhoda oproti částem A a B.</li>
+    </>
+  ),
+  colTwoTitle: "Stav a dokončení",
+  colTwoDescription:
+    "Jednotka se převádí ve stavu rozestavěno. Kupující může využít standardní harmonogram dokončení, nebo zvolit variantu prioritního dokončení v kratším termínu.",
+  colTwoClaim:
+    <>
+      <b>Prioritní dokončení</b> znamená posílení realizační kapacity při zachování stejného standardu, kvality provedení a technického dohledu investora.
+    </>,
+  colTwoDownloadDesc:
+    "Detailní rozsah standardu, vybavení a harmonogram dokončení rádi upřesníme individuálně.",
+  colThreeTitle: "Harmonogram a jistoty",
+  colThreeDesc: (
+    <>
+      <li><b>Převod rozestavěné jednotky: 03–04/2026</b>.</li>
+      <li><b>Standardní dokončení: 10/2026</b>.</li>
+      <li>Možnost <b>prioritního dokončení v kratším termínu</b>.</li>
+      <li>Jednotný standard a odpovědnost investora.</li>
+    </>
+  ),
+  colThreeNote:
+    "Část C nabízí nejvyšší uživatelský komfort díky vnitřnímu propojení služeb a modernímu pojetí bydlení.",
+  reserved: false,
+  sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
+  gallery: [
+    "v1765973507/Rapotin/C_B26_iemomn.png",
+    "v1773847283/Rapotin/Exterier_03_26/C26Pudorys_a5lsfv.png",
+    "v1773847310/Rapotin/Exterier_03_26/C26Exterier_bprecz.png",
+  ]
+},
     {
       price: "3 890 000 Kč",
       number: "Byt č.27",
@@ -1352,26 +1386,61 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
         "v1773847318/Rapotin/Exterier_03_26/C34Exterier_bkpiop.png"
       ]
     },
-        {
-      price: "4 790 000  Kč",
-      number: "Byt č.35",
-      floor: "2NP C",
-      layout: "3kk",
-      size: "53,63 m2",
-      terasa: "",
-      parking: "",
-      priceVynos: "15 000 Kč",
-      vynos: "180 000 Kč",
-      link: "/cervenydvur/byt/?Id=35",
-      category: "Suite",
-      reserved: false,
-      sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
-      gallery: [
-        "v1773406398/Rapotin/C_B35_jza2xa.png",
-        "v1773847286/Rapotin/Exterier_03_26/C35Pudorys_w7jbrg.png",
-        "v1773847320/Rapotin/Exterier_03_26/C35Exterier_depp3h.png"
-      ]
-    },
+ {
+  price: "4 790 000 Kč",
+  number: "Byt č.35",
+  floor: "2NP C",
+  layout: "3kk",
+  size: "53,63 m2",
+  terasa: "",
+  parking: "",
+  priceVynos: "15 000 Kč",
+  vynos: "180 000 Kč",
+  link: "/cervenydvur/byt/?Id=35",
+  category: "Suite",
+  categoryDescription:
+    "Prostorná suite v moderní části C s přímým vnitřním propojením na kavárnu, hernu a dětský koutek – ideální pro rodiny i prémiový pronájem.",
+  apText:
+    <>
+      Byt č.35 je <b>největší jednotka v části C</b> s dispozicí 3kk a plochou 53,63 m². Moderní architektonické pojetí části C klade důraz na funkčnost, světlo a nadčasový design. <br /><br /><b>Klíčovou výhodou je přímé vnitřní propojení</b> s kavárnou, hernou a dětským koutkem v 1. NP – <b>bez nutnosti vycházet ven</b>. <br /><br />Jednotka se převádí ve stavu <b>rozestavěno</b>. <b>Převod je plánován na 03–04/2026</b>, standardní dokončení pak na <b>10/2026</b>.
+    </>,
+  colOneTitle: "Hlavní benefity bytu",
+  colOneText: (
+    <>
+      <li>Dispozice <b>3kk</b> – největší jednotka v části C.</li>
+      <li><b>Přímé vnitřní propojení</b> na kavárnu, hernu a dětský koutek.</li>
+      <li>Ideální pro <b>rodiny nebo skupinové pobyty</b>.</li>
+      <li>Výrazná konkurenční výhoda oproti částem A a B.</li>
+    </>
+  ),
+  colTwoTitle: "Stav a dokončení",
+  colTwoDescription:
+    "Jednotka se převádí ve stavu rozestavěno. Kupující může využít standardní harmonogram dokončení, nebo zvolit variantu prioritního dokončení v kratším termínu.",
+  colTwoClaim:
+    <>
+      <b>Prioritní dokončení</b> znamená posílení realizační kapacity při zachování stejného standardu, kvality provedení a technického dohledu investora.
+    </>,
+  colTwoDownloadDesc:
+    "Detailní rozsah standardu, vybavení a harmonogram dokončení rádi upřesníme individuálně podle konkrétní jednotky.",
+  colThreeTitle: "Harmonogram a jistoty",
+  colThreeDesc: (
+    <>
+      <li><b>Převod rozestavěné jednotky: 03–04/2026</b>.</li>
+      <li><b>Standardní dokončení: 10/2026</b>.</li>
+      <li>Možnost <b>prioritního dokončení v kratším termínu</b>.</li>
+      <li>Jednotný standard a odpovědnost investora.</li>
+    </>
+  ),
+  colThreeNote:
+    "Největší jednotka v části C s dispozicí 3kk nabízí silnou pozici pro prémiový pronájem i vlastní rodinnou rekreaci.",
+  reserved: false,
+  sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
+  gallery: [
+    "v1773406398/Rapotin/C_B35_jza2xa.png",
+    "v1773847286/Rapotin/Exterier_03_26/C35Pudorys_w7jbrg.png",
+    "v1773847320/Rapotin/Exterier_03_26/C35Exterier_depp3h.png"
+  ]
+},
         {
       price: "3 690 000 Kč",
       number: "Byt č.36",
