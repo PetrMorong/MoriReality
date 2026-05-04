@@ -104,7 +104,7 @@ margin-top: 60px;
   color: #000000;
 `;
 
-const PriceList = ({ data, vynos, showBonus, category }) => {
+const PriceList = ({ data, vynos, showBonus, category, terasa, koje }) => {
   const [mouseOverRow, setMouseOverRow] = React.useState(undefined);
 
   const handleGoToDetail = () => {};
@@ -120,7 +120,13 @@ const PriceList = ({ data, vynos, showBonus, category }) => {
               <TableCell>Podlaží</TableCell>
               <TableCell>Dispozice</TableCell>
               <TableCell>Plocha</TableCell>
-              {!vynos && (
+                   {terasa && (
+                    <>
+                      <TableCell>Terasa</TableCell>
+                      <TableCell>Parkování</TableCell>
+                    </>
+                    )}
+              {koje && (
                     <>
                       <TableCell>Sklepní kóje</TableCell>
                       <TableCell>Parkování</TableCell>
@@ -151,7 +157,7 @@ const PriceList = ({ data, vynos, showBonus, category }) => {
                   <TableCell>{item.floor}</TableCell>
                   <TableCell>{item.layout}</TableCell>
                   <TableCell>{item.size}</TableCell>
-                  {!vynos && (
+                  {terasa && (
                     <>
                       <TableCell>{item.terasa}</TableCell>
                       <TableCell>{item.parking}</TableCell>
@@ -169,18 +175,21 @@ const PriceList = ({ data, vynos, showBonus, category }) => {
                     </>
                     
                   )}
-
+                 {category && (
+                  <>
                   <TableCell>
                     {item.category}
                   </TableCell>
 
-                  <TableCellPrice>
+                 
+                  </>
+
+                )}
+
+                 <TableCellPrice>
                     {item.reserved ? "Prodáno" : item.price}
                   </TableCellPrice>
-
                  
-              
-                  
                   <TableCell>
                      {item.reserved ? null : (
                       <TablePriceButton href={item.link}>
