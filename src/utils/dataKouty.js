@@ -2,7 +2,7 @@ import React from 'react'
 
 export const data = {
   status: "Předprodej",
-  title: "Wellness hotel Kouty",
+  title: "Wellness hotel Soutok Kouty",
   locationOne: "Rejhotice 131",
   locationTwo: "Loučná nad Desnou",
   cover: "vilaRepublikaCover",
