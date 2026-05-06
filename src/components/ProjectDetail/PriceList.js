@@ -204,7 +204,7 @@ const PriceList = ({ data, vynos, showBonus, category, terasa, koje }) => {
           
             {showBonus && (
               <Akce>
-                AKCE: Kuchyňská linka se spotřebiči zdarma při rezervaci jednotky v části C. Platí do 31. 5. 2026.
+                AKCE: Rezervujte byty č. 27, 28 nebo 35 do 15. 6. 2026 a získáte navýšený garantovaný výnos až 18 500 Kč/měs + kuchyňskou linku se spotřebiči zdarma.
               </Akce>
             )}
           

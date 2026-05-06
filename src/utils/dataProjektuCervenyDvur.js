@@ -152,7 +152,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     {
       highlighted: "Postup pří koupi",
       normal: "apartmánu",
-      desc: "Vyberete si apartmán podle svých představ a investičních cílů. Následně uzavřeme smlouvu o smlouvě budoucí kupní a po složení zálohy je apartmán rezervován právě pro vás. Po dokončení jednotky a podpisu kupní smlouvy se stanete jejím výhradním vlastníkem. Od tohoto okamžiku s apartmánem nakládáte plně podle svého rozhodnutí.",
+      desc: "Vyberete si apartmán podle svých představ a investičních cílů. Následně uzavřeme smlouvu o smlouvě budoucí kupní a po složení zálohy 10% do bankovní úschovy je apartmán rezervován právě pro vás. Po dokončení jednotky a podpisu kupní smlouvy se stanete jejím výhradním vlastníkem. Od tohoto okamžiku s apartmánem nakládáte plně podle svého rozhodnutí.",
     },
     {
       highlighted: "správa apartmánu",
@@ -578,7 +578,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
         "Prémiová dispozice a vybavení umožňují nastavení vyššího nájemného i silnější pozici při dalším prodeji.",
       vynos: "132 000 Kč",
       link: "/cervenydvur/byt/?Id=12",
-      reserved: false,
+      reserved: true, // unicredit hypo
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: [
         "v1773406649/Rapotin/A_B12_tx6wyy.png",
@@ -636,7 +636,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
         "Prémiová dispozice a vybavení umožňují nastavení vyššího nájemného i silnější pozici při dalším prodeji.",
       vynos: "180 000 Kč",
       link: "/cervenydvur/byt/?Id=13",
-      reserved: false,
+      reserved: true, // unicredit hypo
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: [
         "v1773406689/Rapotin/A_B13_wqrazt.png",
@@ -924,8 +924,8 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       size: "35,41 m2",
       terasa: "",
       parking: "",
-      priceVynos: "13 000 Kč",
-      vynos: "168 000 Kč",
+      priceVynos: "15 500 Kč",
+      vynos: "186 000 Kč",
       link: "/cervenydvur/byt/?Id=27",
       category: "Modern Studio",
       categoryDescription:
@@ -983,7 +983,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       size: "31,03 m2",
       terasa: "",
       parking: "",
-      priceVynos: "13 000 Kč",
+      priceVynos: "15 500 Kč",
       vynos: "186 000 Kč",
       link: "/cervenydvur/byt/?Id=28",
       category: "Modern Studio",
@@ -1089,7 +1089,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       ),
       colThreeNote:
         "Část C nabízí nejvyšší uživatelský komfort díky vnitřnímu propojení služeb a modernímu pojetí bydlení.",
-      reserved: false,
+      reserved: true, // dočasně schované
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: [
         "v1773389509/Rapotin/C_B29_wjj5eq.png",
@@ -1394,8 +1394,8 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
   size: "53,63 m2",
   terasa: "",
   parking: "",
-  priceVynos: "15 000 Kč",
-  vynos: "180 000 Kč",
+  priceVynos: "18 500 Kč",
+  vynos: "222 000 Kč",
   link: "/cervenydvur/byt/?Id=35",
   category: "Suite",
   categoryDescription:
@@ -1449,7 +1449,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       size: "57,45 m2",
       terasa: "",
       parking: "",
-      priceVynos: "15 000 Kč",
+      priceVynos: "15 000 Kč",
       vynos: "180 000 Kč",
       link: "/cervenydvur/byt/?Id=36",
       category: "Suite",

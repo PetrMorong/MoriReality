@@ -263,7 +263,7 @@ Součástí je předávací protokol, fotodokumentace, měřidla a přístupové
     question: "Jaký je proces koupě krok po kroku?",
     answer: `
 1) Rezervace jednotky  
-2) Podpis SoSBK  
+2) Podpis SoSBK složení zálohy 10%
 3) Financování (hotově / hypotéka)  
 4) Podpis kupní smlouvy  
 5) Vklad na katastr  

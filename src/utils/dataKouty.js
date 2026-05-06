@@ -170,7 +170,8 @@ Zajistíme vysokou obsazenost, bezstarostný provoz a dlouhodobý výnos.
   ],
  apartments: [
   {
-    price: "2 590 000 Kč",
+    price: "Projekt v přípravě",
+    // price: "2 590 000 Kč",
     number: "131/7",
     floor: "2NP",
     layout: "1 + kk",
@@ -180,7 +181,8 @@ Zajistíme vysokou obsazenost, bezstarostný provoz a dlouhodobý výnos.
     reserved: false,
   },
   {
-    price: "2 790 000 Kč",
+    price: "Projekt v přípravě",
+    // price: "2 790 000 Kč",
     number: "131/8",
     floor: "2NP",
     layout: "1 + kk",
@@ -190,7 +192,8 @@ Zajistíme vysokou obsazenost, bezstarostný provoz a dlouhodobý výnos.
     reserved: false,
   },
   {
-    price: "2 790 000 Kč",
+    price: "Projekt v přípravě",
+    // price: "2 790 000 Kč",
     number: "131/9",
     floor: "2NP",
     layout: "1 + kk",
@@ -200,7 +203,8 @@ Zajistíme vysokou obsazenost, bezstarostný provoz a dlouhodobý výnos.
     reserved: false,
   },
   {
-    price: "3 990 000 Kč",
+    price: "Projekt v přípravě",
+    // price: "3 990 000 Kč",
     number: "131/10",
     floor: "2NP",
     layout: "1 + kk",
@@ -210,7 +214,8 @@ Zajistíme vysokou obsazenost, bezstarostný provoz a dlouhodobý výnos.
     reserved: false,
   },
   {
-    price: "3 990 000 Kč",
+    price: "Projekt v přípravě",
+    // price: "3 990 000 Kč",
     number: "131/11",
     floor: "2NP",
     layout: "1 + kk",
@@ -220,7 +225,8 @@ Zajistíme vysokou obsazenost, bezstarostný provoz a dlouhodobý výnos.
     reserved: false,
   },
   {
-    price: "3 590 000 Kč",
+    price: "Projekt v přípravě",
+    // price: "3 590 000 Kč",
     number: "131/12",
     floor: "2NP",
     layout: "1 + kk",
@@ -230,7 +236,8 @@ Zajistíme vysokou obsazenost, bezstarostný provoz a dlouhodobý výnos.
     reserved: false,
   },
   {
-    price: "3 190 000 Kč",
+    price: "Projekt v přípravě",
+    // price: "3 190 000 Kč",
     number: "131/13",
     floor: "2NP",
     layout: "1 + kk",
@@ -240,7 +247,8 @@ Zajistíme vysokou obsazenost, bezstarostný provoz a dlouhodobý výnos.
     reserved: false,
   },
   {
-    price: "5 490 000 Kč",
+    price: "Projekt v přípravě",
+    // price: "5 490 000 Kč",
     number: "131/14",
     floor: "2NP",
     layout: "2 + kk",
@@ -250,7 +258,8 @@ Zajistíme vysokou obsazenost, bezstarostný provoz a dlouhodobý výnos.
     reserved: false,
   },
   {
-    price: "3 590 000 Kč",
+    price: "Projekt v přípravě",
+    // price: "3 590 000 Kč",
     number: "131/15",
     floor: "2NP",
     layout: "1 + kk",
@@ -260,7 +269,8 @@ Zajistíme vysokou obsazenost, bezstarostný provoz a dlouhodobý výnos.
     reserved: false,
   },
   {
-    price: "4 490 000 Kč",
+    price: "Projekt v přípravě",
+    // price: "4 490 000 Kč",
     number: "131/16",
     floor: "2NP",
     layout: "2 + kk",
