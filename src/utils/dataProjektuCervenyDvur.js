@@ -974,7 +974,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
         "v1778264304/Rapotin/ChatGPT_Image_May_8_2026_08_14_36_PM_ztvwn2.png",
         "v1778264302/Rapotin/ChatGPT_Image_May_8_2026_08_13_30_PM_ckctlc.png",
         "v1778264302/Rapotin/ChatGPT_Image_May_8_2026_08_17_57_PM_fvatm1.png",
-        "hv1778263804/Rapotin/ChatGPT_Image_May_8_2026_08_09_37_PM_azfm6o.png",
+        "v1778263804/Rapotin/ChatGPT_Image_May_8_2026_08_09_37_PM_azfm6o.png",
         "v1773389509/Rapotin/C_B27_nwjhzw.png",
         "v1773847285/Rapotin/Exterier_03_26/C27Pudorys_dzqdyd.png",
         "v1773847307/Rapotin/Exterier_03_26/C27Exterier_hj3tpx.png",
