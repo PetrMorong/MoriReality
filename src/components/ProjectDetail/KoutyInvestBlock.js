@@ -146,21 +146,10 @@ const KoutyInvestBlock = () => {
               <Strong>Výhody financování přes našeho partnera</Strong>
 
               <BulletList>
-                <li>
-                  Pomoc s vyřízením úvěru od prvního výpočtu po schválení.
-                </li>
-                <li>
-                  Znalost specifik ubytovací jednotky – banka přesně ví, co
-                  financuje.
-                </li>
-                <li>
-                  Spolupráce s Bonites Group s.r.o. – specialista na hypotéky a
-                  investice.
-                </li>
-                <li>
-                  <Strong>Vratná rezervace</Strong> při financování přes našeho
-                  partnera, pokud banka úvěr neschválí.
-                </li>
+                <li> Pomoc s vyřízením úvěru od prvního výpočtu až po finální schválení.
+Detailní znalost projektu – banka přesně ví, co financuje.
+Spolupráce s hypotečním týmem <a href="https://hypoodfrantiska.cz/" target="_blank">hypoodfrantiska.cz</a> – specialisté na financování nemovitostí a investičních projektů.
+Vratná rezervační záloha při financování přes našeho partnera v případě, že banka úvěr neschválí.</li>
               </BulletList>
 
               <ButtonWrap>

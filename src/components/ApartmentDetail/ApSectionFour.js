@@ -20,7 +20,7 @@ import Button from "../Button";
 const ApSectionFour = ({ data }) => {
   const categoryRaw = data?.category || "";
   const category = categoryRaw.toLowerCase()
-  const standardsUrl = data?.standardsPdfUrl || "/standardy.pdf"; // fallback (change if needed)
+  const standardsUrl = data?.standardsPdfUrl || "/Standardy-CD.pdf";
   const contactEmail = data?.contactEmail || "info@mori-reality.cz";
 
   return (
@@ -59,7 +59,7 @@ const ApSectionFour = ({ data }) => {
               <FactLabel>Podlahová plocha</FactLabel>
             </Fact>
             <Fact>
-              <FactValue>{data?.floorValue}. NP</FactValue>
+              <FactValue>{data?.floorValue}</FactValue>
               <FactLabel>Umístění</FactLabel>
             </Fact>
           </KeyFacts>
