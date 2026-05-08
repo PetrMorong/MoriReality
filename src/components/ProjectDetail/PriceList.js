@@ -204,7 +204,7 @@ const PriceList = ({ data, vynos, showBonus, category, terasa, koje }) => {
           
             {showBonus && (
               <Akce>
-                AKCE: Rezervujte byty č. 27, 28 nebo 35 do 15. 6. 2026 a získáte navýšený garantovaný výnos až 18 500 Kč/měs + kuchyňskou linku se spotřebiči zdarma.
+                AKCE: Rezervujte apartmán 27 nebo 28 do 15. 6. 2026 a získáte zvýhodněný garantovaný výnos, kuchyňskou linku se spotřebiči zdarma a prémiové podmínky předprodeje.
               </Akce>
             )}
           

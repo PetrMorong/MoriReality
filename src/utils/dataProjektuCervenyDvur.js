@@ -1104,7 +1104,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     },
 
     {
-      price: "3 990 000 Kč",
+      price: "4 490 000 Kč",
       number: "Byt č.30",
       floor: "2NP C",
       layout: "2kk",
@@ -1162,7 +1162,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     },
 
     {
-      price: "3 790 000 Kč",
+      price: "4 290 000 Kč",
       number: "Byt č.31",
       floor: "2NP C",
       layout: "2kk",
@@ -1278,7 +1278,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     },
 
     {
-      price: "3 790 000 Kč",
+      price: "4 090 000 Kč",
       number: "Ubytovací j. č.33",
       floor: "2NP C",
       layout: "2kk",
