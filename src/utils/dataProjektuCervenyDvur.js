@@ -935,6 +935,12 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       reserved: false,
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: [
+
+        "v1778264303/Rapotin/ChatGPT_Image_May_8_2026_08_16_03_PM_w6pciv.png",
+        "v1778264304/Rapotin/ChatGPT_Image_May_8_2026_08_14_36_PM_ztvwn2.png",
+        "v1778264302/Rapotin/ChatGPT_Image_May_8_2026_08_13_30_PM_ckctlc.png",
+        "v1778264302/Rapotin/ChatGPT_Image_May_8_2026_08_17_57_PM_fvatm1.png",
+        "hv1778263804/Rapotin/ChatGPT_Image_May_8_2026_08_09_37_PM_azfm6o.png",
         "v1773389509/Rapotin/C_B27_nwjhzw.png",
         "v1773847285/Rapotin/Exterier_03_26/C27Pudorys_dzqdyd.png",
         "v1773847307/Rapotin/Exterier_03_26/C27Exterier_hj3tpx.png",
@@ -993,13 +999,12 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       reserved: false,
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: [
-        "v1771949199/Rapotin/F_01_cwc4gj.jpg",
-        "v1771949197/Rapotin/F_02_wa8x9c.jpg",
-        "v1771949203/Rapotin/F_03_hf8l8t.jpg",
-        "v1771949186/Rapotin/F_04_czwhp4.jpg",
-        "v1771949191/Rapotin/F_05_cfm6ye.jpg",
-        "v1771949187/Rapotin/F_06_o26iql.jpg",
-        "v1771949196/Rapotin/F_07_sbzvx5.jpg",
+        "v1778263365/Rapotin/ChatGPT_Image_May_8_2026_07_45_38_PM_s5fx9t.png",
+        "v1778263365/Rapotin/ChatGPT_Image_May_8_2026_07_44_22_PM_nqrdyt.png",
+        "v1778263365/Rapotin/ChatGPT_Image_May_8_2026_07_48_52_PM_gztdfu.png",
+        "v1778263365/Rapotin/ChatGPT_Image_May_8_2026_07_57_55_PM_vuuvue.png",
+        "v1778263365/Rapotin/ChatGPT_Image_May_8_2026_07_59_21_PM_x3sc61.png",
+        "v1778263804/Rapotin/ChatGPT_Image_May_8_2026_08_09_37_PM_azfm6o.png",
         "v1773389509/Rapotin/C_B28_ted0or.png",
         "v1773847283/Rapotin/Exterier_03_26/C28Pudorys_p7iupy.png",
         "v1773847313/Rapotin/Exterier_03_26/C28Exterier_nk5ckt.png"
