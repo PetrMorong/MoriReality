@@ -192,7 +192,7 @@ const data = [
 
   {
     imageUrl: 'v1763645409/Kouty/02-min_ez8vl9.jpg',
-    title: 'Wellness aparthotel Mezi kopci',
+    title: 'Wellness hotel Soutok',
     desc: 'Kouty nad Desnou',
     detailLink: '/aparthotel-kouty',
     outsideLink: true,

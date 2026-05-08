@@ -353,7 +353,7 @@ const data = {
     {
       image:
         "v1664009931/Kouty/Screen_Shot_2022-08-18_at_11.26.44_2_yytalh.png",
-      name: "Wellness Aparthotel",
+      name: "Wellness hotel Soutok",
       location: "Kouty nad Desnou",
       link: "/aparthotel-kouty",
     },

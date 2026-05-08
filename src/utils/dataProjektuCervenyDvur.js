@@ -1484,7 +1484,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     {
       image:
         "v1763645408/Kouty/01-min_uxjr1h.jpg",
-      name: "Wellness Aparthotel",
+      name: "Wellness hotel Soutok",
       location: "Kouty nad Desnou",
       link: "/aparthotel-kouty",
     },
