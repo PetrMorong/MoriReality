@@ -20,7 +20,7 @@ const Container = styled.button`
   color: #ffffff;
   cursor: pointer;
   text-decoration: none;
-  width: ${(p) => `${p.width}px` || "auto"};
+  width: ${(p) => `${p.width}` || "auto"};
 
   &:hover {
     opacity: 0.8;

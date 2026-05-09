@@ -1,4 +1,5 @@
 import React from 'react'
+import { buildImageUrl } from "cloudinary-build-url";
 
 const data = {
   status: "Ve výstavbě",
@@ -165,6 +166,37 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       desc: "Hrubý Jeseník má skvělé sněhového podmínky. V dosahu budete mít hned několik ski-areálů. Necelých 10 kilometrů je vzdálen ski-areál Kouty a Přemyslov. Zhruba za 20 minut dorazíte na Praděd nebo Červenohorské sedlo. A mnoho dalších menších středisek objevíte v blízkém okolí. Pro běžkaře je nejatraktivnější oblastí Jesenická magistrála. Přejezd Jesenického hřebene na lyžích je jedním z nejkrásnějších horských výletů, které u nás můžete podniknout.",
     }
   ],
+
+  resortInfo: {
+  features: [
+    { icon: "/images/features/sauna.png", text: "Wellness — finská sauna s ochlazovacím bazénkem, privátní provoz" },
+    { icon: "/images/features/coffee-cup.png", text: "Snídaně přímo v areálu" },
+    { icon: "/images/features/ski.png", text: "Lyžárna a kolárna" },
+    { icon: "/images/features/treadmill.png", text: "Fitness" },
+    { icon: "/images/features/table-football(1).png", text: "Společenská místnost" },
+    { icon: "/images/features/parking-area.png", text: "Parkovací místo" },
+    { icon: "/images/features/door-lock.png", text: "Self check-in" },
+    { icon: "/images/features/view.png", text: "Klid a hory — ski areál Kouty 10 km, Praděd 20 min" },
+  ],
+  buyProcess: [
+    {
+      step: "1",
+      title: "Rezervace",
+      text: "Vyberete apartmán a podepíšete smlouvu o smlouvě budoucí kupní. Záloha 10 % jde na projektový účet Raiffeisenbank do bankovní úschovy — apartmán je od té chvíle rezervován pro vás.",
+    },
+    {
+      step: "2",
+      title: "Dokončení a předání",
+      text: "Po dokončení jednotky podepíšeme kupní smlouvu. Stanete se výhradním vlastníkem a s apartmánem nakládáte podle svého rozhodnutí.",
+    },
+    {
+      step: "3",
+      title: "Správa a výnos",
+      text: "Při podpisu kupní smlouvy uzavřeme nájemní smlouvu. Nájemné vyplácíme každý měsíc bez ohledu na obsazenost. Apartmán můžete využívat až 10 dní v roce. Od smlouvy lze kdykoliv odstoupit bez smluvních pokut.",
+    },
+  ],
+},
+
   apartments: [
       {
       price: "3 700 000 Kč",
@@ -916,71 +948,153 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     "v1773847310/Rapotin/Exterier_03_26/C26Exterier_bprecz.png",
   ]
 },
+   {
+  price: "3 890 000 Kč",
+  number: "Byt č.27",
+  floor: "2NP C",
+  layout: "1kk",
+  size: "35,41 m2",
+  terasa: "",
+  parking: "",
+  priceVynos: "15 500 Kč",
+  vynos: "186 000 Kč",
+  link: "/cervenydvur/byt/?Id=27",
+  category: "Modern Studio",
+  categoryDescription:
+    "Moderní byty v části C s přímým vnitřním propojením na kavárnu, hernu a dětský koutek.",
+
+  tagline: "Prostorné studio se třemi okny a výjimečným množstvím světla",
+
+  akceBanner: "Akce: zvýšení garantovaného výnosu na 15 500 Kč do 31. 6. 2026 a kuchyň zdarma",
+
+  apText: (
+    <>
+      Byt č.27 je jedním z nejsvětlejších apartmánů v části C –{" "}
+      <b>tři okna</b> zajišťují výjimečné denní světlo po celý den.
+      Dispozice 1kk je navržena s důrazem na funkčnost a nadčasový design.
+      <br /><br />
+      <b>Hlavní výhodou části C je přímé vnitřní propojení</b> s kavárnou,
+      hernou a dětským koutkem –{" "}
+      <b>bez nutnosti vycházet ven</b>, což je rozdíl oproti částem A a B.
+      <br /><br />
+      Jednotka se převádí ve stavu rozestavěno a bude dokončena jako{" "}
+      <b>bytová jednotka</b>. Předání plánujeme na <b>leden 2027</b>.
+    </>
+  ),
+
+  colOneTitle: "Výhody bytu č.27",
+  colOneText: (
+    <>
+      <li><b>Tři okna</b> – nejvíce světla ze všech studií v části C</li>
+      <li>Přímé vnitřní propojení na kavárnu, hernu a dětský koutek</li>
+      <li>Komfortní pohyb v rámci objektu bez nutnosti vycházet ven</li>
+      <li>Konkurenční výhoda oproti částem A a B</li>
+      <li>Předání leden 2027 jako bytová jednotka</li>
+    </>
+  ),
+
+  colTwoTitle: "Stav a dokončení",
+  colTwoDescription: "",
+  colTwoClaim: (
+    <>
+      <b>Nábytek není součástí kupní ceny.</b> Investor si ho zajišťuje
+      samostatně po předání jednotky. Orientační náklad na kompletní
+      vybavení nábytkem je <b>cca 150 000 Kč</b>.
+    </>
+  ),
+  colTwoDownloadDesc:
+    "Detailní rozsah standardu, vybavení a harmonogram dokončení rádi upřesníme individuálně.",
+
+  colThreeTitle: "Harmonogram a jistoty",
+  colThreeDesc: (
+    <>
+      <li>Záloha <b>10 % při podpisu smlouvy</b> na projektový účet RB — bankovní úschova</li>
+      <li><b>Dokončení jako bytová jednotka: leden 2027</b></li>
+      <li>Odpovědnost a dohled investora po celou dobu výstavby</li>
+    </>
+  ),
+  colThreeNote: "",
+
+  proKoho: [
     {
-      price: "3 890 000 Kč",
-      number: "Byt č.27",
-      floor: "2NP C",
-      layout: "1kk",
-      size: "35,41 m2",
-      terasa: "",
-      parking: "",
-      priceVynos: "15 500 Kč",
-      vynos: "186 000 Kč",
-      link: "/cervenydvur/byt/?Id=27",
-      category: "Modern Studio",
-      categoryDescription:
-        "Moderní byty v části C s přímým vnitřním propojením na kavárnu, hernu a dětský koutek.",
-      apText:
-        <>
-          Byty v části C představují <b>moderní část projektu</b> s odlišným architektonickým a interiérovým pojetím. Design je čistý, současný a navržený s důrazem na funkčnost, světlo a dlouhodobou nadčasovost. <br /><br /><b>Hlavní výhodou části C je přímé vnitřní propojení</b> s kavárnou, hernou a dětským koutkem v 1. NP části C – <b>bez nutnosti chodit venkovními prostory</b>, což je rozdíl oproti částem A a B. <br /><br />Jednotky se převádějí ve stavu <b>rozestavěno</b>. <b>Převod je plánován na 03–04/2026</b>, standardní dokončení pak na <b>10/2026</b>.
-        </>,
-      colOneTitle: "Výhody části C",
-      colOneText: (
-        <>
-          <li><b>Přímé vnitřní propojení</b> na kavárnu, hernu a dětský koutek.</li>
-          <li>Komfortní pohyb v rámci objektu <b>bez nutnosti vycházet ven</b>.</li>
-          <li>Ideální řešení pro rodiny s dětmi i krátkodobé pobyty.</li>
-          <li>Výrazná konkurenční výhoda oproti částem A a B.</li>
-        </>
-      ),
-
-      colTwoTitle: "Stav a dokončení",
-      colTwoDescription:
-        "Jednotky se převádějí ve stavu rozestavěno. Kupující může využít standardní harmonogram dokončení, nebo zvolit variantu prioritního dokončení jednotky v kratším termínu.",
-      colTwoClaim:
-        <>
-          <b>Prioritní dokončení</b> znamená posílení realizační kapacity při zachování stejného standardu, kvality provedení a technického dohledu investora.
-        </>,
-      colTwoDownloadDesc:
-        "Detailní rozsah standardu, vybavení a harmonogram dokončení rádi upřesníme individuálně podle konkrétní jednotky.",
-
-      colThreeTitle: "Harmonogram a jistoty",
-      colThreeDesc: (
-        <>
-          <li><b>Převod rozestavěné jednotky: 03–04/2026</b>.</li>
-          <li><b>Standardní dokončení: 10/2026</b>.</li>
-          <li>Možnost <b>prioritního dokončení v kratším termínu</b>.</li>
-          <li>Jednotný standard a odpovědnost investora.</li>
-        </>
-      ),
-      colThreeNote:
-        "Část C nabízí nejvyšší uživatelský komfort díky vnitřnímu propojení služeb a modernímu pojetí bydlení.",
-
-      reserved: false,
-      sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
-      gallery: [
-
-        "v1778264303/Rapotin/ChatGPT_Image_May_8_2026_08_16_03_PM_w6pciv.png",
-        "v1778264304/Rapotin/ChatGPT_Image_May_8_2026_08_14_36_PM_ztvwn2.png",
-        "v1778264302/Rapotin/ChatGPT_Image_May_8_2026_08_13_30_PM_ckctlc.png",
-        "v1778264302/Rapotin/ChatGPT_Image_May_8_2026_08_17_57_PM_fvatm1.png",
-        "v1778263804/Rapotin/ChatGPT_Image_May_8_2026_08_09_37_PM_azfm6o.png",
-        "v1773389509/Rapotin/C_B27_nwjhzw.png",
-        "v1773847285/Rapotin/Exterier_03_26/C27Pudorys_dzqdyd.png",
-        "v1773847307/Rapotin/Exterier_03_26/C27Exterier_hj3tpx.png",
-      ]
+      icon: "💼",
+      title: "Pasivní investor",
+      text: "Menší jednotka, která vydělává bez vaší účasti. Kompletní správu, fakturaci i obsazenost řeší resort za vás.",
     },
+    {
+      icon: "🏔️",
+      title: "Investor + rekreace",
+      text: "Kombinujte investici s vlastním využitím. Apartmán si rezervujete pro sebe, zbytek roku generuje výnos.",
+    },
+    {
+      icon: "👨‍👩‍👧",
+      title: "Rodiny s dětmi",
+      text: "Přímé propojení s hernou a dětským koutkem v 1. NP – bez nutnosti vycházet z části C.",
+    },
+    {
+      icon: "📊",
+      title: "Diverzifikace portfolia",
+      text: "Nižší vstupní cena oproti větším jednotkám. Konkrétní investiční parametry, snadnější likvidita.",
+    },
+  ],
 
+  vynosInfo: {
+    headline: "15 500 Kč za měsíc",
+    description:
+      "Výnos je garantován developerem. Resort zajišťuje kompletní provoz, obsazenost a fakturaci – majitel neprovozuje nic sám.",
+    items: [
+      "Platí od prvního dne po předání – bez čekání na obsazenost",
+      "Zahrnuje správu, údržbu i rezervační systém",
+      "Možnost vlastního využití 10 dní v roce",
+    ],
+  },
+
+  galleryLabels: [
+    "Ložnice",
+    "Obývací pokoj",
+    "Kuchyňský kout",
+    "Koupelna",
+    "Chodba část C",
+    "Půdorys – Byt č.27",
+    "Umístění v domě",
+    "Umístění v domě z venku",
+    "Wellness",
+    "Wellness",
+    "Wellness",
+    "Wellness",
+    "Wellness",
+    "Dětský koutek v části C",
+    "Snídaně v kavárně v části C",
+    "Snídaně v kavárně v části C"
+  ],
+
+  reserved: false,
+  sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
+  gallery: [
+    "v1778264303/Rapotin/ChatGPT_Image_May_8_2026_08_16_03_PM_w6pciv.png",
+    "v1778264304/Rapotin/ChatGPT_Image_May_8_2026_08_14_36_PM_ztvwn2.png",
+    "v1778264302/Rapotin/ChatGPT_Image_May_8_2026_08_13_30_PM_ckctlc.png",
+    "v1778264302/Rapotin/ChatGPT_Image_May_8_2026_08_17_57_PM_fvatm1.png",
+    "v1778263804/Rapotin/ChatGPT_Image_May_8_2026_08_09_37_PM_azfm6o.png",
+    "v1773389509/Rapotin/C_B27_nwjhzw.png",
+    "v1773847285/Rapotin/Exterier_03_26/C27Pudorys_dzqdyd.png",
+    "v1773847307/Rapotin/Exterier_03_26/C27Exterier_hj3tpx.png",
+
+    // wellness
+    "v1773849235/Rapotin/DSC07004_1_grjrxp.jpg",
+    "v1773849227/Rapotin/DSC07001_1_fvvlxh.jpg",
+    "v1773849227/Rapotin/DSC07009_1_n8rixd.jpg",
+    "v1773849229/Rapotin/DSC06991_1_moequq.jpg",
+    "v1773849236/Rapotin/DSC07020_1_xym9hm.jpg",
+
+    //detsky koutek 
+    "v1778316892/Rapotin/DSC01271_wjctji.jpg",
+
+    // Snídaně
+    "v1778316898/Rapotin/snidane_gezxcj.png",
+    "v1778316895/Rapotin/snidane_2_czfu9h.png"
+  ],
+},
     {
       price: "3 790 000 Kč",
       number: "Byt č.28",
@@ -995,26 +1109,37 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       category: "Modern Studio",
       categoryDescription:
         "Moderní byty v části C s přímým vnitřním propojením na kavárnu, hernu a dětský koutek.",
-      apText:
+     apText: (
         <>
-          Byty v části C představují <b>moderní část projektu</b> s odlišným architektonickým a interiérovým pojetím. Design je čistý, současný a navržený s důrazem na funkčnost, světlo a dlouhodobou nadčasovost. <br /><br /><b>Hlavní výhodou části C je přímé vnitřní propojení</b> s kavárnou, hernou a dětským koutkem v 1. NP části C – <b>bez nutnosti chodit venkovními prostory</b>, což je rozdíl oproti částem A a B. <br /><br />Jednotky se převádějí ve stavu <b>rozestavěno</b>. <b>Převod je plánován na 03–04/2026</b>, standardní dokončení pak na <b>10/2026</b>.
-        </>,
+          Byty v části C představují moderní část projektu s odlišným
+          architektonickým a interiérovým pojetím. Design je čistý, současný
+          a navržený s důrazem na funkčnost a nadčasovost.
+          <br /><br />
+          Hlavní výhodou části C je <b>přímé vnitřní propojení</b> s kavárnou,
+          hernou a dětským koutkem – bez nutnosti vycházet ven, což je
+          rozdíl oproti částem A a B.
+          <br /><br />
+          Jednotka se převádí ve stavu rozestavěno a bude dokončena jako
+          bytovou jednotku. Předání plánujeme na <b>leden 2027</b>.
+        </>
+      ),
       colOneTitle: "Výhody části C",
       colOneText: (
         <>
-          <li><b>Přímé vnitřní propojení</b> na kavárnu, hernu a dětský koutek.</li>
-          <li>Komfortní pohyb v rámci objektu <b>bez nutnosti vycházet ven</b>.</li>
-          <li>Ideální řešení pro rodiny s dětmi i krátkodobé pobyty.</li>
-          <li>Výrazná konkurenční výhoda oproti částem A a B.</li>
+          <li>Přímé vnitřní propojení na kavárnu, hernu a dětský koutek</li>
+          <li>Komfortní pohyb v rámci objektu bez nutnosti vycházet ven</li>
+          <li>Ideální pro rodiny s dětmi i krátkodobé pobyty</li>
+          <li>Konkurenční výhoda oproti částem A a B</li>
+          <li>Předání leden 2027 jako bytová jednotka</li>
         </>
       ),
 
       colTwoTitle: "Stav a dokončení",
       colTwoDescription:
-        "Jednotky se převádějí ve stavu rozestavěno. Kupující může využít standardní harmonogram dokončení, nebo zvolit variantu prioritního dokončení jednotky v kratším termínu.",
+        "",
       colTwoClaim:
         <>
-          <b>Prioritní dokončení</b> znamená posílení realizační kapacity při zachování stejného standardu, kvality provedení a technického dohledu investora.
+          <b>Nábytek není součástí kupní ceny.</b> Investor si ho hradí samostatně po předání jednotky. Orientační náklad na kompletní vybavení nábytkem je <b>150 000 Kč</b> včetně montáže z naší strany
         </>,
       colTwoDownloadDesc:
         "Detailní rozsah standardu, vybavení a harmonogram dokončení rádi upřesníme individuálně podle konkrétní jednotky.",
@@ -1022,11 +1147,9 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       colThreeTitle: "Harmonogram a jistoty",
       colThreeDesc: (
         <>
-          <li><b>Převod rozestavěné jednotky: 03–04/2026</b>.</li>
-          <li><b>Standardní dokončení: 10/2026</b>.</li>
-          <li>Možnost <b>prioritního dokončení v kratším termínu</b>.</li>
-          <li>Jednotný standard a odpovědnost investora.</li>
-        </>
+              <li>Záloha <b>10 % při podpisu smlouvy</b> na projektový účet RB — bankovní úschova</li>
+              <li><b>Dokončení jako bytová jednotka: leden 2027</b></li>
+              <li>Odpovědnost a dohled investora po celou dobu výstavby</li>        </>
       ),
       colThreeNote:
         "Část C nabízí nejvyšší uživatelský komfort díky vnitřnímu propojení služeb a modernímu pojetí bydlení.",
@@ -1042,7 +1165,75 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
         "v1773389509/Rapotin/C_B28_ted0or.png",
         "v1773847283/Rapotin/Exterier_03_26/C28Pudorys_p7iupy.png",
         "v1773847313/Rapotin/Exterier_03_26/C28Exterier_nk5ckt.png"
-      ]
+      ],
+       // --- NOVÁ POLE ---
+
+  // Krátký podnadpis pod název bytu v hero sekci (ApSectionOne)
+  tagline: "Apartmán s garantovaným výnosem a výhledem na řeku",
+
+  // Akce – zobrazí se jako zlatý banner pod hero stripem
+  akceBanner: "Akce: zvýšení garantovaný výnos na 15 500 Kč do 31. 6. 2026 a kuchyň zdarma",
+
+  // Blok „Pro koho je apartmán vhodný" (ApSectionFour)
+  proKoho: [
+    {
+      icon: "💼",
+      title: "Pasivní investor",
+      text: "Menší jednotka, která vydělává bez vaší účasti. Kompletní správu, fakturaci i obsazenost řeší resort za vás.",
+    },
+    {
+      icon: "🏔️",
+      title: "Investor + rekreace",
+      text: "Kombinujte investici s vlastním využitím. Apartmán si rezervujete pro sebe, zbytek roku generuje výnos.",
+    },
+    {
+      icon: "👨‍👩‍👧",
+      title: "Rodiny s dětmi",
+      text: "Přímé propojení s hernou a dětským koutkem v 1. NP – bez nutnosti vycházet z části C.",
+    },
+    {
+      icon: "📊",
+      title: "Diverzifikace portfolia",
+      text: "Nižší vstupní cena oproti větším jednotkám. Konkrétní investiční parametry, snadnější likvidita.",
+    },
+  ],
+
+  // Vysvětlení garantovaného výnosu
+  vynosInfo: {
+    headline: "15 500 kč za měsíc",
+    description:
+      "Výnos je garantován developerem. Resort zajišťuje kompletní provoz, obsazenost a fakturaci – majitel neprovozuje nic sám.",
+    items: [
+      "Platí od prvního dne po předání – bez čekání na obsazenost",
+      "Zahrnuje správu, údržbu i rezervační systém",
+      "Možnost vlastního využití 10 dní v roce",
+    ],
+  },
+
+  // Kontaktní osoba
+  contactPerson: {
+    name: "Bc. Markéta Dvořáková, MBA",
+    role: "Obchodní manažerka projektu",
+    phone: "+420 775 561 091",
+    email: "info@mori-reality.cz",
+    quote: "Ráda vám k bytu č. 28 pošlu podklady, zodpovím dotazy a domluvím prohlídku přímo v resortu.",
+    initials: "MD",
+    photo: buildImageUrl("v1765194799/T036FSHAT7U-U07EHM8TZEX-69f34a4227c2-512_t7kqrr.jpg",{})
+  },
+
+  // Popisky k fotkám v galerii (index odpovídá pořadí v gallery[])
+  galleryLabels: [
+    "Obývací pokoj",
+    "Kuchyňský kout",
+    "Ložnice ",
+    "Koupelna",
+    "Koupelna",
+    "Chodba část C",
+    "Půdorys – Byt č.28",
+    "Umístění v domě",
+    "Umístění v domě z venku",
+  ],
+
     },
 
     {
@@ -1071,6 +1262,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
           <li>Ideální řešení pro rodiny s dětmi i krátkodobé pobyty.</li>
           <li>Výrazná konkurenční výhoda oproti částem A a B.</li>
         </>
+        
       ),
 
       colTwoTitle: "Stav a dokončení",
@@ -1515,3 +1707,4 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
 };
 
 export default data
+

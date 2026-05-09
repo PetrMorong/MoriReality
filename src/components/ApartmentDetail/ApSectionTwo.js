@@ -5,6 +5,10 @@ import { buildImageUrl } from "cloudinary-build-url";
 const ApSectionTwo = ({ data }) => {
   const [carouselIndex, setCarouseIndex] = React.useState(0);
   const slide = data.gallery[carouselIndex];
+  const label =
+    data.galleryLabels && data.galleryLabels[carouselIndex]
+      ? data.galleryLabels[carouselIndex]
+      : null;
 
   const handleNext = () => {
     if (carouselIndex === data.gallery.length - 1) {
@@ -27,29 +31,6 @@ const ApSectionTwo = ({ data }) => {
   return (
     <Container>
       <Wrapper>
-        {/* <MainText>
-          {data.apTitle || (
-            <>
-              Když jde o <span>domov</span>, na kompromisy není prostor
-            </>
-          )}
-        </MainText> */}
-
-        {/* <SubText>
-         {data.apText || (
-            <>
-              Našim cílem je poskytovat kvalitní a spolehlivé stavební služby.
-              Při realizaci vašich představ, myšlenek, a snů klademe důraz na
-              vstřícnost, důslednost, a jednání vedoucí k jistote, že dostanete
-              <span> domov, se kterým budete doopravdy spokojeni.</span> S
-              důkladnými zkušenostami ve výstavbě domů spolupracujeme{" "}
-              <span>
-                se špičkovými se špičkovými architekty a interirovými designéry.
-              </span>
-            </>
-          )}
-        </SubText> */}
-
         <CarouoselContainer>
           <CarouoselItem
             style={{
@@ -58,7 +39,7 @@ const ApSectionTwo = ({ data }) => {
           >
             <LeftArrowCol>
               <ArrowWrap onClick={handlePrevious}>
-                <img src="/images/LeftArrow.svg"></img>
+                <img src="/images/LeftArrow.svg" alt="předchozí" />
               </ArrowWrap>
             </LeftArrowCol>
 
@@ -67,39 +48,32 @@ const ApSectionTwo = ({ data }) => {
                 <img
                   style={{ transform: "rotate(180deg)" }}
                   src="/images/LeftArrow.svg"
-                ></img>
+                  alt="další"
+                />
               </ArrowWrap>
             </RightArrowCol>
+
+            {label && (
+              <ImageLabelWrap>
+                <ImageLabel>{label}</ImageLabel>
+              </ImageLabelWrap>
+            )}
+
+            <DotsWrap>
+              {data.gallery.map((_, i) => (
+                <Dot
+                  key={i}
+                  active={i === carouselIndex}
+                  onClick={() => setCarouseIndex(i)}
+                />
+              ))}
+            </DotsWrap>
           </CarouoselItem>
         </CarouoselContainer>
-
-       {/* <Row>
-          {data.moreDetails.map((item, i) => (
-            <BottomCol key={i}>
-              <BoldText>
-                {item.text}
-                <GoldText>{item.goldText}</GoldText>
-              </BoldText>
-              <Desc>{item.desc}</Desc>
-            </BottomCol>
-          ))}
-        </Row> */}
       </Wrapper>
     </Container>
   );
 };
-
-const Row = styled.div`
-  display: flex;
-  justify-content: space-between;
-  margin-top: 90px;
-
-  @media (max-width: 800px) {
-    flex-direction: column;
-    align-items: center;
-    margin-top: 60px;
-  }
-`;
 
 const Container = styled.div`
   width: 100%;
@@ -116,42 +90,9 @@ const Wrapper = styled.div`
   width: 1180px;
   display: flex;
   flex-direction: column;
-`;
 
-const BottomCol = styled.div``;
-
-const Desc = styled.p`
-  font-family: Georama;
-  font-size: 17px;
-  line-height: 30px;
-  letter-spacing: 0.01em;
-  color: #4d4d56;
-
-  @media (max-width: 800px) {
-    text-align: center;
-    margin-bottom: 50px;
-  }
-`;
-
-const GoldText = styled.span`
-  font-family: Georama;
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 44px;
-  letter-spacing: 0.01em;
-  color: #b29a84;
-`;
-
-const BoldText = styled.p`
-  font-family: Georama;
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 44px;
-  letter-spacing: 0.01em;
-  color: #4d4d56;
-
-  @media (max-width: 800px) {
-    text-align: center;
+  @media (max-width: 1180px) {
+    width: 100%;
   }
 `;
 
@@ -188,6 +129,41 @@ const ArrowWrap = styled.div`
   }
 `;
 
+const ImageLabelWrap = styled.div`
+  position: absolute;
+  bottom: 18px;
+  left: 50%;
+  transform: translateX(-50%);
+`;
+
+const ImageLabel = styled.div`
+  background: rgba(0, 0, 0, 0.55);
+  color: #ffffff;
+  font-family: Georama;
+  font-size: 14px;
+  line-height: 22px;
+  padding: 5px 14px;
+  white-space: nowrap;
+`;
+
+const DotsWrap = styled.div`
+  position: absolute;
+  bottom: 18px;
+  right: 22px;
+  display: flex;
+  gap: 7px;
+  align-items: center;
+`;
+
+const Dot = styled.div`
+  width: ${(p) => (p.active ? "22px" : "8px")};
+  height: 8px;
+  background: ${(p) =>
+    p.active ? "#b29a84" : "rgba(255,255,255,0.45)"};
+  cursor: pointer;
+  transition: width 0.2s ease, background 0.2s ease;
+`;
+
 const CarouoselContainer = styled.div`
   display: flex;
   justify-content: center;
@@ -201,7 +177,6 @@ const CarouoselItem = styled.div`
   background-repeat: no-repeat;
   background-position: center;
   background-color: rgba(0, 0, 0, 0.05);
-  position: relative;
 
   @media (max-width: 1180px) {
     width: 100%;
@@ -210,57 +185,6 @@ const CarouoselItem = styled.div`
   @media (max-width: 800px) {
     width: 100%;
     height: 260px;
-  }
-`;
-
-const SubText = styled.p`
-  font-family: Georama;
-  font-size: 19px;
-  line-height: 32px;
-  width: 700px;
-  margin-bottom: 150px;
-
-  @media (max-width: 800px) {
-    width: 100%;
-    padding: 0 30px;
-    margin-bottom: 70px;
-  }
-
-  span  {
-    color: #b29a84;
-    font-family: Georama;
-    font-size: 19px;
-    line-height: 32px;
-  }
-`;
-
-const MainText = styled.p`
-  font-family: Georama;
-  font-size: 42px;
-  line-height: 50px;
-  letter-spacing: 0.01em;
-  color: #000000;
-  width: 480px;
-  margin-bottom: 40px;
-
-  @media (max-width: 800px) {
-    width: 100%;
-    font-size: 32px;
-    line-height: 30px;
-    padding: 0 30px;
-  }
-
-  span {
-    font-family: Georama;
-    font-size: 42px;
-    line-height: 50px;
-    letter-spacing: 0.01em;
-    color: #b29a84;
-
-    @media (max-width: 800px) {
-      font-size: 32px;
-      line-height: 30px;
-    }
   }
 `;
 
