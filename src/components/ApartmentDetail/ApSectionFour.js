@@ -100,6 +100,17 @@ const ApSectionFour = ({ data }) => {
           </KeyFacts>
         </TopRow>
 
+          <ScrollCtaWrap>
+          <a href="#byt-form"
+            style={{ textDecoration: "none" }} 
+            onClick={(e) => {
+              e.preventDefault();
+              document.getElementById("byt-form").scrollIntoView({ behavior: "smooth" });
+            }}>
+            <Button leftBorder={true}>Mám zájem o {data?.apName} →</Button>
+          </a>
+        </ScrollCtaWrap>
+
         {/* ─── PRO KOHO ─── */}
         {data.proKoho && data.proKoho.length > 0 && (
           <ProKohoSection>
@@ -115,6 +126,8 @@ const ApSectionFour = ({ data }) => {
             </ProKohoGrid>
           </ProKohoSection>
         )}
+
+      
 
         {/* ─── TŘÍSLOUPKOVÝ GRID ─── */}
         <Grid>
@@ -244,6 +257,7 @@ const ApSectionFour = ({ data }) => {
             data-netlify="true"
             data-netlify-honeypot="bot-field"
             onSubmit={handleSubmit}
+            id="byt-form"
           >
             {/* Netlify required hidden fields */}
             <input type="hidden" name="form-name" value="byt-inquiry" />
@@ -325,6 +339,12 @@ const ApSectionFour = ({ data }) => {
 };
 
 /* ─── STYLED COMPONENTS ─── */
+
+const ScrollCtaWrap = styled.div`
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+`;
 
 const Container = styled.div`
   width: 100%;
