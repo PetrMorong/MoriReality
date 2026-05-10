@@ -965,7 +965,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
 
   tagline: "Prostorné studio se třemi okny a výjimečným množstvím světla",
 
-  akceBanner: "Akce: zvýšení garantovaného výnosu na 15 500 Kč do 31. 6. 2026 a kuchyň zdarma",
+  akceBanner: "Akce: zvýšení garantovaného výnosu na 15 500 Kč do 30. 6. 2026 a kuchyň zdarma",
 
   apText: (
     <>
@@ -1172,7 +1172,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
   tagline: "Apartmán s garantovaným výnosem a výhledem na řeku",
 
   // Akce – zobrazí se jako zlatý banner pod hero stripem
-  akceBanner: "Akce: zvýšení garantovaný výnos na 15 500 Kč do 31. 6. 2026 a kuchyň zdarma",
+  akceBanner: "Akce: zvýšení garantovaný výnos na 15 500 Kč do 30. 6. 2026 a kuchyň zdarma",
 
   // Blok „Pro koho je apartmán vhodný" (ApSectionFour)
   proKoho: [
