@@ -84,8 +84,8 @@ const data = {
       desc: "Dispozice Bytů",
     },
     {
-      value: "září",
-      highlighted: "2026",
+      value: "leden",
+      highlighted: "2027",
       desc: "Termín Dokončení",
     },
   ],
