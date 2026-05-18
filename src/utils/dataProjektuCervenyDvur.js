@@ -84,8 +84,8 @@ const data = {
       desc: "Dispozice Bytů",
     },
     {
-      value: "září",
-      highlighted: "2026",
+      value: "leden",
+      highlighted: "2027",
       desc: "Termín Dokončení",
     },
   ],
@@ -977,8 +977,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       hernou a dětským koutkem –{" "}
       <b>bez nutnosti vycházet ven</b>, což je rozdíl oproti částem A a B.
       <br /><br />
-      Jednotka se převádí ve stavu rozestavěno a bude dokončena jako{" "}
-      <b>bytová jednotka</b>. Předání plánujeme na <b>leden 2027</b>.
+      Předání plánujeme na <b>leden 2027</b>.
     </>
   ),
 
@@ -1119,8 +1118,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
           hernou a dětským koutkem – bez nutnosti vycházet ven, což je
           rozdíl oproti částem A a B.
           <br /><br />
-          Jednotka se převádí ve stavu rozestavěno a bude dokončena jako
-          bytovou jednotku. Předání plánujeme na <b>leden 2027</b>.
+          Předání plánujeme na <b>leden 2027</b>.
         </>
       ),
       colOneTitle: "Výhody části C",
