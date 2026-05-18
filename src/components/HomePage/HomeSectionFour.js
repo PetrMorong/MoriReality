@@ -190,13 +190,13 @@ const data = [
     outsideLink: false,
   },
 
-  {
-    imageUrl: 'v1763645409/Kouty/02-min_ez8vl9.jpg',
-    title: 'Wellness hotel Soutok',
-    desc: 'Kouty nad Desnou',
-    detailLink: '/aparthotel-kouty',
-    outsideLink: true,
-  },
+  //{
+  //  imageUrl: 'v1763645409/Kouty/02-min_ez8vl9.jpg',
+  //  title: 'Wellness hotel Soutok',
+  //  desc: 'Kouty nad Desnou',
+  //  detailLink: '/aparthotel-kouty',
+  //  outsideLink: true,
+  // },
   
   {
     imageUrl: 'v1689504195/vilaRepublikaFoto/356584285_1096124314696983_2263942071942825600_n_xv0nkq.jpg',

@@ -395,7 +395,7 @@ const VilaRepublika = () => {
       {/* <ProjectSectionSix data={data} videoSectionTitle="Video z rekonstrukce" /> */}
       <PriceList data={data} />
       <Gallery projectName="vila-republika" />
-      <OtherProjects data={data} />
+      {/*<OtherProjects data={data} /> */}
       <Footer />
     </Layout>
   );

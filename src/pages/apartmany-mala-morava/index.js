@@ -300,7 +300,7 @@ const VilaRepublika = () => {
       <ProjectSectionSix data={data} />
       <PriceList data={data} />
       <Gallery projectName="mala-morava" />
-      <OtherProjects data={data} />
+      {/*<OtherProjects data={data} /> */}
       <Footer email="info@mori-reality.cz" phone="+420 775 561 091" />
     </Layout>
   );

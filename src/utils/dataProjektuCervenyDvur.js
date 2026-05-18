@@ -1672,7 +1672,6 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       location: 'Velké Losiny',
       link: '/vila-republika',
     },
-
     {
       image:
         "v1763645408/Kouty/01-min_uxjr1h.jpg",
