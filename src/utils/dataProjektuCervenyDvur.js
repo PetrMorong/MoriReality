@@ -199,7 +199,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
 
   apartments: [
       {
-      price: "3 700 000 Kč",
+      price: "4 000 000 Kč",
       number: "Byt č.1",
       floor: "1NP A",
       layout: "1kk",
