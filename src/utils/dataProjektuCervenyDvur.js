@@ -1057,6 +1057,9 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     "Půdorys – Byt č.27",
     "Umístění v domě",
     "Umístění v domě z venku",
+    "Chodba - současný stav",
+    "Byt - před rekonstrukcí",
+    "Byt - před rekonstrukcí",
     "Wellness",
     "Wellness",
     "Wellness",
@@ -1078,6 +1081,11 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     "v1773389509/Rapotin/C_B27_nwjhzw.png",
     "v1773847285/Rapotin/Exterier_03_26/C27Pudorys_dzqdyd.png",
     "v1773847307/Rapotin/Exterier_03_26/C27Exterier_hj3tpx.png",
+
+    // současný stav
+    "v1779183971/Rapotin/DSC01484_1_muiywn.jpg",
+    "v1779183973/Rapotin/DSC01413_1_rh4lgi.jpg",
+    "v1779183973/Rapotin/DSC01409_1_rrvqwh.jpg",
 
     // wellness
     "v1773849235/Rapotin/DSC07004_1_grjrxp.jpg",
@@ -1162,7 +1170,27 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
         "v1778263804/Rapotin/ChatGPT_Image_May_8_2026_08_09_37_PM_azfm6o.png",
         "v1773389509/Rapotin/C_B28_ted0or.png",
         "v1773847283/Rapotin/Exterier_03_26/C28Pudorys_p7iupy.png",
-        "v1773847313/Rapotin/Exterier_03_26/C28Exterier_nk5ckt.png"
+        "v1773847313/Rapotin/Exterier_03_26/C28Exterier_nk5ckt.png",
+
+        // současný stav
+        "v1779183971/Rapotin/DSC01484_1_muiywn.jpg",
+        "v1779183973/Rapotin/DSC01469_1_q2um0q.jpg",
+        "v1779183971/Rapotin/DSC01463_1_a9tsvz.jpg",
+        "v1779183972/Rapotin/DSC01467_1_gr0w78.jpg",
+
+        // wellness
+        "v1773849235/Rapotin/DSC07004_1_grjrxp.jpg",
+        "v1773849227/Rapotin/DSC07001_1_fvvlxh.jpg",
+        "v1773849227/Rapotin/DSC07009_1_n8rixd.jpg",
+        "v1773849229/Rapotin/DSC06991_1_moequq.jpg",
+        "v1773849236/Rapotin/DSC07020_1_xym9hm.jpg",
+
+        //detsky koutek 
+        "v1778316892/Rapotin/DSC01271_wjctji.jpg",
+
+        // Snídaně
+        "v1778316898/Rapotin/snidane_gezxcj.png",
+        "v1778316895/Rapotin/snidane_2_czfu9h.png"
       ],
        // --- NOVÁ POLE ---
 
@@ -1230,6 +1258,18 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     "Půdorys – Byt č.28",
     "Umístění v domě",
     "Umístění v domě z venku",
+    "Chodba - současný stav",
+    "Byt - před rekonstrukcí",
+    "Byt - před rekonstrukcí",
+    "Byt - před rekonstrukcí",
+    "Wellness",
+    "Wellness",
+    "Wellness",
+    "Wellness",
+    "Wellness",
+    "Dětský koutek v části C",
+    "Snídaně v kavárně v části C",
+    "Snídaně v kavárně v části C"
   ],
 
     },
