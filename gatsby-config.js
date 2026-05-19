@@ -6,7 +6,15 @@ module.exports = {
   plugins: [
     "gatsby-plugin-styled-components",
     'gatsby-plugin-netlify',
-
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "GTM-PV385L8W",
+        includeInDevelopment: false,
+        defaultDataLayer: { platform: "gatsby" },
+        enableWebVitalsTracking: true,
+        },
+      },
     {
       resolve: `gatsby-plugin-facebook-pixel`,
       options: {
