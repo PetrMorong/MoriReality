@@ -153,12 +153,12 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     {
       highlighted: "Postup pří koupi",
       normal: "apartmánu",
-      desc: "Vyberete si apartmán podle svých představ a investičních cílů. Následně uzavřeme smlouvu o smlouvě budoucí kupní a po složení zálohy 10% do bankovní úschovy je apartmán rezervován právě pro vás. Po dokončení jednotky a podpisu kupní smlouvy se stanete jejím výhradním vlastníkem. Od tohoto okamžiku s apartmánem nakládáte plně podle svého rozhodnutí.",
+      desc: "Vyberete si apartmán podle svých představ a investičních cílů. Následně uzavřeme smlouvu o smlouvě budoucí kupní a po složení zálohy 10% do bankovní úschovy je apartmán rezervován právě pro vás. Po složení zálohy vám začínáme vyplácet poměrnou část garantovaného nájmu — i po dobu rekonstrukce. Složíte-li 10 % z kupní ceny, obdržíte 10 % z garantovaného měsíčního výnosu. Plný výnos pobíráte od okamžiku zaplacení celé kupní ceny — bez čekání na předání bytu.  Po dokončení jednotky a podpisu kupní smlouvy se stanete jejím výhradním vlastníkem. Od tohoto okamžiku s apartmánem nakládáte plně podle svého rozhodnutí.",
     },
     {
       highlighted: "správa apartmánu",
       normal: "Kompletní ",
-      desc: "Kupujete si apartmán jako investici? Nabízíme vám kompletní správu a garantovaný výnos. Apartmán můžete zároveň sami využívat až 10 dní v roce. Při podpisu kupní smlouvy uzavřeme také vzájemnou nájemní smlouvu a tím vaše starosti končí. Nájemné vám vyplácíme vždy řádně a včas. Pravidelné měsíční platby inkasujete na svůj účet bez ohledu na obsazenost apartmánu. Od smlouvy můžete kdykoliv odstoupit a to bez smluvních pokut.",
+      desc: "Kupujete si apartmán jako investici? Nabízíme vám kompletní správu a garantovaný výnos. Apartmán můžete zároveň sami využívat až 10 dní v roce. Při podpisu kupní smlouvy uzavřeme také vzájemnou nájemní smlouvu a tím vaše starosti končí. Nájemné vám začínáme vyplácet již po složení zálohy — ještě v průběhu výstavby — a to v poměru k uhrazené části kupní ceny. Pravidelné měsíční platby inkasujete na svůj účet bez ohledu na obsazenost apartmánu. Od smlouvy můžete kdykoliv odstoupit a to bez smluvních pokut.",
     },
     {
       highlighted: "už od listopadu",

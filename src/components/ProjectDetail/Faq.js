@@ -115,6 +115,13 @@ Vy jen dostáváte garantovaný příjem bez ohledu na obsazenost.`
 
   {
     category: "investice",
+    question: "Kdy začnu dostávat garantovaný nájem?",
+    answer: `
+Okamžitě po složení zálohy — ještě během rekonstrukce. Výše měsíční platby odpovídá poměru uhrazené části kupní ceny. Při záloze 10 % dostáváte 10 % z garantovaného výnosu. Při 50 % záloze dostáváte 50 % výnosu. Plný garantovaný nájem pobíráte po uhrazení celé kupní ceny, bez ohledu na stav stavby.`
+  },
+
+  {
+    category: "investice",
     question: "Jaké náklady budu hradit při garantovaném nájmu?",
     answer: `
 Z výnosu se odečítá pouze příspěvek do SVJ.  
