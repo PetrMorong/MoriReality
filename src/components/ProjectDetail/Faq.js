@@ -108,7 +108,7 @@ const faqs = [
     category: "investice",
     question: "Co je to garantovaný nájem?",
     answer: `
-Garantovaný nájem je model, kdy od nás pobíráte fixní měsíční příjem po dobu 3 let s možností prodloužení. 
+Garantovaný nájem je model, kdy od nás pobíráte fixní měsíční příjem po dobu 5říjen let s možností prodloužení. 
 O veškerý provoz, hosty, úklid, údržbu a marketing se stará naše správcovská společnost. 
 Vy jen dostáváte garantovaný příjem bez ohledu na obsazenost.`
   },
@@ -141,7 +141,7 @@ Nabízíme ale také variantu správy se skutečnými náklady, kdy odečítáme
     question: "Mohu apartmán zároveň využívat i pronajímat?",
     answer: `
 Ano. Jako majitel máte možnost využít apartmán pro vlastní pobyty.
-Model vlastního užívání přizpůsobíme vašim preferencím — například 10 nocí ročně zdarma v případě garantovaného nájmu.`
+Model vlastního užívání přizpůsobíme vašim preferencím — například 14 nocí ročně zdarma v případě garantovaného nájmu.`
   },
 
   {

@@ -14,6 +14,7 @@ import ProjectSectionSix from "../../components/ProjectDetail/ProjectSectionSix"
 import Faq from "../../components/ProjectDetail/Faq";
 import OtherProjects from "../../components/ProjectDetail/OtherProjects";
 import dataProjektu from "../../utils/dataProjektuCervenyDvur"
+import InvestBlock from "../../components/ProjectDetail/InvestBlock";
 
 const CervenyDvurPage = () => {
   return (
@@ -24,6 +25,7 @@ const CervenyDvurPage = () => {
       <ProjectSectionThree data={dataProjektu} onlyOnerow={false} />
       <ProjectSectionFour data={dataProjektu} />
       <ProjectSectionFive data={dataProjektu} />
+      <InvestBlock />
       <ProjectSectionSix data={dataProjektu} videoSectionTitle="Video z rekonstrukce" />
       <PriceList vynos={true} data={dataProjektu} showBonus={true} category={true} koje={false} />
       <Faq />
