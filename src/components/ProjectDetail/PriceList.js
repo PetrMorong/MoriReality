@@ -204,7 +204,7 @@ const PriceList = ({ data, vynos, showBonus, category, terasa, koje }) => {
           
             {showBonus && (
               <Akce>
-                AKCE: Rezervujte apartmán 27 nebo 28 do 15. 6. 2026 a získáte kuchyňskou linku se spotřebiči a kompletní vybavení nábytkem zdarma.
+                AKCE: Rezervujte apartmán 27 nebo 28 do 15. 6. 2026 a získáte kuchyňskou linku se spotřebiči zdarma.
               </Akce>
             )}
           
