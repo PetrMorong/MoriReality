@@ -7,7 +7,7 @@ import { buildImageUrl } from "cloudinary-build-url";
 const CONTACT_PERSON = {
   name: "Bc. Markéta Dvořáková, MBA",
   role: "Obchodní manažerka projektu",
-  phone: "+420 775 561 091",
+  phone: "+420 601 502 889",
   email: "info@mori-reality.cz",
   quote: "Ráda vám pošlu podklady, zodpovím dotazy a domluvím prohlídku přímo v resortu.",
   initials: "MD",

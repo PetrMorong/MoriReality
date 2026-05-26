@@ -117,11 +117,11 @@ const CervenyDvurDetail = () => {
   if (typeof window !== 'undefined' && !apartment) {
     return (
       <Layout>
-        <Header email="info@mori-reality.cz" phone="+420 775 561 091" />
+        <Header email="info@mori-reality.cz" phone="+420 601 502 889" />
         <main className="ap-detail-not-found">
           <p>Byt nebyl nalezen. Zkontrolujte prosím URL.</p>
         </main>
-        <Footer email="info@mori-reality.cz" phone="+420 775 561 091" />
+        <Footer email="info@mori-reality.cz" phone="+420 601 502 889" />
       </Layout>
     )
   }
@@ -135,12 +135,12 @@ const CervenyDvurDetail = () => {
 
   return (
     <Layout>
-      <Header email="info@mori-reality.cz" phone="+420 775 561 091" />
+      <Header email="info@mori-reality.cz" phone="+420 601 502 889" />
       <ApSectionOne data={data} />
       <ApSectionTwo data={data} />
       {/* <ApSectionThree data={data} /> */}
       <ApSectionFour data={data} />
-      <Footer email="info@mori-reality.cz" phone="+420 775 561 091" />
+      <Footer email="info@mori-reality.cz" phone="+420 601 502 889" />
     </Layout>
   )
 }
