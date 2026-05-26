@@ -1038,7 +1038,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
   ],
 
   vynosInfo: {
-    headline: "15 500 Kč za měsíc",
+    headline: "19 450 Kč za měsíc",
     description:
       "Výnos je garantován developerem. Resort zajišťuje kompletní provoz, obsazenost a fakturaci – majitel neprovozuje nic sám.",
     items: [
@@ -1198,7 +1198,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
   tagline: "Apartmán s garantovaným výnosem a výhledem na řeku",
 
   // Akce – zobrazí se jako zlatý banner pod hero stripem
-  akceBanner: "Akce: zvýšení garantovaný výnos na 15 500 Kč do 30. 6. 2026 a kuchyň zdarma",
+  akceBanner: "Akce: zvýšení garantovaný výnos na 18 950 Kč do 30. 6. 2026 a kuchyň zdarma",
 
   // Blok „Pro koho je apartmán vhodný" (ApSectionFour)
   proKoho: [
