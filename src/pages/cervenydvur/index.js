@@ -26,7 +26,7 @@ const CervenyDvurPage = () => {
       <ProjectSectionFour data={dataProjektu} />
       <ProjectSectionFive data={dataProjektu} />
       <InvestBlock />
-      <ProjectSectionSix data={dataProjektu} videoSectionTitle="Video z rekonstrukce" />
+      <ProjectSectionSix data={dataProjektu} />
       <PriceList vynos={true} data={dataProjektu} showBonus={true} category={true} koje={false} />
       <Faq />
        {/*<OtherProjects data={dataProjektu} /> */}

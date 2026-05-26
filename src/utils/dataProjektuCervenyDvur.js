@@ -7,6 +7,7 @@ const data = {
   locationOne: "Výzkumníků 267",
   locationTwo: "Rapotín, okres Šumperk",
   cover: "vilaRepublikaCover",
+  videoUrl: "https://youtu.be/LuquFbuett8",
   desc: (
     <>
       Resort Červený dvůr. Místo, kde se moderna snoubí s historií. V malebné obci Rapotín pod vrcholky Hrubého Jeseníku rekonstruujeme historickou budovu z 30. let minulého století.
