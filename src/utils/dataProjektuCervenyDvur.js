@@ -1,5 +1,16 @@
 import React from 'react'
 import { buildImageUrl } from "cloudinary-build-url";
+import styled from "styled-components";
+
+const DescLink = styled.a`
+  &, &:visited {
+    color: #b29a84;
+    text-decoration: none;
+  }
+  &:hover {
+    text-decoration: underline;
+  }
+`;
 
 const data = {
   status: "Ve výstavbě",
@@ -12,7 +23,7 @@ const data = {
     <>
       Resort Červený dvůr. Místo, kde se moderna snoubí s historií. V malebné obci Rapotín pod vrcholky Hrubého Jeseníku rekonstruujeme historickou budovu z 30. let minulého století.
       Apartmánový dům bude sloužit jako ubytování hotelového typu s kompletním servisem. Vlastní apartmán vám tak může sloužit jako rodinné rekreační zázemí. V době, kdy ho nebudete obývat sami, se pro vás stane pasivní investicí. O kompletní správu a pohodlí vašich hostů se vám rádi postaráme od A do Z. Více info o ubytování na našem webu. {" "}
-      <a style={{ color: "B39A84" }} target="_blank" href="https://www.resortcervenydvur.cz">wwww.resortcervenydvur.cz</a>
+      <DescLink target="_blank" href="https://www.resortcervenydvur.cz/cs/">www.resortcervenydvur.cz</DescLink>
     </>
   ),
   sliderImages: [

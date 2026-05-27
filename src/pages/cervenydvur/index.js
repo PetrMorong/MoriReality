@@ -15,6 +15,7 @@ import Faq from "../../components/ProjectDetail/Faq";
 import OtherProjects from "../../components/ProjectDetail/OtherProjects";
 import dataProjektu from "../../utils/dataProjektuCervenyDvur"
 import InvestBlock from "../../components/ProjectDetail/InvestBlock";
+import NordMoraviaFlexSection from "../../components/ProjectDetail/NordMoraviaFlexSection";
 
 const CervenyDvurPage = () => {
   return (
@@ -28,6 +29,7 @@ const CervenyDvurPage = () => {
       <InvestBlock />
       <ProjectSectionSix data={dataProjektu} />
       <PriceList vynos={true} data={dataProjektu} showBonus={true} category={true} koje={false} />
+      <NordMoraviaFlexSection />
       <Faq />
        {/*<OtherProjects data={dataProjektu} /> */}
       <Footer email="info@mori-reality.cz" phone="601 502 889" />
