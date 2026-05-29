@@ -906,15 +906,15 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     },
 
     {
-  price: "3 590 000 Kč",
+  price: "3 390 000 Kč",
   number: "Byt č.26",
   floor: "2NP C",
   layout: "1kk",
   size: "28,04 m2",
   terasa: "",
   parking: "",
-  priceVynos: "17 950 Kč",
-  vynos: "215 400 Kč",
+  priceVynos: "16 950 Kč",
+  vynos: "203 400 Kč",
   link: "/cervenydvur/byt/?Id=26",
   category: "Modern Studio",
   categoryDescription:
@@ -1115,15 +1115,15 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
   ],
 },
     {
-      price: "3 790 000 Kč",
+      price: "3 590 000 Kč",
       number: "Byt č.28",
       floor: "2NP C",
       layout: "1kk",
       size: "31,03 m2",
       terasa: "",
       parking: "",
-      priceVynos: "18 950 Kč",
-      vynos: "227 400 Kč",
+      priceVynos: "17 950 Kč",
+      vynos: "215 400 Kč",
       link: "/cervenydvur/byt/?Id=28",
       category: "Modern Studio",
       categoryDescription:
@@ -1287,15 +1287,15 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     },
 
     {
-      price: "2 990 000 Kč",
+      price: "2 790 000 Kč",
       number: "Byt č.29",
       floor: "2NP C",
       layout: "1kk",
       size: "22,01 m2",
       terasa: "",
       parking: "",
-      priceVynos: "13 000 Kč",
-      vynos: "156 000 Kč",
+      priceVynos: "13 950 Kč",
+      vynos: "167 400 Kč",
       link: "/cervenydvur/byt/?Id=29",
       category: "Modern Studio",
       categoryDescription:
@@ -1336,7 +1336,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       ),
       colThreeNote:
         "Část C nabízí nejvyšší uživatelský komfort díky vnitřnímu propojení služeb a modernímu pojetí bydlení.",
-      reserved: true, // dočasně schované
+      reserved: false,
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: [
         "v1773389509/Rapotin/C_B29_wjj5eq.png",
