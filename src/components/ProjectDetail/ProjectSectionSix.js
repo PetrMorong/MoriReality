@@ -1,16 +1,6 @@
 import * as React from "react";
 import styled from "styled-components";
-
-function getYouTubeEmbedUrl(url) {
-  if (!url) return null;
-  let id = null;
-  const shortMatch = url.match(/youtu\.be\/([^?&]+)/);
-  const longMatch = url.match(/[?&]v=([^?&]+)/);
-  const embedMatch = url.match(/\/embed\/([^?&]+)/);
-  id = (shortMatch || longMatch || embedMatch || [])[1];
-  if (!id) return null;
-  return `https://www.youtube-nocookie.com/embed/${id}?playsinline=1&origin=https://mori-reality.cz&controls=1&showinfo=1`;
-}
+import ReactPlayer from "react-player/youtube";
 
 const ProjectSectionSix = ({ data, videoSectionTitle }) => {
   return (
@@ -76,14 +66,12 @@ const ProjectSectionSix = ({ data, videoSectionTitle }) => {
             </HeadlineRow>
 
             <VideoWrap>
-              <iframe
-                src={getYouTubeEmbedUrl(data.videoUrl)}
+              <ReactPlayer
+                url={data.videoUrl}
                 width="100%"
                 height="100%"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowFullScreen
-                title="Video prohlídka"
+                controls={true}
+                playsinline={true}
               />
             </VideoWrap>
           </WrapperTwo>
