@@ -952,7 +952,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
   ),
   colThreeNote:
     "Část C nabízí nejvyšší uživatelský komfort díky vnitřnímu propojení služeb a modernímu pojetí bydlení.",
-  reserved: false,
+  reserved: true, //tatka
   sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
   gallery: [
     "v1765973507/Rapotin/C_B26_iemomn.png",
