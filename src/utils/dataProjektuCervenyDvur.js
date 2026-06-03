@@ -1339,10 +1339,18 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       reserved: false,
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: [
+        "v1780487776/Rapotin/ChatGPT_Image_Jun_3_2026_10_17_50_AM_x301sn.png",
         "v1773389509/Rapotin/C_B29_wjj5eq.png",
         "v1773847284/Rapotin/Exterier_03_26/C29Pudorys_al8oh4.png",
         "v1773847324/Rapotin/Exterier_03_26/C29Exterier_2_lkaacn.png"
-      ]
+
+      ],
+        galleryLabels: [
+          "Vizualizace prostoru - zkosená střecha",
+          "Půdorys",
+          "Umístění v domě",
+          "Umístění v domě z venku",
+    ],
     },
 
     {
