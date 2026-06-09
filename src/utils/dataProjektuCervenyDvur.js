@@ -28,27 +28,48 @@ const data = {
   ),
   sliderImages: [
 
-    {
-      imageUrl: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
+     {
+      imageUrl: "v1781006708/Rapotin/nadvori_qmoqtm.png",
+    },
+     {
+      imageUrl: "v1781006279/Rapotin/zahrada_pohled_bkxpez.png",
+    },
+     {
+      imageUrl: "v1781006874/Rapotin/parkoviste_z3hbbt.png",
+    },
+     {
+      imageUrl: "v1781006280/Rapotin/Dron_od_vuchs_hhl7xi.png",
     },
     {
-      imageUrl: "v1763643021/Rapotin/DSC01347-HDR-min_aev5ff.jpg",
+      imageUrl: "v1781006773/Rapotin/Dron_nahon_x079my.png",
     },
-    {
-      imageUrl: "v1763643018/Rapotin/DSC01338-HDR-min_ovm1qq.jpg",
-    },
-    {
-      imageUrl: "v1763643021/Rapotin/DSC01326-HDR-min_aii9k1.jpg",
-    },
-    {
-      imageUrl: "v1763643019/Rapotin/DSC00731-HDR-min_rhlch6.jpg",
-    },
-    {
-      imageUrl: "v1763643022/Rapotin/DSC00866-min_vlwgs5.jpg",
-    },
-    {
-      imageUrl: "v1763643020/Rapotin/DSC00919-min_kdr0gt.jpg",
-    },
+
+    
+
+
+    //{
+    //  imageUrl: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
+   // },
+  //  {
+   //   imageUrl: "v1763643021/Rapotin/DSC01347-HDR-min_aev5ff.jpg",
+  //  },
+   // {
+   //   imageUrl: "v1763643018/Rapotin/DSC01338-HDR-min_ovm1qq.jpg",
+   // },
+   // {
+   //   imageUrl: "v1763643021/Rapotin/DSC01326-HDR-min_aii9k1.jpg",
+   // },
+   // {
+   //   imageUrl: "v1763643019/Rapotin/DSC00731-HDR-min_rhlch6.jpg",
+   // },
+   // {
+   //   imageUrl: "v1763643022/Rapotin/DSC00866-min_vlwgs5.jpg",
+   // },
+    //{
+    //  imageUrl: "v1763643020/Rapotin/DSC00919-min_kdr0gt.jpg",
+   // },
+
+    // sál
     {
       imageUrl: "v1763643007/Rapotin/DSC01118-HDR-min_ztlt5k.jpg",
     },
