@@ -1550,7 +1550,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
 
     {
       price: "4 090 000 Kč",
-      number: "Ubytovací j. č.33",
+      number: "Byt č.33",
       floor: "2NP C",
       layout: "2kk",
       size: "37,93 m2",
