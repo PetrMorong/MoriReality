@@ -466,20 +466,20 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       gallery: ["v1763461562/Rapotin/Text_odstavce_ofjnms.jpg"]
     },
     {
-      price: "",
+      price: "2 990 000 Kč",
       number: "Byt č.7",
       floor: "2NP A",
       layout: "1kk",
       size: "24,57 m2",
       terasa: "",
       parking: "",
-      priceVynos: "",
-      vynos: "",
+      priceVynos: "179 400 Kč",
+      vynos: "14 950 Kč",
       link: "/cervenydvur/byt/?Id=7",
-      reserved: true,
+      reserved: false,
       category: "Suite",
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
-      gallery: ["v1763461562/Rapotin/Text_odstavce_ofjnms.jpg"]
+      gallery: ["v1781270836/Rapotin/BJ_7_pudorys_potlp7.png"]
     },
     {
       price: "",
@@ -1103,7 +1103,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     "Snídaně v kavárně v části C"
   ],
 
-  reserved: false,
+  reserved: true,
   sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
   gallery: [
     "v1778264303/Rapotin/ChatGPT_Image_May_8_2026_08_16_03_PM_w6pciv.png",
