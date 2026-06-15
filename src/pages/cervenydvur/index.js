@@ -28,7 +28,7 @@ const CervenyDvurPage = () => {
       <ProjectSectionFive data={dataProjektu} />
       <InvestBlock />
       <ProjectSectionSix data={dataProjektu} />
-      <PriceList vynos={true} data={dataProjektu} showBonus={true} category={true} koje={false} />
+      <PriceList vynos={true} data={dataProjektu} showBonus={false} category={true} koje={false} />
       <NordMoraviaFlexSection />
       <Faq />
        {/*<OtherProjects data={dataProjektu} /> */}

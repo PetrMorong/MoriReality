@@ -1192,7 +1192,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       ),
       colThreeNote:
         "Část C nabízí nejvyšší uživatelský komfort díky vnitřnímu propojení služeb a modernímu pojetí bydlení.",
-      reserved: false, // Borovička
+      reserved: true, // Borovička
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: [
         "v1778263365/Rapotin/ChatGPT_Image_May_8_2026_07_45_38_PM_s5fx9t.png",
@@ -1357,7 +1357,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       ),
       colThreeNote:
         "Část C nabízí nejvyšší uživatelský komfort díky vnitřnímu propojení služeb a modernímu pojetí bydlení.",
-      reserved: false, // Blahník
+      reserved: true, // Blahník
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: [
         "v1780487776/Rapotin/ChatGPT_Image_Jun_3_2026_10_17_50_AM_x301sn.png",
