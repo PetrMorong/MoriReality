@@ -309,7 +309,7 @@ const NordMoraviaFlexSection = () => {
 
         <MetricsGrid>
           <MetricCard>
-            <BigNumber>6 % p.a.</BigNumber>
+            <BigNumber>5 % p.a.</BigNumber>
             <MetricLabel>Garantovaný výnos, vyplácen měsíčně</MetricLabel>
           </MetricCard>
           <MetricCard>

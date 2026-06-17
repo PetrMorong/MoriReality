@@ -160,7 +160,7 @@ const InvestBlock = () => {
       <Wrapper>
         <Label>Proč investovat do Červeného dvora</Label>
         <Headline>
-          Garantovaný výnos <HeadlineGold>6 % p.a.</HeadlineGold>
+          Garantovaný výnos <HeadlineGold>5 % p.a.</HeadlineGold>
         </Headline>
         <SubLine>Měsíční výplata na váš účet — bez ohledu na obsazenost</SubLine>
 

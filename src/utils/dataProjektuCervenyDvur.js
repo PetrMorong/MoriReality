@@ -324,15 +324,15 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       gallery: ["v1763461562/Rapotin/Text_odstavce_ofjnms.jpg"]
     },
     {
-      price: "4 490 000 Kč",
+      price: "4 290 000 Kč",
       number: "Byt č.4",
       floor: "1NP A",
-      layout: "1kk",
+      layout: "2kk",
       size: "54,25 m2",
       terasa: "",
       parking: "",
-      priceVynos: "22 450 Kč",
-      vynos: "269 400 Kč",
+      priceVynos: "17 875 Kč",
+      vynos: "214 500 Kč",
       link: "/cervenydvur/byt/?Id=4",
       category: "Komfort",
       categoryDescription:
@@ -388,18 +388,18 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       ]
     },
     {
-      price: "4 790 000 Kč",
+      price: "4 090 000 Kč",
       number: "Byt č.5",
       floor: "2NP A",
       layout: "2kk",
       size: "39,86 m2",
       terasa: "",
       parking: "",
-      priceVynos: "23 950 Kč",
-      vynos: "287 400 Kč",
+      priceVynos: "17 042 Kč",
+      vynos: "204 500 Kč",
       link: "/cervenydvur/byt/?Id=5",
       reserved: false,
-      category: "Wellness Suite",
+      category: "Suite",
       categoryDescription:
         "Wellness suite s privátní saunou a vířivou vanou – určená pro náročné hosty i prémiový pronájem.",
       apText:
