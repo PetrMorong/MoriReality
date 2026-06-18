@@ -1382,8 +1382,8 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       size: "57,10 m2",
       terasa: "",
       parking: "",
-      priceVynos: "22 450 Kč",
-      vynos: "269 400 Kč",
+      priceVynos: "18 708 Kč",
+      vynos: "224 500 Kč",
       link: "/cervenydvur/byt/?Id=30",
       category: "Modern Suite",
       categoryDescription:
@@ -1440,8 +1440,8 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       size: "42,49 m2",
       terasa: "",
       parking: "",
-      priceVynos: "21 450 Kč",
-      vynos: "257 400 Kč",
+      priceVynos: "17 875 Kč",
+      vynos: "214 500 Kč",
       category: "Modern Suite",
       categoryDescription:
         "Moderní byty v části C s přímým vnitřním propojením na kavárnu, hernu a dětský koutek.",
@@ -1594,10 +1594,10 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
         "Část C nabízí nejvyšší uživatelský komfort díky vnitřnímu propojení služeb a modernímu pojetí bydlení.",
       terasa: "",
       parking: "",
-      priceVynos: "20 450 Kč",
-      vynos: "245 400 Kč",
+      priceVynos: "17 042 Kč",
+      vynos: "204 500 Kč",
       link: "/cervenydvur/byt/?Id=33",
-      reserved: false,
+      reserved: false, // Pavlinec
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: [
         "v1773406461/Rapotin/C_B33_ha8eyz.png",
@@ -1670,8 +1670,8 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
   size: "53,63 m2",
   terasa: "",
   parking: "",
-  priceVynos: "23 950 Kč",
-  vynos: "287 400 Kč",
+  priceVynos: "19 958 Kč",
+  vynos: "239 500 Kč",
   link: "/cervenydvur/byt/?Id=35",
   category: "Suite",
   categoryDescription:
