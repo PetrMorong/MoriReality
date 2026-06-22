@@ -334,29 +334,29 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       priceVynos: "17 875 Kč",
       vynos: "214 500 Kč",
       link: "/cervenydvur/byt/?Id=4",
-      category: "Komfort",
+      category: "Suite",
       categoryDescription:
-        "Prostorný byt 1kk s možností výrazného upgradu na vyšší standard i vyšší výnos z pronájmu.",
+        "Prostorný byt 2kk",
       apText:
         <>
-          Byt je <b>zažádán ke kolaudaci</b> a připraven k převodu. <b>Zápis jednotky do katastru: 05/2026</b>. <br /><br /><b>Kuchyňská linka je součástí ceny.</b> <br /><br />Kupující má možnost byt po koupi <b>dále rozšířit a posunout do vyšší kategorie</b> – technicky i dispozičně.
+          Byt je <b>zkolaudován</b> a připraven k převodu. <b>Možnost převodu: 08/2026</b>. <br /><br /><b>Nová koupelna, kuchyň i nábytek jsou součástí ceny.</b> <br /><br />Kupující má možnost byt po koupi <b>dále rozšířit a posunout do vyšší kategorie</b> – technicky i dispozičně.
         </>,
       colOneTitle: "Aktuální stav bytu",
       colOneText: (
         <>
-          <li>Dispozice <b>1kk</b> – funkční a prostorné řešení.</li>
-          <li><b>Kuchyňská linka v ceně</b>.</li>
+          <li>Dispozice <b>2kk</b> – funkční a prostorné řešení.</li>
+          <li><b>Nová koupelna, kuchyň i nábytek v ceně</b>.</li>
           <li>Byt připravený k užívání nebo dalším úpravám.</li>
-          <li><b>Zažádáno o kolaudaci</b>, převod po zápisu do KN.</li>
+          <li><b>Zkolaudováno</b>, převod možný od srpna 2026.</li>
         </>
       ),
 
       colTwoTitle: "Možnosti rozšíření a vylepšení",
       colTwoDescription:
-        "Byt nabízí zajímavý potenciál pro individuální úpravy nebo investiční zhodnocení. Po koupi je možné realizovat stavební i dispoziční změny, které byt posunou do vyšší kategorie a zvýší jeho atraktivitu na trhu.",
+        "Byt nabízí zajímavý potenciál pro individuální úpravy nebo investiční zhodnocení. Po koupi je možné realizovat stavební změny, které byt posunou do vyšší kategorie a zvýší jeho atraktivitu na trhu.",
       colTwoClaim:
         <>
-          <b>Možné úpravy:</b> nová koupelna, privátní sauna, vířivka nebo úprava dispozice na <b>2kk</b>.
+          <b>Možné úpravy:</b> privátní sauna.
         </>,
       colTwoDownloadDesc:
         "Práce, koordinaci řemesel i technický dohled jsme schopni kompletně zajistit. Rádi připravíme orientační rozpočet a návrh řešení.",
@@ -376,19 +376,18 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       reserved: false,
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: [
-        "v1769181009/Rapotin/LL401874-HDR-min_scd0ze.jpg",
-        "v1773389507/Rapotin/A_B4_ztcrbc.png",
+        "v1782129655/Rapotin/A_B4_jk7tyc.png",
         "v1765972701/Rapotin/A4Pudorys_dql2on.png",
         "v1765972703/Rapotin/A4Exterier_snawj5.png",
+        "v1769181009/Rapotin/LL401874-HDR-min_scd0ze.jpg",
         "v1769181011/Rapotin/LL401865-HDR-min_yqr64i.jpg",
         "v1769181011/Rapotin/LL401877-HDR-min_e4p2ju.jpg",
         "v1769181011/Rapotin/LL401901-HDR-min_vdyi04.jpg",
         "v1769181777/Rapotin/ChatGPT_Image_Jan_23_2026_04_22_24_PM_eq3xro.png"
-
       ]
     },
     {
-      price: "4 090 000 Kč",
+     price: "4 090 000 Kč",
       number: "Byt č.5",
       floor: "2NP A",
       layout: "2kk",
@@ -401,29 +400,28 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       reserved: false,
       category: "Suite",
       categoryDescription:
-        "Wellness suite s privátní saunou a vířivou vanou – určená pro náročné hosty i prémiový pronájem.",
+        "Wellness suite s privátní vířivou vanou – určená pro náročné hosty i prémiový pronájem.",
       apText:
         <>
-          Byt je navržen jako <b>wellness suite</b> s důrazem na relax a zážitek. Součástí je <b>privátní sauna, vířivá vana a nová koupelna</b>. <br /><br />Aktuálně probíhá administrativní proces změny stavby před dokončením a rozdělení původní větší jednotky. <b>Zápis jednotky do katastru: 11/2026</b>.
+          Byt je navržen jako <b>suite</b> s důrazem na relax a zážitek. <br /><br /><b>Akce: kuchyňská linka v ceně při podpisu smlouvy do 31. 7. 2026.</b> <br /><br />Aktuálně probíhá administrativní proces změny stavby před dokončením a rozdělení původní větší jednotky. <b>Zápis jednotky do katastru: 11/2026</b>.
         </>,
       colOneTitle: "Hlavní benefity bytu",
       colOneText: (
         <>
-          <li><b>Privátní sauna přímo v bytě</b>.</li>
-          <li><b>Vířivá vana</b> – výrazný nadstandard.</li>
           <li><b>Nová koupelna</b> v rámci rekonstrukce.</li>
           <li>Dispozice <b>2kk</b> – vhodná i pro vícedenní pobyty.</li>
+          <li><b>Akce: kuchyňská linka v ceně</b> při podpisu smlouvy do 31. 7. 2026.</li>
         </>
       ),
 
       colTwoTitle: "Rekonstrukce a standard",
       colTwoDescription:
         <>
-          Konkrétní část bytu projde rekonstrukcí – realizována bude <b>nová podlaha</b> a kompletní úpravy koupelny a wellness části. Standard je navržen s cílem posunout jednotku do prémiové kategorie vhodné pro vyšší cenovou hladinu pronájmu.
+          Konkrétní část bytu projde rekonstrukcí – realizována bude <b>nová podlaha</b> a kompletní úpravy koupelny.
         </>,
       colTwoClaim:
         <>
-          <b>Kuchyňská linka není součástí ceny.</b> Kupující má možnost zvolit vlastní řešení dle preferovaného standardu nebo investiční strategie.
+          <b>Kuchyňská linka není standardně součástí ceny.</b> Aktuálně však běží akce – při podpisu smlouvy do 31. 8. 2026 ji <b>přidáme zdarma</b>.
         </>,
       colTwoDownloadDesc:
         "Na vyžádání připravíme návrh řešení, technický popis a doporučení vhodné skladby vybavení pro maximální výnos.",
@@ -433,18 +431,16 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
         <>
           <li><b>Zápis do katastru nemovitostí: 11/2026</b>.</li>
           <li>Jednotka vzniká rozdělením původního většího bytu.</li>
-          <li>Wellness vybavení umožňuje <b>vyšší nájemné</b> než standardní jednotky.</li>
+          <li>Umístění v části A umožňuje <b>vyšší nájemné</b></li>
           <li>Vhodné pro krátkodobý i prémiový rekreační pronájem.</li>
         </>
       ),
       colThreeNote:
-        "Suite se saunou patří dlouhodobě mezi nejžádanější typy jednotek v horských a rekreačních lokalitách.",
-
+        "Rohový byt s krásným výhledem",
 
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: [
-        "v1769182359/Rapotin/ChatGPT_Image_Jan_4_2026_05_33_36_PM_1_pkvgoj.png",
-        "v1773389510/Rapotin/A_B5_gv6xe6.png",
+        "v1782129931/Rapotin/A_B5_aycomf.png",
         "v1773847282/Rapotin/Exterier_03_26/A5Pudorys_xyw9ln.png",
         "v1773847282/Rapotin/Exterier_03_26/A5Pudorys_xyw9ln.png",
       ]
@@ -1484,7 +1480,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       reserved: false,
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: [
-        "v1773406525/Rapotin/C_B31_v8jeka.png",
+        "v1782129934/Rapotin/C_B31_yya6lc.png",
         "v1773847285/Rapotin/Exterier_03_26/C31Pudorys_lzsxkd.png",
         "v1773847314/Rapotin/Exterier_03_26/C31Exterier_nvlqut.png"
       ]
