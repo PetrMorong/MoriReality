@@ -1707,11 +1707,59 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     "Největší jednotka v části C s dispozicí 3kk nabízí silnou pozici pro prémiový pronájem i vlastní rodinnou rekreaci.",
   reserved: false,
   sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
+  galleryLabels: [
+    "Ložnice",
+    "Obývací pokoj",
+    "Kuchyňský kout",
+    "Koupelna",
+    "Chodba část C",
+    "Půdorys – Byt č.27",
+    "Umístění v domě",
+    "Umístění v domě z venku",
+    "Chodba - současný stav",
+    "Byt - před rekonstrukcí",
+    "Byt - před rekonstrukcí",
+    "Wellness",
+    "Wellness",
+    "Wellness",
+    "Wellness",
+    "Wellness",
+    "Dětský koutek v části C",
+    "Snídaně v kavárně v části C",
+    "Snídaně v kavárně v části C"
+  ],
+
+
   gallery: [
+    "v1778264303/Rapotin/ChatGPT_Image_May_8_2026_08_16_03_PM_w6pciv.png",
+    "v1778264304/Rapotin/ChatGPT_Image_May_8_2026_08_14_36_PM_ztvwn2.png",
+    "v1782130820/Rapotin/ChatGPT_Image_Jun_22_2026_02_19_54_PM_nsejnl.png",
+    "v1778264302/Rapotin/ChatGPT_Image_May_8_2026_08_17_57_PM_fvatm1.png",
+    "v1778263804/Rapotin/ChatGPT_Image_May_8_2026_08_09_37_PM_azfm6o.png",  
     "v1773406398/Rapotin/C_B35_jza2xa.png",
     "v1773847286/Rapotin/Exterier_03_26/C35Pudorys_w7jbrg.png",
-    "v1773847320/Rapotin/Exterier_03_26/C35Exterier_depp3h.png"
-  ]
+    "v1773847320/Rapotin/Exterier_03_26/C35Exterier_depp3h.png",
+  
+
+    // současný stav
+    "v1779183971/Rapotin/DSC01484_1_muiywn.jpg",
+    "v1779183973/Rapotin/DSC01413_1_rh4lgi.jpg",
+    "v1779183973/Rapotin/DSC01409_1_rrvqwh.jpg",
+
+    // wellness
+    "v1773849235/Rapotin/DSC07004_1_grjrxp.jpg",
+    "v1773849227/Rapotin/DSC07001_1_fvvlxh.jpg",
+    "v1773849227/Rapotin/DSC07009_1_n8rixd.jpg",
+    "v1773849229/Rapotin/DSC06991_1_moequq.jpg",
+    "v1773849236/Rapotin/DSC07020_1_xym9hm.jpg",
+
+    //detsky koutek 
+    "v1778316892/Rapotin/DSC01271_wjctji.jpg",
+
+    // Snídaně
+    "v1778316898/Rapotin/snidane_gezxcj.png",
+    "v1778316895/Rapotin/snidane_2_czfu9h.png"
+  ],
 },
         {
       price: "3 690 000 Kč",
