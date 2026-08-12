@@ -410,7 +410,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
         <>
           <li><b>Nová koupelna</b> v rámci rekonstrukce.</li>
           <li>Dispozice <b>2kk</b> – vhodná i pro vícedenní pobyty.</li>
-          <li><b>Akce: kuchyňská linka v ceně</b> při podpisu smlouvy do 31. 7. 2026.</li>
+          <li><b>Akce: kuchyňská linka v ceně</b> při podpisu smlouvy do 15. 8. 2026.</li>
         </>
       ),
 
@@ -421,7 +421,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
         </>,
       colTwoClaim:
         <>
-          <b>Kuchyňská linka není standardně součástí ceny.</b> Aktuálně však běží akce – při podpisu smlouvy do 31. 8. 2026 ji <b>přidáme zdarma</b>.
+          <b>Kuchyňská linka není standardně součástí ceny.</b> Aktuálně však běží akce – při podpisu smlouvy do 15. 8. 2026 ji <b>přidáme zdarma</b>.
         </>,
       colTwoDownloadDesc:
         "Na vyžádání připravíme návrh řešení, technický popis a doporučení vhodné skladby vybavení pro maximální výnos.",
