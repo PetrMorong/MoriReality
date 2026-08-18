@@ -456,23 +456,23 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       priceVynos: "",
       vynos: "",
       link: "/cervenydvur/byt/?Id=6",
-      reserved: true,
+      reserved: true, // neustupová
       category: "Komfort",
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: ["v1763461562/Rapotin/Text_odstavce_ofjnms.jpg"]
     },
     {
-      price: "2 990 000 Kč",
+      price: "3 190 000 Kč",
       number: "Byt č.7",
       floor: "2NP A",
       layout: "1kk",
       size: "24,57 m2",
       terasa: "",
       parking: "",
-      priceVynos: "179 400 Kč",
-      vynos: "14 950 Kč",
+      priceVynos: "159 500 Kč",
+      vynos: "13 291 Kč",
       link: "/cervenydvur/byt/?Id=7",
-      reserved: true, // zatím sundané
+      reserved: false, // Bena (odstupuje)
       category: "Suite",
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: ["v1781270836/Rapotin/BJ_7_pudorys_potlp7.png"]
