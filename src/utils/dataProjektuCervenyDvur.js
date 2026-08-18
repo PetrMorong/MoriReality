@@ -373,7 +373,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       colThreeNote:
         "Byt je ideální volbou pro kupující, kteří chtějí kombinovat okamžité užívání s budoucím zhodnocením nemovitosti.",
 
-      reserved: false,
+      reserved: true, // Kozel
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: [
         "v1782129655/Rapotin/A_B4_jk7tyc.png",
