@@ -128,6 +128,12 @@ const Footer = ({ email, phone }) => {
         <Col style={{ width: 140 }}>
           <Title>Kontakt</Title>
 
+          
+
+           <Link>
+            BC. Markéta Morong, MBA
+          </Link>
+
           <Link href={`tel:${phone || "+420 601 502 889"}`}>
             {phone || "+420 601 502 889"}
           </Link>
