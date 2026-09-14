@@ -397,7 +397,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       priceVynos: "17 042 Kč",
       vynos: "204 500 Kč",
       link: "/cervenydvur/byt/?Id=5",
-      reserved: false,
+      reserved: true, // Di Leva
       category: "Suite",
       categoryDescription:
         "Wellness suite s privátní vířivou vanou – určená pro náročné hosty i prémiový pronájem.",
@@ -472,7 +472,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       priceVynos: "159 500 Kč",
       vynos: "13 291 Kč",
       link: "/cervenydvur/byt/?Id=7",
-      reserved: false, // Bena (odstupuje)
+      reserved: false,
       category: "Suite",
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: ["v1781270836/Rapotin/BJ_7_pudorys_potlp7.png"]
