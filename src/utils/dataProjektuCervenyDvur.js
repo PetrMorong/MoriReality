@@ -881,6 +881,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: [
         "v1789989971/Rapotin/DSC01030-HDR_quwkmw.jpg",
+        "v1789997494/Rapotin/C_B19_mcfo3o.png",
         "v1789989971/Rapotin/DSC01033-HDR_xqgb3o.jpg",
         "v1789989972/Rapotin/DSC01039-HDR_p5ajcn.jpg",
         "v1789989972/Rapotin/DSC01048-HDR_jpvgpx.jpg",
@@ -949,6 +950,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: [
         "v1789990886/Rapotin/DSC00976-HDR_oz08jg.jpg",
+        "v1789997494/Rapotin/C_B20_wwqzei.png",
         "v1789990886/Rapotin/DSC00997-HDR_kqgpps.jpg",
         "v1789990887/Rapotin/DSC00973-HDR_nmtaqc.jpg",
         "v1789990887/Rapotin/DSC00991-HDR_lgghum.jpg",
@@ -2036,6 +2038,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: [
         "v1789992142/Rapotin/DSC06369_wp1e3t.jpg",
+        "v1789997495/Rapotin/C_B37_dxqchf.png",
         "v1789992141/Rapotin/DSC06370_sor6ki.jpg",
         "v1789992141/Rapotin/DSC06375_hqg2vg.jpg",
         "v1789992142/Rapotin/DSC06391-1_u9izok.jpg",
