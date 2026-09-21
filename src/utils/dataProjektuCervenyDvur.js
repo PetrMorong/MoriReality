@@ -215,7 +215,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     {
       step: "1",
       title: "Rezervace",
-      text: "U rozestavěných jednotek podepíšete smlouvu o smlouvě budoucí kupní se zálohou 10 % do bankovní úschovy. U dokončených apartmánů v provozu podepíšete rezervační smlouvu se zálohou 20 % z kupní ceny na účet prodávajícího. Apartmán je od té chvíle blokován pro vás.",
+      text: "Podepíšete smlouvu o smlouvě budoucí kupní. U rozestavěných jednotek složíte zálohu 10 % do bankovní úschovy, u dokončených apartmánů v provozu zálohu 20 % z kupní ceny. Kupní smlouvu podepíšeme po zápisu jednotky do katastru.",
     },
     {
       step: "2",
@@ -462,20 +462,66 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       gallery: ["v1763461562/Rapotin/Text_odstavce_ofjnms.jpg"]
     },
     {
-      price: "3 190 000 Kč",
+      price: "2 900 000 Kč",
       number: "Byt č.7",
       floor: "2NP A",
       layout: "1kk",
       size: "24,57 m2",
       terasa: "",
       parking: "",
-      priceVynos: "",
-      vynos: "",
+      priceVynos: "12 282 Kč**",
+      vynos: "5,1 %**",
       link: "/cervenydvur/byt/?Id=7",
       reserved: false,
       category: "Suite",
+      categoryDescription: "Kompaktní apartmán 1kk s balkonem – před rekonstrukcí, s možností dokončit podle vlastních představ.",
+      apText:
+        <>
+          Apartmán se prodává <b>ve stavu před rekonstrukcí</b>. Po dokončení jej lze zapojit do provozu resortu v modelu podílu z tržby (45 % z ubytovací tržby bez DPH) – stejně jako dokončené apartmány v domě, které mají doloženou obsazenost 53–71 % za leden–srpen 2026.
+        </>,
+      colOneTitle: "Hlavní benefity",
+      colOneText: (
+        <>
+          <li><b>Balkon</b> – hlavní výhoda jednotky.</li>
+          <li><b>Nižší vstupní cena</b> než u dokončených jednotek.</li>
+          <li>Možnost <b>ovlivnit dispozici a vybavení</b>.</li>
+          <li>Po dokončení <b>zapojení do fungujícího provozu</b> resortu.</li>
+        </>
+      ),
+      colTwoTitle: "Model spolupráce",
+      colTwoDescription:
+        "Dostáváte 45 % z ubytovací tržby své jednotky bez DPH, vyplácí se měsíčně s rozpisem rezervací. Provozovatel hradí provize rezervačních portálů, úklid, prádlo, snídaně, wellness pro hosty, check-in, marketing i běžnou údržbu.",
+      colTwoClaim:
+        "Vy jako vlastník hradíte jen fond oprav a správu SVJ, energie jednotky, pojištění a daň z nemovitých věcí.",
+      colTwoDownloadDesc:
+        "V PDF najdete detailní popis standardů a orientační seznam vybavení.",
+      colThreeTitle: "Stav",
+      colThreeDesc: (
+        <>
+          <li><b>Před rekonstrukcí</b></li>
+          <li><b>Balkon</b></li>
+          <li>Rozsah a termín dokončení upřesníme individuálně.</li>
+          <li>Rezervace: smlouva o smlouvě budoucí kupní, záloha 10 % do bankovní úschovy.</li>
+        </>
+      ),
+      colThreeNote:
+        "Údaje o obsazenosti se týkají jiných apartmánů v domě, nikoli této jednotky, a nejsou zárukou budoucího výnosu.",
+      vynosInfo: {
+        headline: "Odhad: zbyde vám  12 282 Kč měsíčně",
+        description:
+          "Modelový výpočet po dokončení a zapojení do provozu – při 60% obsazenosti a průměrné ceně 2 050 Kč za noc. Dokončené apartmány v domě dosáhly už v prvním roce provozu obsazenosti 53–71 %.",
+        items: [
+          "Čistý výnos cca 5,1 % p.a. z kupní ceny (bez nákladů na rekonstrukci)",
+          "Po odečtení energií, SVJ, pojištění a daně z nemovitosti",
+          "14 nocí ročně pro vlastní pobyt",
+        ],
+      },
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
-      gallery: ["v1781270836/Rapotin/BJ_7_pudorys_potlp7.png"]
+      gallery: [
+        "v1789993515/Rapotin/A7karta_ajmt41.png",
+        "v1789993515/Rapotin/A7Pudorys_uodgbt.png",
+        "v1789993517/Rapotin/A7Exterier_swtfxq.png"
+      ]
     },
     {
       price: "",
@@ -782,14 +828,14 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       size: "34,87 m2",
       terasa: "",
       parking: "",
-      priceVynos: "19 067 Kč",
-      vynos: "70,8 %",
+      priceVynos: "15 567 Kč",
+      vynos: "5,5 %",
       link: "/cervenydvur/byt/?Id=19",
       category: "Komfort",
       categoryDescription: "Prostorný apartmán 1kk – nejvytíženější jednotka v domě.",
       apText:
         <>
-          Apartmán je <b>dokončený, zařízený a od ledna 2026 v hotelovém provozu</b>. Kupujete jednotku s reálnou historií tržeb – za leden–srpen 2026 dosáhl obsazenosti <b>70,8 %</b> (172 nocí) při průměrné ceně <b>2 207 Kč za noc</b>. Vlastníkovi by za tuto dobu náleželo <b>152 538 Kč</b>.
+          Apartmán je <b>dokončený, zařízený a od ledna 2026 v hotelovém provozu</b>. Kupujete jednotku s reálnou historií tržeb – za leden–srpen 2026 dosáhl obsazenosti <b>70,8 %</b> (172 nocí) při průměrné ceně <b>2 207 Kč za noc</b>.
         </>,
       colOneTitle: "Hlavní benefity",
       colOneText: (
@@ -810,28 +856,37 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       colThreeTitle: "Stav",
       colThreeDesc: (
         <>
-          <li><b>Dokončeno</b></li>
-          <li><b>Zařízeno</b></li>
+          <li><b>Dokončeno a zařízeno</b></li>
+          <li><b>Zkolaudováno</b></li>
           <li><b>V provozu od 1/2026</b></li>
-          <li>Rezervace: záloha 20 % z kupní ceny.</li>
-          <li>Převod možný ihned po podpisu kupní smlouvy.</li>
+          <li>Zápis prohlášení vlastníka do KN: <b>cca 11/2026</b></li>
+          <li>Rezervace: smlouva o smlouvě budoucí kupní, záloha 20 % z kupní ceny.</li>
+          <li>Převod na nového vlastníka (kupní smlouva): <b>01/2028</b></li>
         </>
       ),
       colThreeNote:
         "Uvedené údaje jsou historické výsledky, nikoli záruka budoucího výnosu.",
       vynosInfo: {
-        headline: "Ø 19 067 Kč měsíčně vlastníkovi (1–8/2026)",
+        headline: "Zbyde vám  15 567 Kč měsíčně",
         description:
-          "Podíl 45 % z ubytovací tržby bez DPH podle skutečných rezervací. Provozní náklady nese provozovatel.",
+          "Skutečné výsledky z prvního roku provozu, kdy se resort ještě dokončoval. Berte je jako výchozí úroveň – po dokončení celého areálu očekáváme lepší čísla.",
         items: [
+          "Čistý výnos 5,5 % p.a. (skutečnost 1–8/2026), konzervativně 4,5 % p.a.",
           "Obsazenost 70,8 % za leden–srpen 2026",
-          "Konzervativní scénář (60 % obsazenost, 2 200 Kč/noc): čistý výnos cca 4,5 % p.a.",
+          "Po odečtení energií, SVJ, pojištění a daně z nemovitosti",
           "14 nocí ročně pro vlastní pobyt",
         ],
       },
       reserved: false,
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
-      gallery: ["v1763461562/Rapotin/Text_odstavce_ofjnms.jpg"]
+      gallery: [
+        "v1789989971/Rapotin/DSC01030-HDR_quwkmw.jpg",
+        "v1789989971/Rapotin/DSC01033-HDR_xqgb3o.jpg",
+        "v1789989972/Rapotin/DSC01039-HDR_p5ajcn.jpg",
+        "v1789989972/Rapotin/DSC01048-HDR_jpvgpx.jpg",
+        "v1789989971/Rapotin/DSC01021-HDR_sjltk5.jpg",
+        "v1789989972/Rapotin/DSC01089_jbqslf.jpg"
+      ]
     },
     {
       price: "2 590 000 Kč",
@@ -841,14 +896,14 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       size: "25,02 m2",
       terasa: "",
       parking: "",
-      priceVynos: "13 931 Kč",
-      vynos: "54,3 %",
+      priceVynos: "11 181 Kč",
+      vynos: "5,2 %",
       link: "/cervenydvur/byt/?Id=20",
       category: "Komfort",
       categoryDescription: "Kompaktní apartmán 1kk s nejnižší vstupní cenou v nabídce.",
       apText:
         <>
-          Apartmán je <b>dokončený, zařízený a od ledna 2026 v hotelovém provozu</b>. Za leden–srpen 2026 dosáhl obsazenosti <b>54,3 %</b> (132 nocí) při průměrné ceně <b>2 101 Kč za noc</b>; vlastníkovi by náleželo <b>111 447 Kč</b>. Nejsilnější byly červen (73 %) a srpen (84 %).
+          Apartmán je <b>dokončený, zařízený a od ledna 2026 v hotelovém provozu</b>. Za leden–srpen 2026 dosáhl obsazenosti <b>54,3 %</b> (132 nocí) při průměrné ceně <b>2 101 Kč za noc</b>. Nejsilnější byly červen (73 %) a srpen (84 %).
         </>,
       colOneTitle: "Hlavní benefity",
       colOneText: (
@@ -869,28 +924,37 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       colThreeTitle: "Stav",
       colThreeDesc: (
         <>
-          <li><b>Dokončeno</b></li>
-          <li><b>Zařízeno</b></li>
+          <li><b>Dokončeno a zařízeno</b></li>
+          <li><b>Zkolaudováno</b></li>
           <li><b>V provozu od 1/2026</b></li>
-          <li>Rezervace: záloha 20 % z kupní ceny.</li>
-          <li>Převod možný ihned po podpisu kupní smlouvy.</li>
+          <li>Zápis prohlášení vlastníka do KN: <b>cca 11/2026</b></li>
+          <li>Rezervace: smlouva o smlouvě budoucí kupní, záloha 20 % z kupní ceny.</li>
+          <li>Převod na nového vlastníka (kupní smlouva): <b>01/2028</b></li>
         </>
       ),
       colThreeNote:
         "Uvedené údaje jsou historické výsledky, nikoli záruka budoucího výnosu.",
       vynosInfo: {
-        headline: "Ø 13 931 Kč měsíčně vlastníkovi (1–8/2026)",
+        headline: "Zbyde vám  11 181 Kč měsíčně",
         description:
-          "Podíl 45 % z ubytovací tržby bez DPH podle skutečných rezervací. Provozní náklady nese provozovatel.",
+          "Skutečné výsledky z prvního roku provozu, kdy se resort ještě dokončoval. Berte je jako výchozí úroveň – po dokončení celého areálu očekáváme lepší čísla.",
         items: [
+          "Čistý výnos 5,2 % p.a. (skutečnost 1–8/2026), konzervativně 4,5 % p.a.",
           "Obsazenost 54,3 % za leden–srpen 2026",
-          "Konzervativní scénář (50 % obsazenost, 2 050 Kč/noc): čistý výnos cca 4,5 % p.a.",
+          "Po odečtení energií, SVJ, pojištění a daně z nemovitosti",
           "14 nocí ročně pro vlastní pobyt",
         ],
       },
       reserved: false,
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
-      gallery: ["v1763461562/Rapotin/Text_odstavce_ofjnms.jpg"]
+      gallery: [
+        "v1789990886/Rapotin/DSC00976-HDR_oz08jg.jpg",
+        "v1789990886/Rapotin/DSC00997-HDR_kqgpps.jpg",
+        "v1789990887/Rapotin/DSC00973-HDR_nmtaqc.jpg",
+        "v1789990887/Rapotin/DSC00991-HDR_lgghum.jpg",
+        "v1789990886/Rapotin/DSC00982-HDR_clmeae.jpg",
+        "v1789990885/Rapotin/DSC00949-HDR_weuqv8.jpg"
+      ]
     },
 
     {
@@ -991,29 +1055,29 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     },
 
     {
-      price: "3 490 000 Kč",
+      price: "2 950 000 Kč",
       number: "Byt č.24",
-      floor: "2NP B",
+      floor: "3NP B",
       layout: "2kk",
-      size: "40,86 m2",
+      size: "29,46 m2",
       terasa: "",
       parking: "",
-      priceVynos: "16 192 Kč",
-      vynos: "53,1 %",
+      priceVynos: "13 132 Kč**",
+      vynos: "5,3 %**",
       link: "/cervenydvur/byt/?Id=24",
       category: "Suite",
-      categoryDescription: "Apartmán 2kk pro rodiny a skupiny – kapacita 4 lůžka.",
+      categoryDescription: "Apartmán 2kk ve 3. NP části B – před rekonstrukcí, s možností dokončit podle vlastních představ.",
       apText:
         <>
-          Apartmán je <b>dokončený, zařízený a od ledna 2026 v hotelovém provozu</b>. Díky kapacitě 4 lůžek dosahuje <b>nejvyšší průměrné ceny za noc – 2 499 Kč</b>. Za leden–srpen 2026 obsazenost <b>53,1 %</b> (129 nocí); v létě 71–81 %. Vlastníkovi by náleželo <b>129 536 Kč</b>.
+          Apartmán se prodává <b>ve stavu před rekonstrukcí</b>. Po dokončení jej lze zapojit do provozu resortu v modelu podílu z tržby (45 % z ubytovací tržby bez DPH) – stejně jako dokončené apartmány v domě, které mají doloženou obsazenost 53–71 % za leden–srpen 2026.
         </>,
       colOneTitle: "Hlavní benefity",
       colOneText: (
         <>
-          <li><b>Samostatný pokoj</b> + obytná kuchyně.</li>
-          <li><b>Kapacita 4 lůžka</b> – rodiny a skupiny.</li>
-          <li><b>Nejvyšší cena za noc</b> v nabídce.</li>
-          <li><b>Nejnižší cena za m²</b> z nabízených jednotek.</li>
+          <li><b>Nižší vstupní cena</b> než u dokončených jednotek.</li>
+          <li>Možnost <b>ovlivnit dispozici a vybavení</b>.</li>
+          <li>Po dokončení <b>zapojení do fungujícího provozu</b> resortu.</li>
+          <li><b>3. NP</b> – klid a výhled.</li>
         </>
       ),
       colTwoTitle: "Model spolupráce",
@@ -1026,22 +1090,22 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       colThreeTitle: "Stav",
       colThreeDesc: (
         <>
-          <li><b>Dokončeno</b></li>
-          <li><b>Zařízeno</b></li>
-          <li><b>V provozu od 1/2026</b></li>
-          <li>Rezervace: záloha 20 % z kupní ceny.</li>
-          <li>Převod možný ihned po podpisu kupní smlouvy.</li>
+          <li><b>Před rekonstrukcí</b></li>
+          <li>Rozsah a termín dokončení upřesníme individuálně.</li>
+          <li>Zápis prohlášení vlastníka do KN: <b>cca 11/2026</b></li>
+          <li>Rezervace: smlouva o smlouvě budoucí kupní, záloha 20 % z kupní ceny.</li>
+          <li>Převod na nového vlastníka (kupní smlouva): <b>01/2028</b></li>
         </>
       ),
       colThreeNote:
-        "Uvedené údaje jsou historické výsledky, nikoli záruka budoucího výnosu.",
+        "Údaje o obsazenosti se týkají jiných apartmánů v domě, nikoli této jednotky, a nejsou zárukou budoucího výnosu.",
       vynosInfo: {
-        headline: "Ø 16 192 Kč měsíčně vlastníkovi (1–8/2026)",
+        headline: "Odhad: zbyde vám  13 132 Kč měsíčně",
         description:
-          "Podíl 45 % z ubytovací tržby bez DPH podle skutečných rezervací. Provozní náklady nese provozovatel.",
+          "Modelový výpočet po dokončení a zapojení do provozu – při 60% obsazenosti a průměrné ceně 2 200 Kč za noc. Dokončené apartmány v domě dosáhly už v prvním roce provozu obsazenosti 53–71 %.",
         items: [
-          "Obsazenost 53,1 % za leden–srpen 2026, v létě až 81 %",
-          "Konzervativní scénář (50 % obsazenost, 2 400 Kč/noc): čistý výnos cca 3,8 % p.a.",
+          "Čistý výnos cca 5,3 % p.a. z kupní ceny (bez nákladů na rekonstrukci)",
+          "Po odečtení energií, SVJ, pojištění a daně z nemovitosti",
           "14 nocí ročně pro vlastní pobyt",
         ],
       },
@@ -1367,7 +1431,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
 
   // Kontaktní osoba
   contactPerson: {
-    name: "Bc. Markéta Dvořáková, MBA",
+    name: "Bc. Markéta Morong, MBA",
     role: "Obchodní manažerka projektu",
     phone: "+420 601 502 889",
     email: "info@mori-reality.cz",
@@ -1478,8 +1542,8 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       size: "57,10 m2",
       terasa: "",
       parking: "",
-      priceVynos: "",
-      vynos: "",
+      priceVynos: "16 531 Kč**",
+      vynos: "4,4 %**",
       link: "/cervenydvur/byt/?Id=30",
       category: "Modern Suite",
       categoryDescription:
@@ -1519,6 +1583,16 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       ),
       colThreeNote:
         "Část C nabízí nejvyšší uživatelský komfort díky vnitřnímu propojení služeb a modernímu pojetí bydlení.",
+      vynosInfo: {
+        headline: "Odhad: zbyde vám  16 531 Kč měsíčně",
+        description:
+          "Modelový výpočet po zapojení do provozu – při 60% obsazenosti a průměrné ceně 2 800 Kč za noc. Dokončené apartmány v domě dosáhly už v prvním roce provozu obsazenosti 53–71 %.",
+        items: [
+          "Čistý výnos cca 4,4 % p.a.",
+          "Po odečtení energií, SVJ, pojištění a daně z nemovitosti",
+          "14 nocí ročně pro vlastní pobyt",
+        ],
+      },
       reserved: false, // Heneš
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: [
@@ -1536,8 +1610,8 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       size: "42,49 m2",
       terasa: "",
       parking: "",
-      priceVynos: "",
-      vynos: "",
+      priceVynos: "14 581 Kč**",
+      vynos: "4,1 %**",
       category: "Modern Suite",
       categoryDescription:
         "Moderní byty v části C s přímým vnitřním propojením na kavárnu, hernu a dětský koutek.",
@@ -1576,6 +1650,16 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       ),
       colThreeNote:
         "Část C nabízí nejvyšší uživatelský komfort díky vnitřnímu propojení služeb a modernímu pojetí bydlení.",
+      vynosInfo: {
+        headline: "Odhad: zbyde vám  14 581 Kč měsíčně",
+        description:
+          "Modelový výpočet po zapojení do provozu – při 60% obsazenosti a průměrné ceně 2 500 Kč za noc. Dokončené apartmány v domě dosáhly už v prvním roce provozu obsazenosti 53–71 %.",
+        items: [
+          "Čistý výnos cca 4,1 % p.a.",
+          "Po odečtení energií, SVJ, pojištění a daně z nemovitosti",
+          "14 nocí ročně pro vlastní pobyt",
+        ],
+      },
       link: "/cervenydvur/byt/?Id=31",
       reserved: false,
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
@@ -1766,8 +1850,8 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
   size: "53,63 m2",
   terasa: "",
   parking: "",
-  priceVynos: "",
-  vynos: "",
+  priceVynos: "17 998 Kč**",
+  vynos: "4,5 %**",
   link: "/cervenydvur/byt/?Id=35",
   category: "Suite",
   categoryDescription:
@@ -1805,6 +1889,16 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
   ),
   colThreeNote:
     "Největší jednotka v části C s dispozicí 3kk nabízí silnou pozici pro prémiový pronájem i vlastní rodinnou rekreaci.",
+  vynosInfo: {
+    headline: "Odhad: zbyde vám  17 998 Kč měsíčně",
+    description:
+      "Modelový výpočet po zapojení do provozu – při 60% obsazenosti a průměrné ceně 3 000 Kč za noc. Dokončené apartmány v domě dosáhly už v prvním roce provozu obsazenosti 53–71 %.",
+    items: [
+      "Čistý výnos cca 4,5 % p.a.",
+      "Po odečtení energií, SVJ, pojištění a daně z nemovitosti",
+      "14 nocí ročně pro vlastní pobyt",
+    ],
+  },
   reserved: false,
   sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
   galleryLabels: [
@@ -1879,6 +1973,74 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
         "v1773407616/Rapotin/C_B36_s1qq4w.png",
         "v1773847286/Rapotin/Exterier_03_26/C36Pudorys_ppowjs.png",
         "v1773847322/Rapotin/Exterier_03_26/C36Exterier_svueun.png"
+      ]
+    },
+    {
+      price: "3 490 000 Kč",
+      number: "Byt č.37",
+      floor: "2NP C",
+      layout: "2kk",
+      size: "40,86 m2",
+      terasa: "",
+      parking: "",
+      priceVynos: "12 442 Kč",
+      vynos: "4,3 %",
+      link: "/cervenydvur/byt/?Id=37",
+      category: "Komfort",
+      categoryDescription: "Apartmán 2kk pro rodiny a skupiny – kapacita 4 lůžka.",
+      apText:
+        <>
+          Apartmán je <b>dokončený, zařízený a od ledna 2026 v hotelovém provozu</b>. Díky kapacitě 4 lůžek dosahuje <b>nejvyšší průměrné ceny za noc – 2 499 Kč</b>. Za leden–srpen 2026 obsazenost <b>53,1 %</b> (129 nocí), v létě 71–81 %.
+        </>,
+      colOneTitle: "Hlavní benefity",
+      colOneText: (
+        <>
+          <li><b>Samostatný pokoj</b> + obytná kuchyně.</li>
+          <li><b>Kapacita 4 lůžka</b> – rodiny a skupiny.</li>
+          <li><b>Nejvyšší cena za noc</b> v nabídce.</li>
+          <li><b>Nejnižší cena za m²</b> z nabízených jednotek.</li>
+        </>
+      ),
+      colTwoTitle: "Model spolupráce",
+      colTwoDescription:
+        "Dostáváte 45 % z ubytovací tržby své jednotky bez DPH, vyplácí se měsíčně s rozpisem rezervací. Provozovatel hradí provize rezervačních portálů, úklid, prádlo, snídaně, wellness pro hosty, check-in, marketing i běžnou údržbu.",
+      colTwoClaim:
+        "Vy jako vlastník hradíte jen fond oprav a správu SVJ, energie jednotky, pojištění a daň z nemovitých věcí.",
+      colTwoDownloadDesc:
+        "V PDF najdete detailní popis standardů a orientační seznam vybavení.",
+      colThreeTitle: "Stav",
+      colThreeDesc: (
+        <>
+          <li><b>Dokončeno a zařízeno</b></li>
+          <li><b>Před kolaudací</b></li>
+          <li><b>V provozu od 1/2026</b></li>
+          <li>Zápis prohlášení vlastníka do KN: <b>cca 11/2026</b></li>
+          <li>Rezervace: smlouva o smlouvě budoucí kupní, záloha 20 % z kupní ceny.</li>
+          <li>Převod na nového vlastníka (kupní smlouva): <b>01/2028</b></li>
+        </>
+      ),
+      colThreeNote:
+        "Uvedené údaje jsou historické výsledky, nikoli záruka budoucího výnosu.",
+      vynosInfo: {
+        headline: "Zbyde vám  12 442 Kč měsíčně",
+        description:
+          "Skutečné výsledky z prvního roku provozu, kdy se resort ještě dokončoval. Berte je jako výchozí úroveň – po dokončení celého areálu očekáváme lepší čísla.",
+        items: [
+          "Čistý výnos 4,3 % p.a. (skutečnost 1–8/2026), konzervativně 3,8 % p.a.",
+          "Obsazenost 53,1 % za leden–srpen 2026, v létě až 81 %",
+          "Po odečtení energií, SVJ, pojištění a daně z nemovitosti",
+          "14 nocí ročně pro vlastní pobyt",
+        ],
+      },
+      reserved: false,
+      sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
+      gallery: [
+        "v1789992142/Rapotin/DSC06369_wp1e3t.jpg",
+        "v1789992141/Rapotin/DSC06370_sor6ki.jpg",
+        "v1789992141/Rapotin/DSC06375_hqg2vg.jpg",
+        "v1789992142/Rapotin/DSC06391-1_u9izok.jpg",
+        "v1789992141/Rapotin/DSC06393_usvpa8.jpg",
+        "v1789992141/Rapotin/DSC06401_uwxeun.jpg"
       ]
     },
   ],

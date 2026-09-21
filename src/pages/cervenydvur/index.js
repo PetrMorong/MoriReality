@@ -34,9 +34,9 @@ const CervenyDvurPage = () => {
         showBonus={false}
         category={true}
         koje={false}
-        vynosLabelOne="Vlastníkovi Ø/měs.*"
-        vynosLabelTwo="Obsazenost 2026*"
-        vynosNote="* Skutečnost leden–srpen 2026 u apartmánů v provozu (podíl vlastníka 45 % z tržby bez DPH). Nejde o garanci budoucího výnosu."
+        vynosLabelOne="Měsíční zisk"
+        vynosLabelTwo="Čistý výnos"
+        vynosNote="** Jednotky, které ještě nejsou v provozu – modelový odhad při 60% obsazenosti po dokončení a zapojení do provozu resortu. Průměrná cena za noc odvozena od dosažených cen srovnatelných apartmánů v domě."
       />
       <NordMoraviaFlexSection />
       <Faq />

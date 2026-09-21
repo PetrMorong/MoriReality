@@ -89,7 +89,7 @@ const floorValue = apartment.floor || ''
       {
         text: apartment.priceVynos || '',
         goldText: '',
-        desc: 'Vlastníkovi Ø/měs.',
+        desc: 'Vlastníkovi /měs.',
       },
       {
         text: apartment.vynos || '',

@@ -91,7 +91,7 @@ Pod rámeček přidej malým šedým písmem:
 ### 7a. Sloupce výnosu
 
 Sloupce **„Měs. Výnos“** a **„Roční Výnos“** přejmenuj (jen pro Červený dvůr) na:
-- `priceVynos` → **„Vlastníkovi Ø/měs.*“**
+- `priceVynos` → **„Vlastníkovi /měs.*“**
 - `vynos` → **„Obsazenost 2026*“**
 
 a pod tabulku přidej poznámku: „\* Skutečnost leden–srpen 2026 u apartmánů v provozu (podíl vlastníka 45 % z tržby bez DPH). Nejde o garanci budoucího výnosu.“
@@ -116,19 +116,19 @@ Ke každému z těchto tří bytů doplň detail stejnou strukturou jako u bytu 
 - `categoryDescription`: „Prostorný apartmán 1kk – nejvytíženější jednotka v domě.“
 - `apText`: Apartmán je **dokončený, zařízený a od ledna 2026 v hotelovém provozu**. Kupujete jednotku s reálnou historií tržeb – za leden–srpen 2026 dosáhl obsazenosti **70,8 %** (172 nocí) při průměrné ceně **2 207 Kč za noc**. Vlastníkovi by za tuto dobu náleželo **152 538 Kč**.
 - `colOneTitle` „Hlavní benefity“: obytná kuchyně 21,7 m² – na 1kk nadprůměrně velká · dokončeno a zařízeno, bez dalších investic · v provozu od 1/2026 s doloženými tržbami · nejvyšší obsazenost ze všech nabízených jednotek.
-- `vynosInfo.headline`: „Ø 19 067 Kč měsíčně vlastníkovi (1–8/2026)“; `description`: „Podíl 45 % z ubytovací tržby bez DPH podle skutečných rezervací. Provozní náklady nese provozovatel.“; `items`: „Obsazenost 70,8 % za leden–srpen 2026“, „Konzervativní scénář (60 % obsazenost, 2 200 Kč/noc): čistý výnos cca 4,5 % p.a.“, „14 nocí ročně pro vlastní pobyt“.
+- `vynosInfo.headline`: „ 19 067 Kč měsíčně vlastníkovi (1–8/2026)“; `description`: „Podíl 45 % z ubytovací tržby bez DPH podle skutečných rezervací. Provozní náklady nese provozovatel.“; `items`: „Obsazenost 70,8 % za leden–srpen 2026“, „Konzervativní scénář (60 % obsazenost, 2 200 Kč/noc): čistý výnos cca 4,5 % p.a.“, „14 nocí ročně pro vlastní pobyt“.
 
 **Byt č.20 – 1kk, 25,02 m², 2. NP B**
 - `categoryDescription`: „Kompaktní apartmán 1kk s nejnižší vstupní cenou v nabídce.“
 - `apText`: Apartmán je **dokončený, zařízený a od ledna 2026 v hotelovém provozu**. Za leden–srpen 2026 dosáhl obsazenosti **54,3 %** (132 nocí) při průměrné ceně **2 101 Kč za noc**; vlastníkovi by náleželo **111 447 Kč**. Nejsilnější byly červen (73 %) a srpen (84 %).
 - `colOneTitle` „Hlavní benefity“: nejnižší vstupní cena v resortu · dokončeno a zařízeno · v provozu od 1/2026 s doloženými tržbami · stabilní cena za noc během roku.
-- `vynosInfo.headline`: „Ø 13 931 Kč měsíčně vlastníkovi (1–8/2026)“; `items`: „Obsazenost 54,3 % za leden–srpen 2026“, „Konzervativní scénář (50 %, 2 050 Kč/noc): čistý výnos cca 4,5 % p.a.“, „14 nocí ročně pro vlastní pobyt“.
+- `vynosInfo.headline`: „ 13 931 Kč měsíčně vlastníkovi (1–8/2026)“; `items`: „Obsazenost 54,3 % za leden–srpen 2026“, „Konzervativní scénář (50 %, 2 050 Kč/noc): čistý výnos cca 4,5 % p.a.“, „14 nocí ročně pro vlastní pobyt“.
 
 **Byt č.24 (apartmán 37) – 2kk, 40,86 m², 4 lůžka**
 - `categoryDescription`: „Apartmán 2kk pro rodiny a skupiny – kapacita 4 lůžka.“
 - `apText`: Apartmán je **dokončený, zařízený a od ledna 2026 v hotelovém provozu**. Díky kapacitě 4 lůžek dosahuje **nejvyšší průměrné ceny za noc – 2 499 Kč**. Za leden–srpen 2026 obsazenost **53,1 %** (129 nocí); v létě 71–81 %. Vlastníkovi by náleželo **129 536 Kč**.
 - `colOneTitle` „Hlavní benefity“: samostatný pokoj + obytná kuchyně · kapacita 4 lůžka – rodiny a skupiny · nejvyšší cena za noc v nabídce · nejnižší cena za m² z nabízených jednotek.
-- `vynosInfo.headline`: „Ø 16 192 Kč měsíčně vlastníkovi (1–8/2026)“; `items`: „Obsazenost 53,1 % za leden–srpen 2026, v létě až 81 %“, „Konzervativní scénář (50 %, 2 400 Kč/noc): čistý výnos cca 3,8 % p.a.“, „14 nocí ročně pro vlastní pobyt“.
+- `vynosInfo.headline`: „ 16 192 Kč měsíčně vlastníkovi (1–8/2026)“; `items`: „Obsazenost 53,1 % za leden–srpen 2026, v létě až 81 %“, „Konzervativní scénář (50 %, 2 400 Kč/noc): čistý výnos cca 3,8 % p.a.“, „14 nocí ročně pro vlastní pobyt“.
 
 U všech tří do `colTwo…` dej „Model spolupráce“ (45 % z tržby bez DPH, co hradí provozovatel vs. vlastník – viz Kontext) a do `colThree…` „Stav“: dokončeno · zařízeno · v provozu od 1/2026 · převod možný ihned po podpisu kupní smlouvy. `colThreeNote`: „Uvedené údaje jsou historické výsledky, nikoli záruka budoucího výnosu.“
 

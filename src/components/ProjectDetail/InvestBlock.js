@@ -185,9 +185,11 @@ const InvestBlock = () => {
         <ProofBox>
           <ProofStrong>Proč je tohle jiné než u konkurence?</ProofStrong>{" "}
           Garantovaný nájem se vždy platí z budoucích tržeb – a po skončení garance se ukáže
-          realita. My ji ukazujeme rovnou: apartmány v provozu dosáhly za leden–srpen 2026
-          obsazenosti 53–71 % a jejich vlastníkům by náleželo v průměru 14–19 tisíc Kč měsíčně.
-          Čísla po měsících najdete u každé jednotky.
+          realita. My ukazujeme rovnou skutečná čísla: apartmány v provozu dosáhly za leden–srpen
+          2026 obsazenosti 53–71 %, a to v prvním roce provozu a v resortu, který se teprve
+          dokončuje. Tato čísla považujeme za výchozí úroveň. S dokončením celého areálu –
+          kavárny s kuchyní, společných prostor a dalšího zázemí – a s rostoucím počtem
+          hodnocení hostů očekáváme jejich další růst.
         </ProofBox>
         <ProofNote>
           Uvedené údaje jsou historické výsledky, nikoli příslib ani záruka budoucího výnosu.
