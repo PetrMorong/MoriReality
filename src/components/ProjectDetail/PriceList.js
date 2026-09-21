@@ -104,7 +104,16 @@ margin-top: 60px;
   color: #000000;
 `;
 
-const PriceList = ({ data, vynos, showBonus, category, terasa, koje }) => {
+const VynosNote = styled.p`
+  margin-top: 20px;
+  font-family: Georama;
+  font-size: 13px;
+  line-height: 20px;
+  color: #8a8a92;
+  text-align: center;
+`;
+
+const PriceList = ({ data, vynos, showBonus, category, terasa, koje, vynosLabelOne, vynosLabelTwo, vynosNote }) => {
   const [mouseOverRow, setMouseOverRow] = React.useState(undefined);
 
   const handleGoToDetail = () => {};
@@ -134,8 +143,8 @@ const PriceList = ({ data, vynos, showBonus, category, terasa, koje }) => {
                   )}
               {vynos && (
                 <>
-                  <TableCell>Měs. Výnos</TableCell>
-                  <TableCell>Roční Výnos</TableCell>
+                  <TableCell>{vynosLabelOne || "Měs. Výnos"}</TableCell>
+                  <TableCell>{vynosLabelTwo || "Roční Výnos"}</TableCell>
                 </>
               )}
               {category && (
@@ -201,7 +210,8 @@ const PriceList = ({ data, vynos, showBonus, category, terasa, koje }) => {
               );
             })}
           </Table>
-          
+          {vynos && vynosNote && <VynosNote>{vynosNote}</VynosNote>}
+
             {showBonus && (
               <Akce>
                 AKCE: Rezervujte apartmán č.5 do 15. 8. 2026 a získáte kuchyňskou linku se spotřebiči zdarma.

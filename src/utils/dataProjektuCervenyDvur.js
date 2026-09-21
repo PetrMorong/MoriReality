@@ -22,7 +22,7 @@ const data = {
   desc: (
     <>
       Resort Červený dvůr. Místo, kde se moderna snoubí s historií. V malebné obci Rapotín pod vrcholky Hrubého Jeseníku rekonstruujeme historickou budovu z 30. let minulého století.
-      Apartmánový dům bude sloužit jako ubytování hotelového typu s kompletním servisem. Vlastní apartmán vám tak může sloužit jako rodinné rekreační zázemí. V době, kdy ho nebudete obývat sami, se pro vás stane pasivní investicí. O kompletní správu a pohodlí vašich hostů se vám rádi postaráme od A do Z. Více info o ubytování na našem webu. {" "}
+      Apartmánový dům slouží jako ubytování hotelového typu s kompletním servisem a resort už přijímá hosty. Vlastní apartmán vám může sloužit jako rodinné zázemí na horách – a v době, kdy ho nevyužíváte, ho pronajímáme hostům a vy dostáváte podíl z jeho tržby. O kompletní správu a pohodlí vašich hostů se postaráme od A do Z. Více info o ubytování na našem webu. {" "}
       <DescLink target="_blank" href="https://www.resortcervenydvur.cz/cs/">www.resortcervenydvur.cz</DescLink>
     </>
   ),
@@ -143,7 +143,7 @@ const data = {
 
     {
       icon: "/features/parking-area.png",
-      desc: "Parkovácí místo",
+      desc: "Parkovací místo",
     },
 
     {
@@ -163,7 +163,7 @@ const data = {
 
   sectionFourOneText: {
     title: "Historie",
-    titleGold: "Červého dvora",
+    titleGold: "Červeného dvora",
     desc: "Červený dvůr má bohatou historii sahající až do 17. století, kdy byl součástí rozsáhlého panství rodu Žerotínů. Právě tehdy vznikl první zámeček, který sloužil jako správní a obytná budova uprostřed hospodářského dvora. V přízemí bývala kuchyně, komory a sklady, v patře několik světnic a menší kaple. V 18. a 19. století se dvůr postupně rozvíjel – zejména díky podnikatelům Wagnerovým, kteří zde provozovali bělidlo, tedy zařízení na bělení přízí a plátna. To dalo místu i jeho dnešní jméno Červený dvůr, které se už tehdy začalo používat. Později dvůr sloužil různým hospodářským účelům a stal se významnou součástí místního života. Po první světové válce zde vznikl tzv. Gabrielův dvůr, po druhé světové byl objekt přeměněn na výzkumný ústav pro chov skotu. V této době byl původní zámeček – kvůli technickému stavu – postupně odstraněn. Po roce 1945 byl celý areál znárodněn a několik desetiletí sloužil výhradně zemědělským a technickým účelům. Přesto si uchoval své jedinečné umístění v krajině i výraznou historickou stopu. Dnes prochází Červený dvůr citlivou rekonstrukcí a navazuje na svou historii novou kapitolou – přeměnou v moderní resort, který spojuje prvky původní architektury s dnešním komfortem a novým využitím. Z místa s příběhem se opět stává místo pro život, odpočinek a setkávání.",
   },
 
@@ -184,19 +184,19 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
 
   ticksSection: [
     {
-      highlighted: "Postup pří koupi",
+      highlighted: "Postup při koupi",
       normal: "apartmánu",
-      desc: "Vyberete si apartmán podle svých představ a investičních cílů. Následně uzavřeme smlouvu o smlouvě budoucí kupní a po složení zálohy 10% do bankovní úschovy je apartmán rezervován právě pro vás. Po složení zálohy vám začínáme vyplácet poměrnou část garantovaného nájmu — i po dobu rekonstrukce. Složíte-li 10 % z kupní ceny, obdržíte 10 % z garantovaného měsíčního výnosu. Plný výnos pobíráte od okamžiku zaplacení celé kupní ceny — bez čekání na předání bytu.  Po dokončení jednotky a podpisu kupní smlouvy se stanete jejím výhradním vlastníkem. Od tohoto okamžiku s apartmánem nakládáte plně podle svého rozhodnutí.",
+      desc: "Vyberete si apartmán podle svých představ a investičních cílů. Po podpisu rezervační smlouvy je apartmán blokován pro vás, následuje kupní smlouva a zápis do katastru nemovitostí. Apartmán vlastníte přímo vy – s výlučným vlastnickým právem. Chcete-li jej zapojit do provozu resortu, uzavřeme s vámi smlouvu o zajištění využití bytové jednotky a od prvního měsíce provozu vám chodí vyúčtování i podíl z tržby.",
     },
     {
       highlighted: "správa apartmánu",
       normal: "Kompletní ",
-      desc: "Kupujete si apartmán jako investici? Nabízíme vám kompletní správu a garantovaný výnos. Apartmán můžete zároveň sami využívat až 14 dní v roce. Při podpisu kupní smlouvy uzavřeme také vzájemnou nájemní smlouvu a tím vaše starosti končí. Nájemné vám začínáme vyplácet již po složení zálohy — ještě v průběhu výstavby — a to v poměru k uhrazené části kupní ceny. Pravidelné měsíční platby inkasujete na svůj účet bez ohledu na obsazenost apartmánu. Od smlouvy můžete kdykoliv odstoupit a to bez smluvních pokut.",
+      desc: "Mori Reality jako provozovatel resortu zajišťuje vše: prodej pobytů, komunikaci s hosty, úklid, prádlo, snídaně, údržbu i marketing. Vy inkasujete 45 % z ubytovací tržby svého apartmánu bez DPH – bez dalších srážek. Provize rezervačních portálů, úklid ani snídaně se z vašeho podílu neodečítají. Každý měsíc dostanete vyúčtování s rozpisem všech rezervací. Apartmán můžete sami využívat až 14 nocí ročně.",
     },
     {
       highlighted: "už od listopadu",
       normal: "Lyžování naplno ",
-      desc: "Hrubý Jeseník má skvělé sněhového podmínky. V dosahu budete mít hned několik ski-areálů. Necelých 10 kilometrů je vzdálen ski-areál Kouty a Přemyslov. Zhruba za 20 minut dorazíte na Praděd nebo Červenohorské sedlo. A mnoho dalších menších středisek objevíte v blízkém okolí. Pro běžkaře je nejatraktivnější oblastí Jesenická magistrála. Přejezd Jesenického hřebene na lyžích je jedním z nejkrásnějších horských výletů, které u nás můžete podniknout.",
+      desc: "Hrubý Jeseník má skvělé sněhové podmínky. V dosahu budete mít hned několik ski-areálů. Necelých 10 kilometrů je vzdálen ski-areál Kouty a Přemyslov. Zhruba za 20 minut dorazíte na Praděd nebo Červenohorské sedlo. A mnoho dalších menších středisek objevíte v blízkém okolí. Pro běžkaře je nejatraktivnější oblastí Jesenická magistrála. Přejezd Jesenického hřebene na lyžích je jedním z nejkrásnějších horských výletů, které u nás můžete podniknout.",
     }
   ],
 
@@ -215,17 +215,17 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     {
       step: "1",
       title: "Rezervace",
-      text: "Vyberete apartmán a podepíšete smlouvu o smlouvě budoucí kupní. Záloha 10 % jde na projektový účet Raiffeisenbank do bankovní úschovy — apartmán je od té chvíle rezervován pro vás.",
+      text: "U rozestavěných jednotek podepíšete smlouvu o smlouvě budoucí kupní se zálohou 10 % do bankovní úschovy. U dokončených apartmánů v provozu podepíšete rezervační smlouvu se zálohou 20 % z kupní ceny na účet prodávajícího. Apartmán je od té chvíle blokován pro vás.",
     },
     {
       step: "2",
-      title: "Dokončení a předání",
-      text: "Po dokončení jednotky podepíšeme kupní smlouvu. Stanete se výhradním vlastníkem a s apartmánem nakládáte podle svého rozhodnutí.",
+      title: "Kupní smlouva a převod",
+      text: "Podepíšeme kupní smlouvu, kupní cena jde přes úschovu a po zápisu do katastru se stáváte výhradním vlastníkem.",
     },
     {
       step: "3",
-      title: "Správa a výnos",
-      text: "Při podpisu kupní smlouvy uzavřeme nájemní smlouvu. Nájemné vyplácíme každý měsíc bez ohledu na obsazenost. Apartmán můžete využívat až 14 dní v roce. Od smlouvy lze kdykoliv odstoupit bez smluvních pokut.",
+      title: "Správa a podíl z tržby",
+      text: "Uzavřeme smlouvu o zajištění využití bytové jednotky. Apartmán pronajímáme hostům a vy každý měsíc dostáváte 45 % z jeho ubytovací tržby bez DPH s rozpisem všech rezervací. Až 14 nocí ročně ho můžete využívat sami.",
     },
   ],
 },
@@ -239,8 +239,8 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       size: "40,26 m2",
       terasa: "",
       parking: "",
-      priceVynos: "13 000 Kč",
-      vynos: "168 000 Kč",
+      priceVynos: "",
+      vynos: "",
       link: "/cervenydvur/byt/?Id=1",
       reserved: true, // Jirgl
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
@@ -331,8 +331,8 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       size: "54,25 m2",
       terasa: "",
       parking: "",
-      priceVynos: "17 875 Kč",
-      vynos: "214 500 Kč",
+      priceVynos: "",
+      vynos: "",
       link: "/cervenydvur/byt/?Id=4",
       category: "Suite",
       categoryDescription:
@@ -366,7 +366,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
         <>
           <li>Možnost <b>posunu bytu do vyšší kategorie</b>.</li>
           <li>Vyšší atraktivita pro krátkodobý i střednědobý pronájem.</li>
-          <li><b>Možnost nabídnout vyšší garantovaný nájem</b> po realizaci úprav.</li>
+          <li><b>Vyšší cena za noc a vyšší podíl z tržby</b> po realizaci úprav.</li>
           <li>Vhodné pro investory hledající přidanou hodnotu.</li>
         </>
       ),
@@ -394,8 +394,8 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       size: "39,86 m2",
       terasa: "",
       parking: "",
-      priceVynos: "17 042 Kč",
-      vynos: "204 500 Kč",
+      priceVynos: "",
+      vynos: "",
       link: "/cervenydvur/byt/?Id=5",
       reserved: true, // Di Leva
       category: "Suite",
@@ -469,8 +469,8 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       size: "24,57 m2",
       terasa: "",
       parking: "",
-      priceVynos: "159 500 Kč",
-      vynos: "13 291 Kč",
+      priceVynos: "",
+      vynos: "",
       link: "/cervenydvur/byt/?Id=7",
       reserved: false,
       category: "Suite",
@@ -501,8 +501,8 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       size: "30,11 m2",
       terasa: "",
       parking: "",
-      priceVynos: "13 000 Kč",
-      vynos: "168 000 Kč",
+      priceVynos: "",
+      vynos: "",
       link: "/cervenydvur/byt/?Id=9",
       reserved: true, // Andrassi
       category: "Komfort",
@@ -560,8 +560,8 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       size: "40,18 m2",
       terasa: "",
       parking: "",
-      priceVynos: "15 500 Kč",
-      vynos: "186 000 Kč",
+      priceVynos: "",
+      vynos: "",
       link: "/cervenydvur/byt/?Id=10",
       reserved: true, // novotný
       category: "Suite",
@@ -576,8 +576,8 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       size: "48,81 m2",
       terasa: "",
       parking: "",
-      priceVynos: "15 500 Kč",
-      vynos: "186 000 Kč",
+      priceVynos: "",
+      vynos: "",
       link: "/cervenydvur/byt/?Id=11",
       category: "Suite",
       reserved: true, //prudkovi
@@ -597,7 +597,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       size: "24,19 m2",
       terasa: "",
       parking: "",
-      priceVynos: "11 000 Kč",
+      priceVynos: "",
       category: "Komfort",
       categoryDescription:
         "Prémiová jednotka s důrazem na komfort, design a nadstandardní vybavení – ideální pro vlastní bydlení i prémiový pronájem.",
@@ -637,7 +637,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       ),
       colThreeNote:
         "Prémiová dispozice a vybavení umožňují nastavení vyššího nájemného i silnější pozici při dalším prodeji.",
-      vynos: "132 000 Kč",
+      vynos: "",
       link: "/cervenydvur/byt/?Id=12",
       reserved: true, // unicredit hypo
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
@@ -655,7 +655,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       size: "51,72 m2",
       terasa: "",
       parking: "",
-      priceVynos: "15 000 Kč",
+      priceVynos: "",
       category: "Suite",
       categoryDescription:
         "Prémiová jednotka s důrazem na komfort, design a nadstandardní vybavení – ideální pro vlastní bydlení i prémiový pronájem.",
@@ -695,7 +695,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       ),
       colThreeNote:
         "Prémiová dispozice a vybavení umožňují nastavení vyššího nájemného i silnější pozici při dalším prodeji.",
-      vynos: "180 000 Kč",
+      vynos: "",
       link: "/cervenydvur/byt/?Id=13",
       reserved: true, // unicredit hypo
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
@@ -713,8 +713,8 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       size: "32,71 m2",
       terasa: "",
       parking: "",
-      priceVynos: "13 000 Kč",
-      vynos: "168 000 Kč",
+      priceVynos: "",
+      vynos: "",
       category: "Komfort",
       link: "/cervenydvur/byt/?Id=14",
       reserved: true, // Kocian
@@ -747,8 +747,8 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       size: "35,58 m2",
       terasa: "",
       parking: "",
-      priceVynos: "15 000 Kč",
-      vynos: "180 000 Kč",
+      priceVynos: "",
+      vynos: "",
       link: "/cervenydvur/byt/?Id=17",
       category: "Suite",
       reserved: true, // Tom - Novotný
@@ -775,35 +775,120 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       gallery: ["v1763461562/Rapotin/Text_odstavce_ofjnms.jpg"]
     },
     {
-      price: "",
+      price: "3 390 000 Kč",
       number: "Byt č.19",
       floor: "2NP B",
       layout: "1kk",
       size: "34,87 m2",
       terasa: "",
       parking: "",
-      priceVynos: "",
-      vynos: "",
+      priceVynos: "19 067 Kč",
+      vynos: "70,8 %",
       link: "/cervenydvur/byt/?Id=19",
       category: "Komfort",
-      reserved: true, // čimera
+      categoryDescription: "Prostorný apartmán 1kk – nejvytíženější jednotka v domě.",
+      apText:
+        <>
+          Apartmán je <b>dokončený, zařízený a od ledna 2026 v hotelovém provozu</b>. Kupujete jednotku s reálnou historií tržeb – za leden–srpen 2026 dosáhl obsazenosti <b>70,8 %</b> (172 nocí) při průměrné ceně <b>2 207 Kč za noc</b>. Vlastníkovi by za tuto dobu náleželo <b>152 538 Kč</b>.
+        </>,
+      colOneTitle: "Hlavní benefity",
+      colOneText: (
+        <>
+          <li>Obytná kuchyně <b>21,7 m²</b> – na 1kk nadprůměrně velká.</li>
+          <li><b>Dokončeno a zařízeno</b>, bez dalších investic.</li>
+          <li><b>V provozu od 1/2026</b> s doloženými tržbami.</li>
+          <li><b>Nejvyšší obsazenost</b> ze všech nabízených jednotek.</li>
+        </>
+      ),
+      colTwoTitle: "Model spolupráce",
+      colTwoDescription:
+        "Dostáváte 45 % z ubytovací tržby své jednotky bez DPH, vyplácí se měsíčně s rozpisem rezervací. Provozovatel hradí provize rezervačních portálů, úklid, prádlo, snídaně, wellness pro hosty, check-in, marketing i běžnou údržbu.",
+      colTwoClaim:
+        "Vy jako vlastník hradíte jen fond oprav a správu SVJ, energie jednotky, pojištění a daň z nemovitých věcí.",
+      colTwoDownloadDesc:
+        "V PDF najdete detailní popis standardů a orientační seznam vybavení.",
+      colThreeTitle: "Stav",
+      colThreeDesc: (
+        <>
+          <li><b>Dokončeno</b></li>
+          <li><b>Zařízeno</b></li>
+          <li><b>V provozu od 1/2026</b></li>
+          <li>Rezervace: záloha 20 % z kupní ceny.</li>
+          <li>Převod možný ihned po podpisu kupní smlouvy.</li>
+        </>
+      ),
+      colThreeNote:
+        "Uvedené údaje jsou historické výsledky, nikoli záruka budoucího výnosu.",
+      vynosInfo: {
+        headline: "Ø 19 067 Kč měsíčně vlastníkovi (1–8/2026)",
+        description:
+          "Podíl 45 % z ubytovací tržby bez DPH podle skutečných rezervací. Provozní náklady nese provozovatel.",
+        items: [
+          "Obsazenost 70,8 % za leden–srpen 2026",
+          "Konzervativní scénář (60 % obsazenost, 2 200 Kč/noc): čistý výnos cca 4,5 % p.a.",
+          "14 nocí ročně pro vlastní pobyt",
+        ],
+      },
+      reserved: false,
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: ["v1763461562/Rapotin/Text_odstavce_ofjnms.jpg"]
     },
     {
-      price: "",
+      price: "2 590 000 Kč",
       number: "Byt č.20",
       floor: "2NP B",
       layout: "1kk",
       size: "25,02 m2",
       terasa: "",
       parking: "",
-      priceVynos: "",
-      vynos: "",
+      priceVynos: "13 931 Kč",
+      vynos: "54,3 %",
       link: "/cervenydvur/byt/?Id=20",
       category: "Komfort",
-
-      reserved: true, // čimera
+      categoryDescription: "Kompaktní apartmán 1kk s nejnižší vstupní cenou v nabídce.",
+      apText:
+        <>
+          Apartmán je <b>dokončený, zařízený a od ledna 2026 v hotelovém provozu</b>. Za leden–srpen 2026 dosáhl obsazenosti <b>54,3 %</b> (132 nocí) při průměrné ceně <b>2 101 Kč za noc</b>; vlastníkovi by náleželo <b>111 447 Kč</b>. Nejsilnější byly červen (73 %) a srpen (84 %).
+        </>,
+      colOneTitle: "Hlavní benefity",
+      colOneText: (
+        <>
+          <li><b>Nejnižší vstupní cena</b> v resortu.</li>
+          <li><b>Dokončeno a zařízeno</b>.</li>
+          <li><b>V provozu od 1/2026</b> s doloženými tržbami.</li>
+          <li><b>Stabilní cena za noc</b> během roku.</li>
+        </>
+      ),
+      colTwoTitle: "Model spolupráce",
+      colTwoDescription:
+        "Dostáváte 45 % z ubytovací tržby své jednotky bez DPH, vyplácí se měsíčně s rozpisem rezervací. Provozovatel hradí provize rezervačních portálů, úklid, prádlo, snídaně, wellness pro hosty, check-in, marketing i běžnou údržbu.",
+      colTwoClaim:
+        "Vy jako vlastník hradíte jen fond oprav a správu SVJ, energie jednotky, pojištění a daň z nemovitých věcí.",
+      colTwoDownloadDesc:
+        "V PDF najdete detailní popis standardů a orientační seznam vybavení.",
+      colThreeTitle: "Stav",
+      colThreeDesc: (
+        <>
+          <li><b>Dokončeno</b></li>
+          <li><b>Zařízeno</b></li>
+          <li><b>V provozu od 1/2026</b></li>
+          <li>Rezervace: záloha 20 % z kupní ceny.</li>
+          <li>Převod možný ihned po podpisu kupní smlouvy.</li>
+        </>
+      ),
+      colThreeNote:
+        "Uvedené údaje jsou historické výsledky, nikoli záruka budoucího výnosu.",
+      vynosInfo: {
+        headline: "Ø 13 931 Kč měsíčně vlastníkovi (1–8/2026)",
+        description:
+          "Podíl 45 % z ubytovací tržby bez DPH podle skutečných rezervací. Provozní náklady nese provozovatel.",
+        items: [
+          "Obsazenost 54,3 % za leden–srpen 2026",
+          "Konzervativní scénář (50 % obsazenost, 2 050 Kč/noc): čistý výnos cca 4,5 % p.a.",
+          "14 nocí ročně pro vlastní pobyt",
+        ],
+      },
+      reserved: false,
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: ["v1763461562/Rapotin/Text_odstavce_ofjnms.jpg"]
     },
@@ -816,8 +901,8 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       size: "65,14 m2",
       terasa: "",
       parking: "",
-      priceVynos: "18 400 Kč",
-      vynos: "220 800 Kč",
+      priceVynos: "",
+      vynos: "",
       link: "/cervenydvur/byt/?Id=21",
       category: "👑 Premium Suite",
       categoryDescription:
@@ -906,18 +991,61 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     },
 
     {
-      price: "2 710 000 Kč",
+      price: "3 490 000 Kč",
       number: "Byt č.24",
       floor: "2NP B",
       layout: "2kk",
-      size: "39,58 m2",
+      size: "40,86 m2",
       terasa: "",
       parking: "",
-      priceVynos: "14 000 Kč",
-      vynos: "149 050 Kč",
-      link: "/cervenydvur/byt/?Id=25",
+      priceVynos: "16 192 Kč",
+      vynos: "53,1 %",
+      link: "/cervenydvur/byt/?Id=24",
       category: "Suite",
-      reserved: true, // čimera
+      categoryDescription: "Apartmán 2kk pro rodiny a skupiny – kapacita 4 lůžka.",
+      apText:
+        <>
+          Apartmán je <b>dokončený, zařízený a od ledna 2026 v hotelovém provozu</b>. Díky kapacitě 4 lůžek dosahuje <b>nejvyšší průměrné ceny za noc – 2 499 Kč</b>. Za leden–srpen 2026 obsazenost <b>53,1 %</b> (129 nocí); v létě 71–81 %. Vlastníkovi by náleželo <b>129 536 Kč</b>.
+        </>,
+      colOneTitle: "Hlavní benefity",
+      colOneText: (
+        <>
+          <li><b>Samostatný pokoj</b> + obytná kuchyně.</li>
+          <li><b>Kapacita 4 lůžka</b> – rodiny a skupiny.</li>
+          <li><b>Nejvyšší cena za noc</b> v nabídce.</li>
+          <li><b>Nejnižší cena za m²</b> z nabízených jednotek.</li>
+        </>
+      ),
+      colTwoTitle: "Model spolupráce",
+      colTwoDescription:
+        "Dostáváte 45 % z ubytovací tržby své jednotky bez DPH, vyplácí se měsíčně s rozpisem rezervací. Provozovatel hradí provize rezervačních portálů, úklid, prádlo, snídaně, wellness pro hosty, check-in, marketing i běžnou údržbu.",
+      colTwoClaim:
+        "Vy jako vlastník hradíte jen fond oprav a správu SVJ, energie jednotky, pojištění a daň z nemovitých věcí.",
+      colTwoDownloadDesc:
+        "V PDF najdete detailní popis standardů a orientační seznam vybavení.",
+      colThreeTitle: "Stav",
+      colThreeDesc: (
+        <>
+          <li><b>Dokončeno</b></li>
+          <li><b>Zařízeno</b></li>
+          <li><b>V provozu od 1/2026</b></li>
+          <li>Rezervace: záloha 20 % z kupní ceny.</li>
+          <li>Převod možný ihned po podpisu kupní smlouvy.</li>
+        </>
+      ),
+      colThreeNote:
+        "Uvedené údaje jsou historické výsledky, nikoli záruka budoucího výnosu.",
+      vynosInfo: {
+        headline: "Ø 16 192 Kč měsíčně vlastníkovi (1–8/2026)",
+        description:
+          "Podíl 45 % z ubytovací tržby bez DPH podle skutečných rezervací. Provozní náklady nese provozovatel.",
+        items: [
+          "Obsazenost 53,1 % za leden–srpen 2026, v létě až 81 %",
+          "Konzervativní scénář (50 % obsazenost, 2 400 Kč/noc): čistý výnos cca 3,8 % p.a.",
+          "14 nocí ročně pro vlastní pobyt",
+        ],
+      },
+      reserved: false,
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
       gallery: ["v1763461562/Rapotin/Text_odstavce_ofjnms.jpg"]
     },
@@ -930,8 +1058,8 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
   size: "28,04 m2",
   terasa: "",
   parking: "",
-  priceVynos: "16 950 Kč",
-  vynos: "203 400 Kč",
+  priceVynos: "",
+  vynos: "",
   link: "/cervenydvur/byt/?Id=26",
   category: "Modern Studio",
   categoryDescription:
@@ -985,16 +1113,14 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
   size: "35,41 m2",
   terasa: "",
   parking: "",
-  priceVynos: "19 450 Kč",
-  vynos: "233 400 Kč",
+  priceVynos: "",
+  vynos: "",
   link: "/cervenydvur/byt/?Id=27",
   category: "Modern Studio",
   categoryDescription:
     "Moderní byty v části C s přímým vnitřním propojením na kavárnu, hernu a dětský koutek.",
 
   tagline: "Prostorné studio se třemi okny a výjimečným množstvím světla",
-
-  akceBanner: "Akce: zvýšení garantovaného výnosu na 19 450 Kč do 30. 6. 2026 a kuchyň zdarma",
 
   apText: (
     <>
@@ -1066,17 +1192,6 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
     },
   ],
 
-  vynosInfo: {
-    headline: "19 450 Kč za měsíc",
-    description:
-      "Výnos je garantován developerem. Resort zajišťuje kompletní provoz, obsazenost a fakturaci – majitel neprovozuje nic sám.",
-    items: [
-      "Platí od prvního dne po předání – bez čekání na obsazenost",
-      "Zahrnuje správu, údržbu i rezervační systém",
-      "Možnost vlastního využití 14 dní v roce",
-    ],
-  },
-
   galleryLabels: [
     "Ložnice",
     "Obývací pokoj",
@@ -1139,8 +1254,8 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       size: "31,03 m2",
       terasa: "",
       parking: "",
-      priceVynos: "17 950 Kč",
-      vynos: "215 400 Kč",
+      priceVynos: "",
+      vynos: "",
       link: "/cervenydvur/byt/?Id=28",
       category: "Modern Studio",
       categoryDescription:
@@ -1224,10 +1339,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
        // --- NOVÁ POLE ---
 
   // Krátký podnadpis pod název bytu v hero sekci (ApSectionOne)
-  tagline: "Apartmán s garantovaným výnosem a výhledem na řeku",
-
-  // Akce – zobrazí se jako zlatý banner pod hero stripem
-  akceBanner: "Akce: zvýšení garantovaný výnos na 18 950 Kč do 30. 6. 2026 a kuchyň zdarma",
+  tagline: "Apartmán s výhledem na řeku",
 
   // Blok „Pro koho je apartmán vhodný" (ApSectionFour)
   proKoho: [
@@ -1252,18 +1364,6 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       text: "Nižší vstupní cena oproti větším jednotkám. Konkrétní investiční parametry, snadnější likvidita.",
     },
   ],
-
-  // Vysvětlení garantovaného výnosu
-  vynosInfo: {
-    headline: "18 950 kč za měsíc",
-    description:
-      "Výnos je garantován developerem. Resort zajišťuje kompletní provoz, obsazenost a fakturaci – majitel neprovozuje nic sám.",
-    items: [
-      "Platí od prvního dne po předání – bez čekání na obsazenost",
-      "Zahrnuje správu, údržbu i rezervační systém",
-      "Možnost vlastního využití 10 dní v roce",
-    ],
-  },
 
   // Kontaktní osoba
   contactPerson: {
@@ -1311,8 +1411,8 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       size: "22,01 m2",
       terasa: "",
       parking: "",
-      priceVynos: "13 950 Kč",
-      vynos: "167 400 Kč",
+      priceVynos: "",
+      vynos: "",
       link: "/cervenydvur/byt/?Id=29",
       category: "Modern Studio",
       categoryDescription:
@@ -1378,8 +1478,8 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       size: "57,10 m2",
       terasa: "",
       parking: "",
-      priceVynos: "18 708 Kč",
-      vynos: "224 500 Kč",
+      priceVynos: "",
+      vynos: "",
       link: "/cervenydvur/byt/?Id=30",
       category: "Modern Suite",
       categoryDescription:
@@ -1436,8 +1536,8 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       size: "42,49 m2",
       terasa: "",
       parking: "",
-      priceVynos: "17 875 Kč",
-      vynos: "214 500 Kč",
+      priceVynos: "",
+      vynos: "",
       category: "Modern Suite",
       categoryDescription:
         "Moderní byty v části C s přímým vnitřním propojením na kavárnu, hernu a dětský koutek.",
@@ -1494,7 +1594,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       size: "41,15 m2",
       terasa: "",
       parking: "",
-      priceVynos: "15 000 Kč",
+      priceVynos: "",
       category: "Modern Suite",
       categoryDescription:
         "Moderní byty v části C s přímým vnitřním propojením na kavárnu, hernu a dětský koutek.",
@@ -1533,7 +1633,7 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       ),
       colThreeNote:
         "Část C nabízí nejvyšší uživatelský komfort díky vnitřnímu propojení služeb a modernímu pojetí bydlení.",
-      vynos: "180 000 Kč",
+      vynos: "",
       link: "/cervenydvur/byt/?Id=32",
       reserved: true, // Ivan Badík
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
@@ -1590,8 +1690,8 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
         "Část C nabízí nejvyšší uživatelský komfort díky vnitřnímu propojení služeb a modernímu pojetí bydlení.",
       terasa: "",
       parking: "",
-      priceVynos: "17 042 Kč",
-      vynos: "204 500 Kč",
+      priceVynos: "",
+      vynos: "",
       link: "/cervenydvur/byt/?Id=33",
       reserved: true, // Pavlinec
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
@@ -1647,8 +1747,8 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       size: "42,94 m2",
       terasa: "",
       parking: "",
-      priceVynos: "15 000 Kč",
-      vynos: "180 000 Kč",
+      priceVynos: "",
+      vynos: "",
       link: "/cervenydvur/byt/?Id=34",
       reserved: true,
       sectionOneBg: "v1763643022/Rapotin/DSC01361-HDR-min_muyeuj.jpg",
@@ -1666,8 +1766,8 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
   size: "53,63 m2",
   terasa: "",
   parking: "",
-  priceVynos: "19 958 Kč",
-  vynos: "239 500 Kč",
+  priceVynos: "",
+  vynos: "",
   link: "/cervenydvur/byt/?Id=35",
   category: "Suite",
   categoryDescription:
@@ -1769,8 +1869,8 @@ Wellness se tak stává přirozenou a vyhledávanou součástí pobytu v Červen
       size: "57,45 m2",
       terasa: "",
       parking: "",
-      priceVynos: "15 000 Kč",
-      vynos: "180 000 Kč",
+      priceVynos: "",
+      vynos: "",
       link: "/cervenydvur/byt/?Id=36",
       category: "Suite",
       reserved: true, // Badik

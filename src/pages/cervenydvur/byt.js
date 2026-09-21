@@ -89,12 +89,12 @@ const floorValue = apartment.floor || ''
       {
         text: apartment.priceVynos || '',
         goldText: '',
-        desc: 'Garantovaný nájem / měsíc',
+        desc: 'Vlastníkovi Ø/měs.',
       },
       {
         text: apartment.vynos || '',
         goldText: '',
-        desc: 'Roční výnos',
+        desc: 'Obsazenost 2026',
       },
       {
         text: apartment.parking || '',

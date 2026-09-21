@@ -162,10 +162,10 @@ const ApSectionFour = ({ data }) => {
           </Card>
         </Grid>
 
-        {/* ─── GARANTOVANÝ VÝNOS ─── */}
+        {/* ─── PODÍL Z TRŽBY ─── */}
         {data.vynosInfo && (
           <VynosSection>
-            <SectionLabel>Garantovaný výnos – jak to funguje</SectionLabel>
+            <SectionLabel>Podíl z tržby – jak to funguje</SectionLabel>
             <VynosBox>
               <VynosLeft>
                 <VynosHeadline>{data.vynosInfo.headline}</VynosHeadline>

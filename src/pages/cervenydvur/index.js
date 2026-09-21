@@ -28,7 +28,16 @@ const CervenyDvurPage = () => {
       <ProjectSectionFive data={dataProjektu} />
       <InvestBlock />
       <ProjectSectionSix data={dataProjektu} />
-      <PriceList vynos={true} data={dataProjektu} showBonus={true} category={true} koje={false} />
+      <PriceList
+        vynos={true}
+        data={dataProjektu}
+        showBonus={false}
+        category={true}
+        koje={false}
+        vynosLabelOne="Vlastníkovi Ø/měs.*"
+        vynosLabelTwo="Obsazenost 2026*"
+        vynosNote="* Skutečnost leden–srpen 2026 u apartmánů v provozu (podíl vlastníka 45 % z tržby bez DPH). Nejde o garanci budoucího výnosu."
+      />
       <NordMoraviaFlexSection />
       <Faq />
        {/*<OtherProjects data={dataProjektu} /> */}

@@ -298,27 +298,27 @@ const NordMoraviaFlexSection = () => {
   return (
     <Section>
       <Wrapper>
-        <Eyebrow>Garantovaný nájem · Flexibilní pobyt</Eyebrow>
+        <Eyebrow>Podíl z tržby · Flexibilní pobyt</Eyebrow>
         <Headline>Koupíte jeden apartmán. Hory máte všude.</Headline>
         <Perex>
-          Váš apartmán vydělává — výnos chodí měsíčně na účet, nezávisle na
-          obsazenosti. A přesto máte 14 nocí ročně jen pro sebe. Pokud je zrovna
-          obsazen hosty, pobývejte v jiné jednotce sítě{" "}
+          Váš apartmán vydělává, když ho nevyužíváte – podíl z tržby vám chodí
+          každý měsíc na účet. A přesto máte 14 nocí ročně jen pro sebe. Pokud je
+          zrovna obsazen hosty, pobývejte v jiné jednotce sítě{" "}
           <PerexLink href="https://nordmoraviaresorts.cz/" target="_blank" rel="noreferrer">Nord Moravia Resorts</PerexLink>.
         </Perex>
 
         <MetricsGrid>
           <MetricCard>
-            <BigNumber>5 % p.a.</BigNumber>
-            <MetricLabel>Garantovaný výnos, vyplácen měsíčně</MetricLabel>
+            <BigNumber>45 %</BigNumber>
+            <MetricLabel>Podíl z ubytovací tržby bez DPH</MetricLabel>
           </MetricCard>
           <MetricCard>
             <BigNumber>14 nocí</BigNumber>
             <MetricLabel>Ročně pro vlastní pobyt</MetricLabel>
           </MetricCard>
           <MetricCard>
-            <BigNumber>5+ let</BigNumber>
-            <MetricLabel>Smluvní garance výnosu</MetricLabel>
+            <BigNumber>Měsíčně</BigNumber>
+            <MetricLabel>Vyúčtování s rozpisem rezervací</MetricLabel>
           </MetricCard>
         </MetricsGrid>
 
@@ -330,7 +330,7 @@ const NordMoraviaFlexSection = () => {
             <HighlightStrong>Váš apartmán nemusí být volný, abyste si odpočinuli.</HighlightStrong>{" "}
             Jako majitel jednotky v síti Nord Moravia Resorts můžete pobývat
             v libovolné dostupné jednotce napříč resorty — bez obav z obsazenosti
-            svého apartmánu. Výnos plyne dál, vy si užíváte hory.
+            svého apartmánu. Podíl z tržby plyne dál, vy si užíváte hory.
           </HighlightText>
         </HighlightBox>
 
