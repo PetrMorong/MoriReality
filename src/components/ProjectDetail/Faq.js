@@ -106,34 +106,30 @@ const FAQSection = () => {
 const faqs = [
   {
     category: "investice",
-    question: "Co je to garantovaný nájem?",
+    question: "Jak funguje podíl z tržby?",
     answer: `
-Garantovaný nájem je model, kdy od nás pobíráte fixní měsíční příjem po dobu 5říjen let s možností prodloužení. 
-O veškerý provoz, hosty, úklid, údržbu a marketing se stará naše správcovská společnost. 
-Vy jen dostáváte garantovaný příjem bez ohledu na obsazenost.`
+Apartmán zapojíte do provozu resortu a my ho pronajímáme hostům. Z ubytovací tržby vaší jednotky bez DPH dostáváte 45 %. Příklad: tržba 60 000 Kč → bez DPH 53 571 Kč → vám 24 107 Kč. Veškeré provozní náklady – provize portálů, úklid, prádlo, snídaně, wellness pro hosty, marketing – nese provozovatel.`
   },
 
   {
     category: "investice",
-    question: "Kdy začnu dostávat garantovaný nájem?",
+    question: "Kdy začnu dostávat podíl z tržby?",
     answer: `
-Okamžitě po složení zálohy — ještě během rekonstrukce. Výše měsíční platby odpovídá poměru uhrazené části kupní ceny. Při záloze 10 % dostáváte 10 % z garantovaného výnosu. Při 50 % záloze dostáváte 50 % výnosu. Plný garantovaný nájem pobíráte po uhrazení celé kupní ceny, bez ohledu na stav stavby.`
+Od prvního měsíce, kdy je apartmán zapojen do provozu. Vyúčtování s rozpisem rezervací a výplata probíhají měsíčně.`
   },
 
   {
     category: "investice",
-    question: "Jaké náklady budu hradit při garantovaném nájmu?",
+    question: "Jaké náklady hradím jako vlastník?",
     answer: `
-Z výnosu se odečítá pouze příspěvek do SVJ.  
-Veškeré ostatní provozní náklady — energie, údržba, správa, hosté — hradíme my.`
+Jen náklady spojené s vlastnictvím: příspěvek do fondu oprav a správu SVJ, energie připadající na jednotku, pojištění a daň z nemovitých věcí – orientačně 2 500–4 000 Kč měsíčně podle velikosti apartmánu. Provozní náklady ubytování jdou za provozovatelem.`
   },
 
   {
     category: "investice",
     question: "Mohu si správu bytu řešit sám?",
     answer: `
-Ano. Jednotku můžete provozovat zcela samostatně.  
-Nabízíme ale také variantu správy se skutečnými náklady, kdy odečítáme jen reálné výdaje a zbytek je váš čistý příjem.`
+Ano. Apartmán je váš a do provozu resortu ho zapojovat nemusíte – můžete ho pronajímat sami nebo užívat jen pro sebe. Pokud ho do provozu zapojíte, funguje model podílu z tržby: dostáváte 45 % z ubytovací tržby bez DPH a veškeré provozní náklady nese provozovatel.`
   },
 
   {
@@ -141,7 +137,7 @@ Nabízíme ale také variantu správy se skutečnými náklady, kdy odečítáme
     question: "Mohu apartmán zároveň využívat i pronajímat?",
     answer: `
 Ano. Jako majitel máte možnost využít apartmán pro vlastní pobyty.
-Model vlastního užívání přizpůsobíme vašim preferencím — například 14 nocí ročně zdarma v případě garantovaného nájmu.`
+Standardně je to 14 nocí ročně, kdy platíte jen úklid a prádlo. Zbytek roku apartmán pronajímáme hostům a vy dostáváte podíl z tržby.`
   },
 
   {
@@ -247,10 +243,7 @@ Cílem je maximální transparentnost a minimální starosti vlastníků.`
     category: "svj",
     question: "Jak funguje pronájem bytu přes Mori Reality?",
     answer: `
-Nabízíme dvě možnosti:
-• Garantovaný nájem – fixní příjem, bez starostí.  
-• Skutečné náklady – platíte reálnou spotřebu, zbytek je váš zisk.  
-Model vybereme podle toho, jak často chcete byt sami využívat.`
+Apartmán zapojíte do provozu resortu na základě smlouvy o zajištění využití bytové jednotky. Mori Reality zajišťuje kompletní provoz – prodej pobytů, hosty, úklid, prádlo, snídaně i marketing – a vy dostáváte 45 % z ubytovací tržby své jednotky bez DPH, měsíčně s rozpisem rezervací.`
   },
 
   // ---------------------------

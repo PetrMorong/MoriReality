@@ -5,7 +5,7 @@ import Button from "../Button";
 import { buildImageUrl } from "cloudinary-build-url";
 
 const CONTACT_PERSON = {
-  name: "Bc. Markéta Dvořáková, MBA",
+  name: "Bc. Markéta Morong, MBA",
   role: "Obchodní manažerka projektu",
   phone: "+420 601 502 889",
   email: "info@mori-reality.cz",
@@ -162,10 +162,10 @@ const ApSectionFour = ({ data }) => {
           </Card>
         </Grid>
 
-        {/* ─── GARANTOVANÝ VÝNOS ─── */}
+        {/* ─── PODÍL Z TRŽBY ─── */}
         {data.vynosInfo && (
           <VynosSection>
-            <SectionLabel>Garantovaný výnos – jak to funguje</SectionLabel>
+            <SectionLabel>Podíl z tržby – jak to funguje</SectionLabel>
             <VynosBox>
               <VynosLeft>
                 <VynosHeadline>{data.vynosInfo.headline}</VynosHeadline>

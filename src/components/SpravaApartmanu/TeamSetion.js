@@ -147,7 +147,7 @@ const TeamSection = () => {
       photo: buildImageUrl("v1765181825/1705662019817_1_x9vgy1.jpg",{} )
     },
     {
-      name: "Markéta Dvořáková",
+      name: "Markéta Morong",
       role: "Prodej & zákaznická péče",
       desc: "Zajišťuje prodej apartmánů a komunikaci s majiteli. Provází investory od výběru jednotky až po její uvedení do provozu.",
       photo: buildImageUrl("v1765194799/T036FSHAT7U-U07EHM8TZEX-69f34a4227c2-512_t7kqrr.jpg",{} )

@@ -28,7 +28,16 @@ const CervenyDvurPage = () => {
       <ProjectSectionFive data={dataProjektu} />
       <InvestBlock />
       <ProjectSectionSix data={dataProjektu} />
-      <PriceList vynos={true} data={dataProjektu} showBonus={true} category={true} koje={false} />
+      <PriceList
+        vynos={true}
+        data={dataProjektu}
+        showBonus={false}
+        category={true}
+        koje={false}
+        vynosLabelOne="Měsíční zisk"
+        vynosLabelTwo="Čistý výnos"
+        vynosNote="** Jednotky, které ještě nejsou v provozu – modelový odhad při 60% obsazenosti po dokončení a zapojení do provozu resortu. Průměrná cena za noc odvozena od dosažených cen srovnatelných apartmánů v domě."
+      />
       <NordMoraviaFlexSection />
       <Faq />
        {/*<OtherProjects data={dataProjektu} /> */}

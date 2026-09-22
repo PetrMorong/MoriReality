@@ -121,11 +121,19 @@ const ProofStrong = styled.span`
   font-weight: 600;
 `;
 
+const ProofNote = styled.p`
+  font-family: Georama;
+  font-size: 13px;
+  line-height: 20px;
+  color: #8a8a92;
+  margin: 14px 0 0;
+`;
+
 const points = [
   {
     icon: TrendingUp,
-    title: "Výnos vyplácen již od zálohy",
-    text: "Složíte-li zálohu 10 %, začínáme vyplácet poměrnou část výnosu okamžitě — ještě v průběhu rekonstrukce.",
+    title: "Skutečná data, ne projekce",
+    text: "Resort je v provozu od ledna 2026. Výnos ukazujeme na reálných tržbách konkrétních apartmánů.",
   },
   {
     icon: Home,
@@ -134,18 +142,18 @@ const points = [
   },
   {
     icon: ShieldCheck,
-    title: "5 let garance, až 20 let s hypotékou",
-    text: "Výnos smluvně fixovaný na 5 let s opcí prodloužení. Pro investory financující hypotékou možnost sjednat až 20 let.",
+    title: "Provozní náklady nesete vy? Ne.",
+    text: "Provize portálů, úklid, snídaně, wellness pro hosty i marketing hradí provozovatel.",
   },
   {
     icon: CalendarDays,
-    title: "14 dní vlastního využití ročně",
-    text: "Apartmán je váš — 14 nocí ročně pro sebe nebo rodinu. Lyžování od listopadu, wellness celoročně.",
+    title: "14 nocí vlastního využití ročně",
+    text: "Apartmán je váš — 14 nocí ročně pro sebe nebo rodinu. Platíte jen úklid a prádlo.",
   },
   {
     icon: Unlock,
-    title: "Žádné výstupní pokuty",
-    text: "Od nájemní smlouvy lze kdykoliv odstoupit bez smluvních pokut. Jednotku lze kdykoliv prodat.",
+    title: "Transparentní vyúčtování",
+    text: "Každý měsíc rozpis rezervací, nocí a tržeb vaší jednotky.",
   },
   {
     icon: CheckCircle,
@@ -160,9 +168,9 @@ const InvestBlock = () => {
       <Wrapper>
         <Label>Proč investovat do Červeného dvora</Label>
         <Headline>
-          Garantovaný výnos <HeadlineGold>5 % p.a.</HeadlineGold>
+          Podíl z tržby <HeadlineGold>45 %</HeadlineGold>
         </Headline>
-        <SubLine>Měsíční výplata na váš účet — bez ohledu na obsazenost</SubLine>
+        <SubLine>Měsíční výplata podle skutečných rezervací – s rozpisem každé noci</SubLine>
 
         <Grid>
           {points.map((item, i) => (
@@ -176,10 +184,17 @@ const InvestBlock = () => {
 
         <ProofBox>
           <ProofStrong>Proč je tohle jiné než u konkurence?</ProofStrong>{" "}
-          Většina projektů nabízí výnos z budoucích příjmů. U nás resort funguje — máme
-          historická data obsazenosti, reálné hosty a otevřené wellness. Výnos není projekce,
-          je to provozní realita.
+          Garantovaný nájem se vždy platí z budoucích tržeb – a po skončení garance se ukáže
+          realita. My ukazujeme rovnou skutečná čísla: apartmány v provozu dosáhly za leden–srpen
+          2026 obsazenosti 53–71 %, a to v prvním roce provozu a v resortu, který se teprve
+          dokončuje. Tato čísla považujeme za výchozí úroveň. S dokončením celého areálu –
+          kavárny s kuchyní, společných prostor a dalšího zázemí – a s rostoucím počtem
+          hodnocení hostů očekáváme jejich další růst.
         </ProofBox>
+        <ProofNote>
+          Uvedené údaje jsou historické výsledky, nikoli příslib ani záruka budoucího výnosu.
+          Skutečný příjem závisí na obsazenosti, cenách a sezóně.
+        </ProofNote>
       </Wrapper>
     </Section>
   );

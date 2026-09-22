@@ -215,9 +215,10 @@ const SpravaApartmanuPage = () => {
             <Card>
               <CardTitle>Co od nás získáte</CardTitle>
               <CardText>
-                Lokální tým přímo v Jeseníkách, profesionální marketing, dva
-                modely spolupráce (garantovaný nájem vs. skutečné náklady) a
-                transparentní reporting. Jsme partner, ne jen „správce klíčů“.
+                Lokální tým přímo v Jeseníkách, profesionální marketing a
+                transparentní reporting. Model podílu z tržby: dostáváte 45 %
+                z ubytovací tržby bez DPH, měsíčně s rozpisem rezervací. Jsme
+                partner, ne jen „správce klíčů“.
               </CardText>
             </Card>
           </Col>
@@ -229,8 +230,9 @@ const SpravaApartmanuPage = () => {
             <Card>
               <CardTitle>Pasivní investor</CardTitle>
               <CardText>
-                Chcete mít jistotu pravidelného výnosu a minimum starostí.
-                Vhodná pro vás bude varianta garantovaného nájmu.
+                Chcete mít stabilní měsíční příjem a minimum starostí. Provoz,
+                hosty i úklid řešíme za vás – vy jen sledujete měsíční
+                vyúčtování a podíl z tržby.
               </CardText>
             </Card>
             <Card>
@@ -251,22 +253,23 @@ const SpravaApartmanuPage = () => {
         </Section>
 
         <Section>
-          <SectionTitle>Modely spolupráce</SectionTitle>
+          <SectionTitle>Podíl z tržby – kdo hradí co</SectionTitle>
           <TwoCols>
             <Card>
-              <CardTitle>Garantovaný nájem</CardTitle>
+              <CardTitle>Co hradí provozovatel</CardTitle>
               <CardText>
-                Pevně sjednaný měsíční příjem po dobu 3 let s možností
-                prodloužení. My hradíme provoz a staráme se o kompletní chod
-                apartmánu. Vy máte jistotu výnosu bez ohledu na obsazenost.
+                Provize rezervačních portálů, úklid, prádlo, snídaně, wellness
+                pro hosty, check-in, marketing i běžnou údržbu. Tyto náklady
+                jako vlastník neřešíte.
               </CardText>
             </Card>
             <Card>
-              <CardTitle>Skutečné náklady</CardTitle>
+              <CardTitle>Co hradí vlastník</CardTitle>
               <CardText>
-                Platíte reálné náklady na energie a správu, zbytek je váš zisk.
-                Vhodné, pokud chcete byt častěji využívat sami nebo počítáte s
-                vyšším výnosem podle obsazenosti.
+                Fond oprav a správu SVJ, energie jednotky, pojištění a daň z
+                nemovitých věcí (orientačně 2 500–4 000 Kč měsíčně podle
+                velikosti). Za to dostáváte 45 % z ubytovací tržby bez DPH
+                měsíčně a až 14 nocí ročně pro vlastní pobyt.
               </CardText>
             </Card>
           </TwoCols>

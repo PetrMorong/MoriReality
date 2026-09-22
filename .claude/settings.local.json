@@ -7,7 +7,16 @@
       "Bash(git add *)",
       "Bash(git commit -m ' *)",
       "Bash(git push *)",
-      "Bash(git pull *)"
+      "Bash(git pull *)",
+      "Bash(git checkout *)",
+      "Bash(chromium-cli --help)",
+      "Bash(node -e \"require.resolve\\('playwright'\\)\")",
+      "Bash(npx --no-install playwright --version)",
+      "Bash(curl -s http://localhost:8000/cervenydvur/ -o /tmp/cd.html)",
+      "Read(//tmp/**)",
+      "Bash(curl -sv http://localhost:8000/cervenydvur/ -o /tmp/cd.html)",
+      "Bash(netstat -ano)",
+      "Bash(tasklist //FI \"IMAGENAME eq node.exe\" //FO CSV)"
     ]
   }
 }
